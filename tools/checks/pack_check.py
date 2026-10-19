@@ -83,8 +83,14 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--public", action="store_true")
+    parser.add_argument("--list-url-mods", action="store_true", help="print the filenames of mods not sourced from CurseForge")
     args = parser.parse_args(argv)
-    errors = check(load_metafiles(args.root / "mods"), args.public, example_project_ids(args.root))
+    if args.list_url_mods:
+        for meta in load_metafiles(args.root / "mods").values():
+            if project_id(meta) is None:
+                print(meta["filename"])
+        return 0
+    errors =check(load_metafiles(args.root / "mods"), args.public, example_project_ids(args.root))
     for e in errors:
         print(f"pack check: {e}", file=sys.stderr)
     return 1 if errors else 0

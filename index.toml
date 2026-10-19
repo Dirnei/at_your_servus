@@ -293,11 +293,6 @@ hash = "8d5e2457e95b30248da9d598a756f79d6997a36ad07f74b0794eddc89139d863"
 metafile = true
 
 [[files]]
-file = "mods/corail-tombstone.pw.toml"
-hash = "ab4ba79ffc000f0bb07cf7df6f51d549877bf4eee7d543b4e587e26d5a112c79"
-metafile = true
-
-[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "96dfcdd8e003b44196c46a921cee127ef350cc5b805f1b1f6eb951902a0545f1"
 metafile = true
@@ -390,6 +385,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "3e3a9c123414630fc001e4301388a328dd2f08c1af793fc954fa07acb49f048b"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "a3282e349978810d09c1157a24415b862c5534de1ecfa713d867a5b96072b1bb"
 metafile = true
 
 [[files]]

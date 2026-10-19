@@ -86,7 +86,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `rechiseled` | Rechiseled | both | Decorative block variants |
 | `cooking-for-blockheads` | Cooking for Blockheads | both | Kitchen |
 | `carry-on` | Carry On | both | Pick up chests and blocks |
-| `corail-tombstone` | Corail Tombstone | both | Grave on death (the only grave mod) |
+| `gravestone-mod` | GraveStone Mod | both | Grave on death (the only grave mod) |
 | `comforts` | Comforts | both | Sleeping bags, hammocks |
 | `openblocks-elevator` | OpenBlocks Elevator | both | Elevators |
 | `leaves-be-gone` | Leaves Be Gone | both | Fast leaf decay |
@@ -171,6 +171,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | Storage Drawers, Traveler's Backpack | Duplicate Functional Storage and Sophisticated Backpacks |
 | Xaero's Minimap, Xaero's World Map | FTB Chunks already has a map |
 | Iris, SecurityCraft | Left out of 0.1.0 |
+| Corail Tombstone | Blocks third-party downloads, so it cannot be in the server pack; GraveStone Mod instead |
 | Easy Mob Farm, Tiny Mob Farm | Too easy next to built farms |
 
 ## Waiting for a 26.1.2 NeoForge build on CurseForge
