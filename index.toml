@@ -239,7 +239,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-advancements.pw.toml"
-hash = "234ac509b502e086ed5f631a6d77d8a9f056d6ca629667932b6814a23a56e175"
+hash = "c0226eddc81b893fa8e062f083867cd6288e9a53e290d297a470f06bf6be355e"
 metafile = true
 
 [[files]]
@@ -284,7 +284,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "1fac9d248815e19c9a99b829efa4cf3ec6ba6f3c3f05f0d5466c7b6b4285b09a"
+hash = "1d9a2b95944be707a32548511c95f9376f0a779cefe5181ad27eea6179d0b91e"
 metafile = true
 
 [[files]]
@@ -324,7 +324,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "1ded148f2c51dd088abd30470c9bb39a8f9a55f72e7cabdea53703346ede816c"
+hash = "3b13a6c91250bce868a16561fb09032bff3a59d57bef9cf073587e82385a132b"
 metafile = true
 
 [[files]]
@@ -404,7 +404,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "17c22e7e3915ff94dd3515654a68aa0545e8da6c97b371d10dfcaa22cd34a0a4"
+hash = "ad3353bfd19f3514edd6bb5205396f970b22fd6f02bbba071f58c266ff79f2e5"
 metafile = true
 
 [[files]]
@@ -529,7 +529,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "81d8d5d155a09efd87fcf2f06ef76c650313af0a9848175333df78b573782c58"
+hash = "5613063f92427aa41a25bcdc97c65bd2f3111cf44c9d6e7df2626733ccd637e9"
 metafile = true
 
 [[files]]
@@ -609,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "82e084e5fe83f87a01bc7f030f5ca0d59274122e6d634bdcb5d4c9cb3385dd71"
+hash = "8e8afae1e4ea9e7548f00b8a8db7fc8b04482de7fd77df2d6e8b65226daf90f3"
 metafile = true
 
 [[files]]
@@ -634,7 +634,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "fb25925a17b41f4b034167453301e0e621a1e37da67b6e1b8a69d6d097fca7d6"
+hash = "b53ab3a59ee90c9aa8cd58c9445cddb5890271e52e36d93ca1b8a073c9cc05d0"
 metafile = true
 
 [[files]]
