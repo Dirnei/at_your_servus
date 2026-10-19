@@ -30,8 +30,8 @@ Commit after each task with a one-line message of at most 74 characters, no body
 
 - [x] 4.1 Write `server/docker-compose.yml` and `server/.env.example` per design D8; verify `docker compose config` succeeds
 - [x] 4.2 Write `tools/smoke.ps1` per design D8 (10-minute timeout, scans for FTB Quests/KubeJS errors and crash reports, always stops the container); verify it passes on the current build
-- [ ] 4.3 Verify the smoke check fails and prints the log line when a scratch KubeJS script references `minecraft:not_an_item`, then remove the script
-- [ ] 4.4 Document the test server in `README.md` (setup, start, update, how friends install the client zip); verify the steps match `server/`
+- [x] 4.3 Verify the smoke check fails and prints the log line when a scratch KubeJS script references `minecraft:not_an_item`, then remove the script
+- [x] 4.4 Document the test server in `README.md` (setup, start, update, how friends install the client zip); verify the steps match `server/`
 
 ## 5. Quest generator
 

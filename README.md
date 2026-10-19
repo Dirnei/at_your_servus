@@ -35,6 +35,23 @@ A playtest build carries mods that are not on CurseForge (for now Servus: Alchem
 
 If a mod's author blocks third-party downloads, the server pack build stops and names the mod and its download page.
 
+## Test server
+
+The test server runs the latest built server pack in Docker (`itzg/minecraft-server:java25`). The world lives in `server/data` and survives restarts.
+
+```powershell
+copy server\.env.example server\.env   # once: set OPS, WHITELIST, MEMORY
+.\tools\build.ps1
+cd server; docker compose up -d
+docker compose logs -f                 # wait for "Done"
+```
+
+After a new build: `docker compose restart` in `server/`; the new server pack is applied on start. Friends need the client zip of the same build, or they cannot join.
+
+**Friends:** in the CurseForge app, Create Custom Profile, Import, pick `Servus-<version>.zip`. Give the profile at least 6 GB of memory, start it, Multiplayer, add the server (LAN IP, or a forwarded port 25565 / Tailscale from elsewhere).
+
+**Smoke check:** `.\tools\smoke.ps1` starts the server pack in a throwaway world on port 25566, waits for it to be ready (at most 10 minutes), fails on a crash or on FTB Quests/KubeJS errors, and stops it again. Your playtest world is not touched.
+
 ## Working on the pack
 
 ```powershell
