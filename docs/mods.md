@@ -121,6 +121,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `sodium` | Sodium | client | Rendering performance |
 | `immediatelyfast` | ImmediatelyFast | client | Rendering performance |
 | `mouse-tweaks` | Mouse Tweaks | client | Inventory handling |
+| `inventory-sorter` | Inventory Sorter | both | Middle-click sorts a chest or inventory |
 | `controlling` | Controlling | client | Key binding search |
 | `searchables` | Searchables | client | Search library for Controlling |
 | `better-advancements` | Better Advancements | client | Advancement screen |

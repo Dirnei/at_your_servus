@@ -16,7 +16,25 @@
 					"id": "46F0B132B00A1C60",
 					"item": {
 						"count": 1,
-						"id": "minecraft:bread"
+						"id": "minecraft:wheat_seeds"
+					},
+					"type": "item"
+				},
+				{
+					"count": 8,
+					"id": "72574E4F75706ED1",
+					"item": {
+						"count": 1,
+						"id": "minecraft:carrot"
+					},
+					"type": "item"
+				},
+				{
+					"count": 8,
+					"id": "0FCC53014AB2DC9D",
+					"item": {
+						"count": 1,
+						"id": "minecraft:potato"
 					},
 					"type": "item"
 				}

@@ -38,7 +38,7 @@ hash = "4822febb17e23b0c012916893e217da523051160ba8e2839ee0056c1f3721dfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arrival.json5"
-hash = "822dab9fef1143e7bf5887fc50a8416c39fa1f5141f765d99d0817c477d23ad2"
+hash = "8d7017f05754e25e846ea7926a9686b1087b4211ed72751e905f71118b7ecd5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.json5"
@@ -98,7 +98,7 @@ hash = "e5164b8e600124539ed46489d8e555256c9db4dca440461819bfbaf45e3044ec"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/arrival.json5"
-hash = "b9860a339cce77463b0900f00c02865f510bc168d246fa1e00de9d3df12eea5d"
+hash = "3155e0d0347665455f86367da550ebd0cf82cac90582bdff80be4782bce62eef"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/building.json5"
@@ -593,6 +593,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "ad3353bfd19f3514edd6bb5205396f970b22fd6f02bbba071f58c266ff79f2e5"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorter.pw.toml"
+hash = "2fc4cd8a2633dbb8fe42f9e031f326a60ea5a7fb6531ce6db85b797015c5e50d"
 metafile = true
 
 [[files]]

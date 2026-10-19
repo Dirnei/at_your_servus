@@ -22,7 +22,7 @@ y = 0.0
 shape = "gear"
 size = 1.5
 tasks = [{ type = "checkmark" }]
-rewards = [{ type = "item", item = "minecraft:bread", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:wheat_seeds", count = 8 }, { type = "item", item = "minecraft:carrot", count = 8 }, { type = "item", item = "minecraft:potato", count = 8 }]
 
 [[quest]]
 slug = "workbench"
@@ -61,7 +61,7 @@ rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
 slug = "food"
 title = "Something to Eat"
 description = """
-Bake bread. A Bavarian who works on an empty stomach works badly and complains well."""
+Plant the seeds, then bake bread. A Bavarian who works on an empty stomach works badly and complains well."""
 x = 4.0
 y = 2.0
 deps = ["workbench"]
