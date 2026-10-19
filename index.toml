@@ -34,51 +34,51 @@ hash = "7ada17fd4d4fb0f161753af91a7dfd577eed1f07fe9522dfc88eba620c72c8b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis_and_mob_farms.json5"
-hash = "015076770afbfbb4312773adb1dbf5389ee20d2f53b2c0973456f2ac3ac4fa5f"
+hash = "4822febb17e23b0c012916893e217da523051160ba8e2839ee0056c1f3721dfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arrival.json5"
-hash = "b23d0a6baab16c77ca8d2f0c19b59062a91931bb1cb876555718c4848b9ef98a"
+hash = "822dab9fef1143e7bf5887fc50a8416c39fa1f5141f765d99d0817c477d23ad2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.json5"
-hash = "e3c6ce27031aacee010e6e6dd22b6c78d7e329ee4420ecea06eb499169118944"
+hash = "1c9f2b2f2ca6b6d46e90d7c32149ef1813f3945de3114ced9c916cada20e17ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cellar.json5"
-hash = "99960cb32d6833fa9e414dc6f14b9df8c8d5cdbea2b84b54540935184243b9be"
+hash = "01df2c967cc3221fa38ed8fc5b079ebb47f5424d1b22df520a1e5ca6e050ae39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.json5"
-hash = "81c6b49c938c696172640377a240b5381a5f5e0421015436ac3e95f7254b8c81"
+hash = "9e114310e1215bb984bae1bbc4a2b0f749f0956352a2a7d1695280ee90e58abb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/finale.json5"
-hash = "0d63035056c377ae3d4c4fd5484596fb3a8719d03b2051bdb199a4545672c928"
+hash = "ccb7bd935ba8e5d39aa54df0291b87401af74ec6c7ff8cd7aa99a5a9b15faa06"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.json5"
-hash = "d6aab82e8037baecda0b8c08d274ea79b395187322bd94a945778df98636e9a7"
+hash = "9cca9bf8a59000ee87f9ed1644addf94fadde392812ba68711463251cfe4ff7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.json5"
-hash = "2b83bb331da7602f6c58a164f654764b0182ccbb50d821918f2b561c2582274f"
+hash = "28074aa057ccfdbbd3ee29784501c9f75b5da070f38096268adbaf1a8b927052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/old_works.json5"
-hash = "c0639bd70ac1360b6494b88cf7c59db6710d627204704f752974f97a5f72307b"
+hash = "19ffa85b98ee1d70bcb4f285c58e45da7a5008cbc5a302a479eb3a1ce2065d8d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_station.json5"
-hash = "d74c8d83aed1004c7019d773f2d793c29ac18e4e5633a1e81b7715ec64b8377d"
+hash = "028a739acbfd3e89c11e086daa8be85a96c8aede6a75d3981e328337c86094b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading_house.json5"
-hash = "9d3cbcb214603bcba82e452b043d30cc4e3d8eeedb1517fdffe750a98e456ded"
+hash = "9effd96dbf23ce09cc0b92f8b4c8f3ecb25dc0022ec2ffc0009aa1d0ec6f2a5d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.json5"
-hash = "890364e1bcb141873d12d6f92f7fe41071b2dfa03c7c986f1b87048ea42a6ae6"
+hash = "ed92a0b03df1c280e461eb51c843f6fe3c57a4331fe32a8add964d4edaa0e308"
 
 [[files]]
 file = "config/ftbquests/quests/data.json5"
@@ -159,6 +159,66 @@ hash = "7255125d2daca7b2f538451b5117511b30efd720c876366fe2b6a31942593404"
 [[files]]
 file = "config/functionalstorage/functionalstorage-common.toml"
 hash = "47595c51ed0a6a3d496402420d025e0ae0418a0ea853e2489fad4152e978b822"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/bronze.json"
+hash = "68a57e5efd169d490c6e8266b78601e39c6e986a4d6c3e2417cb6ed008813e40"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/copper.json"
+hash = "e6c0a929d085db1aa13f51983be20da3be9ea1aa3c337a20c9ec14b11c7ede74"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/creative.json"
+hash = "83e563757a758710a3261f4bcaeabb1b8ac8037382f16a5e744eb7d4cc73f180"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/diamond.json"
+hash = "fae9224926dd6aa563c0980c1b0f0d6f0571d6ec77f822bad6b3eaff3ab485da"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/electrum.json"
+hash = "97dc6c6861b4f1838b96a9868becd6128c7ca8accc30fa9461a14cdf22c2805b"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/emerald.json"
+hash = "0bfb758e97757771283dbe2ebb4c53121d0d524b18b6f71168669339000cbe96"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/gold.json"
+hash = "79b8246e93541db01afec3ca3bfbe0e6b55797fa59fa2908ac153059fa94e974"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/invar.json"
+hash = "a6308042a96b23f6a773f215dc691d2adfa7c9b0e1613790430bdb53c00c5464"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/iron.json"
+hash = "2ba12cbf78b8c319e553a06a249e01a2b02fc304e506bfb61bd26860ec4712ac"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/netherite.json"
+hash = "4cda8ea3c22ed3749c51a8a86c13a8f7f7020bbd56b6215d40548d0501fa8660"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/platinum.json"
+hash = "dbe5d6ee9041257b27f8c9e5a392d05ceb233a384858699c90df4f5b91900944"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/silver.json"
+hash = "6d54a856d698ed58b599a2455963db2dac808a361aa944138778e778f02ed889"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/steel.json"
+hash = "5a796f59ccacc74671ff6533660bd9830f814a0977c35418071d1d5ec8a8c429"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/stone.json"
+hash = "e859b4175fd259d2c9ae60cef6bb841c4a6d266a093fe0dae10cc9a93a324c31"
+
+[[files]]
+file = "config/ironjetpacks/jetpacks/wood.json"
+hash = "25ac9bf0b4013f322b8f46858d618707b7cee6625040e471b38d88875264c0bd"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -307,6 +367,22 @@ hash = "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "4eb7bb2a7f743a4e1ec2f3897ce78f20c3f74838c710b7833a2365dbefc79d27"
+
+[[files]]
+file = "kubejs/server_scripts/first_join.js"
+hash = "fdaa84ec91be120e2667eb03ac425d02ed251faa5116b14bc03a2401c9474c8e"
+
+[[files]]
+file = "kubejs/server_scripts/gates/avaritia.js"
+hash = "c669bc33d036e49170c6dfe7a688e83e9287f2628c1b91d43963d8ccc59c60f0"
+
+[[files]]
+file = "kubejs/server_scripts/gates/iron_jetpacks.js"
+hash = "b414b6611a72c2db1f098aed1057fbad421729df64c962836ea21c4b99c9273b"
+
+[[files]]
+file = "kubejs/server_scripts/gates/zz_verify.js"
+hash = "3bb9ab5d70135ffb3b59c74959e4d8ac50c6a7fbb934bb4c00f6c794bbed502e"
 
 [[files]]
 file = "mods/alexs-mobs-neoforge.pw.toml"

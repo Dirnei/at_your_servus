@@ -78,6 +78,7 @@ try {
 
     # The quest check needs the server pack's jars to know every item ID.
     Invoke-Step 'quest check' { & python -m tools.checks.quest_check --mods (Join-Path $server 'mods') }
+    Invoke-Step 'script check' { & python -m tools.checks.script_check --mods (Join-Path $server 'mods') }
     Invoke-Step 'version check' { & python -m tools.checks.version_check --client-zip $client --server-mods (Join-Path $server 'mods') }
     Write-Host "Built $client and $serverZip"
 } finally {
