@@ -16,7 +16,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 - [x] 2.3 Add Servus: Alchemy as a URL metafile (design D2) with the GitHub asset's sha256, plus Modonomicon via `packwiz cf add`; verify `packwiz refresh` succeeds and `pack_check.py` passes without `--public` and fails with it
 - [x] 2.4 Add the gap fillers from design document section 4.2 that have a 26.1.2 NeoForge file (look up YUNG's, Apotheosis module and Dungeons and Taverns slugs); verify `pack_check.py` passes
 - [x] 2.5 Set `side = "client"` for Sodium, Entity Culling, ImmediatelyFast, Mouse Tweaks, Controlling, Searchables, Better Advancements, Enchantment Descriptions and any other render/input/HUD-only mod; verify `pack_check.py` passes
-- [ ] 2.6 Write `docs/mods.md`: every mod with its role, plus excluded and waiting mods (Ars Nouveau, Mekanism, ...) with reasons; verify every metafile in `mods/` has an entry (add this as a test in `tests/test_pack_check.py`)
+- [x] 2.6 Write `docs/mods.md`: every mod with its role, plus excluded and waiting mods (Ars Nouveau, Mekanism, ...) with reasons; verify every metafile in `mods/` has an entry (add this as a test in `tests/test_pack_check.py`)
 
 ## 3. Build: client and server pack
 

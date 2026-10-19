@@ -55,3 +55,13 @@ def test_public_fails_on_url_mod_but_playtest_passes():
     assert pack_check.check(metas, public=False) == []
     errors = pack_check.check(metas, public=True)
     assert errors == ["servus-alchemy is not sourced from CurseForge; switch it to CurseForge before a public build"]
+
+
+def test_every_metafile_is_documented():
+    import re
+    from pathlib import Path
+    root = Path(__file__).resolve().parent.parent
+    documented = set(re.findall(r"^\| `([a-z0-9-]+)` \|", (root / "docs/mods.md").read_text(encoding="utf-8"), re.M))
+    metafiles = set(pack_check.load_metafiles(root / "mods"))
+    assert metafiles - documented == set(), "metafiles without an entry in docs/mods.md"
+    assert documented - metafiles == set(), "docs/mods.md entries without a metafile"
