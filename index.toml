@@ -321,10 +321,6 @@ file = "config/neoforge-server.toml"
 hash = "48b15278e1ed28dd8e3177b04c13437c02cb9597894b91e6f7a6fbfad66ddc1e"
 
 [[files]]
-file = "config/resourceful-config-web.json"
-hash = "1f69939e8cfa7509fdf672eb58c788fda087f050048a0fae4b8d1870a0e863c0"
-
-[[files]]
 file = "config/servus_foundation-common.toml"
 hash = "2d0977a350e5eceaa1c8ea436663abfdb1e82e7edf3fd54709d9a853f943f9bc"
 
