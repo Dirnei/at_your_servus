@@ -1,0 +1,9 @@
+# Overrides for tools/smoke.ps1: a throwaway world on another port, so the playtest world is never touched.
+services:
+  mc:
+    container_name: servus-pack-smoke
+    ports: !override
+      - "25566:25565"
+    volumes:
+      - ./smoke-data:/data
+    restart: "no"

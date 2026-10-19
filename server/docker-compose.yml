@@ -1,0 +1,30 @@
+# Test server for the Servus pack. Run tools/build.ps1 first: it writes dist/Servus-latest-server.zip.
+# Start: docker compose up -d     Logs: docker compose logs -f     Stop: docker compose down
+services:
+  mc:
+    image: itzg/minecraft-server:java25
+    container_name: servus-pack
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: NEOFORGE
+      VERSION: "26.1.2"
+      NEOFORGE_VERSION: "26.1.2.122"
+      # The built server pack; a new build is applied on the next start.
+      GENERIC_PACK: /packs/Servus-latest-server.zip
+      MEMORY: "${MEMORY:-6G}"
+      MOTD: "Servus"
+      DIFFICULTY: normal
+      ONLINE_MODE: "TRUE"
+      # Comma separated player names, set them in .env
+      OPS: "${OPS:-}"
+      WHITELIST: "${WHITELIST:-}"
+      ENABLE_WHITELIST: "${ENABLE_WHITELIST:-FALSE}"
+      TZ: Europe/Vienna
+    volumes:
+      - ./data:/data
+      - ../dist:/packs:ro
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
