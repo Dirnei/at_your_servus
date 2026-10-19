@@ -1,0 +1,81 @@
+{
+	"quest.084BE4B17F0BFFA2.quest_desc": [
+		"Servus, heir,",
+		"",
+		"our family were merchants long before they were miners. Lechner & Compagnie, since 1521: silver from Schwaz to Augsburg and Venice. A merchant without a warehouse is just a peddler.",
+		"",
+		"I wanted to bring the house back. I got as far as a few racks in the barn and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
+		"",
+		"Your Vinzenz"
+	],
+	"quest.084BE4B17F0BFFA2.quest_subtitle": "To be opened when the generator runs",
+	"quest.084BE4B17F0BFFA2.title": "A Merchant Needs a Warehouse",
+	"quest.154635F0928623AD.quest_desc": [
+		"The Coal Generator is not clever, but it is honest: coal in, power out. Give it a chimney, or the smoke stays in the works and so do you."
+	],
+	"quest.154635F0928623AD.title": "Steam Again",
+	"quest.18708C304981DDFE.quest_desc": [
+		"Racks hold the goods. They are made to be reached by shuttles, not by you, so set them up along a rail."
+	],
+	"quest.18708C304981DDFE.title": "Heavy Duty Racks",
+	"quest.2324986AABA9970B.quest_desc": [
+		"Servus, heir,",
+		"",
+		"you found it. The water wheel, the old steam engine, the pipes that go everywhere and nowhere. I ran a mine's worth of machines in here once.",
+		"",
+		"Pipes were always a mess, so I made one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.",
+		"",
+		"Your Vinzenz"
+	],
+	"quest.2324986AABA9970B.quest_subtitle": "To be opened in the works",
+	"quest.2324986AABA9970B.title": "The Works Behind the Barn",
+	"quest.3E5B006F03318290.quest_desc": [
+		"Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.",
+		"",
+		"The item line moves things from one inventory to the next: the chest in the barn feeds the furnace in the kitchen."
+	],
+	"quest.3E5B006F03318290.title": "One Duct for Everything",
+	"quest.3FF7D0BE4543F4E1.quest_desc": [
+		"A fluid line, a tank and a pump. The old pump in the cellar burns coal; it will do until you have power."
+	],
+	"quest.3FF7D0BE4543F4E1.title": "Water Where You Want It",
+	"quest.4941E54A4860A80E.quest_desc": [
+		"A power line in the duct takes the generator's power wherever the duct goes."
+	],
+	"quest.4941E54A4860A80E.title": "Power Down the Line",
+	"quest.4D2D65E84AB641D8.quest_desc": [
+		"Servus, heir,",
+		"",
+		"a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.",
+		"",
+		"Now the cellar. I have put it off long enough, in this letter and in my life.",
+		"",
+		"Your Vinzenz"
+	],
+	"quest.4D2D65E84AB641D8.quest_subtitle": "A warehouse, at last",
+	"quest.4D2D65E84AB641D8.title": "One Window on Everything",
+	"quest.51D79D2B4943A1CA.quest_desc": [
+		"The controller sits on the rails and runs the warehouse. It wants power: run a power line from the Coal Generator to it."
+	],
+	"quest.51D79D2B4943A1CA.title": "The Warehouse Controller",
+	"quest.5A51345A9C7C6577.quest_desc": [
+		"With these on you see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, had there been one."
+	],
+	"quest.5A51345A9C7C6577.title": "Engineer's Goggles",
+	"quest.5E37EF613BC3E342.quest_desc": [
+		"A garage at the end of the rails, and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."
+	],
+	"quest.5E37EF613BC3E342.title": "The First Shuttle",
+	"quest.5E6E81C69A6317D5.quest_desc": [
+		"A rail elevator takes the shuttle to the next floor. The barn is tall; use it."
+	],
+	"quest.5E6E81C69A6317D5.title": "Up and Down",
+	"quest.7507D34BE1F7361B.quest_desc": [
+		"It turns blocks, it sets sides, it takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."
+	],
+	"quest.7507D34BE1F7361B.title": "The Configuration Carrot",
+	"quest.7877B6D667A90B62.quest_desc": [
+		"Lay the rails in front of the racks. Sneak-click places a whole run at once; I added that after the second time I put my back out."
+	],
+	"quest.7877B6D667A90B62.title": "Warehouse Rails"
+}

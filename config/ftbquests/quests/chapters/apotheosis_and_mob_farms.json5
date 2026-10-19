@@ -1,0 +1,259 @@
+{
+	"filename": "apotheosis_and_mob_farms",
+	"group": "6C1E596995DBCC2C",
+	"icon": {
+		"count": 1,
+		"id": "apotheosis:gem_cutting_table"
+	},
+	"id": "3E9B1A69BEB7774D",
+	"order_index": 2,
+	"quests": [
+		{
+			"dependencies": [
+				"7C259418C084CB6C"
+			],
+			"id": "750F8AEF613BDB84",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "2FF30B0C705F3B40",
+					"item": {
+						"count": 1,
+						"id": "minecraft:lapis_lazuli"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "35550AC6942F7A2C",
+					"item": {
+						"count": 1,
+						"id": "minecraft:enchanting_table"
+					},
+					"type": "item"
+				},
+				{
+					"count": 15,
+					"id": "700E9F7DF8D3F141",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bookshelf"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"750F8AEF613BDB84"
+			],
+			"id": "0C091E95B315B545",
+			"rewards": [
+				{
+					"id": "3C07003F0F324C2E",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"id": "239DB346C9297A12",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:salvaging_table"
+					},
+					"type": "item"
+				},
+				{
+					"id": "3470589A5F934622",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:simple_reforging_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"0C091E95B315B545"
+			],
+			"id": "0A34FE59632B9B7B",
+			"rewards": [
+				{
+					"id": "5BD7172C2C636BE6",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "15A608322B752A2D",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:gem_cutting_table"
+					},
+					"type": "item"
+				},
+				{
+					"id": "12C853DC125A363B",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:sigil_of_socketing"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"750F8AEF613BDB84"
+			],
+			"id": "5A7784B7B5074435",
+			"rewards": [
+				{
+					"id": "3914242073A4A8FA",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "19E02A17E8C0414D",
+					"item": {
+						"count": 1,
+						"id": "darkutils:vector_plate"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"5A7784B7B5074435"
+			],
+			"id": "562D4BF1D8AAC572",
+			"rewards": [
+				{
+					"id": "6AD3BF1F86D1FE1A",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "19DE000D80F201C0",
+					"item": {
+						"count": 1,
+						"id": "darkutils:damage_plate"
+					},
+					"type": "item"
+				},
+				{
+					"id": "3E791884C518AEE2",
+					"item": {
+						"count": 1,
+						"id": "darkutils:damage_plate_player"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"562D4BF1D8AAC572"
+			],
+			"id": "74BCE4D47C7783BC",
+			"rewards": [
+				{
+					"id": "2B29ABD62E472FB0",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "0EEFCA0BED2BBC80",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:ignore_light_spawner_rune"
+					},
+					"type": "item"
+				},
+				{
+					"id": "179C2D77CEF2211E",
+					"item": {
+						"count": 1,
+						"id": "apotheosis:no_ai_spawner_rune"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"74BCE4D47C7783BC",
+				"10EA0AD4F14C8455"
+			],
+			"id": "2C4CD59ABDE3D28D",
+			"rewards": [
+				{
+					"id": "2298B5E3242E73F1",
+					"type": "xp",
+					"xp": 200
+				}
+			],
+			"tasks": [
+				{
+					"id": "75FC89D2BBB6B0B8",
+					"item": {
+						"count": 1,
+						"id": "hostilenetworks:deep_learner"
+					},
+					"type": "item"
+				},
+				{
+					"id": "4F146C3F4F8B67A3",
+					"item": {
+						"count": 1,
+						"id": "hostilenetworks:blank_data_model"
+					},
+					"type": "item"
+				},
+				{
+					"id": "6CB7F1FB3DFA6473",
+					"item": {
+						"count": 1,
+						"id": "hostilenetworks:sim_chamber"
+					},
+					"type": "item"
+				},
+				{
+					"id": "634C38CF12C8DC43",
+					"item": {
+						"count": 1,
+						"id": "hostilenetworks:loot_fabricator"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 1.0
+		}
+	]
+}

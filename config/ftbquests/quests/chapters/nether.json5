@@ -1,0 +1,358 @@
+{
+	"filename": "nether",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "justdirethings:blazegold_ingot"
+	},
+	"id": "36BD8F27D6146E21",
+	"order_index": 4,
+	"quests": [
+		{
+			"dependencies": [
+				"6AD9185040B4C27E"
+			],
+			"id": "6FB8337E4C884831",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "51A13DB45AB3A3FF",
+					"item": {
+						"count": 1,
+						"id": "minecraft:golden_carrot"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "15BB0B0578681570",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"6FB8337E4C884831"
+			],
+			"id": "6EBD0ECB585A81CD",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "2782C733606BE189",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "4E158AE07877C235",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:gooblock_tier1"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"6EBD0ECB585A81CD"
+			],
+			"id": "76A6CCC8C9A258F0",
+			"rewards": [
+				{
+					"id": "5F4D16E9F2D8133D",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "7C7428BECF94E53C",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:ferricore_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"76A6CCC8C9A258F0"
+			],
+			"id": "57C7FD54FBD0265B",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "3533CDE78FFE3B74",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:upgrade_blank"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "550802C287F176BF",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:ferricore_chestplate"
+					},
+					"type": "item"
+				},
+				{
+					"id": "409E9F26D9AFE062",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:ferricore_pickaxe"
+					},
+					"type": "item"
+				},
+				{
+					"id": "175E2B28E19813CF",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:ferricore_sword"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"76A6CCC8C9A258F0"
+			],
+			"id": "4D70AA36144CB43C",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "2EC7E808DB1A8181",
+					"item": {
+						"count": 1,
+						"id": "minecraft:golden_apple"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 10,
+					"id": "4E9C79232139C463",
+					"item": {
+						"count": 1,
+						"id": "minecraft:obsidian"
+					},
+					"type": "item"
+				},
+				{
+					"id": "30B34566CE04EB95",
+					"item": {
+						"count": 1,
+						"id": "minecraft:flint_and_steel"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"4D70AA36144CB43C"
+			],
+			"id": "1F20A0D4E7AEDB3A",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "0A17D3222B59F5D3",
+					"item": {
+						"count": 1,
+						"id": "minecraft:blaze_powder"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "5800614BE798D009",
+					"item": {
+						"count": 1,
+						"id": "minecraft:blaze_rod"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"57C7FD54FBD0265B",
+				"1F20A0D4E7AEDB3A"
+			],
+			"id": "6737F16866B90111",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "217190D632F6620D",
+					"item": {
+						"count": 1,
+						"id": "minecraft:gold_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "517BD9492C99FD5D",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:gooblock_tier2"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"6737F16866B90111"
+			],
+			"id": "0950ABF989872683",
+			"rewards": [
+				{
+					"id": "4D4F1D9A8270087F",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "6B840C5B381C9A3A",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:blazegold_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"0950ABF989872683"
+			],
+			"id": "070313A3842B9B2B",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "015A884BB28D6B3D",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:upgrade_blank"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "010FF9F8BA22889B",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:blazegold_chestplate"
+					},
+					"type": "item"
+				},
+				{
+					"id": "2292A0FE0BB48450",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:blazegold_sword"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"070313A3842B9B2B"
+			],
+			"id": "412F1A7E34921AF9",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "56836FA97EC64653",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "493D98BB6B0B7557",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:upgrade_lavaimmunity"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": [
+				"1F20A0D4E7AEDB3A",
+				"70FBE2C8BA49454A"
+			],
+			"id": "59A48D2CFD9C8738",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "065A2B9ACA017087",
+					"item": {
+						"count": 1,
+						"id": "minecraft:magma_block"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.25,
+			"tasks": [
+				{
+					"id": "5D0B27EA1B77214F",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:salamander_forge"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 1.0
+		}
+	]
+}

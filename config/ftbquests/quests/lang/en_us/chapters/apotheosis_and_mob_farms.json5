@@ -1,0 +1,30 @@
+{
+	"quest.0A34FE59632B9B7B.quest_desc": [
+		"Gems drop from monsters and go into sockets. The gem cutting table makes them better."
+	],
+	"quest.0A34FE59632B9B7B.title": "Gems and Sockets",
+	"quest.0C091E95B315B545.quest_desc": [
+		"Affixed loot can be taken apart for its materials, and reforged into better rolls."
+	],
+	"quest.0C091E95B315B545.title": "Salvage and Reforge",
+	"quest.2C4CD59ABDE3D28D.quest_desc": [
+		"Hostile Neural Networks learns a monster from fighting it, then prints its drops with power instead of blood. Feed it from the power station and send the output to the warehouse."
+	],
+	"quest.2C4CD59ABDE3D28D.title": "Monsters on Paper",
+	"quest.562D4BF1D8AAC572.quest_desc": [
+		"Damage plates finish the job, and the player-kill plate makes monsters drop what they would drop for you."
+	],
+	"quest.562D4BF1D8AAC572.title": "A Floor That Bites",
+	"quest.5A7784B7B5074435.quest_desc": [
+		"Vector plates move whatever stands on them. Monsters too."
+	],
+	"quest.5A7784B7B5074435.title": "Moving Floors",
+	"quest.74BCE4D47C7783BC.quest_desc": [
+		"Spawner runes change a spawner: ignore the light, ignore the players, no thinking at all. Put the drops on a duct into the warehouse."
+	],
+	"quest.74BCE4D47C7783BC.title": "A Spawner That Listens",
+	"quest.750F8AEF613BDB84.quest_desc": [
+		"Enchanting works differently here: bookshelves have stats. Build a table and see what your library is worth."
+	],
+	"quest.750F8AEF613BDB84.title": "A Better Enchanting Table"
+}

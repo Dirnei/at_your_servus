@@ -110,9 +110,11 @@ def build(chapters: list[Chapter]) -> dict[str, str]:
         {"id": stable_id("group", g), "icon": _stack(GROUPS[g][1])} for g in groups]})
     group_lang = {f"chapter_group.{stable_id('group', g)}.title": GROUPS[g][0] for g in groups}
     chapter_lang = {}
-    for index, c in enumerate(sorted(chapters, key=lambda c: (c.group, c.order))):
+    ordered = sorted(chapters, key=lambda c: (c.group, c.order))
+    for c in ordered:
         name = _filename(c.slug)
-        chapter = {"id": c.id, "group": stable_id("group", c.group), "order_index": c.order, "filename": name,
+        index = [o for o in ordered if o.group == c.group].index(c)
+        chapter = {"id": c.id, "group": stable_id("group", c.group), "order_index": index, "filename": name,
                    "quests": [_quest(q, ids) for q in c.quests]}
         if c.icon:
             chapter["icon"] = _stack(c.icon)

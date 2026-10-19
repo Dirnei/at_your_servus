@@ -1,0 +1,436 @@
+{
+	"filename": "old_works",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "servus_foundation:item_pipe"
+	},
+	"id": "2DE7A99B157E1721",
+	"order_index": 1,
+	"quests": [
+		{
+			"dependencies": [
+				"54C09E6063E7F5EE"
+			],
+			"id": "2324986AABA9970B",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "1166857A019444C8",
+					"item": {
+						"count": 1,
+						"id": "minecraft:copper_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "734BDF42FCAB3310",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2324986AABA9970B"
+			],
+			"id": "7507D34BE1F7361B",
+			"rewards": [
+				{
+					"id": "41A4650E41E5690D",
+					"type": "xp",
+					"xp": 20
+				}
+			],
+			"tasks": [
+				{
+					"id": "13000832D40DBFE8",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:configuration_carrot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"7507D34BE1F7361B"
+			],
+			"id": "5A51345A9C7C6577",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "005B2229B3164EC6",
+					"type": "xp",
+					"xp": 20
+				}
+			],
+			"tasks": [
+				{
+					"id": "0ACD8839DFAB685D",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:engineer_goggles"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"7507D34BE1F7361B"
+			],
+			"id": "3E5B006F03318290",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "07973ADA9C9AEB47",
+					"item": {
+						"count": 1,
+						"id": "minecraft:chest"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "7053AD47E18FD1F8",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:item_pipe"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"3E5B006F03318290"
+			],
+			"id": "3FF7D0BE4543F4E1",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "21B9F02437F2EE2B",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bucket"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "6CDA6ECB3E4ABFFB",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:fluid_pipe"
+					},
+					"type": "item"
+				},
+				{
+					"id": "48CDF349D4C5E0F1",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:fluid_tank"
+					},
+					"type": "item"
+				},
+				{
+					"id": "0FB3FF41CB9A08A4",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:burner_pump"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"3E5B006F03318290"
+			],
+			"id": "154635F0928623AD",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "47DB2A0FEB3F7179",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "478E1074A6A2B466",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:coal_generator"
+					},
+					"type": "item"
+				},
+				{
+					"id": "5A8B0FCFB268E775",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:chimney"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"154635F0928623AD"
+			],
+			"id": "4941E54A4860A80E",
+			"rewards": [
+				{
+					"id": "1843DB9AC53AA14C",
+					"type": "xp",
+					"xp": 30
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "446FAD16DDC0565C",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:power_cable"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"154635F0928623AD"
+			],
+			"id": "084BE4B17F0BFFA2",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "0AE9701E5F91A710",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "6BFC2834D9558506",
+					"type": "checkmark"
+				}
+			],
+			"x": 4.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"084BE4B17F0BFFA2"
+			],
+			"id": "18708C304981DDFE",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "3D0A7A1C27FF3FD4",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "5EC3FEF88F46FE24",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:heavy_rack"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"18708C304981DDFE"
+			],
+			"id": "7877B6D667A90B62",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "4B4F757FDF27202F",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:rail"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "3345715B7112FD3B",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:rail"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"7877B6D667A90B62"
+			],
+			"id": "5E37EF613BC3E342",
+			"rewards": [
+				{
+					"id": "4FD8DAAECADC2B22",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "7AF4ECBA70A71A72",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle_garage"
+					},
+					"type": "item"
+				},
+				{
+					"id": "0B0B3EE5C6696CA3",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"5E37EF613BC3E342"
+			],
+			"id": "5E6E81C69A6317D5",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "45D976F35828920D",
+					"type": "xp",
+					"xp": 30
+				}
+			],
+			"tasks": [
+				{
+					"id": "6A2258F108D60A47",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:elevator"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 6.0
+		},
+		{
+			"dependencies": [
+				"5E37EF613BC3E342",
+				"4941E54A4860A80E"
+			],
+			"id": "51D79D2B4943A1CA",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "634DFAC342C6D613",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "27BC3B0B30E9729E",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:warehouse_controller"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"51D79D2B4943A1CA"
+			],
+			"id": "4D2D65E84AB641D8",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "121CABACDAE704AF",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:heavy_rack"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.25,
+			"tasks": [
+				{
+					"id": "73C7A6F10F231F00",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:storage_terminal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 14.0,
+			"y": 4.0
+		}
+	]
+}

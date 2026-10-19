@@ -39,7 +39,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 - [x] 5.2 Write the output serialiser (FTB Quests 26.1.2 reads JSON5, so plain JSON with sorted keys, inside `tools/questgen/generate.py`); verify pytest passes
 - [x] 5.3 Write `tools/questgen/generate.py` (TOML sources → `config/ftbquests/quests/`) per design D5 with tests: IDs from `sha256("servus:" + chapter + ":" + quest)[:16]` with the top bit cleared, uppercased, byte-identical rerun, text-only edit keeps IDs, unknown dependency slug fails, every title goes into `lang/en_us/`; verify pytest passes
 - [x] 5.4 Write `tools/checks/item_ids.py` and `tools/checks/quest_check.py` with tests (design D6): unknown item IDs fail with quest and ID named, item tasks over 16 of a non-bulk item fail (bulk = items tagged `c:ingots`, `c:dusts`, `c:gems`, `c:cobblestones`, `c:stones`, `c:raw_materials`, logs, or listed in `quests/bulk.toml`), missing English titles fail; verify pytest passes
-- [ ] 5.5 Wire generator and quest check into `tools/build.ps1` before the export; verify a build with one sample chapter loads in the smoke check without FTB Quests errors
+- [x] 5.5 Wire generator and quest check into `tools/build.ps1` before the export; verify a build with one sample chapter loads in the smoke check without FTB Quests errors
 
 ## 6. Story and main chapters
 
@@ -48,8 +48,8 @@ Commit after each task with a one-line message of at most 74 characters, no body
 - [x] 6.3 Write `03-cellar.toml`: Paracelsus' Journal found, then one milestone per stage (Nigredo, Albedo, Citrinitas, Rubedo) that points to the journal chapter (Villach, Schwaz, Wandering years, Basel and Salzburg), with the Rubedo milestone on the Prelum; verify the quest check passes
 - [x] 6.4 Write `04-power-station.toml` (Powah) and `05-into-the-nether.toml` (Just Dire Things, link to Alchemy's Salamander); verify the quest check passes
 - [x] 6.5 Write `06-trading-house.toml` (put-away rules, data cable, Crafting CPU, Pattern Storage, Machine Adapter/Production Terminal on an Alchemy machine, Shuttle Workshop and Mk2/Mk3, Farm Rail and Field Head, Wireless Upgrade); verify the quest check passes and no main quest asks for Sophisticated/Functional Storage items
-- [ ] 6.6 Write `07-workshop.toml` (Iron Jetpacks tiers) and `08-finale.toml` (Re:Avaritia up to Infinity Armor, resolves the mystery); verify the quest check passes
-- [ ] 6.7 Verify the whole main line in the smoke check, and that no main quest depends on a side chapter quest (add this as a test in `tests/test_quest_check.py`)
+- [x] 6.6 Write `07-workshop.toml` (Iron Jetpacks tiers) and `08-finale.toml` (Re:Avaritia up to Infinity Armor, resolves the mystery); verify the quest check passes
+- [x] 6.7 Verify the whole main line in the smoke check, and that no main quest depends on a side chapter quest (add this as a test in `tests/test_quest_check.py`)
 
 ## 7. Side chapters
 

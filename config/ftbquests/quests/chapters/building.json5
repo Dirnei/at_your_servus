@@ -1,0 +1,126 @@
+{
+	"filename": "building",
+	"group": "6C1E596995DBCC2C",
+	"icon": {
+		"count": 1,
+		"id": "wands:iron_wand"
+	},
+	"id": "752CF99703A5E280",
+	"order_index": 3,
+	"quests": [
+		{
+			"dependencies": [
+				"54C09E6063E7F5EE"
+			],
+			"id": "19D404CF6A8054BE",
+			"rewards": [
+				{
+					"id": "15386B9EEE5CB9D4",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "68B0DF9EF0E80EDF",
+					"item": {
+						"count": 1,
+						"id": "wands:iron_wand"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"19D404CF6A8054BE"
+			],
+			"id": "4AFB534C8E1D7764",
+			"rewards": [
+				{
+					"id": "71B15C4BAD781046",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "4B5E55EB6ECD1968",
+					"item": {
+						"count": 1,
+						"id": "rechiseled:chisel"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"19D404CF6A8054BE"
+			],
+			"id": "27515A9068F68C0E",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "2ED0591D040DF2CE",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_porkchop"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6B24F6BAD91ADC5F",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:cooking_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"4AFB534C8E1D7764",
+				"27515A9068F68C0E"
+			],
+			"id": "3471061910480E55",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "7B91AE7753F5EB0B",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "1226E81C7BAE6DEE",
+					"item": {
+						"count": 1,
+						"id": "sophisticatedstorage:chest"
+					},
+					"type": "item"
+				},
+				{
+					"id": "3F7BF46585EF832F",
+					"item": {
+						"count": 1,
+						"id": "functionalstorage:oak_1"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		}
+	]
+}

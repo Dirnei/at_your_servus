@@ -1,0 +1,70 @@
+{
+	"quest.03C51FF98930E412.quest_desc": [
+		"Servus, heir,",
+		"",
+		"a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. In the drawer under the workbench you will find my plans for a proper power station.",
+		"",
+		"It works with crystals, because the old way is too slow. Do not ask me how the crystals work. I only know that they do.",
+		"",
+		"Your Vinzenz"
+	],
+	"quest.03C51FF98930E412.quest_subtitle": "To be opened when the coal runs low",
+	"quest.03C51FF98930E412.title": "Plans for a Power Station",
+	"quest.04F7FFC89A9F1568.quest_desc": [
+		"Up here the sun shines more than people think. A solar panel on the barn roof pays for itself."
+	],
+	"quest.04F7FFC89A9F1568.title": "Power from the Sky",
+	"quest.0D4F7480EF07FEE4.quest_desc": [
+		"Emeralds this time. The station starts to hum at night."
+	],
+	"quest.0D4F7480EF07FEE4.title": "Spirited Crystals",
+	"quest.10EA0AD4F14C8455.quest_desc": [
+		"An energy cell stores what the generators make at night for the morning."
+	],
+	"quest.10EA0AD4F14C8455.title": "Keep It for Later",
+	"quest.20C10398C80B7AC1.quest_desc": [
+		"The Furnator burns fuel like my old generator, only far better. Connect it to the duct's power line and the warehouse takes it as it comes."
+	],
+	"quest.20C10398C80B7AC1.title": "A Better Fire",
+	"quest.234A33DE8B99D80B.quest_desc": [
+		"The Magmator turns lava into power. The Nether has more lava than sense."
+	],
+	"quest.234A33DE8B99D80B.title": "Lava Into Power",
+	"quest.265ADA96575398B8.quest_desc": [
+		"For the next step the orb wants blaze powder. That means the Nether. Read the next letter first."
+	],
+	"quest.265ADA96575398B8.title": "Blazing Crystals",
+	"quest.289B7185D4FB7D03.quest_desc": [
+		"My plans end with a reactor: uraninite, a lot of reactor casing, and cooling. Build it as large as you dare."
+	],
+	"quest.289B7185D4FB7D03.title": "The Reactor",
+	"quest.2B87EC827F6BE958.quest_desc": [
+		"Diamonds, charged until they glow. Expensive, and worth it."
+	],
+	"quest.2B87EC827F6BE958.title": "Niotic Crystals",
+	"quest.37EC81C2FB9FE7DE.quest_desc": [
+		"Hardened capacitors and the hardened rods double what the orb can do."
+	],
+	"quest.37EC81C2FB9FE7DE.title": "Hardened Parts",
+	"quest.43A4B9260903A45A.quest_desc": [
+		"Servus, heir,",
+		"",
+		"nitro crystals. I only ever made one, and it took me a winter. If you have made a stack, the station is finished and the house has power for a hundred years.",
+		"",
+		"Your Vinzenz"
+	],
+	"quest.43A4B9260903A45A.quest_subtitle": "The station is finished",
+	"quest.43A4B9260903A45A.title": "Nitro Crystals",
+	"quest.6778FDF9D976FE27.quest_desc": [
+		"Everything in the station starts with dielectric paste: clay, charcoal, a bit of lava. Messy, but it holds."
+	],
+	"quest.6778FDF9D976FE27.title": "Dielectric Paste",
+	"quest.6AD9185040B4C27E.quest_desc": [
+		"Iron and gold, charged together. The station is built of it."
+	],
+	"quest.6AD9185040B4C27E.title": "Energized Steel",
+	"quest.6F7A61773363C076.quest_desc": [
+		"The orb charges what you put in, as long as rods feed it power. Set the starter rods around it and give them power from the duct."
+	],
+	"quest.6F7A61773363C076.title": "The Energizing Orb"
+}

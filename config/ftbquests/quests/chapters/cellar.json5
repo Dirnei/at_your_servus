@@ -1,0 +1,320 @@
+{
+	"filename": "cellar",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "servus_alchemy:paracelsus_journal"
+	},
+	"id": "22F3EE922497CDFC",
+	"order_index": 2,
+	"quests": [
+		{
+			"dependencies": [
+				"4D2D65E84AB641D8"
+			],
+			"id": "4A8C8321E65C4EFD",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "1F6BB0B7EF9ED442",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "2227FA1812C8129D",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:paracelsus_journal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"4A8C8321E65C4EFD"
+			],
+			"id": "7F5D364CF23DDAA8",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "24C3E8DC5053B36A",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "5C67AA8935A52AAE",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:calciner"
+					},
+					"type": "item"
+				},
+				{
+					"id": "54866474A751FFB3",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:calciner_firebox"
+					},
+					"type": "item"
+				},
+				{
+					"id": "7690B5E7642D2419",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:calciner_ash_pan"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"7F5D364CF23DDAA8"
+			],
+			"id": "3DD39C0BF6683C46",
+			"rewards": [
+				{
+					"id": "1DF91369580E6951",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "1EA60FCDD20F601D",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:athanor"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"3DD39C0BF6683C46"
+			],
+			"id": "7C723D9D51CEADF2",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "3C75214DD6B7A4AB",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bucket"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "hexagon",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "71AA898E031A620A",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:coagulator"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"7C723D9D51CEADF2"
+			],
+			"id": "69983347EA0BC160",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "7AB13D3899414378",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:heavy_rack"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "008F24F8F7E7DF35",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:salt_crystal"
+					},
+					"type": "item"
+				},
+				{
+					"id": "052A818354E7A2CE",
+					"type": "checkmark"
+				}
+			],
+			"x": 6.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"7C723D9D51CEADF2"
+			],
+			"id": "70FBE2C8BA49454A",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "5F2D571F7D4C629C",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_block"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "hexagon",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "71AD87FEE8D2C844",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:elixir_of_sight"
+					},
+					"type": "item"
+				},
+				{
+					"id": "6D595087C9681B76",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:gnome_hollow"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"70FBE2C8BA49454A"
+			],
+			"id": "7C2A969C37F1A51A",
+			"rewards": [
+				{
+					"id": "04923F0B39C1E618",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "1BBD1329B4847CAB",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:seed"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"70FBE2C8BA49454A"
+			],
+			"id": "60799F0F0C1365B5",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "1154EB2E96180588",
+					"item": {
+						"count": 1,
+						"id": "minecraft:gold_block"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "hexagon",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "5CF68CE5217310BE",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:principle_dropper"
+					},
+					"type": "item"
+				},
+				{
+					"id": "05DE7D11957D55FA",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:receptaculum"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"60799F0F0C1365B5"
+			],
+			"id": "234321D361F799B8",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "6EBB1D3BDD7C26CB",
+					"item": {
+						"count": 1,
+						"id": "minecraft:netherite_scrap"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "hexagon",
+			"size": 2.0,
+			"tasks": [
+				{
+					"id": "3EC66409D918A6FD",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:prelum"
+					},
+					"type": "item"
+				},
+				{
+					"id": "26B14FC3C05919D2",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:caput_mortuum"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 0.0
+		}
+	]
+}

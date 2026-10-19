@@ -1,0 +1,109 @@
+[chapter]
+title = "The Uncle's Workshop"
+subtitle = "Jetpacks, and the spirit that rises"
+icon = "ironjetpacks:thruster"
+
+[[quest]]
+slug = "workshop-letter"
+title = "The Locked Workshop"
+subtitle = "To be opened when the station runs"
+description = """
+Servus, heir,
+
+the key on the blue ribbon opens my workshop above the barn. Inside is the only thing I ever invented that I am proud of: a jetpack.
+
+The mountain is full of shafts and I was too old for ladders. The first ones run on power from the station. The good ones need quicksilver, the spirit that rises. You will see why.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["power-station:energy-cell"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:leather", count = 8 }]
+
+[[quest]]
+slug = "parts"
+title = "Strap and Coil"
+description = """
+A strap to carry it, a coil to drive it. Everything else is just more of the same."""
+x = 2.0
+y = 0.0
+deps = ["workshop-letter"]
+tasks = [{ type = "item", item = "ironjetpacks:strap" }, { type = "item", item = "ironjetpacks:basic_coil" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "iron-jetpack"
+title = "An Iron Jetpack"
+description = """
+Heavy, loud and wonderful. Charge it at the station and jump."""
+x = 4.0
+y = 0.0
+deps = ["parts"]
+tasks = [{ type = "item", item = "ironjetpacks:jetpack", components = { "ironjetpacks:jetpack_id" = "ironjetpacks:iron" } }]
+rewards = [{ type = "item", item = "minecraft:feather", count = 4 }]
+
+[[quest]]
+slug = "transmitter"
+title = "Charging on the Move"
+description = """
+A player transmitter sends the station's power to whatever you carry. No more walking back to recharge."""
+x = 4.0
+y = 2.0
+deps = ["iron-jetpack"]
+optional = true
+tasks = [{ type = "item", item = "powah:player_transmitter_basic" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "gold-jetpack"
+title = "A Gold Jetpack"
+description = """
+Gold carries the charge further. Faster, and it holds more."""
+x = 6.0
+y = 0.0
+deps = ["iron-jetpack"]
+tasks = [{ type = "item", item = "ironjetpacks:jetpack", components = { "ironjetpacks:jetpack_id" = "ironjetpacks:gold" } }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "diamond-jetpack"
+title = "A Diamond Jetpack"
+description = """
+From here on, each jetpack needs quicksilver from the cellar. Mercury is the spirit that rises as vapour. Paracelsus knew it; my thrusters learned it."""
+x = 8.0
+y = 0.0
+deps = ["gold-jetpack", "cellar:albedo"]
+tasks = [{ type = "item", item = "ironjetpacks:jetpack", components = { "ironjetpacks:jetpack_id" = "ironjetpacks:diamond" } }]
+rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
+
+[[quest]]
+slug = "emerald-jetpack"
+title = "An Emerald Jetpack"
+description = """
+Emeralds and quicksilver. I flew to the top of the Kellerjoch with this one and nearly did not come down."""
+x = 10.0
+y = 0.0
+deps = ["diamond-jetpack"]
+tasks = [{ type = "item", item = "ironjetpacks:jetpack", components = { "ironjetpacks:jetpack_id" = "ironjetpacks:emerald" } }]
+rewards = [{ type = "item", item = "minecraft:emerald", count = 8 }]
+
+[[quest]]
+slug = "netherite-jetpack"
+title = "The Netherite Jetpack"
+subtitle = "My best work"
+description = """
+Servus, heir,
+
+netherite from the Prelum, quicksilver and the undying flame. This is the one I used to search the deep shafts for the knocking. It is the best thing I ever built, apart from the trading house, and that was not my idea.
+
+Your Vinzenz"""
+x = 12.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["emerald-jetpack", "cellar:rubedo"]
+tasks = [{ type = "item", item = "ironjetpacks:jetpack", components = { "ironjetpacks:jetpack_id" = "ironjetpacks:netherite" } }]
+rewards = [{ type = "item", item = "minecraft:netherite_scrap", count = 4 }]

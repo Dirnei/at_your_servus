@@ -1,0 +1,306 @@
+{
+	"filename": "finale",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "avaritia:infinity_catalyst"
+	},
+	"id": "72B2D8F517EFBCB5",
+	"order_index": 7,
+	"quests": [
+		{
+			"dependencies": [
+				"234321D361F799B8",
+				"027B3F69BB9C4EE0",
+				"43A4B9260903A45A"
+			],
+			"id": "5A2CD20BC517419E",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "12DB48B9D7B24C33",
+					"item": {
+						"count": 1,
+						"id": "minecraft:netherite_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "16810A27E471075F",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"5A2CD20BC517419E"
+			],
+			"id": "783CE7103F14F12B",
+			"rewards": [
+				{
+					"id": "1EDF4E65276ABE27",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "23BE63D79E232457",
+					"item": {
+						"count": 1,
+						"id": "avaritia:extreme_crafting_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"783CE7103F14F12B"
+			],
+			"id": "466734D4A1C805D1",
+			"rewards": [
+				{
+					"id": "41A827FE83C5E88D",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "65C6F881D7C76765",
+					"item": {
+						"count": 1,
+						"id": "avaritia:neutron_collector"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"466734D4A1C805D1"
+			],
+			"id": "09CA56FB7BED0F7C",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "4B3750FE62A3D5AE",
+					"item": {
+						"count": 1,
+						"id": "avaritia:neutron_pile"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "1A4CB566DE8DE278",
+					"item": {
+						"count": 1,
+						"id": "avaritia:neutron_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"783CE7103F14F12B"
+			],
+			"id": "7B00A3D3FA209A58",
+			"rewards": [
+				{
+					"id": "5307B5C46879B1AD",
+					"type": "xp",
+					"xp": 150
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "018EB6F5396F508D",
+					"item": {
+						"count": 1,
+						"id": "avaritia:crystal_matrix_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"09CA56FB7BED0F7C"
+			],
+			"id": "32141C65FFD7D602",
+			"rewards": [
+				{
+					"id": "78D494256A6B09ED",
+					"type": "xp",
+					"xp": 200
+				}
+			],
+			"tasks": [
+				{
+					"id": "280E1B4C9F23A3A5",
+					"item": {
+						"count": 1,
+						"id": "avaritia:neutron_compressor"
+					},
+					"type": "item"
+				},
+				{
+					"count": 4,
+					"id": "67160DB01F75E053",
+					"item": {
+						"count": 1,
+						"id": "avaritia:singularity"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"32141C65FFD7D602",
+				"7B00A3D3FA209A58"
+			],
+			"id": "4E9A3566662564B7",
+			"rewards": [
+				{
+					"id": "7BA0264ACE4EE531",
+					"type": "xp",
+					"xp": 300
+				}
+			],
+			"shape": "hexagon",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "4D87F2932F276CD0",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_catalyst"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"4E9A3566662564B7"
+			],
+			"id": "5664C85D8433520D",
+			"rewards": [
+				{
+					"id": "5390A7A07A05C793",
+					"type": "xp",
+					"xp": 300
+				}
+			],
+			"tasks": [
+				{
+					"id": "0AD6ACD3CF1AC02E",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"5664C85D8433520D"
+			],
+			"id": "3DD3AEC10463CF6B",
+			"rewards": [
+				{
+					"id": "7B98BD7CE8FC9BD8",
+					"type": "xp",
+					"xp": 500
+				}
+			],
+			"tasks": [
+				{
+					"id": "7120B96368701BCE",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_helmet"
+					},
+					"type": "item"
+				},
+				{
+					"id": "06EF4669770216E6",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_pants"
+					},
+					"type": "item"
+				},
+				{
+					"id": "5BC18BA5805B30FF",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_boots"
+					},
+					"type": "item"
+				}
+			],
+			"x": 14.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"3DD3AEC10463CF6B"
+			],
+			"id": "7A6D3546A0BF0C9C",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "152169A3B007C1AC",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:salt_offering"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 2.0,
+			"tasks": [
+				{
+					"id": "78EAB3F4D11FBB04",
+					"item": {
+						"count": 1,
+						"id": "avaritia:infinity_chestplate"
+					},
+					"type": "item"
+				}
+			],
+			"x": 16.0,
+			"y": 0.0
+		}
+	]
+}

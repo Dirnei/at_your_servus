@@ -1,0 +1,174 @@
+{
+	"filename": "exploration",
+	"group": "6C1E596995DBCC2C",
+	"icon": {
+		"count": 1,
+		"id": "minecraft:compass"
+	},
+	"id": "35B6C6AFF511B4A9",
+	"order_index": 0,
+	"quests": [
+		{
+			"dependencies": [
+				"7C259418C084CB6C"
+			],
+			"id": "0BC51D250868F38C",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "66307E4F9CB12BA7",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_beef"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "4120788DCB3C3F70",
+					"item": {
+						"count": 1,
+						"id": "naturescompass:naturescompass"
+					},
+					"type": "item"
+				},
+				{
+					"id": "14F0D6D83F2E9EB0",
+					"item": {
+						"count": 1,
+						"id": "explorerscompass:explorerscompass"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"0BC51D250868F38C"
+			],
+			"id": "77D3EC6423133A19",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "6387EEB50C2EACDB",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "33250245176B7379",
+					"item": {
+						"count": 1,
+						"id": "artifacts:cloud_in_a_bottle"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"0BC51D250868F38C"
+			],
+			"id": "13CC8F4D6AD19BFE",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "4637D37B013E3636",
+					"item": {
+						"count": 1,
+						"id": "minecraft:diamond"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "741EAB7379D71B82",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:magic_map"
+					},
+					"type": "item"
+				},
+				{
+					"id": "775D6BA157255431",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:lich_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"0BC51D250868F38C"
+			],
+			"id": "6BA41FAF6EC84CD1",
+			"rewards": [
+				{
+					"id": "4F120761F3ABDB46",
+					"type": "xp",
+					"xp": 150
+				}
+			],
+			"tasks": [
+				{
+					"id": "7D8355657C39860B",
+					"item": {
+						"count": 1,
+						"id": "undergarden:catalyst"
+					},
+					"type": "item"
+				},
+				{
+					"id": "090CD4EB6085510F",
+					"item": {
+						"count": 1,
+						"id": "undergarden:cloggrum_helmet"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"0BC51D250868F38C"
+			],
+			"id": "5C0850E35332B14A",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "03964402588E62D5",
+					"item": {
+						"count": 1,
+						"id": "minecraft:honey_bottle"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "0803DCE66B0A9AFB",
+					"item": {
+						"count": 1,
+						"id": "the_bumblezone:bee_bread"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -1.0
+		}
+	]
+}

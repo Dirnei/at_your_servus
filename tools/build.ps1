@@ -66,6 +66,7 @@ try {
     } finally {
         Stop-Process -Id $serve.Id -ErrorAction SilentlyContinue
     }
+    if (-not (Test-Path (Join-Path $server 'config/ftbquests/quests/data.json5'))) { throw 'server pack: the quest book is missing (check .packwizignore)' }
     Copy-Item (Join-Path $root 'tools\server-pack\start.sh'), (Join-Path $root 'tools\server-pack\start.ps1') $server
     Invoke-Step 'server zip' { & python -m tools.ziptool dir $server $serverZip --exclude packwiz.json --exclude packwiz-installer.jar }
     Copy-Item $serverZip (Join-Path $dist 'Servus-latest-server.zip') -Force

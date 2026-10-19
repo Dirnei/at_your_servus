@@ -1,0 +1,263 @@
+{
+	"filename": "workshop",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "ironjetpacks:thruster"
+	},
+	"id": "7A4BE7A22B1AAC18",
+	"order_index": 6,
+	"quests": [
+		{
+			"dependencies": [
+				"10EA0AD4F14C8455"
+			],
+			"id": "5696345D0B8FCA0A",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "5E235FA54FC00448",
+					"item": {
+						"count": 1,
+						"id": "minecraft:leather"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "1690393DCE9D7BCE",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"5696345D0B8FCA0A"
+			],
+			"id": "7BD368D3E78DBC5A",
+			"rewards": [
+				{
+					"id": "44D45ECD08E62B1D",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "03DAE89CC56EF945",
+					"item": {
+						"count": 1,
+						"id": "ironjetpacks:strap"
+					},
+					"type": "item"
+				},
+				{
+					"id": "23BCEDDFBF683E02",
+					"item": {
+						"count": 1,
+						"id": "ironjetpacks:basic_coil"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"7BD368D3E78DBC5A"
+			],
+			"id": "1B7BC5E9352BCBF4",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "321C2D57CEFDA138",
+					"item": {
+						"count": 1,
+						"id": "minecraft:feather"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "0BE3DB0E2E57EFE0",
+					"item": {
+						"components": {
+							"ironjetpacks:jetpack_id": "ironjetpacks:iron"
+						},
+						"count": 1,
+						"id": "ironjetpacks:jetpack"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"1B7BC5E9352BCBF4"
+			],
+			"id": "14D64835D461CD98",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "2D86B9FA55DCD5BE",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "71E3E6F957CD95C1",
+					"item": {
+						"count": 1,
+						"id": "powah:player_transmitter_basic"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"1B7BC5E9352BCBF4"
+			],
+			"id": "4FF66CC1B301897A",
+			"rewards": [
+				{
+					"id": "04A950599A5B04D0",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"id": "1F124584F2999036",
+					"item": {
+						"components": {
+							"ironjetpacks:jetpack_id": "ironjetpacks:gold"
+						},
+						"count": 1,
+						"id": "ironjetpacks:jetpack"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"4FF66CC1B301897A",
+				"70FBE2C8BA49454A"
+			],
+			"id": "1B7068D5F30A7EA3",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "640575FAD94857A3",
+					"item": {
+						"count": 1,
+						"id": "minecraft:diamond"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "067E0F4C1F95FA3D",
+					"item": {
+						"components": {
+							"ironjetpacks:jetpack_id": "ironjetpacks:diamond"
+						},
+						"count": 1,
+						"id": "ironjetpacks:jetpack"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"1B7068D5F30A7EA3"
+			],
+			"id": "1DE516629AD26E28",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "1CC06328224526D4",
+					"item": {
+						"count": 1,
+						"id": "minecraft:emerald"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "2240F646D5BD2F61",
+					"item": {
+						"components": {
+							"ironjetpacks:jetpack_id": "ironjetpacks:emerald"
+						},
+						"count": 1,
+						"id": "ironjetpacks:jetpack"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"1DE516629AD26E28",
+				"234321D361F799B8"
+			],
+			"id": "2037DD58BC0394C0",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "29B40B4EDFE5C9C0",
+					"item": {
+						"count": 1,
+						"id": "minecraft:netherite_scrap"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "024E76D3C410E797",
+					"item": {
+						"components": {
+							"ironjetpacks:jetpack_id": "ironjetpacks:netherite"
+						},
+						"count": 1,
+						"id": "ironjetpacks:jetpack"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 0.0
+		}
+	]
+}

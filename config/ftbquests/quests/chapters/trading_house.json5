@@ -1,0 +1,552 @@
+{
+	"filename": "trading_house",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "servus_shuttles:warehouse_controller"
+	},
+	"id": "624F7CB7D55D360A",
+	"order_index": 5,
+	"quests": [
+		{
+			"dependencies": [
+				"4D2D65E84AB641D8",
+				"20C10398C80B7AC1"
+			],
+			"id": "3A961E71BE94081E",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "63E4261374EF94AD",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:heavy_rack"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "5A28B36E5ABC2248",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"3A961E71BE94081E"
+			],
+			"id": "118E97534B2C15B0",
+			"rewards": [
+				{
+					"id": "659958C46CC217D4",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "69AB10A5199649ED",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:inbound_station"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"118E97534B2C15B0"
+			],
+			"id": "0D81246D3E24A6F2",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "3EB6905BAB6A69EE",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:zone_label"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "6E3E2FCD705CEDE4",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:zone_label"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"3A961E71BE94081E"
+			],
+			"id": "6800E2669EDBDA30",
+			"rewards": [
+				{
+					"id": "0B8ADF5B7293CBF0",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "334C87BD3D4BB927",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:outbound_station"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"6800E2669EDBDA30"
+			],
+			"id": "52284641AD471883",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "07773F1484B089AE",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:data_cable"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "02A7D782A270E9D0",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:data_cable"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"52284641AD471883"
+			],
+			"id": "2CFAA1B93AE63A3B",
+			"rewards": [
+				{
+					"id": "1463ED85FA249029",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "56011DD2AD9C0631",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:crafting_station"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"2CFAA1B93AE63A3B"
+			],
+			"id": "002D274F79E0F1A7",
+			"rewards": [
+				{
+					"id": "017554E401C8C1B4",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:crafting_cpu_buffer"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "5E818F0AEF6D2152",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:crafting_cpu"
+					},
+					"type": "item"
+				},
+				{
+					"id": "78D8EE7C7FC2F7C7",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:pattern_storage"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"002D274F79E0F1A7"
+			],
+			"id": "5E06A1198AE4F57D",
+			"rewards": [
+				{
+					"id": "5F40B6FCB11FE9E6",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "7D801747D9FEBE88",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:packing_station"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"002D274F79E0F1A7"
+			],
+			"id": "0346EE683D2E3D5B",
+			"rewards": [
+				{
+					"id": "777F4CD20645D711",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "45B9BD989CEA739E",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:production_terminal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"5E06A1198AE4F57D",
+				"0346EE683D2E3D5B",
+				"70FBE2C8BA49454A"
+			],
+			"id": "5ACB69B7A0BCDD39",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "40A1D202F516FB02",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:sealed_flask"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "10D0F5F3F8EC1D8C",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:crafting_cpu"
+					},
+					"type": "item"
+				},
+				{
+					"id": "1FD37A8E1F7CB347",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:machine_adapter"
+					},
+					"type": "item"
+				},
+				{
+					"id": "5EC9CD2ABEF561A6",
+					"type": "checkmark"
+				}
+			],
+			"x": 12.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"0D81246D3E24A6F2"
+			],
+			"id": "29DFE735FD7B04E9",
+			"rewards": [
+				{
+					"id": "1C1E45B4E96D9752",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"id": "632ADCCE74AEE56B",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle_workshop"
+					},
+					"type": "item"
+				},
+				{
+					"id": "0B242F35E8EA2365",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle_mk2"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": [
+				"29DFE735FD7B04E9"
+			],
+			"id": "417B1F295DEFA19E",
+			"rewards": [
+				{
+					"id": "1CD7FC9B2DD47223",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "210127113BEB6FFE",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle_mk3"
+					},
+					"type": "item"
+				},
+				{
+					"id": "44AA5CF9E8BE28B9",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:speed_upgrade"
+					},
+					"type": "item"
+				},
+				{
+					"id": "5BD5FF101662B333",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:handling_upgrade"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": [
+				"417B1F295DEFA19E"
+			],
+			"id": "2BD4188C47A9639B",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "37D67E30E49EC2CE",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bone_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "344765C4490EA3B4",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:farm_rail"
+					},
+					"type": "item"
+				},
+				{
+					"id": "4E80DDCDFE3366DD",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:field_head"
+					},
+					"type": "item"
+				},
+				{
+					"id": "36B7406299A7AC24",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:harvester"
+					},
+					"type": "item"
+				},
+				{
+					"id": "2C5A926D75124823",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:spreader"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": [
+				"2BD4188C47A9639B"
+			],
+			"id": "23D4CF623A339876",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "7375CEA2CEFF7AB5",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "4C4D1E87D815F954",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:range_upgrade"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": -5.0
+		},
+		{
+			"dependencies": [
+				"5ACB69B7A0BCDD39"
+			],
+			"id": "45EE84C114D74E1A",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "4458BB38C190DE91",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "307B9A21E4CA38EB",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:fast_data_cable"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 3.0
+		},
+		{
+			"dependencies": [
+				"2BD4188C47A9639B"
+			],
+			"id": "0DE6C555E6857962",
+			"rewards": [
+				{
+					"id": "4F0159B4EE876D04",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:warehouse_controller"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 2,
+					"id": "4EFCA1918F662C7B",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:wireless_upgrade"
+					},
+					"type": "item"
+				},
+				{
+					"id": "1A9119FDE14B8A30",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:anchor_upgrade"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": [
+				"5ACB69B7A0BCDD39",
+				"0DE6C555E6857962"
+			],
+			"id": "027B3F69BB9C4EE0",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "7B41C9C4467B9B24",
+					"item": {
+						"count": 1,
+						"id": "minecraft:emerald_block"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.75,
+			"tasks": [
+				{
+					"id": "1670AF89D05547BE",
+					"type": "checkmark"
+				}
+			],
+			"x": 14.0,
+			"y": -1.0
+		}
+	]
+}

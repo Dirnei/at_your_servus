@@ -29,6 +29,118 @@ file = "config/ftblibrary-client.json5"
 hash = "77c94d9eff5ce9300d782f5ab15737aeaeec716a6e419035d514f21f17800cc9"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.json5"
+hash = "7ada17fd4d4fb0f161753af91a7dfd577eed1f07fe9522dfc88eba620c72c8b4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/apotheosis_and_mob_farms.json5"
+hash = "015076770afbfbb4312773adb1dbf5389ee20d2f53b2c0973456f2ac3ac4fa5f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/arrival.json5"
+hash = "b23d0a6baab16c77ca8d2f0c19b59062a91931bb1cb876555718c4848b9ef98a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/building.json5"
+hash = "e3c6ce27031aacee010e6e6dd22b6c78d7e329ee4420ecea06eb499169118944"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cellar.json5"
+hash = "99960cb32d6833fa9e414dc6f14b9df8c8d5cdbea2b84b54540935184243b9be"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploration.json5"
+hash = "81c6b49c938c696172640377a240b5381a5f5e0421015436ac3e95f7254b8c81"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/finale.json5"
+hash = "0d63035056c377ae3d4c4fd5484596fb3a8719d03b2051bdb199a4545672c928"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nether.json5"
+hash = "d6aab82e8037baecda0b8c08d274ea79b395187322bd94a945778df98636e9a7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/occultism.json5"
+hash = "2b83bb331da7602f6c58a164f654764b0182ccbb50d821918f2b561c2582274f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/old_works.json5"
+hash = "c0639bd70ac1360b6494b88cf7c59db6710d627204704f752974f97a5f72307b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/power_station.json5"
+hash = "d74c8d83aed1004c7019d773f2d793c29ac18e4e5633a1e81b7715ec64b8377d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/trading_house.json5"
+hash = "9d3cbcb214603bcba82e452b043d30cc4e3d8eeedb1517fdffe750a98e456ded"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/workshop.json5"
+hash = "890364e1bcb141873d12d6f92f7fe41071b2dfa03c7c986f1b87048ea42a6ae6"
+
+[[files]]
+file = "config/ftbquests/quests/data.json5"
+hash = "bee1c4e750e79d3133e3f3fb94b138c7eae93798fc72746c3fc0c884b5cb1c0c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter.json5"
+hash = "5e0980071ac48af82d7729a964654d312643d5cb42b0b138de4c7145dde87e7c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapter_group.json5"
+hash = "ee19a092056664e609108f06f921e69554b7c85e53c5c6ba73a49bfe019cde17"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/apotheosis_and_mob_farms.json5"
+hash = "e5164b8e600124539ed46489d8e555256c9db4dca440461819bfbaf45e3044ec"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/arrival.json5"
+hash = "716d17104bc97ffb702290ca0686bdf4ab00418b93a7f507d4182d558c879f4b"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/building.json5"
+hash = "92bab9a443245e60bb2bd092271fcfdcd887c5f63538f6aebff9696bb54e4d04"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/cellar.json5"
+hash = "f8b1fc98cd57eac430a1c131a31f7c7557f3d83ac3d56daba4adcb811bfb7d5a"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
+hash = "9fdb8ce30e9f1df281a8a84809968f4c017ae7d98de380b17ab8b24013d1ae06"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/finale.json5"
+hash = "b718b0d270e41c27d429945282f6b73b449b1abbbaf164d82b3dcedb73574a35"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/nether.json5"
+hash = "a247b8b6e12b98eb6a13b71f0a4f452537a7e7f5fe1a99cf670b31a1b0ade1bc"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/occultism.json5"
+hash = "d6ed04e43f91b8f55bff50ffb7b9b80854ae650831182b301567a7102ac4a21e"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/old_works.json5"
+hash = "c17a05a0d0ddbf330e8c63708e83e3f2163e53d1e165e8c6176a06460512c80e"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/power_station.json5"
+hash = "f5b7533cba730de675ee5fbb7057f9fb89ad8834b74bf4f039dc8be3982c5bcb"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/trading_house.json5"
+hash = "a9ab1480790b8fa70c2077cb7a12aa1c7f2bbe0006bea2ab0fa27ce23f78552b"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/workshop.json5"
+hash = "32dedfc1585a74727a52daa2e4b3044e0a9eacf6768c75206618dd94ed6a8fd9"
+
+[[files]]
 file = "config/ftbteams-server.json5"
 hash = "f9d1eeba598159cb7aba053a5fe3b0058dedb8ab5913b28f0fa7f06b63eba3b8"
 
@@ -115,6 +227,10 @@ hash = "9c6c1c0e70a84a9f59399679f6ff5bc77cc1c39571d0a5453d2afa7d29fbcf51"
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
 hash = "10925a0873a1a0ee55ff6f8e168b07485ce116a398f6c99cfced03ccb36ce7a1"
+
+[[files]]
+file = "config/jei/server/world/default/jei-server.ini"
+hash = "d143422ba3144d592e3627874cec2d980f4ce0e3c776bdbd109919dde3c5f4c2"
 
 [[files]]
 file = "config/leavesbegone-server.toml"

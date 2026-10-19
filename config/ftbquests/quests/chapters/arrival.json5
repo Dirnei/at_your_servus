@@ -1,0 +1,297 @@
+{
+	"filename": "arrival",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "minecraft:oak_door"
+	},
+	"id": "4C55A67D01AE58ED",
+	"order_index": 0,
+	"quests": [
+		{
+			"id": "2B304666A309D2B0",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "46F0B132B00A1C60",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bread"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "72B42E03B95BF754",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2B304666A309D2B0"
+			],
+			"id": "441804CDCF855388",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "3DBF55113D7FC6C0",
+					"item": {
+						"count": 1,
+						"id": "minecraft:torch"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "1181E9269DD0F283",
+					"item": {
+						"count": 1,
+						"id": "minecraft:crafting_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"441804CDCF855388"
+			],
+			"id": "2D12538F171DB693",
+			"rewards": [
+				{
+					"id": "6159CF1183453188",
+					"type": "xp",
+					"xp": 20
+				}
+			],
+			"tasks": [
+				{
+					"id": "76D6B8BF9A37C36D",
+					"item": {
+						"count": 1,
+						"id": "crafting_on_a_stick:crafting_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"441804CDCF855388"
+			],
+			"id": "63AE6A649A0B6EF9",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "3228B459BF14A706",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "28392CD67670C174",
+					"item": {
+						"count": 1,
+						"id": "minecraft:furnace"
+					},
+					"type": "item"
+				},
+				{
+					"id": "1135B8D6C3598F21",
+					"item": {
+						"count": 1,
+						"id": "ironfurnaces:copper_furnace"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"441804CDCF855388"
+			],
+			"id": "7A75F764B8757D32",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "37A6221432A7AE90",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_beef"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "57E504BF1A9717D4",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bread"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"63AE6A649A0B6EF9"
+			],
+			"id": "7C259418C084CB6C",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "7D7662392415E6AA",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6D22515C0992D237",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_pickaxe"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"441804CDCF855388"
+			],
+			"id": "613658657F90026D",
+			"optional": true,
+			"rewards": [
+				{
+					"count": 4,
+					"id": "13F2A075FAAD9729",
+					"item": {
+						"count": 1,
+						"id": "minecraft:leather"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6B38894FAA7C89A3",
+					"item": {
+						"count": 1,
+						"id": "sophisticatedbackpacks:backpack"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"7C259418C084CB6C"
+			],
+			"id": "739727889BD5AA79",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "671B7D0BD7BB221E",
+					"item": {
+						"count": 1,
+						"id": "minecraft:ender_pearl"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "2524BD2FE7F97FAD",
+					"item": {
+						"count": 1,
+						"id": "waystones:warp_stone"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"7A75F764B8757D32"
+			],
+			"id": "2381C9A50A685885",
+			"rewards": [
+				{
+					"id": "1E23BF729AAACAF0",
+					"item": {
+						"count": 1,
+						"id": "comforts:hammock_white"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "1C789745F03F95AF",
+					"item": {
+						"count": 1,
+						"id": "minecraft:white_bed"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"7C259418C084CB6C",
+				"2381C9A50A685885"
+			],
+			"id": "54C09E6063E7F5EE",
+			"rewards": [
+				{
+					"id": "79BCE333F329D4EB",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"shape": "gear",
+			"size": 1.25,
+			"tasks": [
+				{
+					"id": "41FEEC96CFA0E665",
+					"type": "checkmark"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		}
+	]
+}

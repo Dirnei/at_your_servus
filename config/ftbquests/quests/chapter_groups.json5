@@ -1,0 +1,18 @@
+{
+	"chapter_groups": [
+		{
+			"icon": {
+				"count": 1,
+				"id": "minecraft:oak_door"
+			},
+			"id": "43A77805F125817B"
+		},
+		{
+			"icon": {
+				"count": 1,
+				"id": "minecraft:compass"
+			},
+			"id": "6C1E596995DBCC2C"
+		}
+	]
+}
