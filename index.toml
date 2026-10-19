@@ -373,6 +373,10 @@ file = "kubejs/server_scripts/first_join.js"
 hash = "fdaa84ec91be120e2667eb03ac425d02ed251faa5116b14bc03a2401c9474c8e"
 
 [[files]]
+file = "kubejs/server_scripts/fixes/bumblezone.js"
+hash = "2e0b8bb11d896697c2c8831d9413e39fec4952371f3651a353ddc97e124ab448"
+
+[[files]]
 file = "kubejs/server_scripts/gates/avaritia.js"
 hash = "c669bc33d036e49170c6dfe7a688e83e9287f2628c1b91d43963d8ccc59c60f0"
 

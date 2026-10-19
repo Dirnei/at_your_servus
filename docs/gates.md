@@ -9,6 +9,7 @@ Every recipe and config change the pack makes to another mod, with its reason. T
 | `kubejs/server_scripts/gates/iron_jetpacks.js` | Elite Coil needs 2 Quicksilver (`servus_alchemy:quicksilver`) | Iron Jetpacks generates thruster recipes at runtime, and each tier takes its coil: diamond and emerald take the Elite Coil. Jetpacks from diamond up need Alchemy. |
 | `kubejs/server_scripts/gates/iron_jetpacks.js` | Ultimate Coil needs Quicksilver and Ignis Perpetuus (`servus_alchemy:ignis_perpetuus`) | Only the netherite tier takes the Ultimate Coil, so the top jetpack needs the Rubedo-era Alchemy products. |
 | `kubejs/server_scripts/gates/avaritia.js` | Infinity Catalyst (both recipes) additionally needs Ignis Perpetuus, Quicksilver, Caput Mortuum, a Shuttles Crafting CPU and a Powah Nitro Crystal | The Avaritia capstone comes after the Great Work, the trading house and the power station. |
+| `kubejs/server_scripts/fixes/bumblezone.js` | Removes The Bumblezone's two Potion Candle recipes (type `the_bumblezone:potion_candle_recipe`) | Bug in Bumblezone 7.18.0: the recipe fails to decode on the client, so joining a world disconnects. Not a gate; remove the script once a fixed Bumblezone is out. |
 | `kubejs/server_scripts/first_join.js` | Gives the FTB Quests book once per player (stage `servus_got_quest_book`) | Players find the quest line without knowing the key binding. |
 
 Lower jetpack tiers (wood to gold) keep their default recipes. The creative jetpack has no crafting material, so Iron Jetpacks generates no recipe for it.
