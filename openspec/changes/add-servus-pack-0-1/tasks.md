@@ -24,7 +24,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 - [x] 3.2 Write `tools/build.ps1 [-Public]` per design D3/D4: pack check, `packwiz refresh`, `packwiz cf export` to `dist/Servus-<version>.zip`, copy URL-mod jars into its `overrides/mods/` with a printed "not for public upload" warning (skipped and failing in `-Public`), `packwiz serve` + packwiz-installer-bootstrap `-g -s server` into `build/server/`, add `start.ps1`/`start.sh` that install NeoForge 26.1.2.122 on first run, zip to `dist/Servus-<version>-server.zip` and copy to `dist/Servus-latest-server.zip`, then run the version check; verify a clean run produces all three files
 - [x] 3.3 Verify the server zip has no Sodium jar, and that `-Public` fails while Alchemy is a URL metafile with a message naming Alchemy
 - [x] 3.4 Verify the build fails with the mod named when packwiz-installer reports a file that cannot be downloaded (simulate with a metafile pointing at a non-existent URL in a scratch copy)
-- [ ] 3.5 Document the build in `README.md` (tools to install, `tools/build.ps1`, outputs); verify the documented command runs as written
+- [x] 3.5 Document the build in `README.md` (tools to install, `tools/build.ps1`, outputs); verify the documented command runs as written
 
 ## 4. Test server and smoke check
 
