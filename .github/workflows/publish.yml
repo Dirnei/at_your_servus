@@ -1,0 +1,44 @@
+name: Publish
+
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Tag matches the pack version
+        run: |
+          version=$(python -c "import tomllib; print(tomllib.load(open('pack.toml','rb'))['version'])")
+          if [ "$GITHUB_REF_NAME" != "v$version" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match pack version $version"; exit 1
+          fi
+
+      - name: Public build
+        shell: pwsh
+        run: ./tools/build.ps1 -Public
+
+      - name: Upload to CurseForge
+        env:
+          CF_PROJECT_ID: ${{ vars.CF_PROJECT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python -m tools.publish --tag "$GITHUB_REF_NAME"

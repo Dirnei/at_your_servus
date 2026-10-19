@@ -1,0 +1,48 @@
+name: Build
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install packwiz and pytest
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+          pip install pytest
+
+      - name: Tests
+        run: python -m pytest
+
+      - name: Build client and server pack
+        shell: pwsh
+        run: ./tools/build.ps1
+
+      - name: Quest book matches its sources
+        run: |
+          python -m tools.questgen.generate
+          git diff --exit-code -- config/ftbquests
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: servus-pack
+          path: |
+            dist/Servus-*.zip
+            !dist/Servus-latest-server.zip

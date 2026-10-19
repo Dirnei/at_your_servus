@@ -9,7 +9,7 @@ $serverDir = Join-Path $root 'server'
 $data = Join-Path $serverDir 'smoke-data'
 $compose = @('compose', '-p', 'servus-smoke', '-f', 'docker-compose.yml', '-f', 'docker-compose.smoke.yml')
 
-if (-not (Test-Path (Join-Path $root 'dist\Servus-latest-server.zip'))) { throw 'No server pack, run tools\build.ps1 first' }
+if (-not (Test-Path (Join-Path $root 'dist/Servus-latest-server.zip'))) { throw 'No server pack, run tools/build.ps1 first' }
 
 function Invoke-Docker([string[]]$arguments) {
     $ErrorActionPreference = 'Continue'
@@ -42,12 +42,12 @@ try {
     $crashes = Get-ChildItem (Join-Path $data 'crash-reports') -Filter '*.txt' -ErrorAction SilentlyContinue
     foreach ($c in $crashes) { $problems += "crash report: $($c.Name)"; $problems += (Get-Content $c.FullName -TotalCount 30) }
 
-    $latest = Join-Path $data 'logs\latest.log'
+    $latest = Join-Path $data 'logs/latest.log'
     if (Test-Path $latest) {
         $problems += Select-String -Path $latest -Pattern '\[[^\]]*/(ERROR|FATAL)\].*(ftbquests|FTB Quests|kubejs|KubeJS)' |
             ForEach-Object { "latest.log: $($_.Line)" }
     }
-    $kubejsLogs = Get-ChildItem (Join-Path $data 'logs\kubejs') -Filter '*.log' -ErrorAction SilentlyContinue
+    $kubejsLogs = Get-ChildItem (Join-Path $data 'logs/kubejs') -Filter '*.log' -ErrorAction SilentlyContinue
     foreach ($k in $kubejsLogs) {
         # Errors anywhere; warnings only when they point at the pack's own scripts (other mods' recipe warnings are theirs).
         $problems += Select-String -Path $k.FullName -CaseSensitive -Pattern '\[ERROR\]|with [1-9]\d* errors|with [1-9][\d,]* failed recipes|\[WARN\].*_scripts[/\\]' |

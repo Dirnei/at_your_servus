@@ -65,8 +65,8 @@ Commit after each task with a one-line message of at most 74 characters, no body
 ## 9. CI and publishing
 
 - [ ] 9.1 Write `.github/workflows/build.yml` per design D9 (pytest, build, no diff after quest regeneration, artifacts); verify with `act` or on the first GitHub push that the run is green
-- [ ] 9.2 Write `.github/workflows/publish.yml` per design D9 (tag equals version, `-Public` build, upload only when `CF_PROJECT_ID` and `CF_API_TOKEN` are set, token never echoed); verify the tag/version mismatch check by running its script step locally with a mismatched tag
-- [ ] 9.3 Document the release steps in `README.md` (switch Alchemy to CurseForge, create the CurseForge project, set variable and secret, tag); verify the steps match the workflows
+- [x] 9.2 Write `.github/workflows/publish.yml` per design D9 (tag equals version, `-Public` build, upload only when `CF_PROJECT_ID` and `CF_API_TOKEN` are set, token never echoed); verify the tag/version mismatch check by running its script step locally with a mismatched tag
+- [x] 9.3 Document the release steps in `README.md` (switch Alchemy to CurseForge, create the CurseForge project, set variable and secret, tag); verify the steps match the workflows
 
 ## 10. Integration
 
