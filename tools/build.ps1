@@ -28,6 +28,7 @@ try {
     $checkArgs = @('-m', 'tools.checks.pack_check')
     if ($Public) { $checkArgs += '--public' }
     Invoke-Step 'pack check' { & python @checkArgs }
+    Invoke-Step 'quest generator' { & python -m tools.questgen.generate }
     Invoke-Step 'packwiz refresh' { & packwiz refresh }
 
     New-Item -ItemType Directory -Force $dist | Out-Null
@@ -74,6 +75,8 @@ try {
         Write-Warning "$jar is not from CurseForge: $(Split-Path -Leaf $client) is a playtest pack, not for public upload"
     }
 
+    # The quest check needs the server pack's jars to know every item ID.
+    Invoke-Step 'quest check' { & python -m tools.checks.quest_check --mods (Join-Path $server 'mods') }
     Invoke-Step 'version check' { & python -m tools.checks.version_check --client-zip $client --server-mods (Join-Path $server 'mods') }
     Write-Host "Built $client and $serverZip"
 } finally {

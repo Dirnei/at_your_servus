@@ -53,7 +53,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 
 ## 7. Side chapters
 
-- [ ] 7.1 Write `quests/side/` chapters in their own group: Exploration and Dimensions, Occultism, Apotheosis and Mob Farms (Dark Utilities, Apothic Spawners, Hostile Neural Networks), Building and Decor (Sophisticated/Functional Storage may appear here); verify the quest check and the side-chapter test pass
+- [x] 7.1 Write `quests/side/` chapters in their own group: Exploration and Dimensions, Occultism, Apotheosis and Mob Farms (Dark Utilities, Apothic Spawners, Hostile Neural Networks), Building and Decor (Sophisticated/Functional Storage may appear here); verify the quest check and the side-chapter test pass
 
 ## 8. Progression gates
 

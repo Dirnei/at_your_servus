@@ -1,0 +1,60 @@
+[chapter]
+title = "Exploration and Dimensions"
+subtitle = "Side chapter: the world beyond the estate"
+icon = "minecraft:compass"
+
+[[quest]]
+slug = "compasses"
+title = "Two Compasses"
+description = """
+One finds biomes, one finds structures. Vinzenz kept both in his coat and still got lost."""
+x = 0.0
+y = 0.0
+deps = ["arrival:iron-pick"]
+tasks = [{ type = "item", item = "naturescompass:naturescompass" }, { type = "item", item = "explorerscompass:explorerscompass" }]
+rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 16 }]
+
+[[quest]]
+slug = "artifact"
+title = "Something Old and Odd"
+description = """
+Ruins and dungeons hide artifacts. Find a cloud in a bottle and jump twice."""
+x = 2.0
+y = -1.0
+deps = ["compasses"]
+optional = true
+tasks = [{ type = "item", item = "artifacts:cloud_in_a_bottle" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "twilight"
+title = "The Twilight Forest"
+description = """
+A pool ringed with flowers and a diamond thrown in. Find a magic map there, and the Lich in his tower."""
+x = 2.0
+y = 1.0
+deps = ["compasses"]
+tasks = [{ type = "item", item = "twilightforest:magic_map" }, { type = "item", item = "twilightforest:lich_trophy" }]
+rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
+
+[[quest]]
+slug = "undergarden"
+title = "The Undergarden"
+description = """
+Below the deepslate there is a garden that never saw the sun. The catalyst opens the way."""
+x = 4.0
+y = 1.0
+deps = ["compasses"]
+tasks = [{ type = "item", item = "undergarden:catalyst" }, { type = "item", item = "undergarden:cloggrum_helmet" }]
+rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "bumblezone"
+title = "The Bumblezone"
+description = """
+Throw an ender pearl into a bee nest. Yes, really. Bring back bee bread."""
+x = 4.0
+y = -1.0
+deps = ["compasses"]
+tasks = [{ type = "item", item = "the_bumblezone:bee_bread" }]
+rewards = [{ type = "item", item = "minecraft:honey_bottle", count = 8 }]

@@ -1,0 +1,84 @@
+[chapter]
+title = "Apotheosis and Mob Farms"
+subtitle = "Side chapter: loot, gems and farms"
+icon = "apotheosis:gem_cutting_table"
+
+[[quest]]
+slug = "enchanting"
+title = "A Better Enchanting Table"
+description = """
+Enchanting works differently here: bookshelves have stats. Build a table and see what your library is worth."""
+x = 0.0
+y = 0.0
+deps = ["arrival:iron-pick"]
+tasks = [{ type = "item", item = "minecraft:enchanting_table" }, { type = "item", item = "minecraft:bookshelf", count = 15 }]
+rewards = [{ type = "item", item = "minecraft:lapis_lazuli", count = 16 }]
+
+[[quest]]
+slug = "salvaging"
+title = "Salvage and Reforge"
+description = """
+Affixed loot can be taken apart for its materials, and reforged into better rolls."""
+x = 2.0
+y = -1.0
+deps = ["enchanting"]
+tasks = [{ type = "item", item = "apotheosis:salvaging_table" }, { type = "item", item = "apotheosis:simple_reforging_table" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "gems"
+title = "Gems and Sockets"
+description = """
+Gems drop from monsters and go into sockets. The gem cutting table makes them better."""
+x = 4.0
+y = -1.0
+deps = ["salvaging"]
+tasks = [{ type = "item", item = "apotheosis:gem_cutting_table" }, { type = "item", item = "apotheosis:sigil_of_socketing" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "vector-plates"
+title = "Moving Floors"
+description = """
+Vector plates move whatever stands on them. Monsters too."""
+x = 2.0
+y = 1.0
+deps = ["enchanting"]
+tasks = [{ type = "item", item = "darkutils:vector_plate", count = 16 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "damage-plate"
+title = "A Floor That Bites"
+description = """
+Damage plates finish the job, and the player-kill plate makes monsters drop what they would drop for you."""
+x = 4.0
+y = 1.0
+deps = ["vector-plates"]
+tasks = [{ type = "item", item = "darkutils:damage_plate", count = 4 }, { type = "item", item = "darkutils:damage_plate_player" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "spawner"
+title = "A Spawner That Listens"
+description = """
+Spawner runes change a spawner: ignore the light, ignore the players, no thinking at all. Put the drops on a duct into the warehouse."""
+x = 6.0
+y = 1.0
+deps = ["damage-plate"]
+tasks = [{ type = "item", item = "apotheosis:ignore_light_spawner_rune" }, { type = "item", item = "apotheosis:no_ai_spawner_rune" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "neural-networks"
+title = "Monsters on Paper"
+description = """
+Hostile Neural Networks learns a monster from fighting it, then prints its drops with power instead of blood. Feed it from the power station and send the output to the warehouse."""
+x = 8.0
+y = 1.0
+deps = ["spawner", "power-station:energy-cell"]
+tasks = [{ type = "item", item = "hostilenetworks:deep_learner" },
+         { type = "item", item = "hostilenetworks:blank_data_model" },
+         { type = "item", item = "hostilenetworks:sim_chamber" },
+         { type = "item", item = "hostilenetworks:loot_fabricator" }]
+rewards = [{ type = "xp", amount = 200 }]

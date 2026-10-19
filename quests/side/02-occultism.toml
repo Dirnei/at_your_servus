@@ -1,0 +1,71 @@
+[chapter]
+title = "Occultism"
+subtitle = "Side chapter: spirits of another kind"
+icon = "occultism:dictionary_of_spirits"
+
+[[quest]]
+slug = "dictionary"
+title = "A Dictionary of Spirits"
+description = """
+Vinzenz kept this book on the same shelf as the journal, upside down. "Paracelsus' spirits are elements," he wrote inside. "These are something else. Be polite.\""""
+x = 0.0
+y = 0.0
+deps = ["cellar:journal"]
+tasks = [{ type = "item", item = "occultism:dictionary_of_spirits" }]
+rewards = [{ type = "item", item = "minecraft:book", count = 4 }]
+
+[[quest]]
+slug = "datura"
+title = "Demon's Dream"
+description = """
+Grow datura and dream. The dreams show another world beneath this one."""
+x = 2.0
+y = 0.0
+deps = ["dictionary"]
+tasks = [{ type = "item", item = "occultism:datura" }, { type = "item", item = "occultism:demons_dream_essence" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "chalk-and-bowl"
+title = "Chalk and a Golden Bowl"
+description = """
+White chalk for the pentacle, golden sacrificial bowls for the offerings. Rituals want both."""
+x = 4.0
+y = 0.0
+deps = ["datura"]
+tasks = [{ type = "item", item = "occultism:chalk_white" }, { type = "item", item = "occultism:golden_sacrificial_bowl", count = 4 }]
+rewards = [{ type = "item", item = "minecraft:gold_ingot", count = 8 }]
+
+[[quest]]
+slug = "otherworld"
+title = "Eyes for the Otherworld"
+description = """
+Otherworld goggles let you see what the dream showed you."""
+x = 6.0
+y = -1.0
+deps = ["chalk-and-bowl"]
+tasks = [{ type = "item", item = "occultism:otherworld_goggles" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "foliot"
+title = "A Spirit That Works"
+description = """
+Bind a foliot into a book and give it a job. Spirits that carry things are handy next to the warehouse."""
+x = 6.0
+y = 1.0
+deps = ["chalk-and-bowl"]
+tasks = [{ type = "item", item = "occultism:book_of_binding_bound_foliot" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "familiar"
+title = "A Familiar"
+description = """
+A familiar follows you and helps in its own odd way."""
+x = 8.0
+y = 0.0
+deps = ["otherworld", "foliot"]
+optional = true
+tasks = [{ type = "item", item = "occultism:familiar_ring" }]
+rewards = [{ type = "xp", amount = 100 }]
