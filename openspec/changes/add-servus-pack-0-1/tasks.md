@@ -70,7 +70,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 
 ## 10. Integration
 
-- [ ] 10.1 Full build plus smoke check from a clean clone; verify both pass
+- [x] 10.1 Full build plus smoke check from a clean clone; verify both pass
 - [ ] 10.2 Manual: Dirnei imports `dist/Servus-0.1.0.zip` in the CurseForge app and joins the test server; verify no mod mismatch and the quest book arrives
 - [ ] 10.3 Manual: Dirnei reviews `docs/story.md` and the quest texts; verify feedback is folded in before the first public upload
 
