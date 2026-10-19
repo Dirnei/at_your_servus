@@ -1,9 +1,7 @@
 """Checks the packwiz mod list against the pack's rules (see openspec mod-selection and pack-build)."""
 import argparse
-import json
 import sys
 import tomllib
-import zipfile
 from pathlib import Path
 
 # CurseForge project IDs of mods that compete with a Servus mod or were left out on purpose.
@@ -35,7 +33,12 @@ CLIENT_ONLY_SLUGS = [
     "better-advancements", "enchantment-descriptions",
 ]
 
-EXAMPLE_EXPORT = "Servus-0.1.0.zip"
+# The CurseForge project IDs of the hand-made Servus-0.1.0.zip export the pack was seeded from.
+EXAMPLE_PROJECT_IDS = frozenset({
+    238222, 245755, 250832, 276951, 287342, 314906, 324717, 351725, 352039, 359540, 361276,
+    363569, 378646, 386134, 400933, 404465, 404468, 422301, 453925, 495476, 502372, 531761,
+    556861, 618298, 619320, 629153, 686435, 1119394, 1475746, 1689768, 1746893, 1747973,
+})
 
 
 def load_metafiles(mods_dir: Path) -> dict[str, dict]:
@@ -45,14 +48,6 @@ def load_metafiles(mods_dir: Path) -> dict[str, dict]:
 
 def project_id(meta: dict) -> int | None:
     return meta.get("update", {}).get("curseforge", {}).get("project-id")
-
-
-def example_project_ids(root: Path) -> set[int]:
-    zip_path = root / EXAMPLE_EXPORT
-    if not zip_path.exists():
-        return set()
-    with zipfile.ZipFile(zip_path) as z:
-        return {f["projectID"] for f in json.load(z.open("manifest.json"))["files"]}
 
 
 def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = frozenset()) -> list[str]:
@@ -68,7 +63,7 @@ def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = 
         if slug not in metas:
             errors.append(f"required mod {slug} is missing")
     for pid in sorted(example_ids - ids.keys()):
-        errors.append(f"mod from {EXAMPLE_EXPORT} is missing (CurseForge project {pid})")
+        errors.append(f"mod from Servus-0.1.0.zip is missing (CurseForge project {pid})")
     for slug in CLIENT_ONLY_SLUGS:
         if slug in metas and metas[slug].get("side") != "client":
             errors.append(f"{slug} must be side = \"client\", is {metas[slug].get('side')!r}")
@@ -90,7 +85,7 @@ def main(argv=None) -> int:
             if project_id(meta) is None:
                 print(meta["filename"])
         return 0
-    errors =check(load_metafiles(args.root / "mods"), args.public, example_project_ids(args.root))
+    errors = check(load_metafiles(args.root / "mods"), args.public, EXAMPLE_PROJECT_IDS)
     for e in errors:
         print(f"pack check: {e}", file=sys.stderr)
     return 1 if errors else 0

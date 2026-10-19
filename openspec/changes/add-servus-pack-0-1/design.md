@@ -82,7 +82,7 @@ server/                        Docker test server
 docs/mods.md, gates.md, story.md
 .github/workflows/
 ```
-`.packwizignore` excludes `docs/`, `quests/`, `tools/`, `tests/`, `server/`, `openspec/`, `.github/`, `dist/`, `build/` and `Servus-0.1.0.zip` from the pack index. `.gitignore` excludes `dist/`, `build/`, `server/data/`, `server/.env`.
+`.packwizignore` excludes `docs/`, `quests/`, `tools/`, `tests/`, `server/`, `openspec/`, `.github/`, `dist/`, `build/` from the pack index. `.gitignore` excludes `dist/`, `build/`, `server/data/`, `server/.env`.
 
 ## Risks / Trade-offs
 
@@ -96,7 +96,7 @@ docs/mods.md, gates.md, story.md
 
 ## Migration Plan
 
-1. Create the repo and seed it from `Servus-0.1.0.zip`; the zip stays in the repo as the historical reference but is ignored by packwiz.
+1. Create the repo and seed it from `Servus-0.1.0.zip`. The zip was later removed from the repo and its history; `pack_check.py` keeps its 32 project IDs.
 2. Playtest builds go to Dirnei's test server and friends via the client zip.
 3. When Alchemy appears on CurseForge: replace the URL metafile, run `tools/build.ps1 -Public`, create the CurseForge project, set `CF_PROJECT_ID`/`CF_API_TOKEN`, push tag `v0.1.0`.
 Rollback for a bad release: CurseForge files can be archived; the previous tag rebuilds the previous pack.
