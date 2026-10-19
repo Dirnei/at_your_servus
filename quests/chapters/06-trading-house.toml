@@ -1,0 +1,228 @@
+[chapter]
+title = "The Trading House"
+subtitle = "Lechner & Compagnie lives again"
+icon = "servus_shuttles:warehouse_controller"
+
+[[quest]]
+slug = "trading-letter"
+title = "Lechner & Compagnie"
+subtitle = "To be opened when the station runs"
+description = """
+Servus, heir,
+
+with power in the house, the warehouse can grow up. Our ancestors had factors in Augsburg and Venice and a counting house that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["old-works:terminal", "power-station:furnator"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }]
+
+[[quest]]
+slug = "inbound"
+title = "Goods In"
+description = """
+An Inbound Station takes what you drop in and gives it to the shuttles to put away. No more emptying your pockets by hand."""
+x = 2.0
+y = -1.0
+deps = ["trading-letter"]
+tasks = [{ type = "item", item = "servus_shuttles:inbound_station" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "zones"
+title = "A Place for Everything"
+description = """
+Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old factors called it."""
+x = 4.0
+y = -1.0
+deps = ["inbound"]
+tasks = [{ type = "item", item = "servus_shuttles:zone_label", count = 4 }]
+rewards = [{ type = "item", item = "servus_shuttles:zone_label", count = 4 }]
+
+[[quest]]
+slug = "outbound"
+title = "Goods Out"
+description = """
+An Outbound Station hands goods out to a machine or a chest, ready for the next step."""
+x = 2.0
+y = 1.0
+deps = ["trading-letter"]
+tasks = [{ type = "item", item = "servus_shuttles:outbound_station" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "data-cable"
+title = "The Data Cable"
+description = """
+Only storage touches the rails. Everything else talks over the data cable, and the controller sits on both."""
+x = 4.0
+y = 1.0
+deps = ["outbound"]
+tasks = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
+rewards = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
+
+[[quest]]
+slug = "crafting-station"
+title = "A Station That Crafts"
+description = """
+The Crafting Station does the crafting table's job, only without you."""
+x = 6.0
+y = 1.0
+deps = ["data-cable"]
+tasks = [{ type = "item", item = "servus_shuttles:crafting_station" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "cpu"
+title = "The Crafting CPU"
+description = """
+The Crafting CPU owns the orders. You ask for 64 of something; it works out the steps and sends the work out. Patterns go into Pattern Storage."""
+x = 8.0
+y = 1.0
+deps = ["crafting-station"]
+tasks = [{ type = "item", item = "servus_shuttles:crafting_cpu" },
+         { type = "item", item = "servus_shuttles:pattern_storage" }]
+rewards = [{ type = "item", item = "servus_shuttles:crafting_cpu_buffer" }]
+
+[[quest]]
+slug = "packing"
+title = "Packed and Ready"
+description = """
+The Packing Station gathers what an order needs and packs it for the machine that does the work."""
+x = 10.0
+y = 0.0
+deps = ["cpu"]
+tasks = [{ type = "item", item = "servus_shuttles:packing_station" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "production-terminal"
+title = "The Order Book"
+description = """
+The Production Terminal is where you place orders and watch them run."""
+x = 10.0
+y = 2.0
+deps = ["cpu"]
+tasks = [{ type = "item", item = "servus_shuttles:production_terminal" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "alchemy-order"
+title = "An Order to the Cellar"
+subtitle = "The warehouse orders from the alchemist"
+description = """
+Servus, heir,
+
+this is the thing I dreamed of: the counting house orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.
+
+Tick this off when your first order came back from the cellar.
+
+Your Vinzenz"""
+x = 12.0
+y = 1.0
+shape = "gear"
+size = 1.5
+deps = ["packing", "production-terminal", "cellar:albedo"]
+tasks = [{ type = "item", item = "servus_shuttles:crafting_cpu" },
+         { type = "item", item = "servus_foundation:machine_adapter" },
+         { type = "checkmark" }]
+rewards = [{ type = "item", item = "servus_alchemy:sealed_flask", count = 4 }]
+
+[[quest]]
+slug = "workshop"
+title = "The Shuttle Workshop"
+description = """
+In the workshop you build better shuttles by hand. The Mk2 is faster and carries more."""
+x = 6.0
+y = -3.0
+deps = ["zones"]
+tasks = [{ type = "item", item = "servus_shuttles:shuttle_workshop" },
+         { type = "item", item = "servus_shuttles:shuttle_mk2" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "mk3"
+title = "The Mk3"
+description = """
+The Mk3 with speed and handling upgrades. If it were a horse it would win in Meran."""
+x = 8.0
+y = -3.0
+deps = ["workshop"]
+tasks = [{ type = "item", item = "servus_shuttles:shuttle_mk3" },
+         { type = "item", item = "servus_foundation:speed_upgrade" },
+         { type = "item", item = "servus_shuttles:handling_upgrade" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "fields"
+title = "Shuttles in the Field"
+description = """
+Lay Farm Rails along the fields. A shuttle with a Field Head and a Harvester brings in the crops; one with a Spreader sows them again. One tool per shuttle."""
+x = 10.0
+y = -3.0
+deps = ["mk3"]
+tasks = [{ type = "item", item = "servus_shuttles:farm_rail", count = 16 },
+         { type = "item", item = "servus_shuttles:field_head" },
+         { type = "item", item = "servus_shuttles:harvester" },
+         { type = "item", item = "servus_shuttles:spreader" }]
+rewards = [{ type = "item", item = "minecraft:bone_block", count = 8 }]
+
+[[quest]]
+slug = "range"
+title = "Wider Fields"
+description = """
+A Range Upgrade lets a Field Head reach further."""
+x = 10.0
+y = -5.0
+deps = ["fields"]
+optional = true
+tasks = [{ type = "item", item = "servus_shuttles:range_upgrade" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "fast-cable"
+title = "Faster Lines"
+description = """
+Fast and duplex data cables carry more orders at once, for when the counting house gets busy."""
+x = 12.0
+y = 3.0
+deps = ["alchemy-order"]
+optional = true
+tasks = [{ type = "item", item = "servus_foundation:fast_data_cable", count = 8 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "wireless"
+title = "Outposts"
+description = """
+Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost when the shuttles need it. The trading house now has branches, as it did in 1530."""
+x = 12.0
+y = -3.0
+deps = ["fields"]
+tasks = [{ type = "item", item = "servus_shuttles:wireless_upgrade", count = 2 },
+         { type = "item", item = "servus_foundation:anchor_upgrade" }]
+rewards = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]
+
+[[quest]]
+slug = "open-for-business"
+title = "Open for Business"
+subtitle = "Lechner & Compagnie, since 1521"
+description = """
+Servus, heir,
+
+racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a great deal.
+
+Now nothing waits on a man. Everything waits on an order.
+
+Your Vinzenz"""
+x = 14.0
+y = -1.0
+shape = "gear"
+size = 1.75
+deps = ["alchemy-order", "wireless"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:emerald_block", count = 4 }]
