@@ -35,6 +35,17 @@ A playtest build carries mods that are not on CurseForge (for now Servus: Alchem
 
 If a mod's author blocks third-party downloads, the server pack build stops and names the mod and its download page.
 
+## Local server
+
+For quick testing on this machine, `docker-compose.yml` in the repo root runs a server straight from the working tree, with no build. An nginx container serves the repo, and the server installs the pack with packwiz on every start.
+
+```powershell
+docker compose up -d
+docker compose logs -f mc              # wait for "Done", then connect to localhost:25567
+```
+
+After changing mods or configs: `packwiz refresh`, then `docker compose restart mc`. The world lives in `server/local-data`; delete it for a fresh world. Set `LOCAL_PORT`, `MEMORY` or `OPS` in the environment or a root `.env` to change them.
+
 ## Test server
 
 The test server runs the latest built server pack in Docker (`itzg/minecraft-server:java25`). The world lives in `server/data` and survives restarts.

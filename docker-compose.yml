@@ -1,0 +1,34 @@
+# Local test server, straight from this working tree: no build needed.
+# The pack container serves the repo over HTTP, the server installs it with packwiz on every start.
+# Start: docker compose up -d     Logs: docker compose logs -f mc     Stop: docker compose down
+# After changing mods or configs: packwiz refresh, then docker compose restart mc
+# The world lives in server/local-data; delete that folder for a fresh world.
+services:
+  pack:
+    image: nginx:1.27-alpine
+    container_name: servus-local-pack
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+  mc:
+    image: itzg/minecraft-server:java25
+    container_name: servus-local
+    depends_on:
+      - pack
+    ports:
+      - "${LOCAL_PORT:-25567}:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: NEOFORGE
+      VERSION: "26.1.2"
+      NEOFORGE_VERSION: "26.1.2.122"
+      PACKWIZ_URL: http://pack/pack.toml
+      MEMORY: "${MEMORY:-6G}"
+      MOTD: "Servus (local)"
+      DIFFICULTY: normal
+      ONLINE_MODE: "TRUE"
+      OPS: "${OPS:-}"
+      TZ: Europe/Vienna
+    volumes:
+      - ./server/local-data:/data
+    tty: true
+    stdin_open: true

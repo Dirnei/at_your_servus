@@ -1,3 +1,4 @@
+/art/
 /docs/
 /quests/
 /tools/
@@ -14,3 +15,5 @@
 __pycache__/
 .pytest_cache/
 /pyproject.toml
+/docker-compose.yml
+/.env
