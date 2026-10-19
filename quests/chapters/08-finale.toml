@@ -1,0 +1,144 @@
+[chapter]
+title = "Finale: Beyond the Stone"
+subtitle = "What Vinzenz went looking for"
+icon = "avaritia:infinity_catalyst"
+
+[[quest]]
+slug = "beyond-letter"
+title = "Beyond the Stone"
+subtitle = "To be opened after the red fire"
+description = """
+Servus, heir,
+
+the Stone makes everything that is. I wanted to make what is not yet.
+
+There is a matter heavier than lead and older than the mountain. I found a way to gather it, grain by grain, out of nothing. Build the great table first; nine by nine, because the work no longer fits in three.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["cellar:rubedo", "trading-house:open-for-business", "power-station:nitro"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:netherite_ingot", count = 2 }]
+
+[[quest]]
+slug = "extreme-table"
+title = "The Great Table"
+description = """
+The Extreme Crafting Table. My hands shook the first time I filled it."""
+x = 2.0
+y = 0.0
+deps = ["beyond-letter"]
+tasks = [{ type = "item", item = "avaritia:extreme_crafting_table" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "neutron-collector"
+title = "Out of Nothing"
+description = """
+The Neutron Collector gathers neutron dust from the air, very slowly. Leave it running. The warehouse can wait for it; you need not."""
+x = 4.0
+y = 0.0
+deps = ["extreme-table"]
+tasks = [{ type = "item", item = "avaritia:neutron_collector" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "neutronium"
+title = "Neutronium"
+description = """
+Piles to nuggets, nuggets to an ingot. Heavier than anything I ever held. The letters get shorter from here; I was busy."""
+x = 6.0
+y = 0.0
+deps = ["neutron-collector"]
+tasks = [{ type = "item", item = "avaritia:neutron_ingot", count = 4 }]
+rewards = [{ type = "item", item = "avaritia:neutron_pile", count = 16 }]
+
+[[quest]]
+slug = "crystal-matrix"
+title = "Crystal Matrix"
+description = """
+Diamonds and nether stars, woven. Hard work. Worth it."""
+x = 6.0
+y = -2.0
+deps = ["extreme-table"]
+tasks = [{ type = "item", item = "avaritia:crystal_matrix_ingot", count = 4 }]
+rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "compressor"
+title = "Singularities"
+description = """
+The Neutron Compressor squeezes a mountain of one thing into a point. Order the metals from the warehouse; the shuttles do not complain."""
+x = 8.0
+y = 0.0
+deps = ["neutronium"]
+tasks = [{ type = "item", item = "avaritia:neutron_compressor" },
+         { type = "item", item = "avaritia:singularity", count = 4 }]
+rewards = [{ type = "xp", amount = 200 }]
+
+[[quest]]
+slug = "catalyst"
+title = "The Infinity Catalyst"
+description = """
+Everything I had, in one thing: the red fire's dead head, quicksilver, the undying flame, the counting house's mind and the brightest crystal of the power station.
+
+It is here my notes stop being notes."""
+x = 10.0
+y = 0.0
+shape = "hexagon"
+size = 1.5
+deps = ["compressor", "crystal-matrix"]
+tasks = [{ type = "item", item = "avaritia:infinity_catalyst" }]
+rewards = [{ type = "xp", amount = 300 }]
+
+[[quest]]
+slug = "infinity-ingot"
+title = "Infinity"
+description = """
+I made one ingot. Then I heard the knocking."""
+x = 12.0
+y = 0.0
+deps = ["catalyst"]
+tasks = [{ type = "item", item = "avaritia:infinity_ingot" }]
+rewards = [{ type = "xp", amount = 300 }]
+
+[[quest]]
+slug = "infinity-armor"
+title = "Armour Beyond the Stone"
+description = """
+The plans for the armour are the last page of the workbook. The rest is blank."""
+x = 14.0
+y = 0.0
+deps = ["infinity-ingot"]
+tasks = [{ type = "item", item = "avaritia:infinity_helmet" },
+         { type = "item", item = "avaritia:infinity_pants" },
+         { type = "item", item = "avaritia:infinity_boots" }]
+rewards = [{ type = "xp", amount = 500 }]
+
+[[quest]]
+slug = "last-letter"
+title = "Servus"
+subtitle = "Found where the dust trickles from one block"
+description = """
+Servus, young one,
+
+if you read this, you have made what I could only draw. Good. I knew the house would be in better hands.
+
+I did not die. I went below, after the knocking. The old one was waiting, the same one who waited for Paracelsus. There is work here that no Stone does: the veins must be tended, and the mountain must be listened to. I am slow now and very happy.
+
+Do not come looking. Leave a pinch of salt in the deepslate now and then, and listen. If it knocks twice, that is me.
+
+The trading house is yours. Keep the books straight.
+
+Servus,
+Your Vinzenz"""
+x = 16.0
+y = 0.0
+shape = "gear"
+size = 2.0
+deps = ["infinity-armor"]
+tasks = [{ type = "item", item = "avaritia:infinity_chestplate" }]
+rewards = [{ type = "item", item = "servus_alchemy:salt_offering", count = 4 }]
