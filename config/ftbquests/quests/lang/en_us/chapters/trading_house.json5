@@ -4,26 +4,26 @@
 	],
 	"quest.002D274F79E0F1A7.title": "The Crafting CPU",
 	"quest.027B3F69BB9C4EE0.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a great deal.",
+		"racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a lot.",
 		"",
 		"Now nothing waits on a man. Everything waits on an order.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
-	"quest.027B3F69BB9C4EE0.quest_subtitle": "Lechner & Compagnie, since 1521",
+	"quest.027B3F69BB9C4EE0.quest_subtitle": "Huber & Co., since 1521",
 	"quest.027B3F69BB9C4EE0.title": "Open for Business",
 	"quest.0346EE683D2E3D5B.quest_desc": [
 		"The Production Terminal is where you place orders and watch them run."
 	],
 	"quest.0346EE683D2E3D5B.title": "The Order Book",
 	"quest.0D81246D3E24A6F2.quest_desc": [
-		"Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old factors called it."
+		"Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old traders called it."
 	],
 	"quest.0D81246D3E24A6F2.title": "A Place for Everything",
 	"quest.0DE6C555E6857962.quest_desc": [
-		"Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost when the shuttles need it. The trading house now has branches, as it did in 1530."
+		"Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost up when the shuttles need it. The company has branches again, like it did in 1530."
 	],
 	"quest.0DE6C555E6857962.title": "Outposts",
 	"quest.118E97534B2C15B0.quest_desc": [
@@ -47,20 +47,20 @@
 	],
 	"quest.2CFAA1B93AE63A3B.title": "A Station That Crafts",
 	"quest.3A961E71BE94081E.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"with power in the house, the warehouse can grow up. Our ancestors had factors in Augsburg and Venice and a counting house that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.",
+		"with real power on the farm, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.3A961E71BE94081E.quest_subtitle": "To be opened when the station runs",
-	"quest.3A961E71BE94081E.title": "Lechner & Compagnie",
+	"quest.3A961E71BE94081E.title": "Huber & Co.",
 	"quest.417B1F295DEFA19E.quest_desc": [
-		"The Mk3 with speed and handling upgrades. If it were a horse it would win in Meran."
+		"The Mk3 with speed and handling upgrades. If it were a horse, it would win every race in the valley."
 	],
 	"quest.417B1F295DEFA19E.title": "The Mk3",
 	"quest.45EE84C114D74E1A.quest_desc": [
-		"Fast and duplex data cables carry more orders at once, for when the counting house gets busy."
+		"Fast and duplex data cables carry more orders at once, for when business gets busy."
 	],
 	"quest.45EE84C114D74E1A.title": "Faster Lines",
 	"quest.52284641AD471883.quest_desc": [
@@ -68,13 +68,13 @@
 	],
 	"quest.52284641AD471883.title": "The Data Cable",
 	"quest.5ACB69B7A0BCDD39.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"this is the thing I dreamed of: the counting house orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.",
+		"this is what I dreamed of: the warehouse orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.",
 		"",
-		"Tick this off when your first order came back from the cellar.",
+		"Tick this off when your first order has come back from the cellar.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.5ACB69B7A0BCDD39.quest_subtitle": "The warehouse orders from the alchemist",
 	"quest.5ACB69B7A0BCDD39.title": "An Order to the Cellar",

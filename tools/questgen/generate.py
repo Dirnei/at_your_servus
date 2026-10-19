@@ -8,7 +8,7 @@ from pathlib import Path
 
 from tools.questgen.model import Chapter, Quest, QuestSourceError, load_sources, stable_id
 
-GROUPS = {"main": ("The Lechnerhof", "minecraft:oak_door"), "side": ("Side Chapters", "minecraft:compass")}
+GROUPS = {"main": ("The Huber Farm", "minecraft:oak_door"), "side": ("Side Chapters", "minecraft:compass")}
 
 DATA = {
     "version": 13,

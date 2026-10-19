@@ -1,20 +1,20 @@
 [chapter]
 title = "Into the Nether"
-subtitle = "Beyond the burning gate"
+subtitle = "Behind the burning gate"
 icon = "justdirethings:blazegold_ingot"
 
 [[quest]]
 slug = "nether-letter"
-title = "Beyond the Burning Gate"
+title = "Behind the Burning Gate"
 subtitle = "To be opened before the Nether"
 description = """
-Servus, heir,
+Servus, kid,
 
-the fire you need lives beyond the burning gate. The journal says so, and so do my burns.
+the fire you need lives behind the burning gate, in the Nether. The journal says so, and so do my burns.
 
-Do not go in iron. Down in the old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are pinned to the barrel. Go armoured, go fed, and come back.
+Do not go in iron. Down in an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Go armoured, go fed, and come back.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -27,7 +27,7 @@ rewards = [{ type = "item", item = "minecraft:golden_carrot", count = 8 }]
 slug = "goo"
 title = "Primal Goo"
 description = """
-Note on the barrel: "Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."""
+From my notes: "Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."""
 x = 2.0
 y = 0.0
 deps = ["nether-letter"]
@@ -38,7 +38,7 @@ rewards = [{ type = "item", item = "minecraft:iron_block", count = 2 }]
 slug = "ferricore"
 title = "Ferricore"
 description = """
-What the goo leaves behind smelts into ferricore: iron that has learned something."""
+What the goo leaves behind smelts into ferricore: iron that has learned a few tricks."""
 x = 4.0
 y = 0.0
 deps = ["goo"]
@@ -47,9 +47,9 @@ rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "ferricore-gear"
-title = "Armour That Learned Something"
+title = "Armour with Tricks"
 description = """
-Ferricore armour and tools. Put upgrades in them; the goo taught them tricks."""
+Ferricore armour and tools. Put upgrades in them; that is what the tricks are for."""
 x = 6.0
 y = -1.0
 deps = ["ferricore"]
@@ -73,7 +73,7 @@ rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }]
 slug = "blaze"
 title = "Blaze Rods"
 description = """
-The blazes guard the fortresses. Their rods feed the power station's orb and the yellow fire in the cellar alike."""
+Blazes guard the Nether fortresses. Their rods feed the power station's orb and the yellow fire in the cellar."""
 x = 8.0
 y = 1.0
 deps = ["portal"]
@@ -84,7 +84,7 @@ rewards = [{ type = "item", item = "minecraft:blaze_powder", count = 8 }]
 slug = "goo-2"
 title = "Hungrier Goo"
 description = """
-Note on the second barrel: "Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."""
+From my notes: "Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."""
 x = 8.0
 y = -1.0
 deps = ["ferricore-gear", "blaze"]
@@ -128,14 +128,14 @@ rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "salamander"
-title = "The Fire-Spirit"
+title = "The Fire Spirit"
 subtitle = "Journal: The Wandering Years"
 description = """
-Servus, heir,
+Servus, kid,
 
-the journal speaks of a salamander, a spirit of fire that lives beyond the gate. With the yellow fire burning in the cellar you can bind one to a forge. I did. It sulks, but it works.
+the journal talks about a salamander, a fire spirit that lives in the Nether. With the yellow fire burning in the cellar you can bind one to a forge. I did. It sulks, but it works.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 12.0
 y = 1.0
 shape = "gear"

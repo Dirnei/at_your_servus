@@ -1,13 +1,13 @@
 [chapter]
 title = "Building and Decor"
-subtitle = "Side chapter: make the estate yours"
+subtitle = "Side chapter: make the farm yours"
 icon = "wands:iron_wand"
 
 [[quest]]
 slug = "wand"
 title = "A Building Wand"
 description = """
-Rows of blocks with one click. Vinzenz would have rebuilt the barn twice with one of these."""
+Rows of blocks with one click. Uncle Vinzenz would have built the house twice with one of these."""
 x = 0.0
 y = 0.0
 deps = ["arrival:settled"]

@@ -1,18 +1,18 @@
 [chapter]
 title = "The Trading House"
-subtitle = "Lechner & Compagnie lives again"
+subtitle = "Huber & Co. lives again"
 icon = "servus_shuttles:warehouse_controller"
 
 [[quest]]
 slug = "trading-letter"
-title = "Lechner & Compagnie"
+title = "Huber & Co."
 subtitle = "To be opened when the station runs"
 description = """
-Servus, heir,
+Servus, kid,
 
-with power in the house, the warehouse can grow up. Our ancestors had factors in Augsburg and Venice and a counting house that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.
+with real power on the farm, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -36,7 +36,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "zones"
 title = "A Place for Everything"
 description = """
-Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old factors called it."""
+Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old traders called it."""
 x = 4.0
 y = -1.0
 deps = ["inbound"]
@@ -115,13 +115,13 @@ slug = "alchemy-order"
 title = "An Order to the Cellar"
 subtitle = "The warehouse orders from the alchemist"
 description = """
-Servus, heir,
+Servus, kid,
 
-this is the thing I dreamed of: the counting house orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.
+this is what I dreamed of: the warehouse orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.
 
-Tick this off when your first order came back from the cellar.
+Tick this off when your first order has come back from the cellar.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 12.0
 y = 1.0
 shape = "gear"
@@ -148,7 +148,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "mk3"
 title = "The Mk3"
 description = """
-The Mk3 with speed and handling upgrades. If it were a horse it would win in Meran."""
+The Mk3 with speed and handling upgrades. If it were a horse, it would win every race in the valley."""
 x = 8.0
 y = -3.0
 deps = ["workshop"]
@@ -187,7 +187,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "fast-cable"
 title = "Faster Lines"
 description = """
-Fast and duplex data cables carry more orders at once, for when the counting house gets busy."""
+Fast and duplex data cables carry more orders at once, for when business gets busy."""
 x = 12.0
 y = 3.0
 deps = ["alchemy-order"]
@@ -199,7 +199,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "wireless"
 title = "Outposts"
 description = """
-Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost when the shuttles need it. The trading house now has branches, as it did in 1530."""
+Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost up when the shuttles need it. The company has branches again, like it did in 1530."""
 x = 12.0
 y = -3.0
 deps = ["fields"]
@@ -210,15 +210,15 @@ rewards = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]
 [[quest]]
 slug = "open-for-business"
 title = "Open for Business"
-subtitle = "Lechner & Compagnie, since 1521"
+subtitle = "Huber & Co., since 1521"
 description = """
-Servus, heir,
+Servus, kid,
 
-racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a great deal.
+racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a lot.
 
 Now nothing waits on a man. Everything waits on an order.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 14.0
 y = -1.0
 shape = "gear"

@@ -1,20 +1,20 @@
 [chapter]
-title = "The Uncle's Workshop"
+title = "Uncle Vinzenz's Workshop"
 subtitle = "Jetpacks, and the spirit that rises"
 icon = "ironjetpacks:thruster"
 
 [[quest]]
 slug = "workshop-letter"
-title = "The Locked Workshop"
+title = "My Best Idea"
 subtitle = "To be opened when the station runs"
 description = """
-Servus, heir,
+Servus, kid,
 
-the key on the blue ribbon opens my workshop above the barn. Inside is the only thing I ever invented that I am proud of: a jetpack.
+my workshop is under the mountain now, with everything in it. But I remember the only thing I ever built that I am proud of: a jetpack.
 
-The mountain is full of shafts and I was too old for ladders. The first ones run on power from the station. The good ones need quicksilver, the spirit that rises. You will see why.
+The mountain is full of shafts, and I was too old for ladders. The first jetpacks run on power from the station. The good ones need quicksilver, the spirit that rises. You will see why.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -72,7 +72,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "diamond-jetpack"
 title = "A Diamond Jetpack"
 description = """
-From here on, each jetpack needs quicksilver from the cellar. Mercury is the spirit that rises as vapour. Paracelsus knew it; my thrusters learned it."""
+From here on, every jetpack needs quicksilver from the cellar. Quicksilver is mercury, and mercury rises as vapour. Paracelsus knew it; my thrusters learned it."""
 x = 8.0
 y = 0.0
 deps = ["gold-jetpack", "cellar:albedo"]
@@ -83,7 +83,7 @@ rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
 slug = "emerald-jetpack"
 title = "An Emerald Jetpack"
 description = """
-Emeralds and quicksilver. I flew to the top of the Kellerjoch with this one and nearly did not come down."""
+Emeralds and quicksilver. I flew to the top of the Watzmann with this one and nearly did not come down."""
 x = 10.0
 y = 0.0
 deps = ["diamond-jetpack"]
@@ -95,11 +95,11 @@ slug = "netherite-jetpack"
 title = "The Netherite Jetpack"
 subtitle = "My best work"
 description = """
-Servus, heir,
+Servus, kid,
 
-netherite from the Prelum, quicksilver and the undying flame. This is the one I used to search the deep shafts for the knocking. It is the best thing I ever built, apart from the trading house, and that was not my idea.
+netherite from the Prelum, quicksilver and the undying flame. This is the one I used to search the deep shafts for the knocking. It is the best thing I ever built, apart from the trading company, and that was not my idea.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 12.0
 y = 0.0
 shape = "gear"

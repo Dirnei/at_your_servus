@@ -1,17 +1,17 @@
 {
 	"quest.03C51FF98930E412.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. In the drawer under the workbench you will find my plans for a proper power station.",
+		"a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. Here are my plans for a proper power station.",
 		"",
 		"It works with crystals, because the old way is too slow. Do not ask me how the crystals work. I only know that they do.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.03C51FF98930E412.quest_subtitle": "To be opened when the coal runs low",
 	"quest.03C51FF98930E412.title": "Plans for a Power Station",
 	"quest.04F7FFC89A9F1568.quest_desc": [
-		"Up here the sun shines more than people think. A solar panel on the barn roof pays for itself."
+		"Up here the sun shines more than people think. A solar panel on the roof pays for itself."
 	],
 	"quest.04F7FFC89A9F1568.title": "Power from the Sky",
 	"quest.0D4F7480EF07FEE4.quest_desc": [
@@ -19,11 +19,11 @@
 	],
 	"quest.0D4F7480EF07FEE4.title": "Spirited Crystals",
 	"quest.10EA0AD4F14C8455.quest_desc": [
-		"An energy cell stores what the generators make at night for the morning."
+		"An energy cell stores power for later, so the night shift has something to run on."
 	],
 	"quest.10EA0AD4F14C8455.title": "Keep It for Later",
 	"quest.20C10398C80B7AC1.quest_desc": [
-		"The Furnator burns fuel like my old generator, only far better. Connect it to the duct's power line and the warehouse takes it as it comes."
+		"The Furnator burns fuel like the Coal Generator, only much better. Connect it to the duct's power line and the warehouse takes the power as it comes."
 	],
 	"quest.20C10398C80B7AC1.title": "A Better Fire",
 	"quest.234A33DE8B99D80B.quest_desc": [
@@ -47,11 +47,11 @@
 	],
 	"quest.37EC81C2FB9FE7DE.title": "Hardened Parts",
 	"quest.43A4B9260903A45A.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"nitro crystals. I only ever made one, and it took me a winter. If you have made a stack, the station is finished and the house has power for a hundred years.",
+		"nitro crystals. I only ever made one, and it took me a whole winter. If you have made a stack, the station is finished and the farm has power for a hundred years.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.43A4B9260903A45A.quest_subtitle": "The station is finished",
 	"quest.43A4B9260903A45A.title": "Nitro Crystals",

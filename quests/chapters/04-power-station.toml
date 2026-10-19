@@ -1,6 +1,6 @@
 [chapter]
 title = "The Power Station"
-subtitle = "Coal is not enough for a trading house"
+subtitle = "Coal is not enough for a trading company"
 icon = "powah:energizing_orb"
 
 [[quest]]
@@ -8,13 +8,13 @@ slug = "power-letter"
 title = "Plans for a Power Station"
 subtitle = "To be opened when the coal runs low"
 description = """
-Servus, heir,
+Servus, kid,
 
-a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. In the drawer under the workbench you will find my plans for a proper power station.
+a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. Here are my plans for a proper power station.
 
 It works with crystals, because the old way is too slow. Do not ask me how the crystals work. I only know that they do.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -61,7 +61,7 @@ rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
 slug = "furnator"
 title = "A Better Fire"
 description = """
-The Furnator burns fuel like my old generator, only far better. Connect it to the duct's power line and the warehouse takes it as it comes."""
+The Furnator burns fuel like the Coal Generator, only much better. Connect it to the duct's power line and the warehouse takes the power as it comes."""
 x = 8.0
 y = -1.0
 deps = ["energized-steel"]
@@ -72,7 +72,7 @@ rewards = [{ type = "item", item = "minecraft:coal_block", count = 8 }]
 slug = "solar"
 title = "Power from the Sky"
 description = """
-Up here the sun shines more than people think. A solar panel on the barn roof pays for itself."""
+Up here the sun shines more than people think. A solar panel on the roof pays for itself."""
 x = 8.0
 y = 1.0
 deps = ["energized-steel"]
@@ -83,7 +83,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "energy-cell"
 title = "Keep It for Later"
 description = """
-An energy cell stores what the generators make at night for the morning."""
+An energy cell stores power for later, so the night shift has something to run on."""
 x = 10.0
 y = 0.0
 deps = ["furnator"]
@@ -162,11 +162,11 @@ slug = "nitro"
 title = "Nitro Crystals"
 subtitle = "The station is finished"
 description = """
-Servus, heir,
+Servus, kid,
 
-nitro crystals. I only ever made one, and it took me a winter. If you have made a stack, the station is finished and the house has power for a hundred years.
+nitro crystals. I only ever made one, and it took me a whole winter. If you have made a stack, the station is finished and the farm has power for a hundred years.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 22.0
 y = 0.0
 shape = "gear"

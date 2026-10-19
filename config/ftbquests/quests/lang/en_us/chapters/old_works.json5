@@ -1,12 +1,12 @@
 {
 	"quest.084BE4B17F0BFFA2.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"our family were merchants long before they were miners. Lechner & Compagnie, since 1521: silver from Schwaz to Augsburg and Venice. A merchant without a warehouse is just a peddler.",
+		"our family were traders long before they were miners. Huber & Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.",
 		"",
-		"I wanted to bring the house back. I got as far as a few racks in the barn and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
+		"I wanted to bring the company back. I got as far as a few racks and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.084BE4B17F0BFFA2.quest_subtitle": "To be opened when the generator runs",
 	"quest.084BE4B17F0BFFA2.title": "A Merchant Needs a Warehouse",
@@ -15,28 +15,28 @@
 	],
 	"quest.154635F0928623AD.title": "Steam Again",
 	"quest.18708C304981DDFE.quest_desc": [
-		"Racks hold the goods. They are made to be reached by shuttles, not by you, so set them up along a rail."
+		"Racks hold the goods. They are made for shuttles, not for you, so set them up along a rail."
 	],
 	"quest.18708C304981DDFE.title": "Heavy Duty Racks",
 	"quest.2324986AABA9970B.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"you found it. The water wheel, the old steam engine, the pipes that go everywhere and nowhere. I ran a mine's worth of machines in here once.",
+		"my old works had a water wheel, a steam engine and pipes that went everywhere and nowhere. All gone now. Good riddance to the pipes.",
 		"",
-		"Pipes were always a mess, so I made one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.",
+		"Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.2324986AABA9970B.quest_subtitle": "To be opened in the works",
-	"quest.2324986AABA9970B.title": "The Works Behind the Barn",
+	"quest.2324986AABA9970B.title": "New Works",
 	"quest.3E5B006F03318290.quest_desc": [
 		"Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.",
 		"",
-		"The item line moves things from one inventory to the next: the chest in the barn feeds the furnace in the kitchen."
+		"The item line moves things from one inventory to the next, for example from a chest into a furnace."
 	],
 	"quest.3E5B006F03318290.title": "One Duct for Everything",
 	"quest.3FF7D0BE4543F4E1.quest_desc": [
-		"A fluid line, a tank and a pump. The old pump in the cellar burns coal; it will do until you have power."
+		"A fluid line, a tank and a pump. The burner pump runs on coal; it will do until you have power."
 	],
 	"quest.3FF7D0BE4543F4E1.title": "Water Where You Want It",
 	"quest.4941E54A4860A80E.quest_desc": [
@@ -44,13 +44,13 @@
 	],
 	"quest.4941E54A4860A80E.title": "Power Down the Line",
 	"quest.4D2D65E84AB641D8.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
 		"a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.",
 		"",
-		"Now the cellar. I have put it off long enough, in this letter and in my life.",
+		"Now dig yourself a cellar. Not too deep. Learn from me.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.4D2D65E84AB641D8.quest_subtitle": "A warehouse, at last",
 	"quest.4D2D65E84AB641D8.title": "One Window on Everything",
@@ -59,7 +59,7 @@
 	],
 	"quest.51D79D2B4943A1CA.title": "The Warehouse Controller",
 	"quest.5A51345A9C7C6577.quest_desc": [
-		"With these on you see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, had there been one."
+		"With these on you can see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, if there had been one."
 	],
 	"quest.5A51345A9C7C6577.title": "Engineer's Goggles",
 	"quest.5E37EF613BC3E342.quest_desc": [
@@ -67,11 +67,11 @@
 	],
 	"quest.5E37EF613BC3E342.title": "The First Shuttle",
 	"quest.5E6E81C69A6317D5.quest_desc": [
-		"A rail elevator takes the shuttle to the next floor. The barn is tall; use it."
+		"A rail elevator takes the shuttle to the next floor. Build your warehouse tall; it saves walking."
 	],
 	"quest.5E6E81C69A6317D5.title": "Up and Down",
 	"quest.7507D34BE1F7361B.quest_desc": [
-		"It turns blocks, it sets sides, it takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."
+		"It turns blocks, sets sides and takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."
 	],
 	"quest.7507D34BE1F7361B.title": "The Configuration Carrot",
 	"quest.7877B6D667A90B62.quest_desc": [

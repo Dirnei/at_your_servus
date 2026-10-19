@@ -1,20 +1,20 @@
 [chapter]
-title = "The Old Works"
+title = "The Works"
 subtitle = "Ducts, steam and a first warehouse"
 icon = "servus_foundation:item_pipe"
 
 [[quest]]
 slug = "works-letter"
-title = "The Works Behind the Barn"
+title = "New Works"
 subtitle = "To be opened in the works"
 description = """
-Servus, heir,
+Servus, kid,
 
-you found it. The water wheel, the old steam engine, the pipes that go everywhere and nowhere. I ran a mine's worth of machines in here once.
+my old works had a water wheel, a steam engine and pipes that went everywhere and nowhere. All gone now. Good riddance to the pipes.
 
-Pipes were always a mess, so I made one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.
+Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -27,7 +27,7 @@ rewards = [{ type = "item", item = "minecraft:copper_ingot", count = 16 }]
 slug = "carrot"
 title = "The Configuration Carrot"
 description = """
-It turns blocks, it sets sides, it takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."""
+It turns blocks, sets sides and takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."""
 x = 2.0
 y = 0.0
 deps = ["works-letter"]
@@ -38,7 +38,7 @@ rewards = [{ type = "xp", amount = 20 }]
 slug = "goggles"
 title = "Engineer's Goggles"
 description = """
-With these on you see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, had there been one."""
+With these on you can see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, if there had been one."""
 x = 2.0
 y = -2.0
 deps = ["carrot"]
@@ -52,7 +52,7 @@ title = "One Duct for Everything"
 description = """
 Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.
 
-The item line moves things from one inventory to the next: the chest in the barn feeds the furnace in the kitchen."""
+The item line moves things from one inventory to the next, for example from a chest into a furnace."""
 x = 4.0
 y = 0.0
 deps = ["carrot"]
@@ -63,7 +63,7 @@ rewards = [{ type = "item", item = "minecraft:chest", count = 2 }]
 slug = "fluid-line"
 title = "Water Where You Want It"
 description = """
-A fluid line, a tank and a pump. The old pump in the cellar burns coal; it will do until you have power."""
+A fluid line, a tank and a pump. The burner pump runs on coal; it will do until you have power."""
 x = 6.0
 y = -1.0
 deps = ["duct"]
@@ -100,13 +100,13 @@ slug = "warehouse-letter"
 title = "A Merchant Needs a Warehouse"
 subtitle = "To be opened when the generator runs"
 description = """
-Servus, heir,
+Servus, kid,
 
-our family were merchants long before they were miners. Lechner & Compagnie, since 1521: silver from Schwaz to Augsburg and Venice. A merchant without a warehouse is just a peddler.
+our family were traders long before they were miners. Huber & Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.
 
-I wanted to bring the house back. I got as far as a few racks in the barn and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.
+I wanted to bring the company back. I got as far as a few racks and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 4.0
 y = 4.0
 shape = "gear"
@@ -119,7 +119,7 @@ rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
 slug = "racks"
 title = "Heavy Duty Racks"
 description = """
-Racks hold the goods. They are made to be reached by shuttles, not by you, so set them up along a rail."""
+Racks hold the goods. They are made for shuttles, not for you, so set them up along a rail."""
 x = 6.0
 y = 4.0
 deps = ["warehouse-letter"]
@@ -153,7 +153,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "elevator"
 title = "Up and Down"
 description = """
-A rail elevator takes the shuttle to the next floor. The barn is tall; use it."""
+A rail elevator takes the shuttle to the next floor. Build your warehouse tall; it saves walking."""
 x = 10.0
 y = 6.0
 deps = ["shuttle"]
@@ -177,13 +177,13 @@ slug = "terminal"
 title = "One Window on Everything"
 subtitle = "A warehouse, at last"
 description = """
-Servus, heir,
+Servus, kid,
 
 a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.
 
-Now the cellar. I have put it off long enough, in this letter and in my life.
+Now dig yourself a cellar. Not too deep. Learn from me.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 14.0
 y = 4.0
 shape = "gear"

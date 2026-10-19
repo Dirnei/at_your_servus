@@ -1,51 +1,51 @@
 {
 	"quest.234321D361F799B8.quest_desc": [
-		"From my workbook, 2019:",
+		"From my notebook, 2019:",
 		"",
-		"\"Red. The Work ends in red. The Prelum presses the dead head into netherite, and the Athanor burns like a sunset.",
+		"\"Red. The work ends in red. The Prelum presses the Caput Mortuum, the dead head, into netherite, and the Athanor burns like a sunset.",
 		"",
 		"The red fire burns. And now I want more.\"",
 		"",
-		"The journal's chapter Basel and Salzburg is your guide for this stage."
+		"The last fire is Rubedo, the red one. The journal's chapter Basel and Salzburg is your guide for this stage."
 	],
 	"quest.234321D361F799B8.quest_subtitle": "Journal: Basel and Salzburg",
 	"quest.234321D361F799B8.title": "Rubedo: The Red Fire",
 	"quest.3DD39C0BF6683C46.quest_desc": [
-		"The Athanor is the heart of the Great Work. Alone it burns black: the fire of Nigredo."
+		"The Athanor is the heart of alchemy. Alchemists call the whole road the Great Work: four fires, from black to red. Alone, the Athanor burns black. That is the first fire, Nigredo."
 	],
 	"quest.3DD39C0BF6683C46.title": "The Athanor",
 	"quest.4A8C8321E65C4EFD.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"I owe you a confession. For forty years I have been an alchemist. Not the kind that cheats princes; the kind that reads.",
+		"I owe you a confession. For forty years I was an alchemist. Not the kind that cheats kings out of their gold; the kind that reads.",
 		"",
-		"The book on the shelf is Theophrastus von Hohenheim's journal, Paracelsus to you. Family lore says he stayed with the Lechners in Schwaz in 1533 and forgot it when he left. I never believed that he forgot anything.",
+		"The family had a book: the journal of Paracelsus, the famous doctor and alchemist. The story goes that he stayed with the Hubers on his way to Salzburg and forgot it when he left. I never believed he forgot anything.",
 		"",
-		"The journal is the real guide down here. I only mark the milestones. Read it, and do what it says.",
+		"My copy went down with the cellar. Make yourself a new one. The journal is your real guide down here; I only mark the milestones.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
-	"quest.4A8C8321E65C4EFD.quest_subtitle": "To be opened in the cellar",
-	"quest.4A8C8321E65C4EFD.title": "The Book in the Cellar",
+	"quest.4A8C8321E65C4EFD.quest_subtitle": "To be opened in your new cellar",
+	"quest.4A8C8321E65C4EFD.title": "The Journal",
 	"quest.60799F0F0C1365B5.quest_desc": [
-		"From my workbook, 2003:",
+		"From my notebook, 2003:",
 		"",
-		"\"The dose makes the poison. He wrote it, and I learned it the hard way, with a dropper and a burned sleeve. The yellow fire makes nobler seeds. And there is a fire-spirit beyond the burning gate.\"",
+		"\"The dose makes the poison. He wrote it, and I learned it the hard way, with a dropper and a burned sleeve. The yellow fire grows better seeds. And there is a fire spirit behind the burning gate.\"",
 		"",
-		"The journal's chapter on the wandering years is your guide for this stage."
+		"The third fire is Citrinitas, the yellow one. The journal's chapter on the wandering years is your guide for this stage."
 	],
 	"quest.60799F0F0C1365B5.quest_subtitle": "Journal: The Wandering Years",
 	"quest.60799F0F0C1365B5.title": "Citrinitas: The Yellow Fire",
 	"quest.69983347EA0BC160.quest_desc": [
-		"A trading house trades. Take your first salt crystals to the warehouse and let a shuttle put them away. The first goods of the new Lechner & Compagnie."
+		"A trading company trades. Take your first salt crystals to the warehouse and let a shuttle put them away. Salt again, like in 1521: the first goods of the new Huber & Co."
 	],
 	"quest.69983347EA0BC160.title": "Salt in the Racks",
 	"quest.70FBE2C8BA49454A.quest_desc": [
-		"From my workbook, 1991:",
+		"From my notebook, 1991:",
 		"",
-		"\"Schwaz. The mines, the miners' sickness, and the little people in the rock. The elixir opened my eyes, and there they were. The gnomes grow the veins; we only dig them out.\"",
+		"\"Forty years in the salt mine, and I never saw them. The elixir opened my eyes, and there they were: the little people in the rock. The gnomes grow the veins; we only dig them out.\"",
 		"",
-		"The journal's chapter Schwaz is your guide for this stage."
+		"The second fire is Albedo, the white one. The journal's chapter Schwaz is your guide for this stage."
 	],
 	"quest.70FBE2C8BA49454A.quest_subtitle": "Journal: Schwaz",
 	"quest.70FBE2C8BA49454A.title": "Albedo: The White Fire",
@@ -54,16 +54,16 @@
 	],
 	"quest.7C2A969C37F1A51A.title": "A Seed of Metal",
 	"quest.7C723D9D51CEADF2.quest_desc": [
-		"From my workbook, 1984:",
+		"From my notebook, 1984:",
 		"",
-		"\"Salt, Sulfur, Mercury. Everything comes apart into the three, if the fire is patient. I have the black fire now. Your great-grandmother would have called the priest.\"",
+		"\"Salt, Sulfur, Mercury. Everything comes apart into these three, if the fire is patient. I have the black fire now. Your great-grandmother would have called the priest.\"",
 		"",
 		"The journal's chapter Villach is your guide for this stage."
 	],
 	"quest.7C723D9D51CEADF2.quest_subtitle": "Journal: Villach",
 	"quest.7C723D9D51CEADF2.title": "Nigredo: The Black Fire",
 	"quest.7F5D364CF23DDAA8.quest_desc": [
-		"The journal starts in Villach, with his father, metals and a fire. Build the Calciner as it says: firebox below, ash pan, the Calciner on top. It takes almost anything apart."
+		"The journal starts in Villach, with his father, metals and a fire. Build the Calciner the way it says: firebox at the bottom, then the ash pan, then the Calciner on top. It breaks almost anything down."
 	],
 	"quest.7F5D364CF23DDAA8.title": "A Furnace That Breaks Things Down"
 }

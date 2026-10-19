@@ -1,20 +1,20 @@
 [chapter]
-title = "Finale: Beyond the Stone"
+title = "Finale: Beyond Alchemy"
 subtitle = "What Vinzenz went looking for"
 icon = "avaritia:infinity_catalyst"
 
 [[quest]]
 slug = "beyond-letter"
-title = "Beyond the Stone"
+title = "Beyond Alchemy"
 subtitle = "To be opened after the red fire"
 description = """
-Servus, heir,
+Servus, kid,
 
-the Stone makes everything that is. I wanted to make what is not yet.
+alchemy can make everything that exists. I wanted to make something that does not exist yet.
 
-There is a matter heavier than lead and older than the mountain. I found a way to gather it, grain by grain, out of nothing. Build the great table first; nine by nine, because the work no longer fits in three.
+There is a matter heavier than lead and older than the mountain. I found a way to gather it, grain by grain, out of nothing. Build the big table first: nine by nine, because the work no longer fits in three.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -25,7 +25,7 @@ rewards = [{ type = "item", item = "minecraft:netherite_ingot", count = 2 }]
 
 [[quest]]
 slug = "extreme-table"
-title = "The Great Table"
+title = "The Big Table"
 description = """
 The Extreme Crafting Table. My hands shook the first time I filled it."""
 x = 2.0
@@ -38,7 +38,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "neutron-collector"
 title = "Out of Nothing"
 description = """
-The Neutron Collector gathers neutron dust from the air, very slowly. Leave it running. The warehouse can wait for it; you need not."""
+The Neutron Collector gathers neutron dust out of thin air, very slowly. Leave it running. The warehouse can wait for it; you do not have to."""
 x = 4.0
 y = 0.0
 deps = ["extreme-table"]
@@ -83,9 +83,9 @@ rewards = [{ type = "xp", amount = 200 }]
 slug = "catalyst"
 title = "The Infinity Catalyst"
 description = """
-Everything I had, in one thing: the red fire's dead head, quicksilver, the undying flame, the counting house's mind and the brightest crystal of the power station.
+Everything I had, in one thing: Caput Mortuum from the red fire, quicksilver, the undying flame, the Crafting CPU of the warehouse and the brightest crystal of the power station.
 
-It is here my notes stop being notes."""
+This is where my notes stop making sense."""
 x = 10.0
 y = 0.0
 shape = "hexagon"
@@ -107,9 +107,9 @@ rewards = [{ type = "xp", amount = 300 }]
 
 [[quest]]
 slug = "infinity-armor"
-title = "Armour Beyond the Stone"
+title = "Armour Beyond Alchemy"
 description = """
-The plans for the armour are the last page of the workbook. The rest is blank."""
+The plans for the armour are the last page of my notebook. The rest is blank."""
 x = 14.0
 y = 0.0
 deps = ["infinity-ingot"]
@@ -123,18 +123,18 @@ slug = "last-letter"
 title = "Servus"
 subtitle = "Found where the dust trickles from one block"
 description = """
-Servus, young one,
+Servus, kid,
 
-if you read this, you have made what I could only draw. Good. I knew the house would be in better hands.
+if you are reading this, you have made what I could only draw. Good. I knew the farm would be in better hands.
 
-I did not die. I went below, after the knocking. The old one was waiting, the same one who waited for Paracelsus. There is work here that no Stone does: the veins must be tended, and the mountain must be listened to. I am slow now and very happy.
+I did not die. I went down after the knocking, and the mountain closed behind me. Sorry about the house. The old one was waiting, the same one who once waited for Paracelsus. There is work down here that no alchemy does: the veins need looking after, and someone has to listen to the mountain. I am slow now, and very happy.
 
 Do not come looking. Leave a pinch of salt in the deepslate now and then, and listen. If it knocks twice, that is me.
 
-The trading house is yours. Keep the books straight.
+The trading company is yours. Keep the books straight.
 
 Servus,
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 16.0
 y = 0.0
 shape = "gear"

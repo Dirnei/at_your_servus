@@ -8,7 +8,7 @@
 	],
 	"quest.0950ABF989872683.title": "Blazegold",
 	"quest.1F20A0D4E7AEDB3A.quest_desc": [
-		"The blazes guard the fortresses. Their rods feed the power station's orb and the yellow fire in the cellar alike."
+		"Blazes guard the Nether fortresses. Their rods feed the power station's orb and the yellow fire in the cellar."
 	],
 	"quest.1F20A0D4E7AEDB3A.title": "Blaze Rods",
 	"quest.412F1A7E34921AF9.quest_desc": [
@@ -20,39 +20,39 @@
 	],
 	"quest.4D70AA36144CB43C.title": "The Gate",
 	"quest.57C7FD54FBD0265B.quest_desc": [
-		"Ferricore armour and tools. Put upgrades in them; the goo taught them tricks."
+		"Ferricore armour and tools. Put upgrades in them; that is what the tricks are for."
 	],
-	"quest.57C7FD54FBD0265B.title": "Armour That Learned Something",
+	"quest.57C7FD54FBD0265B.title": "Armour with Tricks",
 	"quest.59A48D2CFD9C8738.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"the journal speaks of a salamander, a spirit of fire that lives beyond the gate. With the yellow fire burning in the cellar you can bind one to a forge. I did. It sulks, but it works.",
+		"the journal talks about a salamander, a fire spirit that lives in the Nether. With the yellow fire burning in the cellar you can bind one to a forge. I did. It sulks, but it works.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.59A48D2CFD9C8738.quest_subtitle": "Journal: The Wandering Years",
-	"quest.59A48D2CFD9C8738.title": "The Fire-Spirit",
+	"quest.59A48D2CFD9C8738.title": "The Fire Spirit",
 	"quest.6737F16866B90111.quest_desc": [
-		"Note on the second barrel: \"Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."
+		"From my notes: \"Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."
 	],
 	"quest.6737F16866B90111.title": "Hungrier Goo",
 	"quest.6EBD0ECB585A81CD.quest_desc": [
-		"Note on the barrel: \"Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."
+		"From my notes: \"Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."
 	],
 	"quest.6EBD0ECB585A81CD.title": "Primal Goo",
 	"quest.6FB8337E4C884831.quest_desc": [
-		"Servus, heir,",
+		"Servus, kid,",
 		"",
-		"the fire you need lives beyond the burning gate. The journal says so, and so do my burns.",
+		"the fire you need lives behind the burning gate, in the Nether. The journal says so, and so do my burns.",
 		"",
-		"Do not go in iron. Down in the old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are pinned to the barrel. Go armoured, go fed, and come back.",
+		"Do not go in iron. Down in an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Go armoured, go fed, and come back.",
 		"",
-		"Your Vinzenz"
+		"Uncle Vinzenz"
 	],
 	"quest.6FB8337E4C884831.quest_subtitle": "To be opened before the Nether",
-	"quest.6FB8337E4C884831.title": "Beyond the Burning Gate",
+	"quest.6FB8337E4C884831.title": "Behind the Burning Gate",
 	"quest.76A6CCC8C9A258F0.quest_desc": [
-		"What the goo leaves behind smelts into ferricore: iron that has learned something."
+		"What the goo leaves behind smelts into ferricore: iron that has learned a few tricks."
 	],
 	"quest.76A6CCC8C9A258F0.title": "Ferricore"
 }

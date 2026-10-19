@@ -1,22 +1,22 @@
 [chapter]
 title = "Prologue: Arrival"
-subtitle = "A cold house above Schwaz"
+subtitle = "A meadow above Berchtesgaden"
 icon = "minecraft:oak_door"
 
 [[quest]]
 slug = "first-letter"
 title = "A Letter from the Notary"
-subtitle = "Servus, heir"
+subtitle = "Servus, kid"
 description = """
-Servus, heir,
+Servus, kid,
 
-if the notary has done his job, you are standing in front of the Lechnerhof with this letter in your hand and a key that sticks. Lift the door a little, then it turns.
+if the notary has done his job, you are standing on my land with this letter in your hand, looking for a house. Stop looking. There is none any more. The house went down into the mountain, with the workshop and the cellar. I dug too deep. Sorry about that.
 
-The house is yours now, and so is everything in it. I am away. Do not ask the notary where; he does not know, and he is not the kind of man who guesses.
+The land is yours now. I am away. Do not ask the notary where; he does not know, and he is not the kind of man who guesses.
 
-The house is cold and the larder is empty. Start with a fire and something to eat. The rest will come, one letter at a time.
+So: a roof, a fire and something to eat. The rest will come, one letter at a time.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
@@ -28,7 +28,7 @@ rewards = [{ type = "item", item = "minecraft:bread", count = 8 }]
 slug = "workbench"
 title = "Something to Work On"
 description = """
-Every house needs a bench. Mine is in the works, under a tarpaulin and forty years of dust. Make yourself a new one; it is quicker than finding the old one."""
+Every house starts with a workbench. Mine is somewhere under the mountain now, so make yourself a new one."""
 x = 2.0
 y = 0.0
 deps = ["first-letter"]
@@ -39,7 +39,7 @@ rewards = [{ type = "item", item = "minecraft:torch", count = 16 }]
 slug = "bench-on-a-stick"
 title = "A Bench to Go"
 description = """
-When I walked the hills I carried a bench on a stick. People laughed. Then they borrowed it."""
+When I walked the mountains I carried a workbench on a stick. People laughed. Then they borrowed it."""
 x = 2.0
 y = -2.0
 deps = ["workbench"]
@@ -50,7 +50,7 @@ rewards = [{ type = "xp", amount = 20 }]
 slug = "fire"
 title = "A Fire in the Stove"
 description = """
-The stove in the kitchen still draws. Build a furnace, then a better one; iron burns hotter than stone, and copper is cheap up here."""
+Build a furnace, then a better one. A copper furnace is cheap up here and works faster than stone."""
 x = 4.0
 y = 0.0
 deps = ["workbench"]
@@ -61,7 +61,7 @@ rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
 slug = "food"
 title = "Something to Eat"
 description = """
-Bake bread. A Tyrolean who works on an empty stomach works badly and complains well."""
+Bake bread. A Bavarian who works on an empty stomach works badly and complains well."""
 x = 4.0
 y = 2.0
 deps = ["workbench"]
@@ -72,7 +72,7 @@ rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 8 }]
 slug = "iron-pick"
 title = "Iron from the Hill"
 description = """
-The hill behind the house is full of holes. Some of them are mine, most of them are older than the house. Bring back iron and make yourself a pickaxe that does not break on the first good stone."""
+The mountain is full of old holes. Some of them are mine, most of them are much older. Bring back iron and make yourself a pickaxe that does not break on the first good stone."""
 x = 6.0
 y = 0.0
 deps = ["fire"]
@@ -95,7 +95,7 @@ rewards = [{ type = "item", item = "minecraft:leather", count = 4 }]
 slug = "waystone"
 title = "The Way Home"
 description = """
-The hills are big and my legs were never young enough for them. A warp stone brings you back to the waystones you have found."""
+The mountains are big and my legs were never young enough for them. A warp stone takes you back to any waystone you have found."""
 x = 6.0
 y = -2.0
 deps = ["iron-pick"]
@@ -106,7 +106,7 @@ rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 2 }]
 slug = "bed"
 title = "A Place to Sleep"
 description = """
-My bed is too short for anyone who is not me. Make your own, or a hammock if you like to sleep through the day."""
+My bed went down with the house, and it was too short for anyone but me anyway. Make your own, or a hammock if you like to sleep through the day."""
 x = 6.0
 y = 2.0
 deps = ["food"]
@@ -118,13 +118,13 @@ slug = "settled"
 title = "Settled In"
 subtitle = "On to the works"
 description = """
-Servus, heir,
+Servus, kid,
 
 a fire, a bed, bread and iron. Now you live here.
 
-Go and look at the works behind the barn. Mind the water wheel; it bites.
+Next you need a place for machines. I had one, with a water wheel that bit. Build a better one.
 
-Your Vinzenz"""
+Uncle Vinzenz"""
 x = 8.0
 y = 0.0
 shape = "gear"

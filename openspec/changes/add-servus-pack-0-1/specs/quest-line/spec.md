@@ -7,7 +7,7 @@ Defines the pack's guided FTB Quests line: a story told in the great-uncle's let
 ## ADDED Requirements
 
 ### Requirement: Story frame
-The quest line SHALL tell the story of a player who inherits a run-down estate in Tyrol from a great-uncle. Story texts are the uncle's letters and notes and each letter opens with "Servus, ...". A mystery about the uncle's fate runs through the chapters and is resolved in the finale.
+The quest line SHALL tell the story of a player who inherits a great-uncle's land in the Bavarian mountains above Berchtesgaden, where the house has sunk into the mountain and the player builds everything again. Story texts are the uncle's letters and notes in plain English, and each letter opens with "Servus, ...". A mystery about the uncle's fate runs through the chapters and is resolved in the finale.
 
 #### Scenario: First letter
 - **WHEN** a player opens the quest book for the first time
