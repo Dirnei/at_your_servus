@@ -1,8 +1,10 @@
 # Builds the Servus pack into dist/: the CurseForge client zip and the server pack.
 #   .\tools\build.ps1           playtest build (mods from GitHub ride along in the client zip)
 #   .\tools\build.ps1 -Public   public build, fails if any mod is not from CurseForge
+#   -Version 0.1.0-alpha        version for the zips and the manifest (default dev); pack.toml keeps "dev",
+#                               the release tag is the only place the version is written
 # Needs packwiz, Java and Python on PATH. Runs on Windows PowerShell 5.1 and PowerShell 7.
-param([switch]$Public)
+param([switch]$Public, [string]$Version = 'dev')
 $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $PSScriptRoot
@@ -20,10 +22,13 @@ function Invoke-Step([string]$what, [scriptblock]$block) {
 }
 
 Push-Location $root
+$packToml = [IO.File]::ReadAllText((Join-Path $root 'pack.toml'))
 try {
-    $version = (Select-String -Path 'pack.toml' -Pattern '^version = "(.+)"').Matches[0].Groups[1].Value
-    $client = Join-Path $dist "Servus-$version.zip"
-    $serverZip = Join-Path $dist "Servus-$version-server.zip"
+    # The version only exists for this build; pack.toml is restored in finally.
+    $version = $Version
+    [IO.File]::WriteAllText((Join-Path $root 'pack.toml'), ($packToml -replace '(?m)^version = ".*"$', "version = `"$version`""))
+    $client = Join-Path $dist "at-your-servus-$version.zip"
+    $serverZip = Join-Path $dist "at-your-servus-$version-server.zip"
 
     $checkArgs = @('-m', 'tools.checks.pack_check')
     if ($Public) { $checkArgs += '--public' }
@@ -70,7 +75,7 @@ try {
     if (-not (Test-Path (Join-Path $server 'config/ftbquests/quests/data.json5'))) { throw 'server pack: the quest book is missing (check .packwizignore)' }
     Copy-Item (Join-Path $root 'tools/server-pack/start.sh'), (Join-Path $root 'tools/server-pack/start.ps1') $server
     Invoke-Step 'server zip' { & python -m tools.ziptool dir $server $serverZip --exclude packwiz.json --exclude packwiz-installer.jar }
-    Copy-Item $serverZip (Join-Path $dist 'Servus-latest-server.zip') -Force
+    Copy-Item $serverZip (Join-Path $dist 'at-your-servus-latest-server.zip') -Force
 
     # Mods that are not on CurseForge cannot be in the manifest; packwiz export puts them in overrides/mods.
     foreach ($jar in (& python -m tools.checks.pack_check --list-url-mods)) {
@@ -83,5 +88,6 @@ try {
     Invoke-Step 'version check' { & python -m tools.checks.version_check --client-zip $client --server-mods (Join-Path $server 'mods') }
     Write-Host "Built $client and $serverZip"
 } finally {
+    [IO.File]::WriteAllText((Join-Path $root 'pack.toml'), $packToml)
     Pop-Location
 }

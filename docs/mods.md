@@ -9,7 +9,7 @@ Side: `both` runs on client and server, `client` is left out of the server pack.
 | Metafile | Mod | Side | Role |
 |---|---|---|---|
 | `servus-foundation` | Servus: Foundation | both | Utility Duct, tanks, pumps, Coal Generator, tools: early logistics and early power |
-| `servus-alchemy` | Servus: Alchemy | both | Resource generation and the Great Work; from the GitHub release until CurseForge lists it |
+| `servus-alchemy` | Servus: Alchemy | both | Resource generation and the Great Work |
 | `servus-shuttles` | Servus: Shuttles | both | Warehouse, storage, autocrafting, field work, outposts; the quest backbone |
 | `modonomicon` | Modonomicon | both | Paracelsus' Journal for Alchemy |
 

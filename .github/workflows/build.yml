@@ -44,5 +44,5 @@ jobs:
         with:
           name: servus-pack
           path: |
-            dist/Servus-*.zip
-            !dist/Servus-latest-server.zip
+            dist/at-your-servus-*.zip
+            !dist/at-your-servus-latest-server.zip

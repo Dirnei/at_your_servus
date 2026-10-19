@@ -9,7 +9,7 @@ $serverDir = Join-Path $root 'server'
 $data = Join-Path $serverDir 'smoke-data'
 $compose = @('compose', '-p', 'servus-smoke', '-f', 'docker-compose.yml', '-f', 'docker-compose.smoke.yml')
 
-if (-not (Test-Path (Join-Path $root 'dist/Servus-latest-server.zip'))) { throw 'No server pack, run tools/build.ps1 first' }
+if (-not (Test-Path (Join-Path $root 'dist/at-your-servus-latest-server.zip'))) { throw 'No server pack, run tools/build.ps1 first' }
 
 function Invoke-Docker([string[]]$arguments) {
     $ErrorActionPreference = 'Continue'

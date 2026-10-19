@@ -11,7 +11,7 @@ The repository SHALL provide one build command that produces both the client pac
 
 #### Scenario: Build from a clean checkout
 - **WHEN** the build command runs on a clean checkout with the required tools installed
-- **THEN** `dist/` contains `Servus-<version>.zip` and `Servus-<version>-server.zip`
+- **THEN** `dist/` contains `at-your-servus-<version>.zip` and `at-your-servus-<version>-server.zip`
 
 ### Requirement: Client pack format
 The client pack SHALL be a CurseForge modpack zip: `manifest.json` (manifestType `minecraftModpack`, manifestVersion 1, name `Servus`, author `Dirnei`, Minecraft 26.1.2, primary loader `neoforge-26.1.2.122`), `modlist.html` and an `overrides/` folder.

@@ -23,7 +23,7 @@ services:
       NEOFORGE_VERSION: "26.1.2.122"
       PACKWIZ_URL: http://pack/pack.toml
       MEMORY: "${MEMORY:-6G}"
-      MOTD: "Servus (local)"
+      MOTD: "At Your Servus (local)"
       DIFFICULTY: normal
       ONLINE_MODE: "TRUE"
       OPS: "${OPS:-}"

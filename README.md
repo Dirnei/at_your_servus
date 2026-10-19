@@ -6,7 +6,7 @@ A story-driven kitchen sink modpack for Minecraft 26.1.2 on NeoForge, built arou
 
 ## Play
 
-Install it from CurseForge, or build it and import `dist/Servus-<version>.zip` in the CurseForge app (Create Custom Profile, Import). Give the game at least 6 GB of RAM.
+Install it from CurseForge, or build it and import `dist/at-your-servus-<version>.zip` in the CurseForge app (Create Custom Profile, Import). Give the game at least 6 GB of RAM.
 
 ## Build
 

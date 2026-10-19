@@ -802,7 +802,7 @@ metafile = true
 
 [[files]]
 file = "mods/servus-alchemy.pw.toml"
-hash = "759f3e8f810c7353bf22115621049401fb4b340492584a52194507661b0a7f9c"
+hash = "84265d36170bec64e68264c565a33fb8633bc6d0b54957e9f85123b10810de2d"
 metafile = true
 
 [[files]]

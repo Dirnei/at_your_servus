@@ -31,5 +31,5 @@ python -m tools.checks.script_check
 ## Gotchas
 
 - Line endings are LF (`.gitattributes`). Write files from Python with `write_bytes` or `newline=""`, or the packwiz index hashes differ in a fresh clone.
-- `servus-alchemy` is a URL metafile (GitHub release) until Alchemy is listed on CurseForge; `build.ps1 -Public` refuses to build until it is switched.
+- Every mod must come from CurseForge: `build.ps1 -Public` (and so every release) refuses mods from other URLs.
 - The client zip's profile image is added after `packwiz cf export` by `python -m tools.ziptool image`; packwiz does not write it.

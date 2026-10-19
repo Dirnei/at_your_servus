@@ -1,12 +1,12 @@
 name = "At Your Servus"
 author = "Dirnei"
-version = "0.1.0"
+version = "dev"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "05351c9210ac7619e9f57a618f8062ac0821db9ae1c348325181fc28c362f4ee"
+hash = "6a2bbceb96a90b468ca84e2a48a93c6b0156156913bf124ff3e63a0c728ec7ac"
 
 [versions]
 minecraft = "26.1.2"

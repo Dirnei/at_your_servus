@@ -1,4 +1,4 @@
-# Test server for the Servus pack. Run tools/build.ps1 first: it writes dist/Servus-latest-server.zip.
+# Test server for the Servus pack. Run tools/build.ps1 first: it writes dist/at-your-servus-latest-server.zip.
 # Start: docker compose up -d     Logs: docker compose logs -f     Stop: docker compose down
 services:
   mc:
@@ -12,9 +12,9 @@ services:
       VERSION: "26.1.2"
       NEOFORGE_VERSION: "26.1.2.122"
       # The built server pack; a new build is applied on the next start.
-      GENERIC_PACK: /packs/Servus-latest-server.zip
+      GENERIC_PACK: /packs/at-your-servus-latest-server.zip
       MEMORY: "${MEMORY:-6G}"
-      MOTD: "Servus"
+      MOTD: "At Your Servus"
       DIFFICULTY: normal
       ONLINE_MODE: "TRUE"
       # Comma separated player names, set them in .env

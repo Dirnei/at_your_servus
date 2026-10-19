@@ -26,16 +26,12 @@ jobs:
           go install github.com/packwiz/packwiz@latest
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
-      - name: Tag matches the pack version
-        run: |
-          version=$(python -c "import tomllib; print(tomllib.load(open('pack.toml','rb'))['version'])")
-          if [ "$GITHUB_REF_NAME" != "v$version" ]; then
-            echo "Tag $GITHUB_REF_NAME does not match pack version $version"; exit 1
-          fi
+      - name: Version from the tag
+        run: echo "PACK_VERSION=$(python -m tools.publish --tag "$GITHUB_REF_NAME" --check)" >> "$GITHUB_ENV"
 
       - name: Public build
         shell: pwsh
-        run: ./tools/build.ps1 -Public
+        run: ./tools/build.ps1 -Public -Version $env:PACK_VERSION
 
       - name: Upload to CurseForge
         env:
