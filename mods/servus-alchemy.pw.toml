@@ -1,0 +1,8 @@
+name = "Servus: Alchemy"
+filename = "servus_alchemy-0.1.0-alpha.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Dirnei/servus_mc_mods/releases/download/alchemy-v0.1.0-alpha/servus_alchemy-0.1.0-alpha.jar"
+hash-format = "sha256"
+hash = "f9574c85d8df81e892ddeff84670f2a8c7a225e085b7e06c3bb1e9057e863d9a"

@@ -363,6 +363,11 @@ hash = "c4ded6fe6f6d4150c170dfca799d9f700d89a52f7b57b3e5ca7fea60853391ba"
 metafile = true
 
 [[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "35e7a5eac1950b6f338822e5c78829ebdb330b0cc5786505291b05db67b3b2a7"
+metafile = true
+
+[[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "a525007d8aff0c5ce3fb486b58406a9d33a7aac674afd0ce6de40ec33eace917"
 metafile = true
@@ -385,6 +390,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+metafile = true
+
+[[files]]
+file = "mods/servus-alchemy.pw.toml"
+hash = "759f3e8f810c7353bf22115621049401fb4b340492584a52194507661b0a7f9c"
 metafile = true
 
 [[files]]
