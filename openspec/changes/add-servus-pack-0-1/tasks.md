@@ -43,7 +43,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 
 ## 6. Story and main chapters
 
-- [ ] 6.1 Write `docs/story.md`: the uncle (name, life), the estate, the family trading business and its Schwaz link, the mystery's beat per chapter, the ending (uncle finished the Great Work and disappeared going "beyond the Stone"); verify each of the eight chapters has a beat
+- [x] 6.1 Write `docs/story.md`: the uncle (name, life), the estate, the family trading business and its Schwaz link, the mystery's beat per chapter, the ending (uncle finished the Great Work and disappeared going "beyond the Stone"); verify each of the eight chapters has a beat
 - [ ] 6.2 Write `quests/chapters/01-arrival.toml` and `02-old-works.toml` (Foundation basics plus the early warehouse per quest-line "Early warehouse"; first Alchemy product stored in the warehouse can link to chapter 3); verify the quest check passes and no chapter-2 quest needs a Powah item
 - [ ] 6.3 Write `03-cellar.toml`: Paracelsus' Journal found, then one milestone per stage (Nigredo, Albedo, Citrinitas, Rubedo) that points to the journal chapter (Villach, Schwaz, Wandering years, Basel and Salzburg), with the Rubedo milestone on the Prelum; verify the quest check passes
 - [ ] 6.4 Write `04-power-station.toml` (Powah) and `05-into-the-nether.toml` (Just Dire Things, link to Alchemy's Salamander); verify the quest check passes
