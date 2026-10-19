@@ -17,3 +17,4 @@ __pycache__/
 /pyproject.toml
 /docker-compose.yml
 /.env
+/art/
