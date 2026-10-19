@@ -31,7 +31,7 @@ REQUIRED_SLUGS = [
 ]
 
 CLIENT_ONLY_SLUGS = [
-    "sodium", "entityculling", "immediatelyfast", "mouse-tweaks", "controlling", "searchables",
+    "sodium", "immediatelyfast", "mouse-tweaks", "controlling", "searchables",
     "better-advancements", "enchantment-descriptions",
 ]
 

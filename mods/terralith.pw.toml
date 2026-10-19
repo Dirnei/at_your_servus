@@ -1,0 +1,13 @@
+name = "Terralith"
+filename = "Terralith_26.1_v2.6.1_Neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eded79445f9a50631e64c9f934d16243af3fac41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7841479
+project-id = 513688

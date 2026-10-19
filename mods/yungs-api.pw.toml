@@ -1,0 +1,13 @@
+name = "YUNG's API (Forge/NeoForge)"
+filename = "YungsApi-26.1.2-NeoForge-6.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cdbb07baa0e99178d95a85e23ad1d443c2230808"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8850510
+project-id = 421850

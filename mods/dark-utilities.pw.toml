@@ -1,0 +1,13 @@
+name = "Dark Utilities"
+filename = "DarkUtilities-neoforge-MC26.1.2-26.1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0aba984d788a2b02d08cb1dbe67b02fb8a98044f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8339342
+project-id = 242195

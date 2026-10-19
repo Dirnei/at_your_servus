@@ -1,0 +1,13 @@
+name = "YUNG's Better Strongholds (Forge/NeoForge)"
+filename = "YungsBetterStrongholds-26.1.2-NeoForge-6.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ded0f3380ee079f643546fba6e4872c7a808f5a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8850851
+project-id = 465575

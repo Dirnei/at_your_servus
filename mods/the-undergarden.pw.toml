@@ -1,0 +1,13 @@
+name = "The Undergarden"
+filename = "The_Undergarden-26.1.2-0.9.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f5dd5f11981b691fa8063d2c839a6ff8fbee3fe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8725682
+project-id = 379849

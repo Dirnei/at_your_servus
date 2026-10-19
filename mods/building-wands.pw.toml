@@ -1,0 +1,13 @@
+name = "Building Wands"
+filename = "wands-3.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0f56e1d4b07a96ee7ebca719274a5ca0fdb00084"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8235240
+project-id = 363392
