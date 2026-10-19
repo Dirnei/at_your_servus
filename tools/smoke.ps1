@@ -49,7 +49,8 @@ try {
     }
     $kubejsLogs = Get-ChildItem (Join-Path $data 'logs\kubejs') -Filter '*.log' -ErrorAction SilentlyContinue
     foreach ($k in $kubejsLogs) {
-        $problems += Select-String -Path $k.FullName -Pattern '\[(ERROR|WARN)\]|Error' |
+        # Errors anywhere; warnings only when they point at the pack's own scripts (other mods' recipe warnings are theirs).
+        $problems += Select-String -Path $k.FullName -CaseSensitive -Pattern '\[ERROR\]|with [1-9]\d* errors|\[WARN\].*_scripts[/\\]' |
             ForEach-Object { "$($k.Name): $($_.Line)" }
     }
 } finally {

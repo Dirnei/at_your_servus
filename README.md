@@ -1,6 +1,6 @@
-# Servus
+# At Your Servus
 
-A kitchen-sink modpack for Minecraft 26.1.2 on NeoForge, built around the Servus mods: Foundation, Alchemy and Shuttles. A guided FTB Quests line tells the story of a great-uncle's estate in Tyrol and leads through the Servus mods first.
+A kitchen-sink pack built around the Servus mods, for Minecraft 26.1.2 on NeoForge. A guided FTB Quests line tells the story of a great-uncle's estate in Tyrol and leads through the Servus mods first.
 
 - What is in the pack and why: [`docs/mods.md`](docs/mods.md)
 - Design: [`docs/superpowers/specs/2026-10-19-servus-modpack-design.md`](docs/superpowers/specs/2026-10-19-servus-modpack-design.md), specs in [`openspec/`](openspec/)
