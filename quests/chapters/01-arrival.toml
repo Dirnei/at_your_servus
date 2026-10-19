@@ -1,0 +1,134 @@
+[chapter]
+title = "Prologue: Arrival"
+subtitle = "A cold house above Schwaz"
+icon = "minecraft:oak_door"
+
+[[quest]]
+slug = "first-letter"
+title = "A Letter from the Notary"
+subtitle = "Servus, heir"
+description = """
+Servus, heir,
+
+if the notary has done his job, you are standing in front of the Lechnerhof with this letter in your hand and a key that sticks. Lift the door a little, then it turns.
+
+The house is yours now, and so is everything in it. I am away. Do not ask the notary where; he does not know, and he is not the kind of man who guesses.
+
+The house is cold and the larder is empty. Start with a fire and something to eat. The rest will come, one letter at a time.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:bread", count = 8 }]
+
+[[quest]]
+slug = "workbench"
+title = "Something to Work On"
+description = """
+Every house needs a bench. Mine is in the works, under a tarpaulin and forty years of dust. Make yourself a new one; it is quicker than finding the old one."""
+x = 2.0
+y = 0.0
+deps = ["first-letter"]
+tasks = [{ type = "item", item = "minecraft:crafting_table" }]
+rewards = [{ type = "item", item = "minecraft:torch", count = 16 }]
+
+[[quest]]
+slug = "bench-on-a-stick"
+title = "A Bench to Go"
+description = """
+When I walked the hills I carried a bench on a stick. People laughed. Then they borrowed it."""
+x = 2.0
+y = -2.0
+deps = ["workbench"]
+tasks = [{ type = "item", item = "crafting_on_a_stick:crafting_table" }]
+rewards = [{ type = "xp", amount = 20 }]
+
+[[quest]]
+slug = "fire"
+title = "A Fire in the Stove"
+description = """
+The stove in the kitchen still draws. Build a furnace, then a better one; iron burns hotter than stone, and copper is cheap up here."""
+x = 4.0
+y = 0.0
+deps = ["workbench"]
+tasks = [{ type = "item", item = "minecraft:furnace" }, { type = "item", item = "ironfurnaces:copper_furnace" }]
+rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
+
+[[quest]]
+slug = "food"
+title = "Something to Eat"
+description = """
+Bake bread. A Tyrolean who works on an empty stomach works badly and complains well."""
+x = 4.0
+y = 2.0
+deps = ["workbench"]
+tasks = [{ type = "item", item = "minecraft:bread", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 8 }]
+
+[[quest]]
+slug = "iron-pick"
+title = "Iron from the Hill"
+description = """
+The hill behind the house is full of holes. Some of them are mine, most of them are older than the house. Bring back iron and make yourself a pickaxe that does not break on the first good stone."""
+x = 6.0
+y = 0.0
+deps = ["fire"]
+tasks = [{ type = "item", item = "minecraft:iron_pickaxe" }]
+rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 8 }]
+
+[[quest]]
+slug = "backpack"
+title = "A Bag for the Road"
+description = """
+A backpack saves you a lot of walking. Take one if you like; the real storage comes later, and it is better."""
+x = 4.0
+y = -2.0
+deps = ["workbench"]
+optional = true
+tasks = [{ type = "item", item = "sophisticatedbackpacks:backpack" }]
+rewards = [{ type = "item", item = "minecraft:leather", count = 4 }]
+
+[[quest]]
+slug = "waystone"
+title = "The Way Home"
+description = """
+The hills are big and my legs were never young enough for them. A warp stone brings you back to the waystones you have found."""
+x = 6.0
+y = -2.0
+deps = ["iron-pick"]
+tasks = [{ type = "item", item = "waystones:warp_stone" }]
+rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 2 }]
+
+[[quest]]
+slug = "bed"
+title = "A Place to Sleep"
+description = """
+My bed is too short for anyone who is not me. Make your own, or a hammock if you like to sleep through the day."""
+x = 6.0
+y = 2.0
+deps = ["food"]
+tasks = [{ type = "item", item = "minecraft:white_bed" }]
+rewards = [{ type = "item", item = "comforts:hammock_white" }]
+
+[[quest]]
+slug = "settled"
+title = "Settled In"
+subtitle = "On to the works"
+description = """
+Servus, heir,
+
+a fire, a bed, bread and iron. Now you live here.
+
+Go and look at the works behind the barn. Mind the water wheel; it bites.
+
+Your Vinzenz"""
+x = 8.0
+y = 0.0
+shape = "gear"
+size = 1.25
+deps = ["iron-pick", "bed"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "xp", amount = 50 }]

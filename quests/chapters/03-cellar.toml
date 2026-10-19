@@ -1,0 +1,149 @@
+[chapter]
+title = "The Cellar"
+subtitle = "Paracelsus' Journal and the Great Work"
+icon = "servus_alchemy:paracelsus_journal"
+
+[[quest]]
+slug = "journal"
+title = "The Book in the Cellar"
+subtitle = "To be opened in the cellar"
+description = """
+Servus, heir,
+
+I owe you a confession. For forty years I have been an alchemist. Not the kind that cheats princes; the kind that reads.
+
+The book on the shelf is Theophrastus von Hohenheim's journal, Paracelsus to you. Family lore says he stayed with the Lechners in Schwaz in 1533 and forgot it when he left. I never believed that he forgot anything.
+
+The journal is the real guide down here. I only mark the milestones. Read it, and do what it says.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["old-works:terminal"]
+tasks = [{ type = "item", item = "servus_alchemy:paracelsus_journal" }]
+rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
+
+[[quest]]
+slug = "calciner"
+title = "A Furnace That Breaks Things Down"
+description = """
+The journal starts in Villach, with his father, metals and a fire. Build the Calciner as it says: firebox below, ash pan, the Calciner on top. It takes almost anything apart."""
+x = 2.0
+y = 0.0
+deps = ["journal"]
+tasks = [{ type = "item", item = "servus_alchemy:calciner" },
+         { type = "item", item = "servus_alchemy:calciner_firebox" },
+         { type = "item", item = "servus_alchemy:calciner_ash_pan" }]
+rewards = [{ type = "item", item = "minecraft:coal_block", count = 2 }]
+
+[[quest]]
+slug = "athanor"
+title = "The Athanor"
+description = """
+The Athanor is the heart of the Great Work. Alone it burns black: the fire of Nigredo."""
+x = 4.0
+y = 0.0
+deps = ["calciner"]
+tasks = [{ type = "item", item = "servus_alchemy:athanor" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "nigredo"
+title = "Nigredo: The Black Fire"
+subtitle = "Journal: Villach"
+description = """
+From my workbook, 1984:
+
+"Salt, Sulfur, Mercury. Everything comes apart into the three, if the fire is patient. I have the black fire now. Your great-grandmother would have called the priest."
+
+The journal's chapter Villach is your guide for this stage."""
+x = 6.0
+y = 0.0
+shape = "hexagon"
+size = 1.5
+deps = ["athanor"]
+tasks = [{ type = "item", item = "servus_alchemy:coagulator" }]
+rewards = [{ type = "item", item = "minecraft:bucket", count = 4 }]
+
+[[quest]]
+slug = "salt-in-the-racks"
+title = "Salt in the Racks"
+description = """
+A trading house trades. Take your first salt crystals to the warehouse and let a shuttle put them away. The first goods of the new Lechner & Compagnie."""
+x = 6.0
+y = 2.0
+deps = ["nigredo"]
+tasks = [{ type = "item", item = "servus_alchemy:salt_crystal", count = 16 }, { type = "checkmark" }]
+rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 2 }]
+
+[[quest]]
+slug = "albedo"
+title = "Albedo: The White Fire"
+subtitle = "Journal: Schwaz"
+description = """
+From my workbook, 1991:
+
+"Schwaz. The mines, the miners' sickness, and the little people in the rock. The elixir opened my eyes, and there they were. The gnomes grow the veins; we only dig them out."
+
+The journal's chapter Schwaz is your guide for this stage."""
+x = 8.0
+y = 0.0
+shape = "hexagon"
+size = 1.5
+deps = ["nigredo"]
+tasks = [{ type = "item", item = "servus_alchemy:elixir_of_sight" },
+         { type = "item", item = "servus_alchemy:gnome_hollow" }]
+rewards = [{ type = "item", item = "minecraft:iron_block", count = 2 }]
+
+[[quest]]
+slug = "seed"
+title = "A Seed of Metal"
+description = """
+Raw ore will not take root. The seed of a metal does. Plant one and feed the hollow."""
+x = 8.0
+y = 2.0
+deps = ["albedo"]
+tasks = [{ type = "item", item = "servus_alchemy:seed" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "citrinitas"
+title = "Citrinitas: The Yellow Fire"
+subtitle = "Journal: The Wandering Years"
+description = """
+From my workbook, 2003:
+
+"The dose makes the poison. He wrote it, and I learned it the hard way, with a dropper and a burned sleeve. The yellow fire makes nobler seeds. And there is a fire-spirit beyond the burning gate."
+
+The journal's chapter on the wandering years is your guide for this stage."""
+x = 10.0
+y = 0.0
+shape = "hexagon"
+size = 1.5
+deps = ["albedo"]
+tasks = [{ type = "item", item = "servus_alchemy:principle_dropper" },
+         { type = "item", item = "servus_alchemy:receptaculum" }]
+rewards = [{ type = "item", item = "minecraft:gold_block", count = 2 }]
+
+[[quest]]
+slug = "rubedo"
+title = "Rubedo: The Red Fire"
+subtitle = "Journal: Basel and Salzburg"
+description = """
+From my workbook, 2019:
+
+"Red. The Work ends in red. The Prelum presses the dead head into netherite, and the Athanor burns like a sunset.
+
+The red fire burns. And now I want more."
+
+The journal's chapter Basel and Salzburg is your guide for this stage."""
+x = 12.0
+y = 0.0
+shape = "hexagon"
+size = 2.0
+deps = ["citrinitas"]
+tasks = [{ type = "item", item = "servus_alchemy:prelum" },
+         { type = "item", item = "servus_alchemy:caput_mortuum" }]
+rewards = [{ type = "item", item = "minecraft:netherite_scrap", count = 2 }]

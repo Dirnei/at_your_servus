@@ -1,0 +1,193 @@
+[chapter]
+title = "The Old Works"
+subtitle = "Ducts, steam and a first warehouse"
+icon = "servus_foundation:item_pipe"
+
+[[quest]]
+slug = "works-letter"
+title = "The Works Behind the Barn"
+subtitle = "To be opened in the works"
+description = """
+Servus, heir,
+
+you found it. The water wheel, the old steam engine, the pipes that go everywhere and nowhere. I ran a mine's worth of machines in here once.
+
+Pipes were always a mess, so I made one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["arrival:settled"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:copper_ingot", count = 16 }]
+
+[[quest]]
+slug = "carrot"
+title = "The Configuration Carrot"
+description = """
+It turns blocks, it sets sides, it takes things apart. Every engineer needs a tool he can eat in an emergency. I never had to."""
+x = 2.0
+y = 0.0
+deps = ["works-letter"]
+tasks = [{ type = "item", item = "servus_foundation:configuration_carrot" }]
+rewards = [{ type = "xp", amount = 20 }]
+
+[[quest]]
+slug = "goggles"
+title = "Engineer's Goggles"
+description = """
+With these on you see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, had there been one."""
+x = 2.0
+y = -2.0
+deps = ["carrot"]
+optional = true
+tasks = [{ type = "item", item = "servus_foundation:engineer_goggles" }]
+rewards = [{ type = "xp", amount = 20 }]
+
+[[quest]]
+slug = "duct"
+title = "One Duct for Everything"
+description = """
+Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.
+
+The item line moves things from one inventory to the next: the chest in the barn feeds the furnace in the kitchen."""
+x = 4.0
+y = 0.0
+deps = ["carrot"]
+tasks = [{ type = "item", item = "servus_foundation:item_pipe", count = 16 }]
+rewards = [{ type = "item", item = "minecraft:chest", count = 2 }]
+
+[[quest]]
+slug = "fluid-line"
+title = "Water Where You Want It"
+description = """
+A fluid line, a tank and a pump. The old pump in the cellar burns coal; it will do until you have power."""
+x = 6.0
+y = -1.0
+deps = ["duct"]
+tasks = [{ type = "item", item = "servus_foundation:fluid_pipe", count = 8 },
+         { type = "item", item = "servus_foundation:fluid_tank" },
+         { type = "item", item = "servus_foundation:burner_pump" }]
+rewards = [{ type = "item", item = "minecraft:bucket", count = 2 }]
+
+[[quest]]
+slug = "coal-generator"
+title = "Steam Again"
+description = """
+The Coal Generator is not clever, but it is honest: coal in, power out. Give it a chimney, or the smoke stays in the works and so do you."""
+x = 6.0
+y = 1.0
+deps = ["duct"]
+tasks = [{ type = "item", item = "servus_foundation:coal_generator" },
+         { type = "item", item = "servus_foundation:chimney" }]
+rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
+
+[[quest]]
+slug = "power-line"
+title = "Power Down the Line"
+description = """
+A power line in the duct takes the generator's power wherever the duct goes."""
+x = 8.0
+y = 1.0
+deps = ["coal-generator"]
+tasks = [{ type = "item", item = "servus_foundation:power_cable", count = 8 }]
+rewards = [{ type = "xp", amount = 30 }]
+
+[[quest]]
+slug = "warehouse-letter"
+title = "A Merchant Needs a Warehouse"
+subtitle = "To be opened when the generator runs"
+description = """
+Servus, heir,
+
+our family were merchants long before they were miners. Lechner & Compagnie, since 1521: silver from Schwaz to Augsburg and Venice. A merchant without a warehouse is just a peddler.
+
+I wanted to bring the house back. I got as far as a few racks in the barn and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.
+
+Your Vinzenz"""
+x = 4.0
+y = 4.0
+shape = "gear"
+size = 1.5
+deps = ["coal-generator"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
+
+[[quest]]
+slug = "racks"
+title = "Heavy Duty Racks"
+description = """
+Racks hold the goods. They are made to be reached by shuttles, not by you, so set them up along a rail."""
+x = 6.0
+y = 4.0
+deps = ["warehouse-letter"]
+tasks = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }]
+rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 8 }]
+
+[[quest]]
+slug = "rails"
+title = "Warehouse Rails"
+description = """
+Lay the rails in front of the racks. Sneak-click places a whole run at once; I added that after the second time I put my back out."""
+x = 8.0
+y = 4.0
+deps = ["racks"]
+tasks = [{ type = "item", item = "servus_shuttles:rail", count = 16 }]
+rewards = [{ type = "item", item = "servus_shuttles:rail", count = 8 }]
+
+[[quest]]
+slug = "shuttle"
+title = "The First Shuttle"
+description = """
+A garage at the end of the rails, and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."""
+x = 10.0
+y = 4.0
+deps = ["rails"]
+tasks = [{ type = "item", item = "servus_shuttles:shuttle_garage" },
+         { type = "item", item = "servus_shuttles:shuttle" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "elevator"
+title = "Up and Down"
+description = """
+A rail elevator takes the shuttle to the next floor. The barn is tall; use it."""
+x = 10.0
+y = 6.0
+deps = ["shuttle"]
+optional = true
+tasks = [{ type = "item", item = "servus_shuttles:elevator" }]
+rewards = [{ type = "xp", amount = 30 }]
+
+[[quest]]
+slug = "controller"
+title = "The Warehouse Controller"
+description = """
+The controller sits on the rails and runs the warehouse. It wants power: run a power line from the Coal Generator to it."""
+x = 12.0
+y = 4.0
+deps = ["shuttle", "power-line"]
+tasks = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]
+rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
+
+[[quest]]
+slug = "terminal"
+title = "One Window on Everything"
+subtitle = "A warehouse, at last"
+description = """
+Servus, heir,
+
+a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.
+
+Now the cellar. I have put it off long enough, in this letter and in my life.
+
+Your Vinzenz"""
+x = 14.0
+y = 4.0
+shape = "gear"
+size = 1.25
+deps = ["controller"]
+tasks = [{ type = "item", item = "servus_shuttles:storage_terminal" }]
+rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }]
