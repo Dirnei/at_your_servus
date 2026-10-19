@@ -4,10 +4,10 @@ Commit after each task with a one-line message of at most 74 characters, no body
 
 ## 1. Repository and packwiz setup
 
-- [ ] 1.1 `git init`, add `.gitignore` (`dist/`, `build/`, `server/data/`, `server/.env`) and `.packwizignore` per design D10; verify `git status` shows only intended files
-- [ ] 1.2 Install packwiz with `go install github.com/packwiz/packwiz@latest`; verify `packwiz --help` runs
-- [ ] 1.3 Seed the pack: `packwiz cf import Servus-0.1.0.zip` (or `packwiz init` with name Servus, author Dirnei, version 0.1.0, MC 26.1.2, NeoForge 26.1.2.122, then import); verify `pack.toml` has those values, `mods/` has one metafile per project ID in the zip's `manifest.json`, and `config/` holds the zip's override configs
-- [ ] 1.4 Verify `packwiz refresh` and `packwiz cf export` succeed and the exported `manifest.json` lists the same 32 project IDs as `Servus-0.1.0.zip`
+- [x] 1.1 `git init`, add `.gitignore` (`dist/`, `build/`, `server/data/`, `server/.env`) and `.packwizignore` per design D10; verify `git status` shows only intended files
+- [x] 1.2 Install packwiz with `go install github.com/packwiz/packwiz@latest`; verify `packwiz --help` runs
+- [x] 1.3 Seed the pack: `packwiz cf import Servus-0.1.0.zip` (or `packwiz init` with name Servus, author Dirnei, version 0.1.0, MC 26.1.2, NeoForge 26.1.2.122, then import); verify `pack.toml` has those values, `mods/` has one metafile per project ID in the zip's `manifest.json`, and `config/` holds the zip's override configs
+- [x] 1.4 Verify `packwiz refresh` and `packwiz cf export` succeed and the exported `manifest.json` lists the same 32 project IDs as `Servus-0.1.0.zip`
 
 ## 2. Mod selection and pack check
 

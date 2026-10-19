@@ -1,0 +1,353 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/comforts-common.toml"
+hash = "1f21c10bfce9cd25aea641046a79df88867f68ba8ba3838a5e1662521f9f06a2"
+
+[[files]]
+file = "config/comforts-server.toml"
+hash = "f05aebe89ee053e71276aec6396ea150d0ff4103a0162f54a7af88c22f2a4517"
+
+[[files]]
+file = "config/elevatorid-server.toml"
+hash = "fe379ff30c5ebe52d9dcc3c048a495ad2bd9d75810315ab387a9edfbc81fa4f2"
+
+[[files]]
+file = "config/fml.toml"
+hash = "d9dbacb3f89d4d4e6c33e9c947970a9eb6cdf09a8eea2efff346a28af4183bbb"
+
+[[files]]
+file = "config/ftbchunks-client.json5"
+hash = "13fae3779a4609c7b0f04048e91f8b347f414c37e47c80dcfbf791d036d9ad1e"
+
+[[files]]
+file = "config/ftbchunks-world.json5"
+hash = "898d58521fd81d7267cd6957bd5a54538543225960cd8dbaa78f415515e606dc"
+
+[[files]]
+file = "config/ftblibrary-client.json5"
+hash = "77c94d9eff5ce9300d782f5ab15737aeaeec716a6e419035d514f21f17800cc9"
+
+[[files]]
+file = "config/ftbteams-server.json5"
+hash = "f9d1eeba598159cb7aba053a5fe3b0058dedb8ab5913b28f0fa7f06b63eba3b8"
+
+[[files]]
+file = "config/ftbultimine-client.json5"
+hash = "28f4c6ff8078ec9fdac6ffc88d12b748ed23433a956114739d075810442a6030"
+
+[[files]]
+file = "config/ftbultimine-server.json5"
+hash = "9ce0c9ce2b31b2925fd55d43402aca61d4306bb3381a768f1757c12736a38ff8"
+
+[[files]]
+file = "config/functionalstorage/functionalstorage-client.toml"
+hash = "7255125d2daca7b2f538451b5117511b30efd720c876366fe2b6a31942593404"
+
+[[files]]
+file = "config/functionalstorage/functionalstorage-common.toml"
+hash = "47595c51ed0a6a3d496402420d025e0ae0418a0ea853e2489fad4152e978b822"
+
+[[files]]
+file = "config/jade/hide-blocks.json"
+hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
+
+[[files]]
+file = "config/jade/hide-mob-effects.json"
+hash = "085ae084a98180d4659ef60f9cf91281152a6e7b74a5a76c53f86e4f8f0d17f9"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "b9222f62bdd19baf713d3f4fa53441af8a348a67e5ebaa9496f5b8d784dcfed0"
+
+[[files]]
+file = "config/jade/profiles/1/jade.json"
+hash = "717c432ab12a6938135b957455f74e4e1d98780a01c4d9adf40791ff477b570e"
+
+[[files]]
+file = "config/jade/profiles/2/jade.json"
+hash = "9ab035b9509d230d3bc4733682c2f5db27485761a5b9488d46e5567e521f5feb"
+
+[[files]]
+file = "config/jade/profiles/3/jade.json"
+hash = "c9b65bb1e4927db6504d8940ae8fb5520a023e6e1574b936a2a8edb2c205fb1e"
+
+[[files]]
+file = "config/jade/server-plugin-overrides.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "d4540d763a0add74a338ae61a4c625bf852be27d274ab6dec36392f9da1e417b"
+
+[[files]]
+file = "config/jei/blacklist.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/jei/client/default/jei-client.ini"
+hash = "6e91cbab5165e4831b2e5c52fe6c1b8dc0a282c09ce44bb3e8d97e9681924c68"
+
+[[files]]
+file = "config/jei/client/default/jei-colors.ini"
+hash = "c6d4ae48280627d04a7ae2b6d3db65e71d73670a72732f5aed9f4cfaac3837c7"
+
+[[files]]
+file = "config/jei/client/default/jei-debug.ini"
+hash = "376cc883cac002d07792f209f7bc1915ea7fa8822effc67734f1589bab9bb806"
+
+[[files]]
+file = "config/jei/client/default/jei-mod-id-format.ini"
+hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
+
+[[files]]
+file = "config/jei/client/ingredient-list-mod-sort-order.ini"
+hash = "f03577b79888776d2bb191847462de46b71a7085d4c0a7266bac64241a4c5850"
+
+[[files]]
+file = "config/jei/client/ingredient-list-type-sort-order.ini"
+hash = "9c6c1c0e70a84a9f59399679f6ff5bc77cc1c39571d0a5453d2afa7d29fbcf51"
+
+[[files]]
+file = "config/jei/client/recipe-category-sort-order.ini"
+hash = "10925a0873a1a0ee55ff6f8e168b07485ce116a398f6c99cfced03ccb36ce7a1"
+
+[[files]]
+file = "config/leavesbegone-server.toml"
+hash = "524db67131a76c6d00d384de3917ac4a13c88eb42628b051d5b3c0a02cba0cfd"
+
+[[files]]
+file = "config/lootr-client.jsonc"
+hash = "6df3362f318c71017bec9e99762284dd5ccb896341e191cdc18cc0724fdf99e6"
+
+[[files]]
+file = "config/lootr-common.jsonc"
+hash = "4a99d1c2a64cd16837107f9a522416e0f34908fc2775228c85a15e19e8e30517"
+
+[[files]]
+file = "config/mezz_config/client/default/settings.ini"
+hash = "1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249"
+
+[[files]]
+file = "config/neoforge-client.toml"
+hash = "1f69c6a59370dc2ffeaeb140228778afed47f7c569009c48542e69dd27d77060"
+
+[[files]]
+file = "config/neoforge-common.toml"
+hash = "6959d539cfc2bac5825567fba0f17a18421822538647d658c80d5b95c644cfad"
+
+[[files]]
+file = "config/neoforge-server.toml"
+hash = "581d7b0b184d7ae435525131cc402f27d823ef2d93e46f0a8fa5a6fbdea1c439"
+
+[[files]]
+file = "config/resourceful-config-web.json"
+hash = "1f69939e8cfa7509fdf672eb58c788fda087f050048a0fae4b8d1870a0e863c0"
+
+[[files]]
+file = "config/servus_foundation-common.toml"
+hash = "7b7a91a9129f1d159e700528902c44d3a051062a535ac815a090d0204d697157"
+
+[[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "43a94bd2f230fa52eaeda0bd69983a5d60edc25f36304b3e760fea9d91d9067c"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "29f768279eb81217b76d33929b24f3825b397a26d1b6cbe9201262379cbe5ca1"
+
+[[files]]
+file = "config/sophisticatedcore-client.toml"
+hash = "2fba77c9abf77a8f86034d4a6c1d1c413172a28fbc45ca2b2251fa1f2e0f3d7b"
+
+[[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "bf202743c19b3bce141fe98e524dbe5bc294db8531b78331e30e02043b5d376b"
+
+[[files]]
+file = "config/sophisticatedstorage-client.toml"
+hash = "04a4ef19a1bc845f2d337b1a41416372228079aab5f5cd334d74ef718ec9c5ec"
+
+[[files]]
+file = "config/sophisticatedstorage-common.toml"
+hash = "cc00faa9a6c15f3eec37e8e17910213c6b64aac7eabcebc9a7bab6dbc08c6536"
+
+[[files]]
+file = "config/sophisticatedstorage-server.toml"
+hash = "ded05fd42685c86e4c7cd69a36c2ea1994801b7a1a148488201d26430dfbd032"
+
+[[files]]
+file = "config/titanium/titanium-tags.toml"
+hash = "0fdb903beac3111899fba270f156d65daf792b534a20915672e2d9b1aacdf06c"
+
+[[files]]
+file = "config/titanium/titanium.toml"
+hash = "419a23e2c00bb42a68c4285244a50d92bd63d1d16a6e08cc61ef4531fd958579"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "4eb7bb2a7f743a4e1ec2f3897ce78f20c3f74838c710b7833a2365dbefc79d27"
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "cdbba48badfeb9c0d020244fadc25dfca7d76f8a79f3e6ef8b32fe266156d349"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "337ccb137030d6b8c774b21138ea97de03618bcce70302dfbec3ce55b4e0bb7b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "6a31e0a2f60397124fc67a0565142aa17929d57341399c30c47cd2de0f23b62b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "98b47718768cb87d74b54b0fc98a25a5729affddf750cdb9973c1e5b8ecb7c3a"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "cb69112ea7c492ee73426fb503af2d834c8bafcd8341188c99ea6dc56d38de6f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "2607e2c07c06c9b4bbe5373fc685dab5b463c1b1564a1b56cd51305b224f3f23"
+metafile = true
+
+[[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "3096575602b0aedc8d6368f281b457e841a8d8d11e30d310cda78dbf0ec5faee"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "bef930641b05925e2e5e61557b46c2174db61d3858cd3f0b5ead0a909ad2eefb"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "9b5d830ef3db0e12536d6a7401e7103ddfb2faf131fa4238997bc018f417807f"
+metafile = true
+
+[[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "a5ddd04f775c13be9315a8871836ee2e6f76d03ec152d5fd5e76e90d1b45e70e"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "9cf731291dcb08804960c86b443af7251ef228ed4609a1087d77b28135cc06ab"
+metafile = true
+
+[[files]]
+file = "mods/macaws-bridges.pw.toml"
+hash = "db7e31ee0f5580f839d55b034170b90d05f4b8c205205200bb7bb2d49b43182f"
+metafile = true
+
+[[files]]
+file = "mods/macaws-doors.pw.toml"
+hash = "321f87853f051e88867fc1a6a9311119a6a474458369d0b7e2f4aef02a8d1a9d"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.pw.toml"
+hash = "db4d97416c769ba43dece8a986e7a8b12374d9c7e1d311affe3016fed0ad7a58"
+metafile = true
+
+[[files]]
+file = "mods/macaws-furniture.pw.toml"
+hash = "6d0c80fe11a61f5b434027ddb499c0f0c7000ff7cea91cef67e16e6b06ab42f5"
+metafile = true
+
+[[files]]
+file = "mods/macaws-lights-and-lamps.pw.toml"
+hash = "38daf2d9408f3913d148f9cf34c83c94c11650958d729368c6a07c58eb26eb97"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "961c9afcb34a4e028dcc8d7f17236e0863f8cd910195ac63b44fd4c49648c2c3"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+hash = "3bd806782bfe9facf2c4fdec1d3659c37a663ca16ae17ab81419c6df25f3c015"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+hash = "6eef08c81e7802151b999330bff6dfccfe5ef1ab1cc152f9a133f829baae0731"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+hash = "99360c3fe78e82e1a00828e41239ba619637008c5ba915a1a7b33ef956d73a49"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+hash = "d22e1acd3ddb8f4363c297f4452875ddebc3c3a507797e2788326d4d833e9165"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "c4ded6fe6f6d4150c170dfca799d9f700d89a52f7b57b3e5ca7fea60853391ba"
+metafile = true
+
+[[files]]
+file = "mods/openblocks-elevator.pw.toml"
+hash = "a525007d8aff0c5ce3fb486b58406a9d33a7aac674afd0ce6de40ec33eace917"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "735f2b928f27fb1c16e2436fcf1b7e246d03e1f7e8bcf23db5e2408a6e3cc4f4"
+metafile = true
+
+[[files]]
+file = "mods/servus-foundation.pw.toml"
+hash = "a57f8fb2874a11c8b4ca89408be415188fa5ce11b9533e62edc2303ff7a9901f"
+metafile = true
+
+[[files]]
+file = "mods/servus-shuttles.pw.toml"
+hash = "e9b3da2bccf6230d31c23521ca8df77529a36eabd1f9dfbd37c24746732c4a21"
+metafile = true
+
+[[files]]
+file = "mods/shogi.pw.toml"
+hash = "e9017246cfc4efd7c31ddb3bb75fcf0f7cde28a97ad1ff61c462eef5f60a3f1d"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "cdb2cf2efbe6b55658a8a3b34aa33bf726cbd9c7a710d53162062bd765a68dcb"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "27bc61f54419b9114aed8d0fc8aaf55d8ca796cd2bf796e41b2fbeecdff55613"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "0e05dcc2e2c9852d0db9b926dd127ee61b8203ec7505745d43c99dc64e21cddf"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "4c9becddf64f244dd75e98188392a8c1bf9a311ba52c546de7c92b1f58f37707"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "4a0e9b135e65377d2989648ed1146881b6777d449e4ad24ee672357142d55f7d"
+metafile = true

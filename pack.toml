@@ -1,0 +1,13 @@
+name = "Servus"
+author = "Dirnei"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "94faa137e3126af3545b5d26148fb42f355c7c80cf1553ecd57d23a3d8c371ec"
+
+[versions]
+minecraft = "26.1.2"
+neoforge = "26.1.2.122"

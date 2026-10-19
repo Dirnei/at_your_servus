@@ -1,0 +1,13 @@
+name = "Servus: Shuttles"
+filename = "servus_shuttles-0.1.0-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e3c8359a159b2c03c67d357d7e935e370b47a7c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9225798
+project-id = 1746893
