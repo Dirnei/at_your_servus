@@ -1,0 +1,145 @@
+[chapter]
+title = "Into the Nether"
+subtitle = "Beyond the burning gate"
+icon = "justdirethings:blazegold_ingot"
+
+[[quest]]
+slug = "nether-letter"
+title = "Beyond the Burning Gate"
+subtitle = "To be opened before the Nether"
+description = """
+Servus, heir,
+
+the fire you need lives beyond the burning gate. The journal says so, and so do my burns.
+
+Do not go in iron. Down in the old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are pinned to the barrel. Go armoured, go fed, and come back.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["power-station:energized-steel"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:golden_carrot", count = 8 }]
+
+[[quest]]
+slug = "goo"
+title = "Primal Goo"
+description = """
+Note on the barrel: "Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."""
+x = 2.0
+y = 0.0
+deps = ["nether-letter"]
+tasks = [{ type = "item", item = "justdirethings:gooblock_tier1" }]
+rewards = [{ type = "item", item = "minecraft:iron_block", count = 2 }]
+
+[[quest]]
+slug = "ferricore"
+title = "Ferricore"
+description = """
+What the goo leaves behind smelts into ferricore: iron that has learned something."""
+x = 4.0
+y = 0.0
+deps = ["goo"]
+tasks = [{ type = "item", item = "justdirethings:ferricore_ingot", count = 16 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "ferricore-gear"
+title = "Armour That Learned Something"
+description = """
+Ferricore armour and tools. Put upgrades in them; the goo taught them tricks."""
+x = 6.0
+y = -1.0
+deps = ["ferricore"]
+tasks = [{ type = "item", item = "justdirethings:ferricore_chestplate" },
+         { type = "item", item = "justdirethings:ferricore_pickaxe" },
+         { type = "item", item = "justdirethings:ferricore_sword" }]
+rewards = [{ type = "item", item = "justdirethings:upgrade_blank", count = 2 }]
+
+[[quest]]
+slug = "portal"
+title = "The Gate"
+description = """
+Obsidian and a spark. Step through with a full belly."""
+x = 6.0
+y = 1.0
+deps = ["ferricore"]
+tasks = [{ type = "item", item = "minecraft:obsidian", count = 10 }, { type = "item", item = "minecraft:flint_and_steel" }]
+rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }]
+
+[[quest]]
+slug = "blaze"
+title = "Blaze Rods"
+description = """
+The blazes guard the fortresses. Their rods feed the power station's orb and the yellow fire in the cellar alike."""
+x = 8.0
+y = 1.0
+deps = ["portal"]
+tasks = [{ type = "item", item = "minecraft:blaze_rod", count = 16 }]
+rewards = [{ type = "item", item = "minecraft:blaze_powder", count = 8 }]
+
+[[quest]]
+slug = "goo-2"
+title = "Hungrier Goo"
+description = """
+Note on the second barrel: "Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."""
+x = 8.0
+y = -1.0
+deps = ["ferricore-gear", "blaze"]
+tasks = [{ type = "item", item = "justdirethings:gooblock_tier2" }]
+rewards = [{ type = "item", item = "minecraft:gold_block", count = 2 }]
+
+[[quest]]
+slug = "blazegold"
+title = "Blazegold"
+description = """
+Gold that remembers the fire. Lighter than ferricore and better in the heat."""
+x = 10.0
+y = -1.0
+deps = ["goo-2"]
+tasks = [{ type = "item", item = "justdirethings:blazegold_ingot", count = 16 }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "blazegold-gear"
+title = "Dressed for the Fire"
+description = """
+Blazegold armour and a blazegold sword. Now the Nether can come to you."""
+x = 12.0
+y = -1.0
+deps = ["blazegold"]
+tasks = [{ type = "item", item = "justdirethings:blazegold_chestplate" },
+         { type = "item", item = "justdirethings:blazegold_sword" }]
+rewards = [{ type = "item", item = "justdirethings:upgrade_blank", count = 4 }]
+
+[[quest]]
+slug = "lava-immunity"
+title = "Lava Is Just Hot Water"
+description = """
+A lava immunity upgrade in your boots, and you can swim where the salamanders live."""
+x = 12.0
+y = -3.0
+deps = ["blazegold-gear"]
+optional = true
+tasks = [{ type = "item", item = "justdirethings:upgrade_lavaimmunity" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "salamander"
+title = "The Fire-Spirit"
+subtitle = "Journal: The Wandering Years"
+description = """
+Servus, heir,
+
+the journal speaks of a salamander, a spirit of fire that lives beyond the gate. With the yellow fire burning in the cellar you can bind one to a forge. I did. It sulks, but it works.
+
+Your Vinzenz"""
+x = 12.0
+y = 1.0
+shape = "gear"
+size = 1.25
+deps = ["blaze", "cellar:albedo"]
+tasks = [{ type = "item", item = "servus_alchemy:salamander_forge" }]
+rewards = [{ type = "item", item = "minecraft:magma_block", count = 8 }]

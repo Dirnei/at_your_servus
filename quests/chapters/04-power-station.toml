@@ -1,0 +1,176 @@
+[chapter]
+title = "The Power Station"
+subtitle = "Coal is not enough for a trading house"
+icon = "powah:energizing_orb"
+
+[[quest]]
+slug = "power-letter"
+title = "Plans for a Power Station"
+subtitle = "To be opened when the coal runs low"
+description = """
+Servus, heir,
+
+a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. In the drawer under the workbench you will find my plans for a proper power station.
+
+It works with crystals, because the old way is too slow. Do not ask me how the crystals work. I only know that they do.
+
+Your Vinzenz"""
+x = 0.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["old-works:terminal"]
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "item", item = "minecraft:redstone_block", count = 2 }]
+
+[[quest]]
+slug = "dielectric"
+title = "Dielectric Paste"
+description = """
+Everything in the station starts with dielectric paste: clay, charcoal, a bit of lava. Messy, but it holds."""
+x = 2.0
+y = 0.0
+deps = ["power-letter"]
+tasks = [{ type = "item", item = "powah:dielectric_paste", count = 16 }]
+rewards = [{ type = "item", item = "minecraft:clay_ball", count = 16 }]
+
+[[quest]]
+slug = "orb"
+title = "The Energizing Orb"
+description = """
+The orb charges what you put in, as long as rods feed it power. Set the starter rods around it and give them power from the duct."""
+x = 4.0
+y = 0.0
+deps = ["dielectric"]
+tasks = [{ type = "item", item = "powah:energizing_orb" },
+         { type = "item", item = "powah:energizing_rod_starter", count = 2 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "energized-steel"
+title = "Energized Steel"
+description = """
+Iron and gold, charged together. The station is built of it."""
+x = 6.0
+y = 0.0
+deps = ["orb"]
+tasks = [{ type = "item", item = "powah:steel_energized", count = 16 }]
+rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
+
+[[quest]]
+slug = "furnator"
+title = "A Better Fire"
+description = """
+The Furnator burns fuel like my old generator, only far better. Connect it to the duct's power line and the warehouse takes it as it comes."""
+x = 8.0
+y = -1.0
+deps = ["energized-steel"]
+tasks = [{ type = "item", item = "powah:furnator_basic" }]
+rewards = [{ type = "item", item = "minecraft:coal_block", count = 8 }]
+
+[[quest]]
+slug = "solar"
+title = "Power from the Sky"
+description = """
+Up here the sun shines more than people think. A solar panel on the barn roof pays for itself."""
+x = 8.0
+y = 1.0
+deps = ["energized-steel"]
+tasks = [{ type = "item", item = "powah:solar_panel_basic", count = 2 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "energy-cell"
+title = "Keep It for Later"
+description = """
+An energy cell stores what the generators make at night for the morning."""
+x = 10.0
+y = 0.0
+deps = ["furnator"]
+tasks = [{ type = "item", item = "powah:energy_cell_basic" }]
+rewards = [{ type = "item", item = "powah:energy_cable_basic", count = 8 }]
+
+[[quest]]
+slug = "hardened"
+title = "Hardened Parts"
+description = """
+Hardened capacitors and the hardened rods double what the orb can do."""
+x = 12.0
+y = 0.0
+deps = ["energy-cell"]
+tasks = [{ type = "item", item = "powah:capacitor_hardened", count = 4 },
+         { type = "item", item = "powah:energizing_rod_hardened", count = 2 }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "blazing"
+title = "Blazing Crystals"
+description = """
+For the next step the orb wants blaze powder. That means the Nether. Read the next letter first."""
+x = 14.0
+y = 0.0
+deps = ["hardened", "nether:blaze"]
+tasks = [{ type = "item", item = "powah:crystal_blazing", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:blaze_rod", count = 4 }]
+
+[[quest]]
+slug = "magmator"
+title = "Lava Into Power"
+description = """
+The Magmator turns lava into power. The Nether has more lava than sense."""
+x = 14.0
+y = 2.0
+deps = ["blazing"]
+tasks = [{ type = "item", item = "powah:magmator_blazing" }]
+rewards = [{ type = "item", item = "minecraft:lava_bucket" }]
+
+[[quest]]
+slug = "niotic"
+title = "Niotic Crystals"
+description = """
+Diamonds, charged until they glow. Expensive, and worth it."""
+x = 16.0
+y = 0.0
+deps = ["blazing"]
+tasks = [{ type = "item", item = "powah:crystal_niotic", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
+
+[[quest]]
+slug = "spirited"
+title = "Spirited Crystals"
+description = """
+Emeralds this time. The station starts to hum at night."""
+x = 18.0
+y = 0.0
+deps = ["niotic"]
+tasks = [{ type = "item", item = "powah:crystal_spirited", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:emerald", count = 8 }]
+
+[[quest]]
+slug = "reactor"
+title = "The Reactor"
+description = """
+My plans end with a reactor: uraninite, a lot of reactor casing, and cooling. Build it as large as you dare."""
+x = 20.0
+y = 0.0
+deps = ["spirited"]
+tasks = [{ type = "item", item = "powah:reactor_spirited", count = 16 }]
+rewards = [{ type = "item", item = "powah:uraninite", count = 16 }]
+
+[[quest]]
+slug = "nitro"
+title = "Nitro Crystals"
+subtitle = "The station is finished"
+description = """
+Servus, heir,
+
+nitro crystals. I only ever made one, and it took me a winter. If you have made a stack, the station is finished and the house has power for a hundred years.
+
+Your Vinzenz"""
+x = 22.0
+y = 0.0
+shape = "gear"
+size = 1.5
+deps = ["reactor"]
+tasks = [{ type = "item", item = "powah:crystal_nitro", count = 8 }]
+rewards = [{ type = "item", item = "powah:energy_cell_nitro" }]
