@@ -198,8 +198,33 @@ hash = "cdbba48badfeb9c0d020244fadc25dfca7d76f8a79f3e6ef8b32fe266156d349"
 metafile = true
 
 [[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "f33ab2549d39a6ab0669369e99f2047697fb99d823f040dc963046e56f1a3cd5"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "d0fae735921d88b89506a481b8368899b0f694a31188d7447428e472e476184d"
+metafile = true
+
+[[files]]
+file = "mods/cobblegen-galore.pw.toml"
+hash = "bbf3d6756358274a8e017c45f1f780ef7f1fcef3b040b6bfd1ca3043b87af52a"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "337ccb137030d6b8c774b21138ea97de03618bcce70302dfbec3ce55b4e0bb7b"
+metafile = true
+
+[[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "96dfcdd8e003b44196c46a921cee127ef350cc5b805f1b1f6eb951902a0545f1"
+metafile = true
+
+[[files]]
+file = "mods/cucumber.pw.toml"
+hash = "7b4a2463d5626c5e88fad82c76d6d12d63965b036ea778adf4dd1e18f6fef05f"
 metafile = true
 
 [[files]]
@@ -213,6 +238,11 @@ hash = "98b47718768cb87d74b54b0fc98a25a5729affddf750cdb9973c1e5b8ecb7c3a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "0c84660178b57e01f1239cee0093298d83909fef822d69af320e2e83c66cf610"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "cb69112ea7c492ee73426fb503af2d834c8bafcd8341188c99ea6dc56d38de6f"
 metafile = true
@@ -223,8 +253,23 @@ hash = "2607e2c07c06c9b4bbe5373fc685dab5b463c1b1564a1b56cd51305b224f3f23"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "f83f3f562299605eec8ebda3763a7844a7274e61154b47bdde238329c8bc3df2"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "3096575602b0aedc8d6368f281b457e841a8d8d11e30d310cda78dbf0ec5faee"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "a882e8c90072ebef862d73a6528e17abaa817e0154ed6907cfc0bad86390ae8e"
+metafile = true
+
+[[files]]
+file = "mods/iron-jetpacks.pw.toml"
+hash = "1676cc794d127d90b968893b1d6d30f87c6e2bf31308831bd0353213587b478d"
 metafile = true
 
 [[files]]
@@ -238,8 +283,23 @@ hash = "9b5d830ef3db0e12536d6a7401e7103ddfb2faf131fa4238997bc018f417807f"
 metafile = true
 
 [[files]]
+file = "mods/just-dire-things.pw.toml"
+hash = "361a24fe140c23c623e8929519e9809b8570c76353688cb53381ae7756654485"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "e25f3d8cd0a341c2a59ed73b820b21d159d997f5629957510c55e8e17d41b727"
+metafile = true
+
+[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "a5ddd04f775c13be9315a8871836ee2e6f76d03ec152d5fd5e76e90d1b45e70e"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "b1d8072c3e4c3ae4e33eaa825ec5c0401086e1c6b8f2fa99efa98b4b0c7f1b14"
 metafile = true
 
 [[files]]
@@ -308,8 +368,23 @@ hash = "a525007d8aff0c5ce3fb486b58406a9d33a7aac674afd0ce6de40ec33eace917"
 metafile = true
 
 [[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "d362035cf6b4e6cb522aa3f1e874666163d612c2df5b98ce29109c42b928fcdc"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "735f2b928f27fb1c16e2436fcf1b7e246d03e1f7e8bcf23db5e2408a6e3cc4f4"
+metafile = true
+
+[[files]]
+file = "mods/re-avaritia.pw.toml"
+hash = "e91cdbe2739327f3545c33c25e41fbf92065d2fd0184af276bbf99b18bea1dd0"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
 metafile = true
 
 [[files]]

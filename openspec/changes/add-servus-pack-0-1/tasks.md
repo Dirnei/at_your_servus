@@ -12,7 +12,7 @@ Commit after each task with a one-line message of at most 74 characters, no body
 ## 2. Mod selection and pack check
 
 - [x] 2.1 Write `tools/checks/pack_check.py` with tests in `tests/test_pack_check.py`: excluded project IDs/slugs fail (design D4 list), required mods missing fails, listed client-only mods with a side other than `client` fail, `--public` fails on any metafile without `[update.curseforge]`; verify `pytest tests/test_pack_check.py` passes against fixture metafiles
-- [ ] 2.2 Add the core path mods with `packwiz cf add`: Powah (Rearchitected), Iron Jetpacks, Re:Avaritia, Just Dire Things, Cobblegen Galore, FTB Quests, FTB XMod Compat, KubeJS, LootJS, Crafting on a Stick; verify each metafile references a 26.1.2 NeoForge file
+- [x] 2.2 Add the core path mods with `packwiz cf add`: Powah (Rearchitected), Iron Jetpacks, Re:Avaritia, Just Dire Things, Cobblegen Galore, FTB Quests, FTB XMod Compat, KubeJS, LootJS, Crafting on a Stick; verify each metafile references a 26.1.2 NeoForge file
 - [ ] 2.3 Add Servus: Alchemy as a URL metafile (design D2) with the GitHub asset's sha256, plus Modonomicon via `packwiz cf add`; verify `packwiz refresh` succeeds and `pack_check.py` passes without `--public` and fails with it
 - [ ] 2.4 Add the gap fillers from design document section 4.2 that have a 26.1.2 NeoForge file (look up YUNG's, Apotheosis module and Dungeons and Taverns slugs); verify `pack_check.py` passes
 - [ ] 2.5 Set `side = "client"` for Sodium, Entity Culling, ImmediatelyFast, Mouse Tweaks, Controlling, Searchables, Better Advancements, Enchantment Descriptions and any other render/input/HUD-only mod; verify `pack_check.py` passes

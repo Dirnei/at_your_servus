@@ -1,0 +1,13 @@
+name = "Iron Jetpacks"
+filename = "IronJetpacks-26.1.2-9.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2242cdd3fc548755e375a50b2651ad66abd09677"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8093577
+project-id = 284497

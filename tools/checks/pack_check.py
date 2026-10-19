@@ -27,7 +27,7 @@ EXCLUDED_SLUGS = {"iris": "Iris", "iris-shaders": "Iris", "irisshaders": "Iris"}
 REQUIRED_SLUGS = [
     "servus-foundation", "servus-shuttles", "servus-alchemy", "modonomicon",
     "powah-rearchitected", "iron-jetpacks", "re-avaritia", "just-dire-things", "cobblegen-galore",
-    "ftb-quests", "ftb-xmod-compat", "kubejs", "crafting-on-a-stick",
+    "ftb-quests-forge", "ftb-xmod-compat", "kubejs", "crafting-on-a-stick",
 ]
 
 CLIENT_ONLY_SLUGS = [
