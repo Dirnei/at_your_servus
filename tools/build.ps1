@@ -34,6 +34,7 @@ try {
     New-Item -ItemType Directory -Force $dist | Out-Null
     Remove-Item $client, $serverZip -ErrorAction SilentlyContinue
     Invoke-Step 'client pack' { & packwiz curseforge export -o $client }
+    Invoke-Step 'profile image' { & python -m tools.ziptool image $client art/logo/at-your-servus-square-8x.png }
 
     # Server pack: packwiz-installer installs the server side of the pack from a local packwiz serve.
     if (-not (Test-Path $bootstrap)) {
