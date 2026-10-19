@@ -41,7 +41,9 @@ class QuestSourceError(Exception):
 
 
 def stable_id(*parts: str) -> str:
-    return hashlib.sha256(("servus:" + ":".join(parts)).encode("utf-8")).hexdigest()[:16].upper()
+    """16 uppercase hex digits FTB Quests can parse as a positive long: the top bit is cleared, 0 and 1 are reserved."""
+    value = int(hashlib.sha256(("servus:" + ":".join(parts)).encode("utf-8")).hexdigest()[:16], 16) & 0x7FFFFFFFFFFFFFFF
+    return f"{max(value, 2):016X}"
 
 
 @dataclass

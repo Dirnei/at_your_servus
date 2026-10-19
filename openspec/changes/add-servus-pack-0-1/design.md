@@ -45,10 +45,10 @@ The build serves the pack locally with `packwiz serve` and runs `packwiz-install
 - Excluded CurseForge project IDs: AE2 223794, Refined Storage 243076, Mystical Agriculture 246640, Productive Bees 377897, Replication 638351, Ender IO 64578, Oritech 1030830, Storage Drawers 223852, Traveler's Backpack 321117, Xaero's Minimap 263420, SecurityCraft 64760; Xaero's World Map and Iris by slug (IDs looked up when the check is written).
 
 ### D5: Quests generated from TOML sources
-Sources live in `quests/` (outside `config/`): `quests/chapters/<NN>-<slug>.toml`, one per chapter, with chapter metadata and a list of quests (slug, icon, position, dependencies, tasks, rewards, English title/subtitle/description). `tools/questgen/` (Python, stdlib) writes the FTB Quests folder `config/ftbquests/quests/`: `data.snbt`, `chapter_groups.snbt`, `chapters/<slug>.snbt` and `lang/en_us.snbt`.
-- IDs are the first 16 hex characters of `sha256("servus:" + chapter_slug + ":" + quest_slug)`, uppercased, so they depend only on slugs (quest-line "Stable quest identities"). Output is sorted and has no timestamps, so it is byte-identical on rerun.
+Sources live in `quests/` (outside `config/`): `quests/chapters/<NN>-<slug>.toml`, one per chapter, with chapter metadata and a list of quests (slug, icon, position, dependencies, tasks, rewards, English title/subtitle/description). `tools/questgen/` (Python, stdlib) writes the FTB Quests folder `config/ftbquests/quests/`: `data.json5`, `chapter_groups.json5`, `chapters/<slug>.json5` and `lang/en_us/` (`chapter.json5`, `chapter_group.json5`, `chapters/<slug>.json5`). FTB Quests 26.1.2.x stores quests as JSON5 and ignores `.snbt` files (found during implementation, see `tools/questgen/FORMAT.md`); the generator writes plain JSON with sorted keys, which is valid JSON5.
+- IDs are the first 16 hex characters of `sha256("servus:" + chapter_slug + ":" + quest_slug)` with the top bit cleared (FTB Quests parses them as positive longs), uppercased, so they depend only on slugs (quest-line "Stable quest identities"). Output is sorted and has no timestamps, so it is byte-identical on rerun.
 - The generated folder is committed, so the pack works without running the generator, and CI checks that regenerating gives no diff.
-- The exact SNBT keys are taken from the FTB Quests version in the pack (26.1.2.9, source on `github.com/FTBTeam/FTB-Quests`, branch for 26.1) and written down in `tools/questgen/FORMAT.md` before the writer is coded. If that version doesn't support `lang/` files, titles go inline and the translation requirement is met by FTB Quests' `{key}` text references to a KubeJS-provided lang file.
+- The exact keys are taken from FTB Quests 26.1.2.9 (tag `v26.1.2.9`) and written down in `tools/questgen/FORMAT.md`. Text lives only in the lang files; inline titles are ignored by FTB Quests.
 - Alternative: write quests in game with the FTB Quests editor. Rejected: Claude writes the texts, and hand-edited SNBT IDs are unstable and unreadable in diffs.
 
 ### D6: Item ID check against the pack's jars
@@ -90,7 +90,7 @@ docs/mods.md, gates.md, story.md
 - [Twilight Forest, Undergarden, Bumblezone, JER, FTB Filter System, KubeJS are beta/alpha] → They are gap fillers; drop any that crashes in the smoke check and note it in `docs/mods.md`.
 - [packwiz may not know Minecraft 26.1.2 or NeoForge's new version scheme] → `packwiz init` gets explicit `--mc-version 26.1.2 --modloader neoforge --neoforge-version 26.1.2.122`; if it rejects them, edit `pack.toml` versions by hand and use `packwiz cf add --addon-id --file-id` for exact files.
 - [A mod disables third-party distribution] → The server pack build fails and names it. Then that mod is either dropped or documented for manual download; the CurseForge client pack is unaffected.
-- [FTB Quests SNBT format differs from what the generator writes] → FORMAT.md is taken from the exact version's source, and the smoke check fails on FTB Quests load errors.
+- [FTB Quests file format differs from what the generator writes] → FORMAT.md is taken from the exact version's source, and the smoke check fails on FTB Quests load errors.
 - [Alchemy's quest texts drift from the journal] → Cellar quests only name stages and point to the journal; no task text copies journal tasks.
 - [Story quality] → Claude writes all texts; Dirnei reviews `docs/story.md` and the generated quest texts before the first public upload.
 
