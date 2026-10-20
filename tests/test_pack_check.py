@@ -27,10 +27,17 @@ def test_excluded_project_fails_and_names_mod():
     assert pack_check.check(metas) == ["excluded mod Applied Energistics 2 is in the pack (ae2)"]
 
 
-def test_excluded_slug_fails():
+def test_shader_pack_for_both_sides_fails_and_is_named():
+    shaders = {"complementary-reimagined": cf(3000, side="both")}
+    assert pack_check.check(complete(), shaders=shaders) == [
+        "shader pack complementary-reimagined must be side = \"client\", is 'both'"]
+
+
+def test_public_fails_on_url_shader_pack():
     metas = complete()
-    metas["iris"] = url(side="client")
-    assert any("Iris" in e for e in pack_check.check(metas))
+    metas["servus-alchemy"] = cf(1999)
+    errors = pack_check.check(metas, public=True, shaders={"some-shader": url(side="client")})
+    assert errors == ["some-shader is not sourced from CurseForge; switch it to CurseForge before a public build"]
 
 
 def test_missing_required_mod_fails():
@@ -62,6 +69,7 @@ def test_every_metafile_is_documented():
     from pathlib import Path
     root = Path(__file__).resolve().parent.parent
     documented = set(re.findall(r"^\| `([a-z0-9-]+)` \|", (root / "docs/mods.md").read_text(encoding="utf-8"), re.M))
-    metafiles = set(pack_check.load_metafiles(root / "mods"))
+    mods, shaders = pack_check.load_pack(root)
+    metafiles = set(mods) | set(shaders)
     assert metafiles - documented == set(), "metafiles without an entry in docs/mods.md"
     assert documented - metafiles == set(), "docs/mods.md entries without a metafile"

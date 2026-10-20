@@ -19,9 +19,6 @@ EXCLUDED_PROJECTS = {
     317780: "Xaero's World Map",
     64760: "SecurityCraft",
 }
-# Mods excluded by metafile slug, for mods without a known CurseForge ID.
-EXCLUDED_SLUGS = {"iris": "Iris", "iris-shaders": "Iris", "irisshaders": "Iris"}
-
 REQUIRED_SLUGS = [
     "servus-foundation", "servus-shuttles", "servus-alchemy", "modonomicon",
     "powah-rearchitected", "iron-jetpacks", "re-avaritia", "just-dire-things", "cobblegen-galore",
@@ -29,7 +26,7 @@ REQUIRED_SLUGS = [
 ]
 
 CLIENT_ONLY_SLUGS = [
-    "sodium", "immediatelyfast", "mouse-tweaks", "controlling", "searchables",
+    "sodium", "irisshaders", "immediatelyfast", "mouse-tweaks", "controlling", "searchables",
     "better-advancements", "enchantment-descriptions",
 ]
 
@@ -46,19 +43,23 @@ def load_metafiles(mods_dir: Path) -> dict[str, dict]:
             for p in sorted(mods_dir.glob("*.pw.toml"))}
 
 
+def load_pack(root: Path) -> tuple[dict[str, dict], dict[str, dict]]:
+    """The metafiles of mods/ and of shaderpacks/."""
+    return load_metafiles(root / "mods"), load_metafiles(root / "shaderpacks")
+
+
 def project_id(meta: dict) -> int | None:
     return meta.get("update", {}).get("curseforge", {}).get("project-id")
 
 
-def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = frozenset()) -> list[str]:
+def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = frozenset(),
+          shaders: dict[str, dict] | None = None) -> list[str]:
     errors = []
+    shaders = shaders or {}
     ids = {project_id(m): slug for slug, m in metas.items() if project_id(m) is not None}
     for pid, name in EXCLUDED_PROJECTS.items():
         if pid in ids:
             errors.append(f"excluded mod {name} is in the pack ({ids[pid]})")
-    for slug, name in EXCLUDED_SLUGS.items():
-        if slug in metas:
-            errors.append(f"excluded mod {name} is in the pack ({slug})")
     for slug in REQUIRED_SLUGS:
         if slug not in metas:
             errors.append(f"required mod {slug} is missing")
@@ -67,8 +68,11 @@ def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = 
     for slug in CLIENT_ONLY_SLUGS:
         if slug in metas and metas[slug].get("side") != "client":
             errors.append(f"{slug} must be side = \"client\", is {metas[slug].get('side')!r}")
+    for slug, m in shaders.items():
+        if m.get("side") != "client":
+            errors.append(f"shader pack {slug} must be side = \"client\", is {m.get('side')!r}")
     if public:
-        for slug, m in metas.items():
+        for slug, m in {**metas, **shaders}.items():
             if project_id(m) is None:
                 errors.append(f"{slug} is not sourced from CurseForge; switch it to CurseForge before a public build")
     return errors
@@ -80,12 +84,13 @@ def main(argv=None) -> int:
     parser.add_argument("--public", action="store_true")
     parser.add_argument("--list-url-mods", action="store_true", help="print the filenames of mods not sourced from CurseForge")
     args = parser.parse_args(argv)
+    mods, shaders = load_pack(args.root)
     if args.list_url_mods:
-        for meta in load_metafiles(args.root / "mods").values():
+        for meta in mods.values():
             if project_id(meta) is None:
                 print(meta["filename"])
         return 0
-    errors = check(load_metafiles(args.root / "mods"), args.public, EXAMPLE_PROJECT_IDS)
+    errors = check(mods, args.public, EXAMPLE_PROJECT_IDS, shaders)
     for e in errors:
         print(f"pack check: {e}", file=sys.stderr)
     return 1 if errors else 0
