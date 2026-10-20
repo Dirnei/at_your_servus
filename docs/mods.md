@@ -119,6 +119,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `modernfix` | ModernFix | both | Performance |
 | `ferritecore` | FerriteCore | both | Memory use |
 | `sodium` | Sodium | client | Rendering performance |
+| `irisshaders` | Iris Shaders | client | Shaders; off until a shader pack is picked |
 | `immediatelyfast` | ImmediatelyFast | client | Rendering performance |
 | `mouse-tweaks` | Mouse Tweaks | client | Inventory handling |
 | `inventory-sorter` | Inventory Sorter | both | Middle-click sorts a chest or inventory |
@@ -126,6 +127,14 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `searchables` | Searchables | client | Search library for Controlling |
 | `better-advancements` | Better Advancements | client | Advancement screen |
 | `enchantment-descriptions` | Enchantment Descriptions | client | Enchantment tooltips |
+
+## Shader packs
+
+Installed for Iris but not selected: pick one under Video Settings > Shader Packs.
+
+| Metafile | Shader pack | Side | Role |
+|---|---|---|---|
+| `complementary-reimagined` | Complementary Shaders - Reimagined | client | Default shader pack |
 
 ## Libraries
 
@@ -171,7 +180,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | Energized Power | Fallback only, if Powah turns out unusable |
 | Storage Drawers, Traveler's Backpack | Duplicate Functional Storage and Sophisticated Backpacks |
 | Xaero's Minimap, Xaero's World Map | FTB Chunks already has a map |
-| Iris, SecurityCraft | Left out of 0.1.0 |
+| SecurityCraft | Left out of 0.1.0 |
 | Corail Tombstone | Blocks third-party downloads, so it cannot be in the server pack; GraveStone Mod instead |
 | Easy Mob Farm, Tiny Mob Farm | Too easy next to built farms |
 

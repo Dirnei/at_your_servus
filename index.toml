@@ -601,6 +601,11 @@ hash = "2fc4cd8a2633dbb8fe42f9e031f326a60ea5a7fb6531ce6db85b797015c5e50d"
 metafile = true
 
 [[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "8c5cb2dd49ce692382f07b658c273bba85623b94d655c88d87ecb3b867929138"
+metafile = true
+
+[[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "a84cfa9d5d96cfe110b9f51c0fa4dba8f5be929923995ca0e68345224183c728"
 metafile = true
@@ -948,4 +953,9 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "14ea528ab8bb97035130d22853bf4afd2c2542e179fdf698d11f94805aa3ed07"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "7513bf8234406adf6dc90f9ba76a83929cfa154971489f76a392508c2f846dcc"
 metafile = true
