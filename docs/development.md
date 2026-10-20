@@ -44,6 +44,15 @@ docker compose logs -f mc              # wait for "Done", then connect to localh
 
 After changing mods or configs: `packwiz refresh`, then `docker compose restart mc`. The world lives in `server/local-data`; delete it for a fresh world. Set `LOCAL_PORT`, `MEMORY` or `OPS` in the environment or a root `.env` to change them.
 
+**Dev client:** to test the working tree on a client without building and importing the zip, use a dev profile. Once: in the CurseForge app, Create Custom Profile, name it `At Your Servus (dev)`, Minecraft 26.1.2, NeoForge 26.1.2.122, and leave it empty. Then, after each change:
+
+```powershell
+.\tools\client-sync.ps1                # installs the client side of the working tree into the dev profile
+docker compose restart mc              # if mods or configs changed
+```
+
+Start the profile in the CurseForge app and join `localhost:25567`. After the first join, the profile page in the CurseForge app lists the server under recently played; starting from that entry joins it directly. Only changed files are downloaded, and files the pack dropped are removed. `-Instance <folder>` syncs into another profile folder. The script warns if the profile's Minecraft or NeoForge version differs from `pack.toml`.
+
 ## Test server
 
 The test server runs the latest built server pack in Docker (`itzg/minecraft-server:java25`). The world lives in `server/data` and survives restarts.
