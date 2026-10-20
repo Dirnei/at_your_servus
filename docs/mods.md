@@ -94,6 +94,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `ftb-chunks-forge` | FTB Chunks | both | Claims and map |
 | `ftb-teams-forge` | FTB Teams | both | Teams for quests and claims |
 | `ftb-ultimine-forge` | FTB Ultimine | both | Vein mining |
+| `ftb-essentials` | FTB Essentials | both | Homes, op-set warps, /back, /tpa |
 | `macaws-bridges` | Macaw's Bridges | both | Building |
 | `macaws-doors` | Macaw's Doors | both | Building |
 | `macaws-fences-and-walls` | Macaw's Fences and Walls | both | Building |
