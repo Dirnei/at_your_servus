@@ -19,6 +19,10 @@ Lower jetpack tiers (wood to gold) keep their default recipes. The creative jetp
 | File | Change | Reason |
 |---|---|---|
 | `config/ironjetpacks/jetpacks/netherite.json` | New tier 6 jetpack, crafted from netherite ingots | Gives the top of the jetpack line a home in the Uncle's Workshop chapter; it takes the Ultimate Coil and so the Alchemy gate. The other files in that folder are Iron Jetpacks' defaults, shipped so the folder is complete. |
+| `config/ftbessentials.json5` | `teleportation.rtp.enabled` set to `false` | `/rtp` ignores FTB Chunks claims. The rest of the file is FTB Essentials' defaults (one home, op-only warps, `/back`, `/tpa`). |
+| `config/waystones-common.toml` | `rules.enableXpCosts` set to `false` | Travel is QoL, not a cost: teleporting between waystones, also across dimensions, costs no XP. |
+| `config/waystones-common.toml` | `rules.enableDurability` set to `false` | Same reason: warp stones no longer wear down. |
+| `config/waystones-common.toml` | `rules.defaultVisibility` set to `GLOBAL` | Friends share one network: every newly placed or found waystone is usable by everyone without visiting it first. With `GLOBAL`, every player can also rename and manage global waystones. Waystones that already exist in a world keep their mode. |
 
 ## Checked and left unchanged
 

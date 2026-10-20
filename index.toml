@@ -25,6 +25,10 @@ file = "config/ftbchunks-world.json5"
 hash = "898d58521fd81d7267cd6957bd5a54538543225960cd8dbaa78f415515e606dc"
 
 [[files]]
+file = "config/ftbessentials.json5"
+hash = "0777242dd9132b704804de484003d48be39939aa003a83e40049c44c94fa5af9"
+
+[[files]]
 file = "config/ftblibrary-client.json5"
 hash = "77c94d9eff5ce9300d782f5ab15737aeaeec716a6e419035d514f21f17800cc9"
 
@@ -362,7 +366,7 @@ hash = "da70f3a232fb8a8c8580d04598c3ed2a7c17cf1740e17895ffaea847f4f09b68"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "4277d3e2a0d3aee7d530a6d1c1b3036f089777b2e9ebbbeb62564c4c6edea590"
+hash = "55f9f0b8d16e0a2cec1ee7ecbe498c1f6ab84d37d838d663f47ce5e93d8bd499"
 
 [[files]]
 file = "kubejs/server_scripts/first_join.js"
@@ -533,6 +537,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "6a31e0a2f60397124fc67a0565142aa17929d57341399c30c47cd2de0f23b62b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "d4d25ebd58d3f7371e5eb39322c8a07c1b30706fc982edd08ea30000611bb1c4"
 metafile = true
 
 [[files]]

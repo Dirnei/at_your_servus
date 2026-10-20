@@ -42,13 +42,13 @@
 [rules]
 	#Set to "team" or "global" to have newly placed or found waystones use that visibility by default.
 	#Allowed Values: ACTIVATION, TEAM, GLOBAL
-	defaultVisibility = "ACTIVATION"
+	defaultVisibility = "GLOBAL"
 	#Set to true to allow everyone to manage global waystones. Always true if `defaultVisibility` is `global`. Can be overridden by Shogi Rule `may_manage_global_waystones`.
 	allowEveryoneToManageGlobalWaystones = false
 	#Set to false to simply disable all xp costs. See rules for more fine-grained control.
-	enableXpCosts = true
+	enableXpCosts = false
 	#Set to false to simply disable all durability costs. See rules for more fine-grained control.
-	enableDurability = true
+	enableDurability = false
 	#Set to false to simply disable all cooldowns. See rules for more fine-grained control.
 	enableCooldowns = true
 	#List of variables used in the warpRequirements configuration.
