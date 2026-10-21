@@ -58,21 +58,21 @@ Commit after each task with a one-line message of at most 74 characters, no body
 ## 8. Progression gates
 
 - [x] 8.1 Read Iron Jetpacks' and Re:Avaritia's recipe IDs from their jars; write `kubejs/server_scripts/gates/iron_jetpacks.js` (Quicksilver from diamond tier up, Ignis Perpetuus for netherite, creative jetpack uncraftable) and `gates/avaritia.js` (Infinity Catalyst needs Ignis Perpetuus, Quicksilver, Caput Mortuum, Crafting CPU and a top-tier Powah item); verify the item ID check passes on both scripts and the smoke check shows no KubeJS errors
-- [ ] 8.2 Write `kubejs/server_scripts/first_join.js` (give `ftbquests:book` once, persistent tag `servus_got_quest_book`); verify on the test server that a first join gives the book and a rejoin doesn't
+- [x] 8.2 Write `kubejs/server_scripts/first_join.js` (give `ftbquests:book` once, persistent tag `servus_got_quest_book`); verify on the test server that a first join gives the book and a rejoin doesn't
 - [x] 8.3 Read Cobblegen Galore's and Just Dire Things' configs and recipes; change config/datapack values so neither produces ores, raw metals or gems; verify by looking up their generator outputs in JEI on a test client
 - [x] 8.4 Write `docs/gates.md` listing every recipe and config change with its reason; verify every script file in `kubejs/server_scripts/gates/` and every changed config is listed
 
 ## 9. CI and publishing
 
-- [ ] 9.1 Write `.github/workflows/build.yml` per design D9 (pytest, build, no diff after quest regeneration, artifacts); verify with `act` or on the first GitHub push that the run is green
+- [x] 9.1 Write `.github/workflows/build.yml` per design D9 (pytest, build, no diff after quest regeneration, artifacts); verify with `act` or on the first GitHub push that the run is green
 - [x] 9.2 Write `.github/workflows/publish.yml` per design D9 (tag equals version, `-Public` build, upload only when `CF_PROJECT_ID` and `CF_API_TOKEN` are set, token never echoed); verify the tag/version mismatch check by running its script step locally with a mismatched tag
 - [x] 9.3 Document the release steps in `README.md` (switch Alchemy to CurseForge, create the CurseForge project, set variable and secret, tag); verify the steps match the workflows
 
 ## 10. Integration
 
 - [x] 10.1 Full build plus smoke check from a clean clone; verify both pass
-- [ ] 10.2 Manual: Dirnei imports `dist/Servus-0.1.0.zip` in the CurseForge app and joins the test server; verify no mod mismatch and the quest book arrives
-- [ ] 10.3 Manual: Dirnei reviews `docs/story.md` and the quest texts; verify feedback is folded in before the first public upload
+- [x] 10.2 Manual: Dirnei imports `dist/Servus-0.1.0.zip` in the CurseForge app and joins the test server; verify no mod mismatch and the quest book arrives
+- [x] 10.3 Manual: Dirnei reviews `docs/story.md` and the quest texts; verify feedback is folded in before the first public upload
 
 ## Workflow follow-up
 
