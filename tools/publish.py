@@ -3,6 +3,7 @@
   python -m tools.publish --tag v0.1.0-alpha --check   (only check the tag and print the version)
 The tag is the only place the version lives: v<major>.<minor>.<patch>, optionally with -alpha or -beta (and .N),
 which picks the CurseForge release type. The build takes the same version (build.ps1 -Version).
+The client file's changelog is the version's section in CHANGELOG.md (openspec release-changelog); --check fails without one.
 Reads CF_PROJECT_ID and CF_API_TOKEN from the environment. Without them it reports what is missing and uploads nothing."""
 import argparse
 import json
@@ -27,6 +28,19 @@ def version_from_tag(tag: str) -> str:
     if not m:
         raise PublishError(f"tag {tag} is not a release tag (expected v1.2.3, v1.2.3-alpha or v1.2.3-beta.2)")
     return m[1]
+
+
+def changelog_section(root: Path, version: str) -> str:
+    """The body of the `## <version>` section of CHANGELOG.md, up to the next `## ` heading."""
+    path = root / "CHANGELOG.md"
+    text = path.read_text(encoding="utf-8") if path.exists() else ""
+    m = re.search(rf"^## {re.escape(version)}[ \t]*(?:\n|\Z)(.*?)(?=^## |\Z)", text, re.M | re.S)
+    if not m:
+        raise PublishError(f"CHANGELOG.md has no section ## {version} (draft one with python -m tools.changelog {version})")
+    body = m[1].strip()
+    if not body:
+        raise PublishError(f"CHANGELOG.md section ## {version} is empty")
+    return body
 
 
 def release_type(version: str) -> str:
@@ -73,6 +87,7 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     try:
         version = version_from_tag(args.tag)
+        changelog = changelog_section(args.root, version)
         if args.check:
             print(version)
             return 0
@@ -85,7 +100,7 @@ def main(argv=None) -> int:
         client, server = dist / f"at-your-servus-{version}.zip", dist / f"at-your-servus-{version}-server.zip"
         kind = release_type(version)
         client_id = upload(project_id, token, client, {
-            "changelog": f"At Your Servus {version}", "changelogType": "markdown", "displayName": f"At Your Servus {version}",
+            "changelog": changelog, "changelogType": "markdown", "displayName": f"At Your Servus {version}",
             "gameVersions": [game_version_id(token)], "releaseType": kind})
         upload(project_id, token, server, {
             "changelog": f"Server pack for At Your Servus {version}", "changelogType": "markdown",

@@ -22,11 +22,16 @@ python -m pytest
 python -m tools.checks.pack_check
 python -m tools.checks.quest_check --quests quests --mods <a mods folder with the jars>
 python -m tools.checks.script_check
+python -m tools.checks.commit_check
 ```
 
 - After any change to `mods/`, `config/`, `kubejs/` or `defaultconfigs/`: `packwiz refresh`. Files not listed in `.packwizignore` (anchored `/paths`) end up in the pack.
 - Test on the local server: `docker compose up -d` in the repo root (serves the working tree, port 25567), `docker compose restart mc` after changes. The server log only proves the server starts; network bugs like a recipe that fails to sync show up only when a client joins.
 - KubeJS: recipes added in the same `ServerEvents.recipes` event are invisible to `forEachRecipe`. Check `server/local-data/logs/kubejs/server.log` for "with 0 failed recipes".
+
+## Commits
+
+- Conventional commits, one line, at most 74 characters: `feat: ...`, `fix: ...`, `chore(tools): ...`. Only `feat`, `fix` and `perf` reach the changelog (`python -m tools.changelog`), so use `chore(...)` for tooling and dev work, and `chore(deps): ...` for mod updates (the changelog's Mods list already shows them). Adding a mod is a `feat`. `commit_check` checks every commit since the last `v*` tag.
 
 ## Gotchas
 

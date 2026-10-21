@@ -76,6 +76,15 @@ GitHub Actions builds every push (`.github/workflows/build.yml`): tests, both pa
 
 The version lives only in the release tag; `pack.toml` always says `dev`, and local builds are named `at-your-servus-dev.zip`. A tag `v<major>.<minor>.<patch>` (optionally `-alpha` or `-beta`, e.g. `v0.1.0-alpha`) runs `.github/workflows/publish.yml`: it runs a public build with that version (`build.ps1 -Public -Version 0.1.0-alpha`) and uploads the client zip and its server pack to CurseForge. `-alpha` and `-beta` tags are uploaded as alpha and beta.
 
+**Changelog:** CurseForge shows the version's section of [`CHANGELOG.md`](../CHANGELOG.md) as the changelog of the client file. Commits are conventional commits, one line of at most 74 characters (`feat: ...`, `fix: ...`, `chore(tools): ...`). Mod updates are `chore(deps): ...`, because the changelog lists them under Mods anyway; adding a mod is a `feat`. CI runs `python -m tools.checks.commit_check` on every commit since the last `v*` tag. For a release:
+
+```powershell
+python -m tools.changelog 0.2.0-alpha   # drafts the ## 0.2.0-alpha section at the top of CHANGELOG.md
+python -m tools.publish --tag v0.2.0-alpha --check   # passes once the section exists
+```
+
+The draft has `feat` commits under New, `fix` under Fixes, `perf` under Performance (other types such as `chore` are left out), and under Mods every mod and shader pack added, removed or updated since the previous tag. Edit it into text for players, commit it, then tag that commit. A tag without a section for its version fails before the build and uploads nothing.
+
 First public release:
 
 1. `.\tools\build.ps1 -Public` must pass locally.
