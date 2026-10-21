@@ -70,3 +70,10 @@ Every commit since the latest `v*` tag SHALL have a single-line message of at mo
 #### Scenario: Message with a body
 - **WHEN** a commit message has a second paragraph
 - **THEN** the check reports that the message must be one line
+
+### Requirement: Checks gate the release
+The tag build SHALL run the commit format check over the release's commits (from the previous `v*` tag up to the tagged commit), the tests and the quest book check before building, and SHALL upload nothing when any of them fails.
+
+#### Scenario: Release with a long commit message
+- **WHEN** `v0.3.0-alpha` is pushed and one of its commits since `v0.2.0-alpha` has an 80-character subject
+- **THEN** the publish job fails at the commit check, names that commit, and nothing reaches CurseForge

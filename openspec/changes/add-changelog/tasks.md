@@ -49,3 +49,7 @@
 
 - Commit the change as one `chore(tools): ...` commit, then `git tag v0.2.0-alpha` on it. Push `main` and the tag only when the user says so; the tag publishes to CurseForge.
 - After publishing, check the CurseForge file page shows the changelog, then archive this change.
+
+## 5. Checks gate the release
+
+- [x] 5.1 Add `--release <tag>` to `tools/checks/commit_check.py` (range from the tag before it up to HEAD) with a test. In `.github/workflows/publish.yml`, set `fetch-depth: 0` and run the commit check with `--release "$GITHUB_REF_NAME"`, `pytest` and the quest book check before the public build. Found when `v0.2.0-alpha` published although the branch build failed on a 104-character commit. Verify `python -m pytest` passes and the workflow YAML parses.

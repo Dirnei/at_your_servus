@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-go@v5
         with:
@@ -21,10 +23,23 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install packwiz
+      - name: Install packwiz and pytest
         run: |
           go install github.com/packwiz/packwiz@latest
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+          pip install pytest
+
+      # Nothing is uploaded unless the released commits and the pack pass the same checks as the branch build.
+      - name: Commit format
+        run: python -m tools.checks.commit_check --release "$GITHUB_REF_NAME"
+
+      - name: Tests
+        run: python -m pytest
+
+      - name: Quest book matches its sources
+        run: |
+          python -m tools.questgen.generate
+          git diff --exit-code -- config/ftbquests
 
       - name: Version from the tag
         run: echo "PACK_VERSION=$(python -m tools.publish --tag "$GITHUB_REF_NAME" --check)" >> "$GITHUB_ENV"

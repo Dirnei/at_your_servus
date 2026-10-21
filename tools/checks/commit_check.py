@@ -1,5 +1,6 @@
 """Checks that every commit since the latest release tag is a one-line conventional commit (openspec release-changelog).
   python -m tools.checks.commit_check
+  python -m tools.checks.commit_check --release v0.2.0-alpha   (the tag build: the commits that tag releases)
 The changelog is drafted from these commits (python -m tools.changelog), so their format matters."""
 import argparse
 import re
@@ -59,8 +60,10 @@ def check(found: list[tuple[str, str]]) -> list[str]:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path("."))
+    parser.add_argument("--release", metavar="TAG",
+                        help="check the commits of this release: from the tag before TAG up to HEAD")
     args = parser.parse_args(argv)
-    errors = check(commits(args.root, previous_tag(args.root)))
+    errors = check(commits(args.root, previous_tag(args.root, exclude=args.release)))
     for e in errors:
         print(e)
     return 1 if errors else 0

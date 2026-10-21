@@ -72,6 +72,15 @@ def test_main_fails_and_names_the_commit(tmp_path, capsys):
     assert "86 characters" in capsys.readouterr().out
 
 
+def test_release_checks_the_commits_up_to_its_own_tag(tmp_path, capsys):
+    repo = repo_with_tag(tmp_path)
+    commit(repo, "feat: " + "x" * 80)
+    git(repo, "tag", "v0.2.0-alpha")
+    assert commit_check.main(["--root", str(repo)]) == 0
+    assert commit_check.main(["--root", str(repo), "--release", "v0.2.0-alpha"]) == 1
+    assert "86 characters" in capsys.readouterr().out
+
+
 def test_no_tag_checks_everything(tmp_path):
     git(tmp_path, "init", "-q")
     git(tmp_path, "config", "user.email", "t@example.com")

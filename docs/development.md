@@ -83,7 +83,7 @@ python -m tools.changelog 0.2.0-alpha   # drafts the ## 0.2.0-alpha section at t
 python -m tools.publish --tag v0.2.0-alpha --check   # passes once the section exists
 ```
 
-The draft has `feat` commits under New, `fix` under Fixes, `perf` under Performance (other types such as `chore` are left out), and under Mods every mod and shader pack added, removed or updated since the previous tag. Edit it into text for players, commit it, then tag that commit. A tag without a section for its version fails before the build and uploads nothing.
+The draft has `feat` commits under New, `fix` under Fixes, `perf` under Performance (other types such as `chore` are left out), and under Mods every mod and shader pack added, removed or updated since the previous tag. Edit it into text for players, commit it, then tag that commit. A tag without a section for its version fails before the build and uploads nothing. So does a tag whose commits since the previous tag break the commit format (`commit_check --release <tag>`), or whose tests or quest book check fail.
 
 First public release:
 
