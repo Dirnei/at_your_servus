@@ -566,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "f83f3f562299605eec8ebda3763a7844a7274e61154b47bdde238329c8bc3df2"
+hash = "75a9bedf22af8ff4cd54149a67f3cb91359d583068b4177fff03b58e7e6db401"
 metafile = true
 
 [[files]]
@@ -631,7 +631,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "9b5d830ef3db0e12536d6a7401e7103ddfb2faf131fa4238997bc018f417807f"
+hash = "57d11f946bcb2b26fa45c9126c0afc87a7aada486d40b043fdd9bf338132ab1b"
 metafile = true
 
 [[files]]
@@ -826,12 +826,12 @@ metafile = true
 
 [[files]]
 file = "mods/servus-foundation.pw.toml"
-hash = "a57f8fb2874a11c8b4ca89408be415188fa5ce11b9533e62edc2303ff7a9901f"
+hash = "4bc453530dd1d01475aef1939423d9a99e21c827eaee7fc6487a161a938e830e"
 metafile = true
 
 [[files]]
 file = "mods/servus-shuttles.pw.toml"
-hash = "e9b3da2bccf6230d31c23521ca8df77529a36eabd1f9dfbd37c24746732c4a21"
+hash = "7ade524fc982731a5581424dc25f7d02f2ab5945873ff571bd72b591e56f3a04"
 metafile = true
 
 [[files]]
@@ -851,12 +851,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "27bc61f54419b9114aed8d0fc8aaf55d8ca796cd2bf796e41b2fbeecdff55613"
+hash = "d637ef1a2451e15688b13c7f1ec4caa61c8c846c832d79b5f6ab325da9b184ef"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0e05dcc2e2c9852d0db9b926dd127ee61b8203ec7505745d43c99dc64e21cddf"
+hash = "4bc74a489aba466a43392a421e9c42e9849f0e2fcfb502698a68b18186247d63"
 metafile = true
 
 [[files]]
