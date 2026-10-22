@@ -110,6 +110,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `entangled` | Entangled | both | Entangled Block: links to a block elsewhere |
 | `adorn-for-forge` | Adorn | both | Furniture: sofas, chairs, tables, kitchen counters |
 | `bibliocraft-legacy` | Bibliocraft Legacy | both | Furniture that holds items: bookcases, shelves, tool racks, display cases |
+| `fantasys-furniture` | Fantasy's Furniture | both | Furniture sets in several styles, decoration only |
 
 ## QoL and performance
 
@@ -149,6 +150,7 @@ Installed for Iris but not selected: pick one under Video Settings > Shader Pack
 
 | Metafile | Mod | Side | Needed by |
 |---|---|---|---|
+| `apexcore` | ApexCore | both | Fantasy's Furniture |
 | `balm` | Balm | both | Waystones, Shogi, Cooking for Blockheads |
 | `better-advanced-tooltips` | Better Advanced Tooltips | both | KubeJS |
 | `bookshelf` | Bookshelf | both | Dark Utilities, Enchantment Descriptions |

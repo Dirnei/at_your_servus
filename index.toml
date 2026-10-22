@@ -419,6 +419,11 @@ hash = "580856c8cd4bd421625313172b46181c5d6549f8e2151a06b0979f18117a9d34"
 metafile = true
 
 [[files]]
+file = "mods/apexcore.pw.toml"
+hash = "b8050b621d31f52788134100d82fef99a9aeaac4156b922292f6cd25bf428411"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "98ca55f1f029d0a928204f3d77f7744f937fcfb44eb915cefd69d24f906be0f6"
 metafile = true
@@ -561,6 +566,11 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "8d0f3e17f96b895720a3d9bc73f71e46388f4dbea1ac4a6d3c2c0084d253f93c"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture.pw.toml"
+hash = "cb1e9eab7cac3e8ce2fe07f04bd1887b6a0f18af8f0f294f67ff2ec359f8ca49"
 metafile = true
 
 [[files]]

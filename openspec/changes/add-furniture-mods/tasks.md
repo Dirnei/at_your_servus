@@ -14,9 +14,9 @@
 
 ## 3. Fantasy's Furniture
 
-- [ ] 3.1 Run `packwiz cf add` for Fantasy's Furniture (`fantasyfurniture-26.1.7.jar`) and any new library; check source and side as in 1.1
-- [ ] 3.2 Add its rows to `docs/mods.md`; run `packwiz refresh`; verify the checks from 1.2 pass
-- [ ] 3.3 Restart the test server and verify as in 1.3; commit as `feat: add Fantasy's Furniture`
+- [x] 3.1 Run `packwiz cf add` for Fantasy's Furniture (`fantasyfurniture-26.1.7.jar`) and any new library; check source and side as in 1.1
+- [x] 3.2 Add its rows to `docs/mods.md`; run `packwiz refresh`; verify the checks from 1.2 pass
+- [x] 3.3 Restart the test server and verify as in 1.3; commit as `feat: add Fantasy's Furniture`
 
 ## 4. Integration
 

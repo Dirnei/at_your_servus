@@ -1,0 +1,13 @@
+name = "ApexCore"
+filename = "apexcore-26.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2937360d97d1842437bacea68a822d71ce6e3af1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8097812
+project-id = 550778
