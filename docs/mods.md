@@ -108,6 +108,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `macaws-windows` | Macaw's Windows | both | Building |
 | `torchmaster-unofficial-fan-build-26-1-2` | Torchmaster Version Locked | both | Feral Flare Lantern, Megatorch, Dread Lamp (unofficial 26.1 port) |
 | `entangled` | Entangled | both | Entangled Block: links to a block elsewhere |
+| `adorn-for-forge` | Adorn | both | Furniture: sofas, chairs, tables, kitchen counters |
 
 ## QoL and performance
 

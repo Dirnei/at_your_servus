@@ -409,6 +409,11 @@ file = "kubejs/server_scripts/gates/iron_jetpacks.js"
 hash = "b414b6611a72c2db1f098aed1057fbad421729df64c962836ea21c4b99c9273b"
 
 [[files]]
+file = "mods/adorn-for-forge.pw.toml"
+hash = "8e1cef20a5b66c13ec5e77c60261160373db2575a8b6557bc8661744e232aee9"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs-neoforge.pw.toml"
 hash = "580856c8cd4bd421625313172b46181c5d6549f8e2151a06b0979f18117a9d34"
 metafile = true
