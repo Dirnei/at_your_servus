@@ -118,6 +118,17 @@ def test_every_title_goes_to_english_lang_files(sources):
     assert '"title"' not in files["chapters/arrival.json5"]
 
 
+def test_ampersand_is_escaped_for_ftb_quests(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('title = "A Letter"', 'title = "Huber & Co."')
+                    .replace("the house is yours.", "Huber & Co., since 1521"), encoding="utf-8")
+    files = generate.build(load_sources(sources))
+    quest_lang = json.loads(files["lang/en_us/chapters/arrival.json5"])
+    qid = stable_id("arrival", "first-letter")
+    assert quest_lang[f"quest.{qid}.title"] == "Huber \\& Co."
+    assert quest_lang[f"quest.{qid}.quest_desc"][-1] == "Huber \\& Co., since 1521"
+
+
 def test_data_file_has_required_keys(sources):
     data = json.loads(generate.build(load_sources(sources))["data.json5"])
     for key in ["version", "default_reward_team", "default_consume_items", "default_autoclaim_rewards",

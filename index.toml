@@ -70,7 +70,7 @@ hash = "28074aa057ccfdbbd3ee29784501c9f75b5da070f38096268adbaf1a8b927052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/old_works.json5"
-hash = "19ffa85b98ee1d70bcb4f285c58e45da7a5008cbc5a302a479eb3a1ce2065d8d"
+hash = "aa2fecb4820fee74cbc7bcd0f140af07c91e51fbe0a20ea20381049f93b8366c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_station.json5"
@@ -78,7 +78,7 @@ hash = "028a739acbfd3e89c11e086daa8be85a96c8aede6a75d3981e328337c86094b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading_house.json5"
-hash = "9effd96dbf23ce09cc0b92f8b4c8f3ecb25dc0022ec2ffc0009aa1d0ec6f2a5d"
+hash = "810cffb94c5c0be01d5fdb6acdf59899cf553bae7530524749c7698bd8692d1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.json5"
@@ -90,7 +90,7 @@ hash = "bee1c4e750e79d3133e3f3fb94b138c7eae93798fc72746c3fc0c884b5cb1c0c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.json5"
-hash = "977345338772e674a128e5c60cedfedca5ae6a8c218748687e2bed44d4239039"
+hash = "a6cff5f06aae6c149066edc4354183f9f4a910e0b9d79c3f8f3031125c98dd35"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter_group.json5"
@@ -110,7 +110,7 @@ hash = "cf747bc6ddc7ed311310e691229fab2ac176730f3ff302e1c8094aa584e3310a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/cellar.json5"
-hash = "04fed7bd274ffe8def5ccddec672e8c5c21c849d23328c9974e71d51ba56c579"
+hash = "dd54c153746ef495753f55afd62571fe35d19af6fc3b60904abfe190cbe507b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
@@ -130,7 +130,7 @@ hash = "d6ed04e43f91b8f55bff50ffb7b9b80854ae650831182b301567a7102ac4a21e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/old_works.json5"
-hash = "42c4354dc4059f17ed3743210774aa62d835310e6adc3da585b7c7716b0930f1"
+hash = "17915f2ac3fd8df374164b3b8ba06770c55f227b4ea54ff539003fe08d5c6149"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/power_station.json5"
@@ -138,7 +138,7 @@ hash = "6cd23339e778d8a6c7ada9ed2c0c958bb1f00edf6ab5d64e5da8fe0eb1b92dfe"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/trading_house.json5"
-hash = "fa053fba9b7fdd2a8e6cf911af91e19a167e35c2ed106b45f27276fd27bd2bde"
+hash = "902d5e4c3fe397b76643933221111038e90a47389e2269c2b1d4fc5022b752c1"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/workshop.json5"
@@ -515,6 +515,16 @@ hash = "3b13a6c91250bce868a16561fb09032bff3a59d57bef9cf073587e82385a132b"
 metafile = true
 
 [[files]]
+file = "mods/entangled.pw.toml"
+hash = "3532a9c9ff9d9d2e7bea27d3c0a008a6b3610aac52e703331a908be0e02a5f78"
+metafile = true
+
+[[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "a37dc502c28a7749d3fe81265978c9085023195470260cbd635aff1b540d5b2a"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "8d0f3e17f96b895720a3d9bc73f71e46388f4dbea1ac4a6d3c2c0084d253f93c"
 metafile = true
@@ -652,6 +662,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "a5ddd04f775c13be9315a8871836ee2e6f76d03ec152d5fd5e76e90d1b45e70e"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "8733f49a480bf4362d2f4615351dbc87215a5767d411a4de8f02aa4008512288"
 metafile = true
 
 [[files]]
@@ -860,6 +875,11 @@ hash = "4bc74a489aba466a43392a421e9c42e9849f0e2fcfb502698a68b18186247d63"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "8c3ab280a7e307a0ee3edda11ccff50f589ebe13b7a6b15d892cecd9e833a996"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "52da0337280b1cbb949d3d54676f7250d075004a0304f562ebbc32870a21f2bd"
 metafile = true
@@ -892,6 +912,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "4c9becddf64f244dd75e98188392a8c1bf9a311ba52c546de7c92b1f58f37707"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster-unofficial-fan-build-26-1-2.pw.toml"
+hash = "cb18fd1419a6ef36044ffa0ef3acdc100cd33fcded3fd3d1407aef2971b49996"
 metafile = true
 
 [[files]]
@@ -967,4 +992,9 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "7513bf8234406adf6dc90f9ba76a83929cfa154971489f76a392508c2f846dcc"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "8f8677c6304647ab640f6bf06b7748d1fc5d496b56ea661e31b4d6be899178ac"
 metafile = true

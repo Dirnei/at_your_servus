@@ -5,6 +5,10 @@ def cf(pid, side="both"):
     return {"side": side, "update": {"curseforge": {"project-id": pid, "file-id": 1}}}
 
 
+def with_filename(meta, filename):
+    return {**meta, "filename": filename}
+
+
 def url(side="both"):
     return {"side": side, "download": {"mode": "url", "url": "https://example.invalid/a.jar"}}
 
@@ -14,6 +18,7 @@ def complete():
     metas["servus-alchemy"] = url()
     for i, slug in enumerate(pack_check.CLIENT_ONLY_SLUGS):
         metas[slug] = cf(2000 + i, side="client")
+    metas["euphoria-patches"]["filename"] = "EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar"
     return metas
 
 
@@ -28,7 +33,7 @@ def test_excluded_project_fails_and_names_mod():
 
 
 def test_shader_pack_for_both_sides_fails_and_is_named():
-    shaders = {"complementary-reimagined": cf(3000, side="both")}
+    shaders = {"complementary-reimagined": with_filename(cf(3000, side="both"), "ComplementaryReimagined_r5.9.3.zip")}
     assert pack_check.check(complete(), shaders=shaders) == [
         "shader pack complementary-reimagined must be side = \"client\", is 'both'"]
 
@@ -38,6 +43,28 @@ def test_public_fails_on_url_shader_pack():
     metas["servus-alchemy"] = cf(1999)
     errors = pack_check.check(metas, public=True, shaders={"some-shader": url(side="client")})
     assert errors == ["some-shader is not sourced from CurseForge; switch it to CurseForge before a public build"]
+
+
+def test_euphoria_patches_matching_complementary_passes():
+    metas = complete()
+    shaders = {"complementary-reimagined": with_filename(cf(3000, side="client"), "ComplementaryReimagined_r5.9.3.zip"),
+               "complementary-unbound": with_filename(cf(3001, side="client"), "ComplementaryUnbound_r5.9.3.zip")}
+    assert pack_check.check(metas, shaders=shaders) == []
+
+
+def test_euphoria_patches_version_mismatch_fails_and_names_files():
+    metas = complete()
+    shaders = {"complementary-unbound": with_filename(cf(3001, side="client"), "ComplementaryUnbound_r5.10.0.zip")}
+    assert pack_check.check(metas, shaders=shaders) == [
+        "Euphoria Patches and Complementary are built for different versions: "
+        "EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar, ComplementaryUnbound_r5.10.0.zip"]
+
+
+def test_complementary_without_version_fails():
+    metas = complete()
+    shaders = {"complementary-unbound": with_filename(cf(3001, side="client"), "ComplementaryUnbound.zip")}
+    assert pack_check.check(metas, shaders=shaders) == [
+        "ComplementaryUnbound.zip names no Complementary version (r<version>)"]
 
 
 def test_missing_required_mod_fails():

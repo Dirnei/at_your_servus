@@ -1,0 +1,13 @@
+name = "Torchmaster Version Locked"
+filename = "torchmaster-neoforge-26.1.2-26.1.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "111c20b26481399836633d3c0d5e8c7a9a3442a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9105083
+project-id = 1734573

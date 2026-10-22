@@ -76,12 +76,11 @@ rewards = [{ type = "item", item = "minecraft:bucket", count = 2 }]
 slug = "coal-generator"
 title = "Steam Again"
 description = """
-The Coal Generator is not clever, but it is honest: coal in, power out. Give it a chimney, or the smoke stays in the works and so do you."""
+The Coal Generator is not clever, but it is honest: coal in, power out. It brought its own chimney, so the smoke goes up and not into your lungs."""
 x = 6.0
 y = 1.0
 deps = ["duct"]
-tasks = [{ type = "item", item = "servus_foundation:coal_generator" },
-         { type = "item", item = "servus_foundation:chimney" }]
+tasks = [{ type = "item", item = "servus_foundation:coal_generator" }]
 rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
 
 [[quest]]
@@ -173,21 +172,43 @@ tasks = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]
 rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
 
 [[quest]]
+slug = "data-cable"
+title = "The Data Cable"
+description = """
+Only storage touches the rails. Everything else talks over the data cable. Run one from the controller to where you want your terminal; the controller sits on both."""
+x = 14.0
+y = 4.0
+deps = ["controller"]
+tasks = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
+rewards = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
+
+[[quest]]
+slug = "packing-station"
+title = "The Warehouse Door"
+description = """
+A Packing Station is the warehouse's door to the data line. Put it at the rails and on the data cable. What you ask for at a terminal leaves the racks through it, and what you put in at a terminal comes back in through it."""
+x = 16.0
+y = 4.0
+deps = ["data-cable"]
+tasks = [{ type = "item", item = "servus_shuttles:packing_station" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
 slug = "terminal"
 title = "One Window on Everything"
 subtitle = "A warehouse, at last"
 description = """
 Servus, kid,
 
-a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.
+a Storage Terminal on the data cable shows everything in the racks. Ask for something, and the shuttles bring it to the Packing Station and the line brings it to you. Put something in, and it goes the same way back. That is a warehouse.
 
 Now dig yourself a cellar. Not too deep. Learn from me.
 
 Uncle Vinzenz"""
-x = 14.0
+x = 18.0
 y = 4.0
 shape = "gear"
 size = 1.25
-deps = ["controller"]
+deps = ["packing-station"]
 tasks = [{ type = "item", item = "servus_shuttles:storage_terminal" }]
 rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }]

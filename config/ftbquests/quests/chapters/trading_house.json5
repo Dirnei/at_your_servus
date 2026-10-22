@@ -120,36 +120,6 @@
 			"dependencies": [
 				"6800E2669EDBDA30"
 			],
-			"id": "52284641AD471883",
-			"rewards": [
-				{
-					"count": 16,
-					"id": "07773F1484B089AE",
-					"item": {
-						"count": 1,
-						"id": "servus_foundation:data_cable"
-					},
-					"type": "item"
-				}
-			],
-			"tasks": [
-				{
-					"count": 16,
-					"id": "02A7D782A270E9D0",
-					"item": {
-						"count": 1,
-						"id": "servus_foundation:data_cable"
-					},
-					"type": "item"
-				}
-			],
-			"x": 4.0,
-			"y": 1.0
-		},
-		{
-			"dependencies": [
-				"52284641AD471883"
-			],
 			"id": "2CFAA1B93AE63A3B",
 			"rewards": [
 				{
@@ -211,31 +181,6 @@
 			"dependencies": [
 				"002D274F79E0F1A7"
 			],
-			"id": "5E06A1198AE4F57D",
-			"rewards": [
-				{
-					"id": "5F40B6FCB11FE9E6",
-					"type": "xp",
-					"xp": 50
-				}
-			],
-			"tasks": [
-				{
-					"id": "7D801747D9FEBE88",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:packing_station"
-					},
-					"type": "item"
-				}
-			],
-			"x": 10.0,
-			"y": 0.0
-		},
-		{
-			"dependencies": [
-				"002D274F79E0F1A7"
-			],
 			"id": "0346EE683D2E3D5B",
 			"rewards": [
 				{
@@ -259,7 +204,6 @@
 		},
 		{
 			"dependencies": [
-				"5E06A1198AE4F57D",
 				"0346EE683D2E3D5B",
 				"70FBE2C8BA49454A"
 			],

@@ -2,7 +2,7 @@
 	"quest.084BE4B17F0BFFA2.quest_desc": [
 		"Servus, kid,",
 		"",
-		"our family were traders long before they were miners. Huber & Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.",
+		"our family were traders long before they were miners. Huber \\& Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.",
 		"",
 		"I wanted to bring the company back. I got as far as a few racks and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
 		"",
@@ -10,8 +10,12 @@
 	],
 	"quest.084BE4B17F0BFFA2.quest_subtitle": "To be opened when the generator runs",
 	"quest.084BE4B17F0BFFA2.title": "A Merchant Needs a Warehouse",
+	"quest.09924BE548CF539B.quest_desc": [
+		"A Packing Station is the warehouse's door to the data line. Put it at the rails and on the data cable. What you ask for at a terminal leaves the racks through it, and what you put in at a terminal comes back in through it."
+	],
+	"quest.09924BE548CF539B.title": "The Warehouse Door",
 	"quest.154635F0928623AD.quest_desc": [
-		"The Coal Generator is not clever, but it is honest: coal in, power out. Give it a chimney, or the smoke stays in the works and so do you."
+		"The Coal Generator is not clever, but it is honest: coal in, power out. It brought its own chimney, so the smoke goes up and not into your lungs."
 	],
 	"quest.154635F0928623AD.title": "Steam Again",
 	"quest.18708C304981DDFE.quest_desc": [
@@ -39,6 +43,10 @@
 		"A fluid line, a tank and a pump. The burner pump runs on coal; it will do until you have power."
 	],
 	"quest.3FF7D0BE4543F4E1.title": "Water Where You Want It",
+	"quest.44E9B2252A51AED5.quest_desc": [
+		"Only storage touches the rails. Everything else talks over the data cable. Run one from the controller to where you want your terminal; the controller sits on both."
+	],
+	"quest.44E9B2252A51AED5.title": "The Data Cable",
 	"quest.4941E54A4860A80E.quest_desc": [
 		"A power line in the duct takes the generator's power wherever the duct goes."
 	],
@@ -46,7 +54,7 @@
 	"quest.4D2D65E84AB641D8.quest_desc": [
 		"Servus, kid,",
 		"",
-		"a Storage Terminal shows everything in the racks, and the shuttles fetch what you ask for. That is a warehouse.",
+		"a Storage Terminal on the data cable shows everything in the racks. Ask for something, and the shuttles bring it to the Packing Station and the line brings it to you. Put something in, and it goes the same way back. That is a warehouse.",
 		"",
 		"Now dig yourself a cellar. Not too deep. Learn from me.",
 		"",

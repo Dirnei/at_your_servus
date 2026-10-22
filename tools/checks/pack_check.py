@@ -1,5 +1,6 @@
 """Checks the packwiz mod list against the pack's rules (see openspec mod-selection and pack-build)."""
 import argparse
+import re
 import sys
 import tomllib
 from pathlib import Path
@@ -27,7 +28,7 @@ REQUIRED_SLUGS = [
 
 CLIENT_ONLY_SLUGS = [
     "sodium", "irisshaders", "immediatelyfast", "mouse-tweaks", "controlling", "searchables",
-    "better-advancements", "enchantment-descriptions",
+    "better-advancements", "enchantment-descriptions", "lighty", "euphoria-patches",
 ]
 
 # The CurseForge project IDs of the hand-made Servus-0.1.0.zip export the pack was seeded from.
@@ -36,6 +37,10 @@ EXAMPLE_PROJECT_IDS = frozenset({
     363569, 378646, 386134, 400933, 404465, 404468, 422301, 453925, 495476, 502372, 531761,
     556861, 618298, 619320, 629153, 686435, 1119394, 1475746, 1689768, 1746893, 1747973,
 })
+
+
+# Euphoria Patches is built for one Complementary version, named in its file name like the shader packs'.
+_COMPLEMENTARY_VERSION = re.compile(r"[-_]r(\d+(?:\.\d+)+)")
 
 
 def load_metafiles(mods_dir: Path) -> dict[str, dict]:
@@ -71,10 +76,26 @@ def check(metas: dict[str, dict], public: bool = False, example_ids: set[int] = 
     for slug, m in shaders.items():
         if m.get("side") != "client":
             errors.append(f"shader pack {slug} must be side = \"client\", is {m.get('side')!r}")
+    errors += complementary_version_errors(metas, shaders)
     if public:
         for slug, m in {**metas, **shaders}.items():
             if project_id(m) is None:
                 errors.append(f"{slug} is not sourced from CurseForge; switch it to CurseForge before a public build")
+    return errors
+
+
+def complementary_version_errors(metas: dict[str, dict], shaders: dict[str, dict]) -> list[str]:
+    """Euphoria Patches and every Complementary shader pack must name the same Complementary version."""
+    if "euphoria-patches" not in metas:
+        return []
+    files = [m["filename"] for slug, m in sorted(shaders.items()) if slug.startswith("complementary-")]
+    if not files:
+        return []
+    files.insert(0, metas["euphoria-patches"]["filename"])
+    versions = {f: _COMPLEMENTARY_VERSION.search(f) for f in files}
+    errors = [f"{f} names no Complementary version (r<version>)" for f, v in versions.items() if v is None]
+    if not errors and len({v.group(1) for v in versions.values()}) > 1:
+        errors.append("Euphoria Patches and Complementary are built for different versions: " + ", ".join(files))
     return errors
 
 

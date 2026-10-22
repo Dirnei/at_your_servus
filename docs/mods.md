@@ -85,6 +85,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `building-wands` | Building Wands | both | Building |
 | `rechiseled` | Rechiseled | both | Decorative block variants |
 | `cooking-for-blockheads` | Cooking for Blockheads | both | Kitchen |
+| `spice-of-life-carrot-edition` | Spice of Life: Carrot Edition | both | Extra hearts for eating different foods |
 | `carry-on` | Carry On | both | Pick up chests and blocks |
 | `gravestone-mod` | GraveStone Mod | both | Grave on death (the only grave mod) |
 | `comforts` | Comforts | both | Sleeping bags, hammocks |
@@ -105,6 +106,8 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `macaws-stairs` | Macaw's Stairs | both | Building |
 | `macaws-trapdoors` | Macaw's Trapdoors | both | Building |
 | `macaws-windows` | Macaw's Windows | both | Building |
+| `torchmaster-unofficial-fan-build-26-1-2` | Torchmaster Version Locked | both | Feral Flare Lantern, Megatorch, Dread Lamp (unofficial 26.1 port) |
+| `entangled` | Entangled | both | Entangled Block: links to a block elsewhere |
 
 ## QoL and performance
 
@@ -121,6 +124,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `ferritecore` | FerriteCore | both | Memory use |
 | `sodium` | Sodium | client | Rendering performance |
 | `irisshaders` | Iris Shaders | client | Shaders; off until a shader pack is picked |
+| `euphoria-patches` | Euphoria Patches | client | Writes Euphoria-patched copies of the Complementary shader packs at game start |
 | `immediatelyfast` | ImmediatelyFast | client | Rendering performance |
 | `mouse-tweaks` | Mouse Tweaks | client | Inventory handling |
 | `inventory-sorter` | Inventory Sorter | both | Middle-click sorts a chest or inventory |
@@ -128,14 +132,16 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `searchables` | Searchables | client | Search library for Controlling |
 | `better-advancements` | Better Advancements | client | Advancement screen |
 | `enchantment-descriptions` | Enchantment Descriptions | client | Enchantment tooltips |
+| `lighty` | Lighty | client | Light level overlay, F7 |
 
 ## Shader packs
 
-Installed for Iris but not selected: pick one under Video Settings > Shader Packs.
+Installed for Iris but not selected: pick one under Video Settings > Shader Packs. Euphoria Patches adds a patched copy of each Complementary pack at the first game start, so the list also shows "+ EuphoriaPatches" versions. Euphoria Patches and both packs must be built for the same Complementary version (the pack check enforces it).
 
 | Metafile | Shader pack | Side | Role |
 |---|---|---|---|
 | `complementary-reimagined` | Complementary Shaders - Reimagined | client | Default shader pack |
+| `complementary-unbound` | Complementary Shaders - Unbound | client | Second shader pack, with a more stylised look |
 
 ## Libraries
 
@@ -165,8 +171,8 @@ Installed for Iris but not selected: pick one under Video Settings > Shader Pack
 | `rhino` | Rhino | both | KubeJS |
 | `runelic` | Runelic | both | Dark Utilities |
 | `sophisticated-core` | Sophisticated Core | both | Sophisticated Storage and Backpacks |
-| `supermartijn642s-config-lib` | SuperMartijn642's Config Lib | both | Rechiseled |
-| `supermartijn642s-core-lib` | SuperMartijn642's Core Lib | both | Rechiseled |
+| `supermartijn642s-config-lib` | SuperMartijn642's Config Lib | both | Rechiseled, Entangled |
+| `supermartijn642s-core-lib` | SuperMartijn642's Core Lib | both | Rechiseled, Entangled |
 | `titanium` | Titanium | both | Functional Storage |
 | `yungs-api` | YUNG's API | both | YUNG's mods |
 

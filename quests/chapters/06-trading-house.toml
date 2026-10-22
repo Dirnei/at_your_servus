@@ -55,24 +55,13 @@ tasks = [{ type = "item", item = "servus_shuttles:outbound_station" }]
 rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
-slug = "data-cable"
-title = "The Data Cable"
-description = """
-Only storage touches the rails. Everything else talks over the data cable, and the controller sits on both."""
-x = 4.0
-y = 1.0
-deps = ["outbound"]
-tasks = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
-rewards = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
-
-[[quest]]
 slug = "crafting-station"
 title = "A Station That Crafts"
 description = """
 The Crafting Station does the crafting table's job, only without you."""
 x = 6.0
 y = 1.0
-deps = ["data-cable"]
+deps = ["outbound"]
 tasks = [{ type = "item", item = "servus_shuttles:crafting_station" }]
 rewards = [{ type = "xp", amount = 50 }]
 
@@ -87,17 +76,6 @@ deps = ["crafting-station"]
 tasks = [{ type = "item", item = "servus_shuttles:crafting_cpu" },
          { type = "item", item = "servus_shuttles:pattern_storage" }]
 rewards = [{ type = "item", item = "servus_shuttles:crafting_cpu_buffer" }]
-
-[[quest]]
-slug = "packing"
-title = "Packed and Ready"
-description = """
-The Packing Station gathers what an order needs and packs it for the machine that does the work."""
-x = 10.0
-y = 0.0
-deps = ["cpu"]
-tasks = [{ type = "item", item = "servus_shuttles:packing_station" }]
-rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "production-terminal"
@@ -126,7 +104,7 @@ x = 12.0
 y = 1.0
 shape = "gear"
 size = 1.5
-deps = ["packing", "production-terminal", "cellar:albedo"]
+deps = ["production-terminal", "cellar:albedo"]
 tasks = [{ type = "item", item = "servus_shuttles:crafting_cpu" },
          { type = "item", item = "servus_foundation:machine_adapter" },
          { type = "checkmark" }]

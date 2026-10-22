@@ -94,8 +94,13 @@ def _quest(quest: Quest, ids: dict[tuple[str, str], str]) -> dict:
     return out
 
 
+def _text(text: str) -> str:
+    """FTB Quests reads & as a formatting code; the pack uses none, so every & is escaped."""
+    return text.replace("&", "\\&")
+
+
 def _lines(text: str) -> list[str]:
-    return text.strip("\n").split("\n")
+    return [_text(line) for line in text.strip("\n").split("\n")]
 
 
 def build(chapters: list[Chapter]) -> dict[str, str]:
@@ -108,7 +113,7 @@ def build(chapters: list[Chapter]) -> dict[str, str]:
     groups = [g for g in GROUPS if any(c.group == g for c in chapters)]
     files["chapter_groups.json5"] = _json({"chapter_groups": [
         {"id": stable_id("group", g), "icon": _stack(GROUPS[g][1])} for g in groups]})
-    group_lang = {f"chapter_group.{stable_id('group', g)}.title": GROUPS[g][0] for g in groups}
+    group_lang = {f"chapter_group.{stable_id('group', g)}.title": _text(GROUPS[g][0]) for g in groups}
     chapter_lang = {}
     ordered = sorted(chapters, key=lambda c: (c.group, c.order))
     for c in ordered:
@@ -119,14 +124,14 @@ def build(chapters: list[Chapter]) -> dict[str, str]:
         if c.icon:
             chapter["icon"] = _stack(c.icon)
         files[f"chapters/{name}.json5"] = _json(chapter)
-        chapter_lang[f"chapter.{c.id}.title"] = c.title
+        chapter_lang[f"chapter.{c.id}.title"] = _text(c.title)
         if c.subtitle:
-            chapter_lang[f"chapter.{c.id}.chapter_subtitle"] = [c.subtitle]
+            chapter_lang[f"chapter.{c.id}.chapter_subtitle"] = [_text(c.subtitle)]
         lang = {}
         for q in c.quests:
-            lang[f"quest.{q.id}.title"] = q.title
+            lang[f"quest.{q.id}.title"] = _text(q.title)
             if q.subtitle:
-                lang[f"quest.{q.id}.quest_subtitle"] = q.subtitle
+                lang[f"quest.{q.id}.quest_subtitle"] = _text(q.subtitle)
             if q.description:
                 lang[f"quest.{q.id}.quest_desc"] = _lines(q.description)
         files[f"lang/en_us/chapters/{name}.json5"] = _json(lang)

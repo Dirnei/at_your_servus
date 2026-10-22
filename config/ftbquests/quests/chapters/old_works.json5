@@ -186,14 +186,6 @@
 						"id": "servus_foundation:coal_generator"
 					},
 					"type": "item"
-				},
-				{
-					"id": "5A8B0FCFB268E775",
-					"item": {
-						"count": 1,
-						"id": "servus_foundation:chimney"
-					},
-					"type": "item"
 				}
 			],
 			"x": 6.0,
@@ -405,6 +397,61 @@
 			"dependencies": [
 				"51D79D2B4943A1CA"
 			],
+			"id": "44E9B2252A51AED5",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "0350D344C66BCE3A",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:data_cable"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "2C39EEBFBBEAF226",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:data_cable"
+					},
+					"type": "item"
+				}
+			],
+			"x": 14.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"44E9B2252A51AED5"
+			],
+			"id": "09924BE548CF539B",
+			"rewards": [
+				{
+					"id": "368C959B7B479BFB",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "423C87AEC27E54A4",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:packing_station"
+					},
+					"type": "item"
+				}
+			],
+			"x": 16.0,
+			"y": 4.0
+		},
+		{
+			"dependencies": [
+				"09924BE548CF539B"
+			],
 			"id": "4D2D65E84AB641D8",
 			"rewards": [
 				{
@@ -429,7 +476,7 @@
 					"type": "item"
 				}
 			],
-			"x": 14.0,
+			"x": 18.0,
 			"y": 4.0
 		}
 	]
