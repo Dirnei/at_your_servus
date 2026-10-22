@@ -1,13 +1,13 @@
 name = "Servus: Alchemy"
-filename = "servus_alchemy-0.1.0-alpha.jar"
+filename = "servus_alchemy-0.2.0-alpha.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "00e1754e8047a322acf0a6d65411063e83cf3d53"
+hash = "4369d0724a97c22de5e2f489834b0ace461b859c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9225801
+file-id = 9289173
 project-id = 1749729

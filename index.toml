@@ -880,17 +880,17 @@ metafile = true
 
 [[files]]
 file = "mods/servus-alchemy.pw.toml"
-hash = "84265d36170bec64e68264c565a33fb8633bc6d0b54957e9f85123b10810de2d"
+hash = "6c225b5c4ebb08be330b15d65ab3b4d7f59c9db6021a1243bd2e16de585e99de"
 metafile = true
 
 [[files]]
 file = "mods/servus-foundation.pw.toml"
-hash = "4bc453530dd1d01475aef1939423d9a99e21c827eaee7fc6487a161a938e830e"
+hash = "6eccd165c0bde7dda45dd27accf66116685d62b85f96ae411e53325955269884"
 metafile = true
 
 [[files]]
 file = "mods/servus-shuttles.pw.toml"
-hash = "7ade524fc982731a5581424dc25f7d02f2ab5945873ff571bd72b591e56f3a04"
+hash = "e3d53b7ca695ddd6a10b95a28b69fad009b35a66528544567a061b102977d6e4"
 metafile = true
 
 [[files]]
