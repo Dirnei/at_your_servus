@@ -464,6 +464,11 @@ hash = "c0226eddc81b893fa8e062f083867cd6288e9a53e290d297a470f06bf6be355e"
 metafile = true
 
 [[files]]
+file = "mods/bibliocraft-legacy.pw.toml"
+hash = "bf4d68ddce639e5dac5dd991d6aba2273907c15702995c67594f49f305b84f8e"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "06beeacffeab41f5b77f1f61d305af006cb2e1e57094b1c7a71d54d281c4cfcb"
 metafile = true

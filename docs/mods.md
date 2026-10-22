@@ -109,6 +109,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `torchmaster-unofficial-fan-build-26-1-2` | Torchmaster Version Locked | both | Feral Flare Lantern, Megatorch, Dread Lamp (unofficial 26.1 port) |
 | `entangled` | Entangled | both | Entangled Block: links to a block elsewhere |
 | `adorn-for-forge` | Adorn | both | Furniture: sofas, chairs, tables, kitchen counters |
+| `bibliocraft-legacy` | Bibliocraft Legacy | both | Furniture that holds items: bookcases, shelves, tool racks, display cases |
 
 ## QoL and performance
 

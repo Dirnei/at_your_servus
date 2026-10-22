@@ -8,9 +8,9 @@
 
 ## 2. Bibliocraft Legacy
 
-- [ ] 2.1 Run `packwiz cf add` for Bibliocraft Legacy (`bibliocraft-26.1.2-1.7.1.jar`) and any new library; check source and side as in 1.1
-- [ ] 2.2 Add its rows to `docs/mods.md` (add Bibliocraft to the row of any library it shares with Adorn); run `packwiz refresh`; verify the checks from 1.2 pass
-- [ ] 2.3 Restart the test server and verify as in 1.3; commit as `feat: add Bibliocraft Legacy furniture`
+- [x] 2.1 Run `packwiz cf add` for Bibliocraft Legacy (`bibliocraft-26.1.2-1.7.1.jar`) and any new library; check source and side as in 1.1
+- [x] 2.2 Add its rows to `docs/mods.md` (add Bibliocraft to the row of any library it shares with Adorn); run `packwiz refresh`; verify the checks from 1.2 pass
+- [x] 2.3 Restart the test server and verify as in 1.3; commit as `feat: add Bibliocraft Legacy furniture`
 
 ## 3. Fantasy's Furniture
 
