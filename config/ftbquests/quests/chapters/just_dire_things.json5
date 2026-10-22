@@ -1,0 +1,334 @@
+{
+	"filename": "just_dire_things",
+	"group": "6C1E596995DBCC2C",
+	"icon": {
+		"count": 1,
+		"id": "justdirethings:gooblock_tier3"
+	},
+	"id": "5628173E9AFB6F27",
+	"order_index": 5,
+	"quests": [
+		{
+			"dependencies": [
+				"76A6CCC8C9A258F0"
+			],
+			"id": "744D60AD098A5956",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "6D36890303F23722",
+					"item": {
+						"count": 1,
+						"id": "minecraft:redstone"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "31D1AF299DFC7D12",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:sensort1"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"76A6CCC8C9A258F0"
+			],
+			"id": "0F0A68146FE46A4A",
+			"rewards": [
+				{
+					"id": "0038CAFF77273344",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "546EDD88871F99DC",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:clickert1"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"0F0A68146FE46A4A"
+			],
+			"id": "7014892B0EF02CFD",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "775189A1A247EB17",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "5F60A5D2CB348DDA",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:upgrade_orescanner"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"0950ABF989872683"
+			],
+			"id": "03AD2B72F495F88F",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "013E31E139CB32D9",
+					"item": {
+						"count": 1,
+						"id": "minecraft:wheat"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "342C04C7B89228E6",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:creaturecatcher"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"0950ABF989872683"
+			],
+			"id": "741678D868BD471E",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "3E93A23264CB36E6",
+					"item": {
+						"count": 1,
+						"id": "minecraft:ender_pearl"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "067E494AA06BE542",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:portalgun"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"741678D868BD471E"
+			],
+			"id": "68AB9CBC92E62BF1",
+			"rewards": [
+				{
+					"id": "6CB7A8D7A394D2CA",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "3C8F74C02951E204",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:time_wand"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"6737F16866B90111"
+			],
+			"id": "56133892C076FB87",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "5906C52C34B1C647",
+					"item": {
+						"count": 1,
+						"id": "minecraft:glass_bottle"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "1F77FEBE88AF8FD9",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:gooblock_tier3"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"56133892C076FB87"
+			],
+			"id": "18A55FA1BFA09FD6",
+			"rewards": [
+				{
+					"id": "0CA47F81A42174A1",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "3B0770E5801FB728",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:celestigem"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"744D60AD098A5956",
+				"18A55FA1BFA09FD6"
+			],
+			"id": "3451CD98BFF7356B",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "1E36EDA6F9B74282",
+					"item": {
+						"count": 1,
+						"id": "minecraft:redstone_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "20E812CFBA241EA7",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:sensort2"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"18A55FA1BFA09FD6"
+			],
+			"id": "1EA31ADECF90C2D0",
+			"rewards": [
+				{
+					"id": "37008B69DA335F47",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"id": "339017527B8CCC09",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:celestigem_paxel"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"56133892C076FB87"
+			],
+			"id": "69C7F95828799B28",
+			"rewards": [
+				{
+					"id": "12D26BBC676F3ECD",
+					"type": "xp",
+					"xp": 150
+				}
+			],
+			"tasks": [
+				{
+					"id": "794D9B4436432DCB",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:gooblock_tier4"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"69C7F95828799B28"
+			],
+			"id": "1D13FD59C7BC8708",
+			"rewards": [
+				{
+					"id": "47565F817B17B70B",
+					"type": "xp",
+					"xp": 200
+				}
+			],
+			"tasks": [
+				{
+					"id": "2DD54DF778493AFB",
+					"item": {
+						"count": 1,
+						"id": "justdirethings:eclipsealloy_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 4.0
+		}
+	]
+}

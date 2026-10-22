@@ -112,14 +112,13 @@ rewards = [{ type = "item", item = "servus_alchemy:sealed_flask", count = 4 }]
 
 [[quest]]
 slug = "workshop"
-title = "The Shuttle Workshop"
+title = "The Mk2"
 description = """
-In the workshop you build better shuttles by hand. The Mk2 is faster and carries more."""
+In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and have no workshop yet: iron, planks and a crafting table."""
 x = 6.0
 y = -3.0
 deps = ["zones"]
-tasks = [{ type = "item", item = "servus_shuttles:shuttle_workshop" },
-         { type = "item", item = "servus_shuttles:shuttle_mk2" }]
+tasks = [{ type = "item", item = "servus_shuttles:shuttle_mk2" }]
 rewards = [{ type = "xp", amount = 80 }]
 
 [[quest]]
@@ -134,32 +133,6 @@ tasks = [{ type = "item", item = "servus_shuttles:shuttle_mk3" },
          { type = "item", item = "servus_foundation:speed_upgrade" },
          { type = "item", item = "servus_shuttles:handling_upgrade" }]
 rewards = [{ type = "xp", amount = 100 }]
-
-[[quest]]
-slug = "fields"
-title = "Shuttles in the Field"
-description = """
-Lay Farm Rails along the fields. A shuttle with a Field Head and a Harvester brings in the crops; one with a Spreader sows them again. One tool per shuttle."""
-x = 10.0
-y = -3.0
-deps = ["mk3"]
-tasks = [{ type = "item", item = "servus_shuttles:farm_rail", count = 16 },
-         { type = "item", item = "servus_shuttles:field_head" },
-         { type = "item", item = "servus_shuttles:harvester" },
-         { type = "item", item = "servus_shuttles:spreader" }]
-rewards = [{ type = "item", item = "minecraft:bone_block", count = 8 }]
-
-[[quest]]
-slug = "range"
-title = "Wider Fields"
-description = """
-A Range Upgrade lets a Field Head reach further."""
-x = 10.0
-y = -5.0
-deps = ["fields"]
-optional = true
-tasks = [{ type = "item", item = "servus_shuttles:range_upgrade" }]
-rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "fast-cable"
@@ -178,9 +151,9 @@ slug = "wireless"
 title = "Outposts"
 description = """
 Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost up when the shuttles need it. The company has branches again, like it did in 1530."""
-x = 12.0
+x = 10.0
 y = -3.0
-deps = ["fields"]
+deps = ["mk3"]
 tasks = [{ type = "item", item = "servus_shuttles:wireless_upgrade", count = 2 },
          { type = "item", item = "servus_foundation:anchor_upgrade" }]
 rewards = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]

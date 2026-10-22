@@ -6,7 +6,7 @@
 		"id": "servus_shuttles:warehouse_controller"
 	},
 	"id": "624F7CB7D55D360A",
-	"order_index": 5,
+	"order_index": 6,
 	"quests": [
 		{
 			"dependencies": [
@@ -263,14 +263,6 @@
 					"id": "632ADCCE74AEE56B",
 					"item": {
 						"count": 1,
-						"id": "servus_shuttles:shuttle_workshop"
-					},
-					"type": "item"
-				},
-				{
-					"id": "0B242F35E8EA2365",
-					"item": {
-						"count": 1,
 						"id": "servus_shuttles:shuttle_mk2"
 					},
 					"type": "item"
@@ -322,86 +314,6 @@
 		},
 		{
 			"dependencies": [
-				"417B1F295DEFA19E"
-			],
-			"id": "2BD4188C47A9639B",
-			"rewards": [
-				{
-					"count": 8,
-					"id": "37D67E30E49EC2CE",
-					"item": {
-						"count": 1,
-						"id": "minecraft:bone_block"
-					},
-					"type": "item"
-				}
-			],
-			"tasks": [
-				{
-					"count": 16,
-					"id": "344765C4490EA3B4",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:farm_rail"
-					},
-					"type": "item"
-				},
-				{
-					"id": "4E80DDCDFE3366DD",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:field_head"
-					},
-					"type": "item"
-				},
-				{
-					"id": "36B7406299A7AC24",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:harvester"
-					},
-					"type": "item"
-				},
-				{
-					"id": "2C5A926D75124823",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:spreader"
-					},
-					"type": "item"
-				}
-			],
-			"x": 10.0,
-			"y": -3.0
-		},
-		{
-			"dependencies": [
-				"2BD4188C47A9639B"
-			],
-			"id": "23D4CF623A339876",
-			"optional": true,
-			"rewards": [
-				{
-					"id": "7375CEA2CEFF7AB5",
-					"type": "xp",
-					"xp": 50
-				}
-			],
-			"tasks": [
-				{
-					"id": "4C4D1E87D815F954",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:range_upgrade"
-					},
-					"type": "item"
-				}
-			],
-			"x": 10.0,
-			"y": -5.0
-		},
-		{
-			"dependencies": [
 				"5ACB69B7A0BCDD39"
 			],
 			"id": "45EE84C114D74E1A",
@@ -429,7 +341,7 @@
 		},
 		{
 			"dependencies": [
-				"2BD4188C47A9639B"
+				"417B1F295DEFA19E"
 			],
 			"id": "0DE6C555E6857962",
 			"rewards": [
@@ -461,7 +373,7 @@
 					"type": "item"
 				}
 			],
-			"x": 12.0,
+			"x": 10.0,
 			"y": -3.0
 		},
 		{

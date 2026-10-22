@@ -1,0 +1,137 @@
+[chapter]
+title = "Just Dire Things"
+subtitle = "Side chapter: goo, gadgets and gems"
+icon = "justdirethings:gooblock_tier3"
+
+[[quest]]
+slug = "sensor"
+title = "A Simple Sensor"
+description = """
+The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to: a block, a mob, a player or an item. Cycle the target with its button."""
+x = 0.0
+y = 0.0
+deps = ["nether:ferricore"]
+tasks = [{ type = "item", item = "justdirethings:sensort1" }]
+rewards = [{ type = "item", item = "minecraft:redstone", count = 16 }]
+
+[[quest]]
+slug = "clicker"
+title = "A Hand That Clicks"
+description = """
+The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Feed it a redstone signal or let it run."""
+x = 0.0
+y = 2.0
+deps = ["nether:ferricore"]
+tasks = [{ type = "item", item = "justdirethings:clickert1" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "ore-scanner"
+title = "An Eye for Ore"
+description = """
+Upgrades go into Just Dire Things tools. The Ore Scanner shows ores through the stone around you."""
+x = 2.0
+y = 2.0
+deps = ["clicker"]
+optional = true
+tasks = [{ type = "item", item = "justdirethings:upgrade_orescanner" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "creature-catcher"
+title = "A Pocket for Animals"
+description = """
+The Creature Catcher takes a mob with you and lets it go somewhere else. Moving cows was never this easy."""
+x = 2.0
+y = -2.0
+deps = ["nether:blazegold"]
+tasks = [{ type = "item", item = "justdirethings:creaturecatcher" }]
+rewards = [{ type = "item", item = "minecraft:wheat", count = 16 }]
+
+[[quest]]
+slug = "portal-gun"
+title = "The Portal Gun"
+description = """
+Shoot one portal, then the other, and walk through. Vinzenz would have used it to skip the stairs to the cellar."""
+x = 4.0
+y = -2.0
+deps = ["nether:blazegold"]
+tasks = [{ type = "item", item = "justdirethings:portalgun" }]
+rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 8 }]
+
+[[quest]]
+slug = "time-wand"
+title = "The Time Wand"
+description = """
+The Time Wand makes a block work faster for a while: crops, furnaces, machines. It runs on time fluid. JEI shows how to get Time Crystals."""
+x = 6.0
+y = -2.0
+deps = ["portal-gun"]
+tasks = [{ type = "item", item = "justdirethings:time_wand" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "goo-3"
+title = "Goo from the End"
+description = """
+Tier 3 goo needs dragon's breath, so it waits until after the Ender Dragon. It turns other blocks than the first two tiers, and one of them becomes Celestigem."""
+x = 4.0
+y = 0.0
+deps = ["nether:goo-2"]
+tasks = [{ type = "item", item = "justdirethings:gooblock_tier3" }]
+rewards = [{ type = "item", item = "minecraft:glass_bottle", count = 8 }]
+
+[[quest]]
+slug = "celestigem"
+title = "Celestigem"
+description = """
+Celestigem makes the next tier of tools and armour, and the Advanced Sensor."""
+x = 6.0
+y = 0.0
+deps = ["goo-3"]
+tasks = [{ type = "item", item = "justdirethings:celestigem" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "advanced-sensor"
+title = "An Invisible Pressure Plate"
+description = """
+The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area: up to 5 blocks to each side of its centre, and the centre up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count: "more than 2 players", or "nobody here"."""
+x = 8.0
+y = 0.0
+deps = ["sensor", "celestigem"]
+tasks = [{ type = "item", item = "justdirethings:sensort2" }]
+rewards = [{ type = "item", item = "minecraft:redstone_block", count = 4 }]
+
+[[quest]]
+slug = "celestigem-paxel"
+title = "One Tool for Everything"
+description = """
+A paxel is a pickaxe, an axe and a shovel in one. Celestigem is the first tier that has one."""
+x = 8.0
+y = 2.0
+deps = ["celestigem"]
+tasks = [{ type = "item", item = "justdirethings:celestigem_paxel" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "goo-4"
+title = "Goo from the Deep Dark"
+description = """
+Tier 4 goo needs sculk and echo shards from the Deep Dark. It makes Eclipse Alloy, the best metal Just Dire Things knows."""
+x = 6.0
+y = 2.0
+deps = ["goo-3"]
+tasks = [{ type = "item", item = "justdirethings:gooblock_tier4" }]
+rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "eclipse-alloy"
+title = "Eclipse Alloy"
+description = """
+Eclipse Alloy, the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."""
+x = 6.0
+y = 4.0
+deps = ["goo-4"]
+tasks = [{ type = "item", item = "justdirethings:eclipsealloy_ingot" }]
+rewards = [{ type = "xp", amount = 200 }]

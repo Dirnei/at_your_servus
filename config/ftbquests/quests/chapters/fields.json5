@@ -1,0 +1,438 @@
+{
+	"filename": "fields",
+	"group": "43A77805F125817B",
+	"icon": {
+		"count": 1,
+		"id": "servus_shuttles:field_head"
+	},
+	"id": "3A70C041B03BFA8B",
+	"order_index": 2,
+	"quests": [
+		{
+			"dependencies": [
+				"4D2D65E84AB641D8"
+			],
+			"id": "2151BC5EA758717A",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "6BB6A2FFDF65614E",
+					"item": {
+						"count": 1,
+						"id": "minecraft:wheat_seeds"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "5707A0BC50C2F006",
+					"type": "checkmark"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2151BC5EA758717A"
+			],
+			"id": "59ECC27C40A34F42",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "18EEE2F513E71EBD",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:farm_rail"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 16,
+					"id": "3D541B0B6448C42D",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:farm_rail"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"59ECC27C40A34F42"
+			],
+			"id": "1D0D6510D4687B47",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "74B14759D761EB9A",
+					"item": {
+						"count": 1,
+						"id": "servus_foundation:fluid_pipe"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "07AE49037B0497C4",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:field_head"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2151BC5EA758717A"
+			],
+			"id": "38E5000DD8A81B6F",
+			"rewards": [
+				{
+					"id": "42C74482E8B9DA01",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "28C5C61270A0B1C1",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:shuttle_workshop"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"1D0D6510D4687B47",
+				"38E5000DD8A81B6F"
+			],
+			"id": "2067414B9A11055C",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "374350FE2C800142",
+					"item": {
+						"count": 1,
+						"id": "minecraft:potato"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "63693A9E1B231E98",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:harvester"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2067414B9A11055C"
+			],
+			"id": "432B2736D3A64336",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "71F975D58C274E5B",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bread"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.25,
+			"tasks": [
+				{
+					"id": "68730D6089D60799",
+					"type": "checkmark"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"432B2736D3A64336"
+			],
+			"id": "0FADB4DC7DFA3CCF",
+			"rewards": [
+				{
+					"id": "2B31A35E26D42B70",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "17F1BBE1989BBF3C",
+					"type": "checkmark"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"432B2736D3A64336"
+			],
+			"id": "63BFAE73E24EC3E1",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "7CEB58B169C6B17D",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bone_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6B9BDD727D1BC040",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:spreader"
+					},
+					"type": "item"
+				},
+				{
+					"count": 16,
+					"id": "622D3BEA16C815F6",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bone_meal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"63BFAE73E24EC3E1"
+			],
+			"id": "1BB73504AB17A2BB",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "09AFC0DA577F0849",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "5C9F35CCCD18F366",
+					"item": {
+						"count": 1,
+						"id": "servus_shuttles:range_upgrade"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"432B2736D3A64336"
+			],
+			"id": "38D7EBBD388BA1EE",
+			"rewards": [
+				{
+					"id": "26D0DE4B1C6A1CAF",
+					"item": {
+						"count": 1,
+						"id": "minecraft:iron_axe"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "08AD6D67BC1FE081",
+					"type": "checkmark"
+				}
+			],
+			"x": 8.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"38D7EBBD388BA1EE"
+			],
+			"id": "1F2B0D7C5A26C9C1",
+			"rewards": [
+				{
+					"id": "733FCB1A7EAD9E65",
+					"item": {
+						"count": 1,
+						"id": "minecraft:campfire"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"advancement": "minecraft:husbandry/safely_harvest_honey",
+					"criterion": "",
+					"id": "1D508CC67A1A1128",
+					"type": "advancement"
+				}
+			],
+			"x": 10.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"1F2B0D7C5A26C9C1"
+			],
+			"id": "50076B6D3F65F8D6",
+			"rewards": [
+				{
+					"id": "2FF50FB9252690C6",
+					"item": {
+						"count": 1,
+						"id": "minecraft:shears"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "3FD56B1D186931CA",
+					"item": {
+						"count": 1,
+						"id": "minecraft:honeycomb"
+					},
+					"type": "item"
+				},
+				{
+					"id": "50EC06A0ECC822F3",
+					"item": {
+						"count": 1,
+						"id": "minecraft:beehive"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"50076B6D3F65F8D6"
+			],
+			"id": "5E94105094F1EDA2",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "72E137D3F3EF929F",
+					"item": {
+						"count": 1,
+						"id": "minecraft:honeycomb"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "4C1E03D2EF9A84A7",
+					"type": "checkmark"
+				}
+			],
+			"x": 14.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"432B2736D3A64336"
+			],
+			"id": "0085259CDB7378A3",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "472904BEF0CF5B3E",
+					"item": {
+						"count": 1,
+						"id": "minecraft:golden_carrot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "732EB03EDBAF5112",
+					"item": {
+						"count": 1,
+						"id": "solcarrot:food_book"
+					},
+					"type": "item"
+				},
+				{
+					"id": "10F89F503912A05D",
+					"type": "checkmark"
+				}
+			],
+			"x": 10.0,
+			"y": -4.0
+		},
+		{
+			"dependencies": [
+				"0FADB4DC7DFA3CCF",
+				"5E94105094F1EDA2",
+				"0085259CDB7378A3"
+			],
+			"id": "5801EB4AB70EA8A5",
+			"rewards": [
+				{
+					"id": "07AC262EC37B8F7E",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cake"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "gear",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "3B09C29572E8FD40",
+					"type": "checkmark"
+				}
+			],
+			"x": 16.0,
+			"y": 0.0
+		}
+	]
+}

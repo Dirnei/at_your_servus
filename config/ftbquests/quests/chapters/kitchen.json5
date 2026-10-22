@@ -1,0 +1,271 @@
+{
+	"filename": "kitchen",
+	"group": "6C1E596995DBCC2C",
+	"icon": {
+		"count": 1,
+		"id": "cookingforblockheads:cooking_table"
+	},
+	"id": "31AA25B1FDB50D24",
+	"order_index": 4,
+	"quests": [
+		{
+			"dependencies": [
+				"54C09E6063E7F5EE"
+			],
+			"id": "6E8C02F62BA4A3BE",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "48A25AB91580B405",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bread"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "47D8CF0D3CA828BA",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:recipe_book"
+					},
+					"type": "item"
+				}
+			],
+			"x": 0.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"6E8C02F62BA4A3BE"
+			],
+			"id": "24C9A3F9329AA861",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "1449CEF200793C01",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_porkchop"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "75BCF9461A964692",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:cooking_table"
+					},
+					"type": "item"
+				}
+			],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"24C9A3F9329AA861"
+			],
+			"id": "2471EBEE8A932176",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "62BAB2D5B1BCDB53",
+					"item": {
+						"count": 1,
+						"id": "minecraft:carrot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 2,
+					"id": "2F1A3889B3C020AC",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:counter"
+					},
+					"type": "item"
+				},
+				{
+					"count": 2,
+					"id": "7595ED23A0CF8A22",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:cabinet"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"2471EBEE8A932176"
+			],
+			"id": "4E2517288D36B4F4",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "40443DE0AD7586FE",
+					"item": {
+						"count": 1,
+						"id": "minecraft:coal"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "09AAE5703BD3F1A7",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:white_oven"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"2471EBEE8A932176"
+			],
+			"id": "68ECC27E57EBEBDC",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "094D3E0F71A89FB9",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_salmon"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "0CA93D8961B12B14",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:white_fridge"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"4E2517288D36B4F4",
+				"68ECC27E57EBEBDC"
+			],
+			"id": "245548D421AF9F14",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "1C6A37DFA57CA819",
+					"item": {
+						"count": 1,
+						"id": "minecraft:sugar"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "5B160846E9A7700C",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:sink"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"245548D421AF9F14"
+			],
+			"id": "5CED034112EE4899",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "5D6F265AE404D765",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cake"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "34ACBD4EE3CCD6BC",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:spice_rack"
+					},
+					"type": "item"
+				},
+				{
+					"id": "1799CFD0528F5682",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:toaster"
+					},
+					"type": "item"
+				},
+				{
+					"id": "31C4E3981927C841",
+					"item": {
+						"count": 1,
+						"id": "cookingforblockheads:milk_jar"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"245548D421AF9F14"
+			],
+			"id": "6791276511DE73AA",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "3389539033EEC31B",
+					"item": {
+						"count": 1,
+						"id": "minecraft:pumpkin_pie"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "68F441BED789AC17",
+					"item": {
+						"count": 1,
+						"id": "solcarrot:food_book"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 1.0
+		}
+	]
+}

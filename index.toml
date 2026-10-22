@@ -46,23 +46,35 @@ hash = "8d7017f05754e25e846ea7926a9686b1087b4211ed72751e905f71118b7ecd5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.json5"
-hash = "1c9f2b2f2ca6b6d46e90d7c32149ef1813f3945de3114ced9c916cada20e17ee"
+hash = "3fe3fc9ba1716eb3a0ed1d448757e4ff39e189a2d919db40e4f19034ef02ce44"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cellar.json5"
-hash = "01df2c967cc3221fa38ed8fc5b079ebb47f5424d1b22df520a1e5ca6e050ae39"
+hash = "99960cb32d6833fa9e414dc6f14b9df8c8d5cdbea2b84b54540935184243b9be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.json5"
 hash = "9e114310e1215bb984bae1bbc4a2b0f749f0956352a2a7d1695280ee90e58abb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/fields.json5"
+hash = "b3a6d6a97df246da254dd846e177d0642e278d8eeec7a76513c09fae8b52c846"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/finale.json5"
-hash = "ccb7bd935ba8e5d39aa54df0291b87401af74ec6c7ff8cd7aa99a5a9b15faa06"
+hash = "0d63035056c377ae3d4c4fd5484596fb3a8719d03b2051bdb199a4545672c928"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/just_dire_things.json5"
+hash = "8117ff4c07ba50cd357835f10a84ee646d54f26a7d23ea501ad60d9ef8ec6b3b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kitchen.json5"
+hash = "2a1ba6f1e52cb76d3c6d2ba0237a96a614399094a2813c6ee22c4bef025ba4e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.json5"
-hash = "9cca9bf8a59000ee87f9ed1644addf94fadde392812ba68711463251cfe4ff7f"
+hash = "d6aab82e8037baecda0b8c08d274ea79b395187322bd94a945778df98636e9a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.json5"
@@ -74,15 +86,15 @@ hash = "aa2fecb4820fee74cbc7bcd0f140af07c91e51fbe0a20ea20381049f93b8366c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_station.json5"
-hash = "028a739acbfd3e89c11e086daa8be85a96c8aede6a75d3981e328337c86094b5"
+hash = "d74c8d83aed1004c7019d773f2d793c29ac18e4e5633a1e81b7715ec64b8377d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading_house.json5"
-hash = "810cffb94c5c0be01d5fdb6acdf59899cf553bae7530524749c7698bd8692d1b"
+hash = "34bc67f5570a7a7c57ffb0a2d41ef43fdabe6cec613816460e016c8442714e86"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.json5"
-hash = "ed92a0b03df1c280e461eb51c843f6fe3c57a4331fe32a8add964d4edaa0e308"
+hash = "890364e1bcb141873d12d6f92f7fe41071b2dfa03c7c986f1b87048ea42a6ae6"
 
 [[files]]
 file = "config/ftbquests/quests/data.json5"
@@ -90,7 +102,7 @@ hash = "bee1c4e750e79d3133e3f3fb94b138c7eae93798fc72746c3fc0c884b5cb1c0c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.json5"
-hash = "a6cff5f06aae6c149066edc4354183f9f4a910e0b9d79c3f8f3031125c98dd35"
+hash = "87e8c9c31456c70a265be31f2bd725f2c6c17b4f0c9490f4ba4108d290488ef0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter_group.json5"
@@ -106,7 +118,7 @@ hash = "3155e0d0347665455f86367da550ebd0cf82cac90582bdff80be4782bce62eef"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/building.json5"
-hash = "cf747bc6ddc7ed311310e691229fab2ac176730f3ff302e1c8094aa584e3310a"
+hash = "64392f3d9ae0c7b9938099833f2c91b603b5153399c6074bea969903a2cb17e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/cellar.json5"
@@ -117,8 +129,20 @@ file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
 hash = "9fdb8ce30e9f1df281a8a84809968f4c017ae7d98de380b17ab8b24013d1ae06"
 
 [[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/fields.json5"
+hash = "1016648a54b98a33162176b326e49f1fc1c399d5e29cff599204af3d16a2ff3c"
+
+[[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/finale.json5"
 hash = "835f6836885dff72b58feb8a92594ac0549ab05947fc8712ab50e971e4fd58a9"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/just_dire_things.json5"
+hash = "86cedd41969f7e26e3948d2a3242852cbd73e86f57586211a75484c952dbc20c"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/kitchen.json5"
+hash = "060c203acc4a6e5a739685e39ed7302f6b714f8ef27b55ceb073f5d28fbfd9df"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/nether.json5"
@@ -130,7 +154,7 @@ hash = "d6ed04e43f91b8f55bff50ffb7b9b80854ae650831182b301567a7102ac4a21e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/old_works.json5"
-hash = "17915f2ac3fd8df374164b3b8ba06770c55f227b4ea54ff539003fe08d5c6149"
+hash = "3334c88fc9711c5cc2ef5578b0044db9ce86c95b16ee9e4874406454d50137c3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/power_station.json5"
@@ -138,7 +162,7 @@ hash = "6cd23339e778d8a6c7ada9ed2c0c958bb1f00edf6ab5d64e5da8fe0eb1b92dfe"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/trading_house.json5"
-hash = "902d5e4c3fe397b76643933221111038e90a47389e2269c2b1d4fc5022b752c1"
+hash = "b912b7e5dfa50487b1b73c86ec183ffeceb94d0c2b6d62a9b3be38407932cb67"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/workshop.json5"

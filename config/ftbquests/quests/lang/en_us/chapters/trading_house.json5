@@ -30,18 +30,10 @@
 		"An Inbound Station takes what you drop in and gives it to the shuttles to put away. No more emptying your pockets by hand."
 	],
 	"quest.118E97534B2C15B0.title": "Goods In",
-	"quest.23D4CF623A339876.quest_desc": [
-		"A Range Upgrade lets a Field Head reach further."
-	],
-	"quest.23D4CF623A339876.title": "Wider Fields",
 	"quest.29DFE735FD7B04E9.quest_desc": [
-		"In the workshop you build better shuttles by hand. The Mk2 is faster and carries more."
+		"In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and have no workshop yet: iron, planks and a crafting table."
 	],
-	"quest.29DFE735FD7B04E9.title": "The Shuttle Workshop",
-	"quest.2BD4188C47A9639B.quest_desc": [
-		"Lay Farm Rails along the fields. A shuttle with a Field Head and a Harvester brings in the crops; one with a Spreader sows them again. One tool per shuttle."
-	],
-	"quest.2BD4188C47A9639B.title": "Shuttles in the Field",
+	"quest.29DFE735FD7B04E9.title": "The Mk2",
 	"quest.2CFAA1B93AE63A3B.quest_desc": [
 		"The Crafting Station does the crafting table's job, only without you."
 	],

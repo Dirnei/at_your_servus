@@ -60,37 +60,7 @@
 		},
 		{
 			"dependencies": [
-				"19D404CF6A8054BE"
-			],
-			"id": "27515A9068F68C0E",
-			"rewards": [
-				{
-					"count": 16,
-					"id": "2ED0591D040DF2CE",
-					"item": {
-						"count": 1,
-						"id": "minecraft:cooked_porkchop"
-					},
-					"type": "item"
-				}
-			],
-			"tasks": [
-				{
-					"id": "6B24F6BAD91ADC5F",
-					"item": {
-						"count": 1,
-						"id": "cookingforblockheads:cooking_table"
-					},
-					"type": "item"
-				}
-			],
-			"x": 2.0,
-			"y": 1.0
-		},
-		{
-			"dependencies": [
-				"4AFB534C8E1D7764",
-				"27515A9068F68C0E"
+				"4AFB534C8E1D7764"
 			],
 			"id": "3471061910480E55",
 			"optional": true,

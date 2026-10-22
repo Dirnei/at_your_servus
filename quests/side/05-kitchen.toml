@@ -1,0 +1,96 @@
+[chapter]
+title = "The Kitchen"
+subtitle = "Side chapter: Cooking for Blockheads"
+icon = "cookingforblockheads:cooking_table"
+
+[[quest]]
+slug = "recipe-book"
+title = "No Recipe Without a Book"
+description = """
+The Recipe Book shows every dish you can cook from what is in your pockets. Vinzenz's own cookbook had three recipes in it, all of them for dumplings."""
+x = 0.0
+y = 0.0
+deps = ["arrival:settled"]
+tasks = [{ type = "item", item = "cookingforblockheads:recipe_book" }]
+rewards = [{ type = "item", item = "minecraft:bread", count = 8 }]
+
+[[quest]]
+slug = "cooking-table"
+title = "A Proper Kitchen"
+description = """
+A Cooking Table knows every recipe your larder can make. On its own it reads your pockets; with a kitchen around it, it reads the whole kitchen."""
+x = 2.0
+y = 0.0
+deps = ["recipe-book"]
+tasks = [{ type = "item", item = "cookingforblockheads:cooking_table" }]
+rewards = [{ type = "item", item = "minecraft:cooked_porkchop", count = 16 }]
+
+[[quest]]
+slug = "counters"
+title = "Counters and Cabinets"
+description = """
+Counters and cabinets store your ingredients. Place them next to the Cooking Table, touching each other, and the table uses everything in them."""
+x = 4.0
+y = 0.0
+deps = ["cooking-table"]
+tasks = [{ type = "item", item = "cookingforblockheads:counter", count = 2 },
+         { type = "item", item = "cookingforblockheads:cabinet", count = 2 }]
+rewards = [{ type = "item", item = "minecraft:carrot", count = 16 }]
+
+[[quest]]
+slug = "oven"
+title = "The Oven"
+description = """
+An oven bakes and roasts several things at once. Part of the kitchen, it lets the Cooking Table cook what needs a fire. You can dye it later."""
+x = 6.0
+y = -1.0
+deps = ["counters"]
+tasks = [{ type = "item", item = "cookingforblockheads:white_oven" }]
+rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
+
+[[quest]]
+slug = "fridge"
+title = "Cold Storage"
+description = """
+A fridge keeps food in the kitchen. Two fridges stacked make a tall one."""
+x = 6.0
+y = 1.0
+deps = ["counters"]
+tasks = [{ type = "item", item = "cookingforblockheads:white_fridge" }]
+rewards = [{ type = "item", item = "minecraft:cooked_salmon", count = 8 }]
+
+[[quest]]
+slug = "sink"
+title = "Running Water"
+description = """
+A sink in the kitchen gives the Cooking Table water for its recipes, so you can stop carrying buckets."""
+x = 8.0
+y = 0.0
+deps = ["oven", "fridge"]
+tasks = [{ type = "item", item = "cookingforblockheads:sink" }]
+rewards = [{ type = "item", item = "minecraft:sugar", count = 16 }]
+
+[[quest]]
+slug = "extras"
+title = "Little Helpers"
+description = """
+A spice rack, a toaster and a milk jar: none of them needed, all of them nice."""
+x = 10.0
+y = -1.0
+deps = ["sink"]
+optional = true
+tasks = [{ type = "item", item = "cookingforblockheads:spice_rack" },
+         { type = "item", item = "cookingforblockheads:toaster" },
+         { type = "item", item = "cookingforblockheads:milk_jar" }]
+rewards = [{ type = "item", item = "minecraft:cake" }]
+
+[[quest]]
+slug = "food-book"
+title = "What Have You Eaten?"
+description = """
+With a whole kitchen you can cook dishes you have never tasted. Every new food counts: eat enough different ones and you get more hearts. The Food Book keeps the list."""
+x = 10.0
+y = 1.0
+deps = ["sink"]
+tasks = [{ type = "item", item = "solcarrot:food_book" }]
+rewards = [{ type = "item", item = "minecraft:pumpkin_pie", count = 8 }]

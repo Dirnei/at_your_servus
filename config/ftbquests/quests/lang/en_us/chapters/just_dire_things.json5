@@ -1,0 +1,50 @@
+{
+	"quest.03AD2B72F495F88F.quest_desc": [
+		"The Creature Catcher takes a mob with you and lets it go somewhere else. Moving cows was never this easy."
+	],
+	"quest.03AD2B72F495F88F.title": "A Pocket for Animals",
+	"quest.0F0A68146FE46A4A.quest_desc": [
+		"The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Feed it a redstone signal or let it run."
+	],
+	"quest.0F0A68146FE46A4A.title": "A Hand That Clicks",
+	"quest.18A55FA1BFA09FD6.quest_desc": [
+		"Celestigem makes the next tier of tools and armour, and the Advanced Sensor."
+	],
+	"quest.18A55FA1BFA09FD6.title": "Celestigem",
+	"quest.1D13FD59C7BC8708.quest_desc": [
+		"Eclipse Alloy, the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."
+	],
+	"quest.1D13FD59C7BC8708.title": "Eclipse Alloy",
+	"quest.1EA31ADECF90C2D0.quest_desc": [
+		"A paxel is a pickaxe, an axe and a shovel in one. Celestigem is the first tier that has one."
+	],
+	"quest.1EA31ADECF90C2D0.title": "One Tool for Everything",
+	"quest.3451CD98BFF7356B.quest_desc": [
+		"The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area: up to 5 blocks to each side of its centre, and the centre up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count: \"more than 2 players\", or \"nobody here\"."
+	],
+	"quest.3451CD98BFF7356B.title": "An Invisible Pressure Plate",
+	"quest.56133892C076FB87.quest_desc": [
+		"Tier 3 goo needs dragon's breath, so it waits until after the Ender Dragon. It turns other blocks than the first two tiers, and one of them becomes Celestigem."
+	],
+	"quest.56133892C076FB87.title": "Goo from the End",
+	"quest.68AB9CBC92E62BF1.quest_desc": [
+		"The Time Wand makes a block work faster for a while: crops, furnaces, machines. It runs on time fluid. JEI shows how to get Time Crystals."
+	],
+	"quest.68AB9CBC92E62BF1.title": "The Time Wand",
+	"quest.69C7F95828799B28.quest_desc": [
+		"Tier 4 goo needs sculk and echo shards from the Deep Dark. It makes Eclipse Alloy, the best metal Just Dire Things knows."
+	],
+	"quest.69C7F95828799B28.title": "Goo from the Deep Dark",
+	"quest.7014892B0EF02CFD.quest_desc": [
+		"Upgrades go into Just Dire Things tools. The Ore Scanner shows ores through the stone around you."
+	],
+	"quest.7014892B0EF02CFD.title": "An Eye for Ore",
+	"quest.741678D868BD471E.quest_desc": [
+		"Shoot one portal, then the other, and walk through. Vinzenz would have used it to skip the stairs to the cellar."
+	],
+	"quest.741678D868BD471E.title": "The Portal Gun",
+	"quest.744D60AD098A5956.quest_desc": [
+		"The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to: a block, a mob, a player or an item. Cycle the target with its button."
+	],
+	"quest.744D60AD098A5956.title": "A Simple Sensor"
+}

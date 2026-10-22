@@ -31,13 +31,14 @@ Vinzenz disappeared two winters ago. No body, no note, and no house: where it st
 | # | Chapter | Mod focus | Letter's beat |
 |---|---|---|---|
 | 1 | Prologue: Arrival | basics, backpack, Waystones | The notary's letter: the land is yours, the house is gone ("I dug too deep"). Build a roof, a fire, a bed. |
-| 2 | The Works | Foundation, first warehouse | Build new works. "A merchant without a warehouse is just a peddler." Vinzenz explains Huber & Co. and why he wanted it back. "Then dig a cellar. Not too deep." |
-| 3 | The Cellar | Alchemy | The journal. Vinzenz admits he did alchemy for forty years. Each stage is a page from his notebook, from the year he reached that stage. At Rubedo: "The red fire burns. And now I want more." |
-| 4 | The Power Station | Powah | The coal generator is not enough for a trading company. His plans for a power station "with crystals, because the old way is too slow". |
-| 5 | Into the Nether | Just Dire Things | "The fire you need lives behind the burning gate." Tools and armour for the Nether, his notes on the goo he found. Links to Alchemy's salamander. |
-| 6 | The Trading House | Shuttles | Huber & Co. lives again: put-away rules, autocrafting, orders to the alchemy cellar, fields, outposts. "Now nothing waits on a man. Everything waits on an order." |
-| 7 | Uncle Vinzenz's Workshop | Iron Jetpacks | His invention: jetpacks. The better ones run on quicksilver, "the spirit that rises". He used them to search the shafts for the knocking. |
-| 8 | Finale: Beyond Alchemy | Re:Avaritia | His last plan: matter that does not exist yet. The letters get shorter and stranger. The last quest: Infinity Armor, and the final letter. |
+| 2 | The Works | Foundation, first warehouse | Build new works. "A merchant without a warehouse is just a peddler." Vinzenz explains Huber & Co. and why he wanted it back. "Now feed yourself, and dig a cellar. Not too deep." |
+| 3 | The Fields | Shuttles fields, bees, Spice of Life | The Huber land fed the miners once. Vinzenz put his shuttles on the fields because "a man who digs all day forgets to eat". Copper rails go green; the bees by the old orchard keep them bright, and he does not know why either. Runs beside The Cellar. |
+| 4 | The Cellar | Alchemy | The journal. Vinzenz admits he did alchemy for forty years. Each stage is a page from his notebook, from the year he reached that stage. At Rubedo: "The red fire burns. And now I want more." |
+| 5 | The Power Station | Powah | The coal generator is not enough for a trading company. His plans for a power station "with crystals, because the old way is too slow". |
+| 6 | Into the Nether | Just Dire Things | "The fire you need lives behind the burning gate." Tools and armour for the Nether, his notes on the goo he found. Links to Alchemy's salamander. |
+| 7 | The Trading House | Shuttles | Huber & Co. lives again: put-away rules, autocrafting, orders to the alchemy cellar, outposts. "Now nothing waits on a man. Everything waits on an order." |
+| 8 | Uncle Vinzenz's Workshop | Iron Jetpacks | His invention: jetpacks. The better ones run on quicksilver, "the spirit that rises". He used them to search the shafts for the knocking. |
+| 9 | Finale: Beyond Alchemy | Re:Avaritia | His last plan: matter that does not exist yet. The letters get shorter and stranger. The last quest: Infinity Armor, and the final letter. |
 
 ## The last letter (finale)
 

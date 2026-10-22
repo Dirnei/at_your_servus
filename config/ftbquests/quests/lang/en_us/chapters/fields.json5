@@ -1,0 +1,86 @@
+{
+	"quest.0085259CDB7378A3.quest_desc": [
+		"Bread every day makes a man strong for a week and grumpy for a year. Eat many different foods and your heart grows: every few new foods give you more health. The Food Book shows what you have eaten so far.",
+		"",
+		"Tick this off when eating something new has given you your first extra heart."
+	],
+	"quest.0085259CDB7378A3.title": "Not Just Bread",
+	"quest.0FADB4DC7DFA3CCF.quest_desc": [
+		"A field can farm on demand. The Field Head learns what the field produces from its harvests. On its Stock tab, set \"Harvest up to\": once the warehouse holds that much, the shuttles rest.",
+		"",
+		"Tick this off when you have set a harvest limit."
+	],
+	"quest.0FADB4DC7DFA3CCF.title": "Enough Is Enough",
+	"quest.1BB73504AB17A2BB.quest_desc": [
+		"A Range Upgrade in the Field Head lets the field reach further from its rails. Up to two of them."
+	],
+	"quest.1BB73504AB17A2BB.title": "Wider Fields",
+	"quest.1D0D6510D4687B47.quest_desc": [
+		"Every field needs one Field Head, placed beside a farm rail. It keeps the farmland under the rails wet, so give it water: a fluid pipe from the pump you built in the works will do. In its window you pick the crop."
+	],
+	"quest.1D0D6510D4687B47.title": "The Field Head",
+	"quest.1F2B0D7C5A26C9C1.quest_desc": [
+		"Scraping by hand gets old. Honeycomb keeps the copper as it is, and bees make honeycomb. Find a bee nest, put a campfire under it so the smoke calms the bees, and take honey with a glass bottle."
+	],
+	"quest.1F2B0D7C5A26C9C1.title": "The Bees by the Orchard",
+	"quest.2067414B9A11055C.quest_desc": [
+		"Fit a Harvester to a shuttle in the workshop and send it home to the garage. When the field has water, a crop and seeds, the warehouse sends it out: it tills, plants and harvests, and brings the crop home. A shuttle carries one tool, so a harvester never fetches goods for you."
+	],
+	"quest.2067414B9A11055C.title": "A Shuttle That Farms",
+	"quest.2151BC5EA758717A.quest_desc": [
+		"Servus, kid,",
+		"",
+		"the Huber land fed half the miners in the valley once. Bread, potatoes, honey from the old orchard. Then I started digging and forgot to eat.",
+		"",
+		"Do not be like me. Before you go down into the cellar, or while you do, put the fields back to work. You have rails and shuttles now. A shuttle does not mind the rain.",
+		"",
+		"Uncle Vinzenz"
+	],
+	"quest.2151BC5EA758717A.quest_subtitle": "To be opened when the terminal runs",
+	"quest.2151BC5EA758717A.title": "A Man Has to Eat",
+	"quest.38D7EBBD388BA1EE.quest_desc": [
+		"The copper of the farm rails ages with the water the field uses: exposed, weathered, oxidized, and at last corroded. A corroded field gets no more water, and nothing new grows. Right-click any rail of the field with an axe to scrape the whole field back one stage.",
+		"",
+		"Tick this off when you have scraped your field."
+	],
+	"quest.38D7EBBD388BA1EE.title": "Green Copper",
+	"quest.38E5000DD8A81B6F.quest_desc": [
+		"In the Shuttle Workshop you fit tools and upgrades to a shuttle. Later you build better shuttles in it, too."
+	],
+	"quest.38E5000DD8A81B6F.title": "The Shuttle Workshop",
+	"quest.432B2736D3A64336.quest_desc": [
+		"Put seeds in the warehouse and wait. The Field Head keeps a few seeds in its buffer; shuttles bring more when it runs low.",
+		"",
+		"Tick this off when your harvester has brought its first crop into the racks."
+	],
+	"quest.432B2736D3A64336.title": "The First Harvest",
+	"quest.50076B6D3F65F8D6.quest_desc": [
+		"Shears take the honeycomb from a full nest. Make a beehive from it and bring the bees home to your fields; they help the crops, too."
+	],
+	"quest.50076B6D3F65F8D6.title": "Honeycomb",
+	"quest.5801EB4AB70EA8A5.quest_desc": [
+		"Servus, kid,",
+		"",
+		"fields that water themselves, shuttles that bring in the harvest, bees that keep the copper bright. I never found out why the bees do that. Some things you just accept.",
+		"",
+		"Now nobody on this farm goes hungry. Go and see what the cellar is hiding.",
+		"",
+		"Uncle Vinzenz"
+	],
+	"quest.5801EB4AB70EA8A5.quest_subtitle": "The fields feed the farm again",
+	"quest.5801EB4AB70EA8A5.title": "A Full Larder",
+	"quest.59ECC27C40A34F42.quest_desc": [
+		"Farm Rails are warehouse rails with copper heads. One connected run of them is one field. Lay them through the middle of your farmland and link them to the warehouse rails, so the shuttles can drive out."
+	],
+	"quest.59ECC27C40A34F42.title": "Rails Through the Wheat",
+	"quest.5E94105094F1EDA2.quest_desc": [
+		"On the Field Head's Water tab, pick honeycomb as the anti-corrosion item and keep some in the warehouse. Each time the copper would age, the field uses one honeycomb instead and stays as it is. Shuttles keep the head stocked.",
+		"",
+		"Tick this off when your field holds its copper."
+	],
+	"quest.5E94105094F1EDA2.title": "Wax on the Rails",
+	"quest.63BFAE73E24EC3E1.quest_desc": [
+		"A shuttle with a Spreader brings fertilizer to the field. Pick the fertilizer and the mode in the Field Head, and keep bone meal in the warehouse. Crops grow faster, and the harvesters have more to do."
+	],
+	"quest.63BFAE73E24EC3E1.title": "The Spreader"
+}
