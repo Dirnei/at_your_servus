@@ -20,7 +20,7 @@
 
 ## 4. Integration
 
-- [ ] 4.1 Run `build.ps1 -Public`; verify the client manifest and the server zip both contain Adorn, Bibliocraft Legacy and Fantasy's Furniture, and `python -m tools.checks.commit_check` passes
+- [x] 4.1 Run `build.ps1 -Public`; verify the client manifest and the server zip both contain Adorn, Bibliocraft Legacy and Fantasy's Furniture, and `python -m tools.checks.commit_check` passes
 - [ ] 4.2 Manual, with a client on the test server: find furniture from all three mods in JEI with recipes; place an Adorn chair and sit on it; put a book in a Bibliocraft bookcase, rejoin and see it still there; place a Fantasy's Furniture piece next to Macaw's furniture with no missing textures
 
 ## Workflow follow-up
