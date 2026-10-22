@@ -37,9 +37,9 @@ Current state (checked 2026-10-21):
  fields-letter -> farm-rail -> field-head -> harvester -> first-harvest -> stock-levels
                         shuttle-workshop --^        |
                                                     +--> spreader -> range (optional)
-                                                    +--> corrosion -> bees -> honeycomb -> anti-corrosion
+                                                    +--> corrosion -> bees -> honeycomb -> anti-corrosion (bees on: optional)
  food-variety  (deps first-harvest)
- fields-done   (deps first-harvest, anti-corrosion, food-variety)
+ fields-done   (deps stock-levels, corrosion, food-variety)
 ```
 - `farm-rail`: 16 Farm Rail. `field-head`: Field Head; text: water from the Works pump through a fluid pipe.
 - `shuttle-workshop`: Shuttle Workshop. `harvester`: Harvester; text: fit it on a shuttle in the workshop and pick the crop on the head.

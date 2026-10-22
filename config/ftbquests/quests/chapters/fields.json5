@@ -290,6 +290,7 @@
 				"38D7EBBD388BA1EE"
 			],
 			"id": "1F2B0D7C5A26C9C1",
+			"optional": true,
 			"rewards": [
 				{
 					"id": "733FCB1A7EAD9E65",
@@ -316,6 +317,7 @@
 				"1F2B0D7C5A26C9C1"
 			],
 			"id": "50076B6D3F65F8D6",
+			"optional": true,
 			"rewards": [
 				{
 					"id": "2FF50FB9252690C6",
@@ -353,6 +355,7 @@
 				"50076B6D3F65F8D6"
 			],
 			"id": "5E94105094F1EDA2",
+			"optional": true,
 			"rewards": [
 				{
 					"count": 16,
@@ -409,7 +412,7 @@
 		{
 			"dependencies": [
 				"0FADB4DC7DFA3CCF",
-				"5E94105094F1EDA2",
+				"38D7EBBD388BA1EE",
 				"0085259CDB7378A3"
 			],
 			"id": "5801EB4AB70EA8A5",

@@ -140,6 +140,7 @@ Scraping by hand gets old. Honeycomb keeps the copper as it is, and bees make ho
 x = 10.0
 y = 2.0
 deps = ["corrosion"]
+optional = true
 tasks = [{ type = "advancement", advancement = "minecraft:husbandry/safely_harvest_honey" }]
 rewards = [{ type = "item", item = "minecraft:campfire" }]
 
@@ -151,6 +152,7 @@ Shears take the honeycomb from a full nest. Make a beehive from it and bring the
 x = 12.0
 y = 2.0
 deps = ["bees"]
+optional = true
 tasks = [{ type = "item", item = "minecraft:honeycomb", count = 8 },
          { type = "item", item = "minecraft:beehive" }]
 rewards = [{ type = "item", item = "minecraft:shears" }]
@@ -165,6 +167,7 @@ Tick this off when your field holds its copper."""
 x = 14.0
 y = 2.0
 deps = ["honeycomb"]
+optional = true
 tasks = [{ type = "checkmark" }]
 rewards = [{ type = "item", item = "minecraft:honeycomb", count = 16 }]
 
@@ -198,6 +201,6 @@ x = 16.0
 y = 0.0
 shape = "gear"
 size = 1.5
-deps = ["stock-levels", "anti-corrosion", "food-variety"]
+deps = ["stock-levels", "corrosion", "food-variety"]
 tasks = [{ type = "checkmark" }]
 rewards = [{ type = "item", item = "minecraft:cake" }]

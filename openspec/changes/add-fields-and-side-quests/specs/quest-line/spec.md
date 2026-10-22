@@ -14,11 +14,15 @@ The Fields SHALL open when the Storage Terminal quest of The Old Works is done, 
 - **THEN** every quest in the other main chapters is still reachable
 
 ### Requirement: Bees protect the fields
-The Fields SHALL teach that a field's copper rails corrode, that an axe scrapes them back, and that honeycomb in the Field Head stops the corrosion, and SHALL lead the player to vanilla bees for the honeycomb.
+The Fields SHALL teach that a field's copper rails corrode, that an axe scrapes them back, and that honeycomb in the Field Head stops the corrosion, and SHALL lead the player to vanilla bees for the honeycomb. The bee quests SHALL be optional: the chapter's closing quest MUST NOT depend on them.
 
 #### Scenario: Honeycomb quest
 - **WHEN** a player reaches the bee quests
 - **THEN** they are asked to harvest honeycomb from a nest or hive and to set honeycomb as the Field Head's anti-corrosion item
+
+#### Scenario: Fields without bees
+- **WHEN** a player has scraped a field but skipped the bee quests
+- **THEN** the closing quest of The Fields can still be completed
 
 ## MODIFIED Requirements
 

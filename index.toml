@@ -42,7 +42,7 @@ hash = "4822febb17e23b0c012916893e217da523051160ba8e2839ee0056c1f3721dfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arrival.json5"
-hash = "8d7017f05754e25e846ea7926a9686b1087b4211ed72751e905f71118b7ecd5f"
+hash = "4c0719620edd46309fed17a1808690f6412677e017c804289e8f55b74fcf4ae9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.json5"
@@ -58,7 +58,7 @@ hash = "9e114310e1215bb984bae1bbc4a2b0f749f0956352a2a7d1695280ee90e58abb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fields.json5"
-hash = "b3a6d6a97df246da254dd846e177d0642e278d8eeec7a76513c09fae8b52c846"
+hash = "c4a6b82e992c1e8f3b017f8b4f10a3779b5bc98c288a1c8aa006907a9c3751b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/finale.json5"

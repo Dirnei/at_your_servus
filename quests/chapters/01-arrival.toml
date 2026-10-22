@@ -62,9 +62,9 @@ slug = "food"
 title = "Something to Eat"
 description = """
 Plant the seeds, then bake bread. A Bavarian who works on an empty stomach works badly and complains well."""
-x = 4.0
+x = 6.0
 y = 2.0
-deps = ["workbench"]
+deps = ["bed"]
 tasks = [{ type = "item", item = "minecraft:bread", count = 8 }]
 rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 8 }]
 
@@ -107,9 +107,9 @@ slug = "bed"
 title = "A Place to Sleep"
 description = """
 My bed went down with the house, and it was too short for anyone but me anyway. Make your own, or a hammock if you like to sleep through the day."""
-x = 6.0
+x = 4.0
 y = 2.0
-deps = ["food"]
+deps = ["workbench"]
 tasks = [{ type = "item", item = "minecraft:white_bed" }]
 rewards = [{ type = "item", item = "comforts:hammock_white" }]
 
@@ -129,6 +129,6 @@ x = 8.0
 y = 0.0
 shape = "gear"
 size = 1.25
-deps = ["iron-pick", "bed"]
+deps = ["iron-pick", "food"]
 tasks = [{ type = "checkmark" }]
 rewards = [{ type = "xp", amount = 50 }]
