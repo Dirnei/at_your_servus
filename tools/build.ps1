@@ -86,6 +86,7 @@ try {
     Invoke-Step 'quest check' { & python -m tools.checks.quest_check --mods (Join-Path $server 'mods') }
     Invoke-Step 'script check' { & python -m tools.checks.script_check --mods (Join-Path $server 'mods') }
     Invoke-Step 'version check' { & python -m tools.checks.version_check --client-zip $client --server-mods (Join-Path $server 'mods') }
+    Invoke-Step 'quest explorer' { & python -m tools.questx --mods (Join-Path $server 'mods') }
     Write-Host "Built $client and $serverZip"
 } finally {
     [IO.File]::WriteAllText((Join-Path $root 'pack.toml'), $packToml)

@@ -96,7 +96,7 @@ First public release:
 
 Quests are written in `quests/chapters/` (main line) and `quests/side/` (side chapters), one TOML file per chapter; the format is described at the top of `tools/questgen/model.py`. The build turns them into `config/ftbquests/quests/` (commit the result). Never edit the generated files or use the in-game editor on them: quest IDs come from the slugs, so renaming a slug resets that quest's progress. The story the texts follow is in [`docs/story.md`](docs/story.md); recipe changes are listed in [`docs/gates.md`](docs/gates.md).
 
-To look at the quest line without Minecraft, build the quest explorer after a server pack build:
+To look at the quest line without Minecraft, open the quest explorer. Every `build.ps1` run rebuilds it; after editing quests without a full build, rebuild it by hand:
 
 ```powershell
 python -m tools.questx      # writes build/quest-explorer/index.html, open it in a browser
