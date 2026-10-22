@@ -137,7 +137,8 @@ class Assets:
             mns, mpath = _location(ref)
             model = self._json(f"assets/{mns}/models/{mpath}.json") or {}
             for key, value in model.get("textures", {}).items():
-                textures.setdefault(key, value)
+                # A texture can also be an object: {"sprite": "...", "force_translucent": true}.
+                textures.setdefault(key, value.get("sprite") if isinstance(value, dict) else value)
             if elements_from is None and "elements" in model:
                 elements_from = ref
             ref = model.get("parent")

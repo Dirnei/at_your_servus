@@ -59,6 +59,9 @@ def pack(tmp_path):
         "assets/servus_shuttles/items/ghost.json": item({"type": "servus_shuttles:shuttle", "model": "servus_shuttles:item/ghost"}),
         "assets/servus_shuttles/items/tool.json": item({"type": "minecraft:condition", "property": "minecraft:using_item",
                                                         "on_true": plain("minecraft:block/stone"), "on_false": plain("minecraft:item/bread")}),
+        "assets/servus_shuttles/items/glass.json": item(plain("servus_shuttles:item/glass")),
+        "assets/servus_shuttles/models/item/glass.json": {"parent": "minecraft:item/generated", "textures": {
+            "layer0": {"sprite": "minecraft:item/bread", "force_translucent": True}}},
         "assets/servus_shuttles/lang/en_us.json": {"item.servus_shuttles.rail": "Warehouse Rail"},
     })
     return Assets([client, mod])
@@ -70,6 +73,10 @@ def test_flat_item(pack):
 
 def test_mod_definition_type_and_handheld_parent(pack):
     assert pack.icon("servus_shuttles:rail") == Icon("flat", ["minecraft:item/bread"])
+
+
+def test_texture_given_as_sprite_object(pack):
+    assert pack.icon("servus_shuttles:glass") == Icon("flat", ["minecraft:item/bread"])
 
 
 def test_condition_takes_the_default_branch(pack):
