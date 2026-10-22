@@ -54,7 +54,7 @@ hash = "99960cb32d6833fa9e414dc6f14b9df8c8d5cdbea2b84b54540935184243b9be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.json5"
-hash = "9e114310e1215bb984bae1bbc4a2b0f749f0956352a2a7d1695280ee90e58abb"
+hash = "815e5417fdd87a07915f67c1f2fad0956817b88e23a961dffc7edcf0316d1b60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fields.json5"
@@ -126,7 +126,7 @@ hash = "dd54c153746ef495753f55afd62571fe35d19af6fc3b60904abfe190cbe507b4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
-hash = "9fdb8ce30e9f1df281a8a84809968f4c017ae7d98de380b17ab8b24013d1ae06"
+hash = "73bab374fbc49dfcd7ebeb68b9660a7e7fd3a21d993cbc1ebbd178f08401b58e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/fields.json5"

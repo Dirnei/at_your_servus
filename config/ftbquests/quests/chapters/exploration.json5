@@ -68,8 +68,8 @@
 					"type": "item"
 				}
 			],
-			"x": 2.0,
-			"y": -1.0
+			"x": 0.0,
+			"y": -2.0
 		},
 		{
 			"dependencies": [
@@ -89,15 +89,63 @@
 			],
 			"tasks": [
 				{
+					"advancement": "twilightforest:root",
+					"criterion": "",
 					"id": "741EAB7379D71B82",
+					"type": "advancement"
+				}
+			],
+			"x": 2.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"13CC8F4D6AD19BFE"
+			],
+			"id": "0A161EB6D0EAFF78",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "44501E24EC730190",
 					"item": {
 						"count": 1,
-						"id": "twilightforest:magic_map"
+						"id": "twilightforest:naga_scale"
 					},
 					"type": "item"
-				},
+				}
+			],
+			"tasks": [
 				{
-					"id": "775D6BA157255431",
+					"id": "4760D0DD98A27749",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:naga_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"0A161EB6D0EAFF78"
+			],
+			"id": "299D03FB6FA5A278",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "403FC21373550A09",
+					"item": {
+						"count": 1,
+						"id": "minecraft:golden_apple"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "49F903ECB82863C8",
 					"item": {
 						"count": 1,
 						"id": "twilightforest:lich_trophy"
@@ -105,8 +153,261 @@
 					"type": "item"
 				}
 			],
+			"x": 6.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"299D03FB6FA5A278"
+			],
+			"id": "664E5AE95D9939D4",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "055D60262F2CC0E1",
+					"item": {
+						"count": 1,
+						"id": "minecraft:cooked_beef"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "567DF9994C8FDAD1",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:minoshroom_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"664E5AE95D9939D4"
+			],
+			"id": "3ECC4B9D5D4D3404",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "2D2E3747C2EAD78B",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:hydra_chop"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "512B1355908C04EE",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:hydra_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"3ECC4B9D5D4D3404"
+			],
+			"id": "14C0A036100E224A",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "3B243D685B2F2225",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:knightmetal_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "30134D4E0BA9F807",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:knight_phantom_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"14C0A036100E224A"
+			],
+			"id": "6EB179D6F99FFB56",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "11B4EAC11F1900D2",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:fiery_tears"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6ECD6D628F0A179E",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:ur_ghast_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 14.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"13CC8F4D6AD19BFE"
+			],
+			"id": "390AAEADE0044F27",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "27D97EF950B87202",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "5C559EA334FC94FB",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:ironwood_ingot"
+					},
+					"type": "item"
+				}
+			],
 			"x": 2.0,
-			"y": 1.0
+			"y": 3.5
+		},
+		{
+			"dependencies": [
+				"13CC8F4D6AD19BFE"
+			],
+			"id": "0A2ED4E7B0244B19",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "1C72242FA407EFDD",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "7F9BCFD3280E01F9",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:steeleaf_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 3.5
+		},
+		{
+			"dependencies": [
+				"299D03FB6FA5A278"
+			],
+			"id": "7BF272FDE4ED1DA2",
+			"optional": true,
+			"rewards": [
+				{
+					"count": 4,
+					"id": "2DD9ED4DCCE9FF4C",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:alpha_yeti_fur"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "25C9D30E087AD14F",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:alpha_yeti_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 3.5
+		},
+		{
+			"dependencies": [
+				"7BF272FDE4ED1DA2"
+			],
+			"id": "6799B4367D98CAA6",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "0E8624008EE6A0EA",
+					"type": "xp",
+					"xp": 150
+				}
+			],
+			"tasks": [
+				{
+					"id": "27981C398A65F0D1",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:snow_queen_trophy"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 3.5
+		},
+		{
+			"dependencies": [
+				"3ECC4B9D5D4D3404"
+			],
+			"id": "5A37B910DACCCECB",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "4D2A20BDC2D9DD67",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"count": 2,
+					"id": "0C880DC3EEE161AD",
+					"item": {
+						"count": 1,
+						"id": "twilightforest:fiery_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 3.5
 		},
 		{
 			"dependencies": [
@@ -130,7 +431,43 @@
 					"type": "item"
 				},
 				{
+					"advancement": "undergarden:undergarden/enter_undergarden",
+					"criterion": "",
 					"id": "090CD4EB6085510F",
+					"type": "advancement"
+				}
+			],
+			"x": 2.0,
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"6BA41FAF6EC84CD1"
+			],
+			"id": "0E482B4376931750",
+			"rewards": [
+				{
+					"count": 16,
+					"id": "6192BA0A91C854F1",
+					"item": {
+						"count": 1,
+						"id": "undergarden:shard_torch"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"count": 8,
+					"id": "5C6EE61B90780382",
+					"item": {
+						"count": 1,
+						"id": "undergarden:cloggrum_ingot"
+					},
+					"type": "item"
+				},
+				{
+					"id": "643086E67605BB92",
 					"item": {
 						"count": 1,
 						"id": "undergarden:cloggrum_helmet"
@@ -139,7 +476,134 @@
 				}
 			],
 			"x": 4.0,
-			"y": 1.0
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"0E482B4376931750"
+			],
+			"id": "2B6724594F733889",
+			"rewards": [
+				{
+					"id": "465FECA87715DE41",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "385D1DB0A674A1E3",
+					"item": {
+						"count": 1,
+						"id": "undergarden:froststeel_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"2B6724594F733889"
+			],
+			"id": "2C76D5296F8C1A8E",
+			"rewards": [
+				{
+					"id": "7BC1DFCE82ED2F17",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "2CAB2F6CC0B64809",
+					"item": {
+						"count": 1,
+						"id": "undergarden:utherium_crystal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"2C76D5296F8C1A8E"
+			],
+			"id": "60AAF05B472BAC56",
+			"rewards": [
+				{
+					"id": "64D674AC7987074D",
+					"type": "xp",
+					"xp": 200
+				}
+			],
+			"tasks": [
+				{
+					"advancement": "undergarden:undergarden/kill_forgotten_guardian",
+					"criterion": "",
+					"id": "6E3592998DBFC178",
+					"type": "advancement"
+				}
+			],
+			"x": 10.0,
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"60AAF05B472BAC56"
+			],
+			"id": "03F6B3DFEBF9920A",
+			"rewards": [
+				{
+					"id": "670ECCA8497504FD",
+					"type": "xp",
+					"xp": 150
+				}
+			],
+			"tasks": [
+				{
+					"id": "7CB51AC7BFD3636C",
+					"item": {
+						"count": 1,
+						"id": "undergarden:forgotten_ingot"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 5.5
+		},
+		{
+			"dependencies": [
+				"0E482B4376931750"
+			],
+			"id": "66742983BD961FFE",
+			"optional": true,
+			"rewards": [
+				{
+					"id": "5F8B501837E4F87D",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "347607C243F2722B",
+					"item": {
+						"count": 1,
+						"id": "undergarden:regalium_crystal"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": 7.0
 		},
 		{
 			"dependencies": [
@@ -167,8 +631,227 @@
 					"type": "item"
 				}
 			],
+			"x": 2.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"5C0850E35332B14A"
+			],
+			"id": "6997AA83EC79476D",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "564188F6136CAF30",
+					"item": {
+						"count": 1,
+						"id": "minecraft:honeycomb"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "563C58649C8C70E4",
+					"item": {
+						"count": 1,
+						"id": "the_bumblezone:honey_compass"
+					},
+					"type": "item"
+				}
+			],
 			"x": 4.0,
-			"y": -1.0
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"6997AA83EC79476D"
+			],
+			"id": "0982BCA33A2C31C0",
+			"rewards": [
+				{
+					"id": "29F72451EFA70AA6",
+					"type": "xp",
+					"xp": 80
+				}
+			],
+			"tasks": [
+				{
+					"id": "7A2ED29D36339067",
+					"item": {
+						"count": 1,
+						"id": "the_bumblezone:stinger_spear"
+					},
+					"type": "item"
+				}
+			],
+			"x": 6.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"0982BCA33A2C31C0"
+			],
+			"id": "36966031C1C3D5E5",
+			"rewards": [
+				{
+					"id": "70CC951875C9984E",
+					"type": "xp",
+					"xp": 200
+				}
+			],
+			"tasks": [
+				{
+					"id": "485464F4B3111DD2",
+					"item": {
+						"count": 1,
+						"id": "the_bumblezone:essence_of_the_bees"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"5C0850E35332B14A"
+			],
+			"id": "6426CB376A116852",
+			"optional": true,
+			"rewards": [
+				{
+					"count": 4,
+					"id": "64E95F23246444FD",
+					"item": {
+						"count": 1,
+						"id": "minecraft:honey_block"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6282B4D50011D3D5",
+					"item": {
+						"count": 1,
+						"id": "the_bumblezone:royal_jelly_bottle"
+					},
+					"type": "item"
+				}
+			],
+			"x": 4.0,
+			"y": -3.5
+		},
+		{
+			"dependencies": [
+				"1F20A0D4E7AEDB3A"
+			],
+			"id": "74800BBF838656C9",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "19E811EFEB76CDFF",
+					"item": {
+						"count": 1,
+						"id": "minecraft:ender_pearl"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"advancement": "minecraft:story/enter_the_end",
+					"criterion": "",
+					"id": "38FCEC5E8EE52714",
+					"type": "advancement"
+				}
+			],
+			"x": 2.0,
+			"y": -5.5
+		},
+		{
+			"dependencies": [
+				"74800BBF838656C9"
+			],
+			"id": "1DD9D18E5F99D327",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "7C4F96359F270C61",
+					"item": {
+						"count": 1,
+						"id": "minecraft:glass_bottle"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"advancement": "minecraft:end/kill_dragon",
+					"criterion": "",
+					"id": "3E03FAFEBEC42DA1",
+					"type": "advancement"
+				}
+			],
+			"x": 4.0,
+			"y": -5.5
+		},
+		{
+			"dependencies": [
+				"1DD9D18E5F99D327"
+			],
+			"id": "593A7C66217CB357",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "222F222B60B15B91",
+					"item": {
+						"count": 1,
+						"id": "minecraft:golden_carrot"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"advancement": "minecraft:end/find_end_city",
+					"criterion": "",
+					"id": "442755556D1D8B66",
+					"type": "advancement"
+				}
+			],
+			"x": 6.0,
+			"y": -5.5
+		},
+		{
+			"dependencies": [
+				"593A7C66217CB357"
+			],
+			"id": "01581FB7A34E04E5",
+			"rewards": [
+				{
+					"count": 32,
+					"id": "4C17E767F63F8C37",
+					"item": {
+						"count": 1,
+						"id": "minecraft:firework_rocket"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "252EADCDDFBEC62C",
+					"item": {
+						"count": 1,
+						"id": "minecraft:elytra"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": -5.5
 		}
 	]
 }

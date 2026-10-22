@@ -19,8 +19,8 @@ slug = "artifact"
 title = "Something Old and Odd"
 description = """
 Ruins and dungeons hide artifacts. Find a cloud in a bottle and jump twice."""
-x = 2.0
-y = -1.0
+x = 0.0
+y = -2.0
 deps = ["compasses"]
 optional = true
 tasks = [{ type = "item", item = "artifacts:cloud_in_a_bottle" }]
@@ -30,31 +30,315 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "twilight"
 title = "The Twilight Forest"
 description = """
-A pool ringed with flowers and a diamond thrown in. Find a magic map there, and the Lich in his tower."""
+A pool ringed with flowers and a diamond thrown in. Step into the pool and you are somewhere else, where it is always dusk."""
 x = 2.0
-y = 1.0
+y = 2.0
 deps = ["compasses"]
-tasks = [{ type = "item", item = "twilightforest:magic_map" }, { type = "item", item = "twilightforest:lich_trophy" }]
+tasks = [{ type = "advancement", advancement = "twilightforest:root" }]
 rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
+
+[[quest]]
+slug = "naga"
+title = "The Naga"
+description = """
+A great snake guards a courtyard of mossy stone. It is the first of the forest's guardians; the others wait until it is gone."""
+x = 4.0
+y = 2.0
+deps = ["twilight"]
+tasks = [{ type = "item", item = "twilightforest:naga_trophy" }]
+rewards = [{ type = "item", item = "twilightforest:naga_scale", count = 4 }]
+
+[[quest]]
+slug = "lich"
+title = "The Lich"
+description = """
+In his tower the Lich hides behind shields and copies of himself. Hit the real one: he is the one who throws fire."""
+x = 6.0
+y = 2.0
+deps = ["naga"]
+tasks = [{ type = "item", item = "twilightforest:lich_trophy" }]
+rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }]
+
+[[quest]]
+slug = "minoshroom"
+title = "The Minoshroom"
+description = """
+Under the swamp lies a labyrinth, and at its heart a bull with a mushroom on its back. Bring a maze map. Vinzenz did not, and it took him three days."""
+x = 8.0
+y = 2.0
+deps = ["lich"]
+tasks = [{ type = "item", item = "twilightforest:minoshroom_trophy" }]
+rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 16 }]
+
+[[quest]]
+slug = "hydra"
+title = "The Hydra"
+description = """
+In the fire swamp a hydra lives in a pit. Three heads, and each one bites. Fight it from the side."""
+x = 10.0
+y = 2.0
+deps = ["minoshroom"]
+tasks = [{ type = "item", item = "twilightforest:hydra_trophy" }]
+rewards = [{ type = "item", item = "twilightforest:hydra_chop", count = 4 }]
+
+[[quest]]
+slug = "knights"
+title = "The Knight Phantoms"
+description = """
+In the dark forest stands a goblin stronghold, and deep inside it six knights who are no longer alive."""
+x = 12.0
+y = 2.0
+deps = ["hydra"]
+tasks = [{ type = "item", item = "twilightforest:knight_phantom_trophy" }]
+rewards = [{ type = "item", item = "twilightforest:knightmetal_ingot", count = 8 }]
+
+[[quest]]
+slug = "ur-ghast"
+title = "The Ur-Ghast"
+description = """
+The dark tower holds the mother of all ghasts. Shut her crying traps and bring her down."""
+x = 14.0
+y = 2.0
+deps = ["knights"]
+tasks = [{ type = "item", item = "twilightforest:ur_ghast_trophy" }]
+rewards = [{ type = "item", item = "twilightforest:fiery_tears", count = 4 }]
+
+[[quest]]
+slug = "ironwood"
+title = "Ironwood"
+description = """
+Liveroot and raw iron, cooked together. Plain tools, but they last."""
+x = 2.0
+y = 3.5
+deps = ["twilight"]
+optional = true
+tasks = [{ type = "item", item = "twilightforest:ironwood_ingot", count = 4 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "steeleaf"
+title = "Steeleaf"
+description = """
+Leaves as hard as steel, from the forest's own plants. Light armour for a long walk."""
+x = 4.0
+y = 3.5
+deps = ["twilight"]
+optional = true
+tasks = [{ type = "item", item = "twilightforest:steeleaf_ingot", count = 4 }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "yeti"
+title = "The Alpha Yeti"
+description = """
+Past the Lich, the snowy forest has a cave with a very large yeti in it. It throws ice. Duck."""
+x = 6.0
+y = 3.5
+deps = ["lich"]
+optional = true
+tasks = [{ type = "item", item = "twilightforest:alpha_yeti_trophy" }]
+rewards = [{ type = "item", item = "twilightforest:alpha_yeti_fur", count = 4 }]
+
+[[quest]]
+slug = "snow-queen"
+title = "The Snow Queen"
+description = """
+On top of the glacier a queen of ice waits in her palace. Dress warmly."""
+x = 8.0
+y = 3.5
+deps = ["yeti"]
+optional = true
+tasks = [{ type = "item", item = "twilightforest:snow_queen_trophy" }]
+rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "fiery"
+title = "Fiery Metal"
+description = """
+Hydra blood and iron make a metal that never cools. The best tools the forest gives."""
+x = 10.0
+y = 3.5
+deps = ["hydra"]
+optional = true
+tasks = [{ type = "item", item = "twilightforest:fiery_ingot", count = 2 }]
+rewards = [{ type = "xp", amount = 100 }]
 
 [[quest]]
 slug = "undergarden"
 title = "The Undergarden"
 description = """
-Below the deepslate there is a garden that never saw the sun. The catalyst opens the way."""
-x = 4.0
-y = 1.0
+Below the deepslate there is a garden that never saw the sun. The catalyst opens the way: throw it into a stone brick frame and step through."""
+x = 2.0
+y = 5.5
 deps = ["compasses"]
-tasks = [{ type = "item", item = "undergarden:catalyst" }, { type = "item", item = "undergarden:cloggrum_helmet" }]
+tasks = [{ type = "item", item = "undergarden:catalyst" },
+         { type = "advancement", advancement = "undergarden:undergarden/enter_undergarden" }]
 rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "cloggrum"
+title = "Cloggrum"
+description = """
+The first metal down there is heavy and dull, and good enough for a helmet. Something will try to land on your head."""
+x = 4.0
+y = 5.5
+deps = ["undergarden"]
+tasks = [{ type = "item", item = "undergarden:cloggrum_ingot", count = 8 },
+         { type = "item", item = "undergarden:cloggrum_helmet" }]
+rewards = [{ type = "item", item = "undergarden:shard_torch", count = 16 }]
+
+[[quest]]
+slug = "froststeel"
+title = "Froststeel"
+description = """
+In the frozen parts of the Undergarden the ore is cold enough to slow down whatever you hit."""
+x = 6.0
+y = 5.5
+deps = ["cloggrum"]
+tasks = [{ type = "item", item = "undergarden:froststeel_ingot", count = 4 }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "utherium"
+title = "Utherium"
+description = """
+Red crystals that the rotting things below hate. Make a weapon of it before you go deeper."""
+x = 8.0
+y = 5.5
+deps = ["froststeel"]
+tasks = [{ type = "item", item = "undergarden:utherium_crystal", count = 4 }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "forgotten-guardian"
+title = "The Forgotten Guardian"
+description = """
+In the catacombs an old machine still keeps watch. Nobody remembers over what."""
+x = 10.0
+y = 5.5
+deps = ["utherium"]
+tasks = [{ type = "advancement", advancement = "undergarden:undergarden/kill_forgotten_guardian" }]
+rewards = [{ type = "xp", amount = 200 }]
+
+[[quest]]
+slug = "forgotten"
+title = "Forgotten Metal"
+description = """
+The guardian leaves a metal behind that nobody can make any more. Make the most of it."""
+x = 12.0
+y = 5.5
+deps = ["forgotten-guardian"]
+tasks = [{ type = "item", item = "undergarden:forgotten_ingot" }]
+rewards = [{ type = "xp", amount = 150 }]
+
+[[quest]]
+slug = "regalium"
+title = "Regalium"
+description = """
+A golden crystal, rare even down there. The Stoneborn take it in trade."""
+x = 4.0
+y = 7.0
+deps = ["cloggrum"]
+optional = true
+tasks = [{ type = "item", item = "undergarden:regalium_crystal", count = 4 }]
+rewards = [{ type = "xp", amount = 80 }]
 
 [[quest]]
 slug = "bumblezone"
 title = "The Bumblezone"
 description = """
 Throw an ender pearl into a bee nest. Yes, really. Bring back bee bread."""
-x = 4.0
-y = -1.0
+x = 2.0
+y = -2.0
 deps = ["compasses"]
 tasks = [{ type = "item", item = "the_bumblezone:bee_bread" }]
 rewards = [{ type = "item", item = "minecraft:honey_bottle", count = 8 }]
+
+[[quest]]
+slug = "honey-compass"
+title = "A Compass for Honey"
+description = """
+A compass that smells honey: it points to the nearest bee nest, and in the Bumblezone to things worth finding."""
+x = 4.0
+y = -2.0
+deps = ["bumblezone"]
+tasks = [{ type = "item", item = "the_bumblezone:honey_compass" }]
+rewards = [{ type = "item", item = "minecraft:honeycomb", count = 8 }]
+
+[[quest]]
+slug = "stinger-spear"
+title = "The Stinger Spear"
+description = """
+Made from bee stingers. Whatever it hits stops moving for a moment."""
+x = 6.0
+y = -2.0
+deps = ["honey-compass"]
+tasks = [{ type = "item", item = "the_bumblezone:stinger_spear" }]
+rewards = [{ type = "xp", amount = 80 }]
+
+[[quest]]
+slug = "essence"
+title = "Essence of the Bees"
+description = """
+The Queen asks for things. Bring them, and the hive gives you its essence: the bees will trust you."""
+x = 8.0
+y = -2.0
+deps = ["stinger-spear"]
+tasks = [{ type = "item", item = "the_bumblezone:essence_of_the_bees" }]
+rewards = [{ type = "xp", amount = 200 }]
+
+[[quest]]
+slug = "royal-jelly"
+title = "Royal Jelly"
+description = """
+What the Queen eats. Drink it and you feel like a queen for a minute."""
+x = 4.0
+y = -3.5
+deps = ["bumblezone"]
+optional = true
+tasks = [{ type = "item", item = "the_bumblezone:royal_jelly_bottle" }]
+rewards = [{ type = "item", item = "minecraft:honey_block", count = 4 }]
+
+[[quest]]
+slug = "end"
+title = "The End"
+description = """
+Eyes of ender lead to a stronghold, and its portal to an island in the dark. Bring blocks to build with, and a pumpkin for your head."""
+x = 2.0
+y = -5.5
+deps = ["nether:blaze"]
+tasks = [{ type = "advancement", advancement = "minecraft:story/enter_the_end" }]
+rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 8 }]
+
+[[quest]]
+slug = "dragon"
+title = "The Dragon"
+description = """
+Break the crystals on the towers first, then the dragon. Bottle some of its breath: the goo of Just Dire Things needs it."""
+x = 4.0
+y = -5.5
+deps = ["end"]
+tasks = [{ type = "advancement", advancement = "minecraft:end/kill_dragon" }]
+rewards = [{ type = "item", item = "minecraft:glass_bottle", count = 8 }]
+
+[[quest]]
+slug = "end-city"
+title = "The End Cities"
+description = """
+Through the gateway, far out on the islands, stand purple towers with ships beside them. Mind the shulkers."""
+x = 6.0
+y = -5.5
+deps = ["dragon"]
+tasks = [{ type = "advancement", advancement = "minecraft:end/find_end_city" }]
+rewards = [{ type = "item", item = "minecraft:golden_carrot", count = 8 }]
+
+[[quest]]
+slug = "elytra"
+title = "Wings"
+description = """
+On the ships a pair of wings hangs on the wall. Vinzenz would have flown over the Watzmann with them, if he had dared."""
+x = 8.0
+y = -5.5
+deps = ["end-city"]
+tasks = [{ type = "item", item = "minecraft:elytra" }]
+rewards = [{ type = "item", item = "minecraft:firework_rocket", count = 32 }]

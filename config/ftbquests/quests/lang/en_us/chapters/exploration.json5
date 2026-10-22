@@ -1,22 +1,122 @@
 {
+	"quest.01581FB7A34E04E5.quest_desc": [
+		"On the ships a pair of wings hangs on the wall. Vinzenz would have flown over the Watzmann with them, if he had dared."
+	],
+	"quest.01581FB7A34E04E5.title": "Wings",
+	"quest.03F6B3DFEBF9920A.quest_desc": [
+		"The guardian leaves a metal behind that nobody can make any more. Make the most of it."
+	],
+	"quest.03F6B3DFEBF9920A.title": "Forgotten Metal",
+	"quest.0982BCA33A2C31C0.quest_desc": [
+		"Made from bee stingers. Whatever it hits stops moving for a moment."
+	],
+	"quest.0982BCA33A2C31C0.title": "The Stinger Spear",
+	"quest.0A161EB6D0EAFF78.quest_desc": [
+		"A great snake guards a courtyard of mossy stone. It is the first of the forest's guardians; the others wait until it is gone."
+	],
+	"quest.0A161EB6D0EAFF78.title": "The Naga",
+	"quest.0A2ED4E7B0244B19.quest_desc": [
+		"Leaves as hard as steel, from the forest's own plants. Light armour for a long walk."
+	],
+	"quest.0A2ED4E7B0244B19.title": "Steeleaf",
 	"quest.0BC51D250868F38C.quest_desc": [
 		"One finds biomes, one finds structures. Vinzenz kept both in his coat and still got lost."
 	],
 	"quest.0BC51D250868F38C.title": "Two Compasses",
+	"quest.0E482B4376931750.quest_desc": [
+		"The first metal down there is heavy and dull, and good enough for a helmet. Something will try to land on your head."
+	],
+	"quest.0E482B4376931750.title": "Cloggrum",
 	"quest.13CC8F4D6AD19BFE.quest_desc": [
-		"A pool ringed with flowers and a diamond thrown in. Find a magic map there, and the Lich in his tower."
+		"A pool ringed with flowers and a diamond thrown in. Step into the pool and you are somewhere else, where it is always dusk."
 	],
 	"quest.13CC8F4D6AD19BFE.title": "The Twilight Forest",
+	"quest.14C0A036100E224A.quest_desc": [
+		"In the dark forest stands a goblin stronghold, and deep inside it six knights who are no longer alive."
+	],
+	"quest.14C0A036100E224A.title": "The Knight Phantoms",
+	"quest.1DD9D18E5F99D327.quest_desc": [
+		"Break the crystals on the towers first, then the dragon. Bottle some of its breath: the goo of Just Dire Things needs it."
+	],
+	"quest.1DD9D18E5F99D327.title": "The Dragon",
+	"quest.299D03FB6FA5A278.quest_desc": [
+		"In his tower the Lich hides behind shields and copies of himself. Hit the real one: he is the one who throws fire."
+	],
+	"quest.299D03FB6FA5A278.title": "The Lich",
+	"quest.2B6724594F733889.quest_desc": [
+		"In the frozen parts of the Undergarden the ore is cold enough to slow down whatever you hit."
+	],
+	"quest.2B6724594F733889.title": "Froststeel",
+	"quest.2C76D5296F8C1A8E.quest_desc": [
+		"Red crystals that the rotting things below hate. Make a weapon of it before you go deeper."
+	],
+	"quest.2C76D5296F8C1A8E.title": "Utherium",
+	"quest.36966031C1C3D5E5.quest_desc": [
+		"The Queen asks for things. Bring them, and the hive gives you its essence: the bees will trust you."
+	],
+	"quest.36966031C1C3D5E5.title": "Essence of the Bees",
+	"quest.390AAEADE0044F27.quest_desc": [
+		"Liveroot and raw iron, cooked together. Plain tools, but they last."
+	],
+	"quest.390AAEADE0044F27.title": "Ironwood",
+	"quest.3ECC4B9D5D4D3404.quest_desc": [
+		"In the fire swamp a hydra lives in a pit. Three heads, and each one bites. Fight it from the side."
+	],
+	"quest.3ECC4B9D5D4D3404.title": "The Hydra",
+	"quest.593A7C66217CB357.quest_desc": [
+		"Through the gateway, far out on the islands, stand purple towers with ships beside them. Mind the shulkers."
+	],
+	"quest.593A7C66217CB357.title": "The End Cities",
+	"quest.5A37B910DACCCECB.quest_desc": [
+		"Hydra blood and iron make a metal that never cools. The best tools the forest gives."
+	],
+	"quest.5A37B910DACCCECB.title": "Fiery Metal",
 	"quest.5C0850E35332B14A.quest_desc": [
 		"Throw an ender pearl into a bee nest. Yes, really. Bring back bee bread."
 	],
 	"quest.5C0850E35332B14A.title": "The Bumblezone",
+	"quest.60AAF05B472BAC56.quest_desc": [
+		"In the catacombs an old machine still keeps watch. Nobody remembers over what."
+	],
+	"quest.60AAF05B472BAC56.title": "The Forgotten Guardian",
+	"quest.6426CB376A116852.quest_desc": [
+		"What the Queen eats. Drink it and you feel like a queen for a minute."
+	],
+	"quest.6426CB376A116852.title": "Royal Jelly",
+	"quest.664E5AE95D9939D4.quest_desc": [
+		"Under the swamp lies a labyrinth, and at its heart a bull with a mushroom on its back. Bring a maze map. Vinzenz did not, and it took him three days."
+	],
+	"quest.664E5AE95D9939D4.title": "The Minoshroom",
+	"quest.66742983BD961FFE.quest_desc": [
+		"A golden crystal, rare even down there. The Stoneborn take it in trade."
+	],
+	"quest.66742983BD961FFE.title": "Regalium",
+	"quest.6799B4367D98CAA6.quest_desc": [
+		"On top of the glacier a queen of ice waits in her palace. Dress warmly."
+	],
+	"quest.6799B4367D98CAA6.title": "The Snow Queen",
+	"quest.6997AA83EC79476D.quest_desc": [
+		"A compass that smells honey: it points to the nearest bee nest, and in the Bumblezone to things worth finding."
+	],
+	"quest.6997AA83EC79476D.title": "A Compass for Honey",
 	"quest.6BA41FAF6EC84CD1.quest_desc": [
-		"Below the deepslate there is a garden that never saw the sun. The catalyst opens the way."
+		"Below the deepslate there is a garden that never saw the sun. The catalyst opens the way: throw it into a stone brick frame and step through."
 	],
 	"quest.6BA41FAF6EC84CD1.title": "The Undergarden",
+	"quest.6EB179D6F99FFB56.quest_desc": [
+		"The dark tower holds the mother of all ghasts. Shut her crying traps and bring her down."
+	],
+	"quest.6EB179D6F99FFB56.title": "The Ur-Ghast",
+	"quest.74800BBF838656C9.quest_desc": [
+		"Eyes of ender lead to a stronghold, and its portal to an island in the dark. Bring blocks to build with, and a pumpkin for your head."
+	],
+	"quest.74800BBF838656C9.title": "The End",
 	"quest.77D3EC6423133A19.quest_desc": [
 		"Ruins and dungeons hide artifacts. Find a cloud in a bottle and jump twice."
 	],
-	"quest.77D3EC6423133A19.title": "Something Old and Odd"
+	"quest.77D3EC6423133A19.title": "Something Old and Odd",
+	"quest.7BF272FDE4ED1DA2.quest_desc": [
+		"Past the Lich, the snowy forest has a cave with a very large yeti in it. It throws ice. Duck."
+	],
+	"quest.7BF272FDE4ED1DA2.title": "The Alpha Yeti"
 }
