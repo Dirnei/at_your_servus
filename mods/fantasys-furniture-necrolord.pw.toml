@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture - Necrolord"
+filename = "fantasyfurniture_necrolord-26.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49b935a5ff9c4e9444028bfc9f0a48b8e0086f77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050254
+project-id = 1209752

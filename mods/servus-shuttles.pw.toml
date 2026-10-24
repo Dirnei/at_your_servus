@@ -1,13 +1,13 @@
 name = "Servus: Shuttles"
-filename = "servus_shuttles-0.3.0.jar"
+filename = "servus_shuttles-0.4.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "25d176e1f341a7db2d953da7cf790eb312779409"
+hash = "867d34d4ad37f546e587d65e001b84540cedc59d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9289177
+file-id = 9307508
 project-id = 1746893

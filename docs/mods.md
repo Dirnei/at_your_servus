@@ -111,6 +111,12 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `adorn-for-forge` | Adorn | both | Furniture: sofas, chairs, tables, kitchen counters |
 | `bibliocraft-legacy` | Bibliocraft Legacy | both | Furniture that holds items: bookcases, shelves, tool racks, display cases |
 | `fantasys-furniture` | Fantasy's Furniture | both | Furniture sets in several styles, decoration only |
+| `fantasys-furniture-nordic` | Fantasy's Furniture - Nordic | both | Nordic furniture set; the base mod adds nothing without a set |
+| `fantasys-furniture-dunmer` | Fantasy's Furniture - Dunmer | both | Dunmer furniture set; the base mod adds nothing without a set |
+| `fantasys-furniture-venthyr` | Fantasy's Furniture - Venthyr | both | Venthyr furniture set; the base mod adds nothing without a set |
+| `fantasys-furniture-necrolord` | Fantasy's Furniture - Necrolord | both | Necrolord furniture set; the base mod adds nothing without a set |
+| `fantasys-furniture-royal` | Fantasy's Furniture - Royal | both | Royal furniture set; the base mod adds nothing without a set |
+| `fantasys-furniture-bone` | Fantasy's Furniture - Bone | both | Bone furniture set; the base mod adds nothing without a set |
 
 ## QoL and performance
 

@@ -535,7 +535,7 @@ metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
-hash = "7b4a2463d5626c5e88fad82c76d6d12d63965b036ea778adf4dd1e18f6fef05f"
+hash = "69750c1b729838ce1772f06f4ed47e86a568bf5a03db306040393fb96c1283b7"
 metafile = true
 
 [[files]]
@@ -569,6 +569,36 @@ hash = "8d0f3e17f96b895720a3d9bc73f71e46388f4dbea1ac4a6d3c2c0084d253f93c"
 metafile = true
 
 [[files]]
+file = "mods/fantasys-furniture-bone.pw.toml"
+hash = "86927f3727f047c5bd9f2c95870c2d19fc8d916331a62bc5d1349696fee8fa92"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture-dunmer.pw.toml"
+hash = "748998886c6d07e02a96ec4e66f8897242740ddb16eb7bc0bee4fae607897640"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture-necrolord.pw.toml"
+hash = "efbb32faff9f6aeaedba737f2f57203a8c89c92e71dd7b4bd9a44ad7408c7143"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture-nordic.pw.toml"
+hash = "5d77210ba2b573872966eed07b4c67987193e9e3e871c8528c4f80d4c31867b2"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture-royal.pw.toml"
+hash = "99b30dd4ee627f41941f0cd8b9e539ec612a34c40f0e8f4e9f74dd300131a834"
+metafile = true
+
+[[files]]
+file = "mods/fantasys-furniture-venthyr.pw.toml"
+hash = "1f7997194fb71982a0a40a520bfcde82b038d6aa474a06d7228d56fe37aa0fa2"
+metafile = true
+
+[[files]]
 file = "mods/fantasys-furniture.pw.toml"
 hash = "cb1e9eab7cac3e8ce2fe07f04bd1887b6a0f18af8f0f294f67ff2ec359f8ca49"
 metafile = true
@@ -590,7 +620,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "6a31e0a2f60397124fc67a0565142aa17929d57341399c30c47cd2de0f23b62b"
+hash = "5819b227140768306636a76607df189439d03ce6e420c680ba8a63a4312e9cd7"
 metafile = true
 
 [[files]]
@@ -600,7 +630,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "98b47718768cb87d74b54b0fc98a25a5729affddf750cdb9973c1e5b8ecb7c3a"
+hash = "05164e2c45811b8da9376a8972011c0629efd840254d40bdcca98b622ddcbe50"
 metafile = true
 
 [[files]]
@@ -695,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
-hash = "8de924d99d95bfa347c2571feb1a585bea5d31fb8e092282da68554c434a843f"
+hash = "a9e8a866130a92482456d75d026947a806b196e5159dc156d58f664af7861172"
 metafile = true
 
 [[files]]
@@ -880,17 +910,17 @@ metafile = true
 
 [[files]]
 file = "mods/servus-alchemy.pw.toml"
-hash = "6c225b5c4ebb08be330b15d65ab3b4d7f59c9db6021a1243bd2e16de585e99de"
+hash = "8c9d614b099c6fcbeded8749922d3221f82f1c13633e6d4185bf64c4150b045d"
 metafile = true
 
 [[files]]
 file = "mods/servus-foundation.pw.toml"
-hash = "6eccd165c0bde7dda45dd27accf66116685d62b85f96ae411e53325955269884"
+hash = "ba919b972a4e3c4ae79986ab06f174545f188d142be6e3ebab7adc6806927d4e"
 metafile = true
 
 [[files]]
 file = "mods/servus-shuttles.pw.toml"
-hash = "e3d53b7ca695ddd6a10b95a28b69fad009b35a66528544567a061b102977d6e4"
+hash = "3a6204c09a22352a2f4fea15d268247bf0550052e098643f89445274da575c1f"
 metafile = true
 
 [[files]]
@@ -905,17 +935,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "cdb2cf2efbe6b55658a8a3b34aa33bf726cbd9c7a710d53162062bd765a68dcb"
+hash = "eb24cc1946d9aae305b96d094cbe5fe65d3780a08e2ac7be215ea7d3e6245af8"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d637ef1a2451e15688b13c7f1ec4caa61c8c846c832d79b5f6ab325da9b184ef"
+hash = "0bb7d027378b0fee4580ba04875cd6f866b49dfa4d799e7d3d1759cdcd0c5d71"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "4bc74a489aba466a43392a421e9c42e9849f0e2fcfb502698a68b18186247d63"
+hash = "dae4ce4ee6bfd07571e3c0937dcd1c661afeb3536a214027d1a7725a8e69bc5e"
 metafile = true
 
 [[files]]
@@ -940,7 +970,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
-hash = "2db72d7c54d1a9ee24c4fc7a86e31e242a8a2a44e8d25ae078f0991772105d61"
+hash = "4c9d774f3723af532a7221943a584236ae714cc04a25863521eeb5e5699e1fa5"
 metafile = true
 
 [[files]]
@@ -955,7 +985,7 @@ metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "4c9becddf64f244dd75e98188392a8c1bf9a311ba52c546de7c92b1f58f37707"
+hash = "01b73a9c193432886bf1be52eb6197d92b6c82510e7c5e7945905f1ce7a5c7f8"
 metafile = true
 
 [[files]]

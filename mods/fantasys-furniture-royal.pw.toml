@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture - Royal"
+filename = "fantasyfurniture_royal-26.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47c422ed6a255476dec2d699213228c3cde8f79c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050255
+project-id = 1209706

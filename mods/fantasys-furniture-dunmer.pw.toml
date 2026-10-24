@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture - Dunmer"
+filename = "fantasyfurniture_dunmer-26.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b77d6c758985385077cf08d493fa2ee3a6171889"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050258
+project-id = 1209702

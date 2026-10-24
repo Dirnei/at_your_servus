@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture - Nordic"
+filename = "fantasyfurniture_nordic-26.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "97ae067bf31ba9b66bc12b1c920f8c0cbb81dd67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050256
+project-id = 1191799

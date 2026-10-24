@@ -1,0 +1,13 @@
+name = "Fantasy's Furniture - Venthyr"
+filename = "fantasyfurniture_venthyr-26.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad833017c594137cc1818be8a077b9c6a033a487"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050262
+project-id = 1206300
