@@ -49,7 +49,7 @@ Every mod and every shader pack SHALL be marked as client-only, server-only or b
 
 #### Scenario: Client-only mods
 - **WHEN** the mod list is checked
-- **THEN** Sodium, Iris, Entity Culling, ImmediatelyFast, Mouse Tweaks, Controlling, Searchables, Better Advancements and Enchantment Descriptions are client-only
+- **THEN** Sodium, Iris, Entity Culling, ImmediatelyFast, Mouse Tweaks, Controlling, Searchables, Better Advancements, Enchantment Descriptions, Lighty and Euphoria Patches are client-only
 
 #### Scenario: Shader pack marked for both sides
 - **WHEN** a shader pack in the pack is not marked client-only
@@ -67,16 +67,88 @@ The repository SHALL contain a human-readable list of all mods and shader packs 
 - **THEN** the mod list documentation gains an entry with its role
 
 ### Requirement: Shaders available, off by default
-The client pack SHALL include Iris and the Complementary Reimagined shader pack, both from CurseForge. A fresh install and a pack update SHALL leave shaders off until the player selects a shader pack, and a pack update MUST NOT change the player's shader choice.
+The client pack SHALL include Iris, the Complementary Reimagined and Complementary Unbound shader packs, and Euphoria Patches, all from CurseForge. Euphoria Patches and both Complementary shader packs MUST be built for the same Complementary version. A fresh install and a pack update SHALL leave shaders off until the player selects a shader pack, and a pack update MUST NOT change the player's shader choice.
 
 #### Scenario: Fresh install
 - **WHEN** a player imports the client zip and starts the game for the first time
-- **THEN** Iris is loaded, Complementary Reimagined is listed under Video Settings > Shader Packs, and no shader pack is active
+- **THEN** Iris is loaded, Complementary Reimagined and Complementary Unbound are listed under Video Settings > Shader Packs together with their Euphoria Patches versions, and no shader pack is active
 
 #### Scenario: Pack update after selecting shaders
 - **WHEN** a player has turned on Complementary Reimagined and then updates the pack
 - **THEN** Complementary Reimagined is still active after the update
 
+#### Scenario: Versions out of step
+- **WHEN** a Complementary shader pack is updated to a version Euphoria Patches is not built for
+- **THEN** the pack check fails and names both files
+
 #### Scenario: Server pack
 - **WHEN** the server pack is built
-- **THEN** it contains neither Iris nor any shader pack
+- **THEN** it contains neither Iris, Euphoria Patches nor any shader pack
+
+### Requirement: Playtest gap fillers
+The pack SHALL include, from CurseForge: Spice of Life: Carrot Edition, so eating different foods gives extra hearts; a mod that provides the Feral Flare Lantern; Entangled; and a light level overlay toggled with F7.
+
+#### Scenario: Food variety
+- **WHEN** a player has eaten enough different foods to reach the first Spice of Life milestone
+- **THEN** their maximum health goes up
+
+#### Scenario: Light overlay
+- **WHEN** a player presses F7 in a world
+- **THEN** a light level overlay turns on, or its mode menu opens, and pressing it again turns it off
+
+#### Scenario: Feral Flare Lantern and Entangled blocks
+- **WHEN** a player looks them up in JEI
+- **THEN** the Feral Flare Lantern and the Entangled Block are listed with a crafting recipe
+
+### Requirement: Player teleport commands
+The pack SHALL include FTB Essentials from CurseForge. Every player SHALL have one home, `/warp` to warps set by ops, `/back` to the previous location and the last death point, and `/tpa`. Only ops SHALL create or remove warps. `/rtp` SHALL be switched off.
+
+#### Scenario: One home
+- **WHEN** a player who already has a home runs `/sethome` with a new name
+- **THEN** the command is refused and the first home stays
+
+#### Scenario: Warp set by a player
+- **WHEN** a player without op runs `/setwarp`
+- **THEN** the command is unknown or refused, and no warp is created
+
+#### Scenario: Warp set by an op
+- **WHEN** an op runs `/setwarp town` and a player then runs `/warp town`
+- **THEN** the player is teleported to the town warp
+
+#### Scenario: Back to the grave
+- **WHEN** a player dies and then runs `/back`
+- **THEN** the player is teleported to the death point
+
+#### Scenario: Random teleport
+- **WHEN** a player runs `/rtp`
+- **THEN** the command is unknown or refused, and the player does not move
+
+### Requirement: Free shared waystones
+Teleporting with Waystones SHALL cost no XP and SHALL NOT wear down warp stones. A waystone that is newly placed or found SHALL be global, so every player can travel to it without visiting it first.
+
+#### Scenario: Long trip
+- **WHEN** a player teleports from one waystone to a distant one, or to another dimension
+- **THEN** the player keeps all their XP
+
+#### Scenario: Warp stone use
+- **WHEN** a player teleports with a warp stone
+- **THEN** the warp stone's durability does not change
+
+#### Scenario: Waystone placed by another player
+- **WHEN** one player places a waystone and another player, who never visited it, opens any waystone
+- **THEN** the new waystone is listed and the second player can teleport to it
+
+### Requirement: Furniture choice
+The pack SHALL include, from CurseForge and on both sides, Adorn, Bibliocraft Legacy and Fantasy's Furniture next to Macaw's Furniture. No quest SHALL require their blocks.
+
+#### Scenario: Furniture in JEI
+- **WHEN** a player searches JEI for blocks from Adorn, Bibliocraft Legacy and Fantasy's Furniture
+- **THEN** each mod's furniture is listed with a recipe the player can craft
+
+#### Scenario: Sitting and storing
+- **WHEN** a player places an Adorn chair and a Bibliocraft bookcase, sits on the chair and puts a book in the bookcase
+- **THEN** the player sits, and the book stays in the bookcase after leaving and rejoining the world
+
+#### Scenario: Server pack
+- **WHEN** the server pack is built
+- **THEN** it contains Adorn, Bibliocraft Legacy and Fantasy's Furniture
