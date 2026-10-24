@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.4.0
+
+### New
+
+- Six more Fantasy's Furniture sets: Nordic, Dunmer, Venthyr, Necrolord, Royal and Bone
+- Servus: Shuttles 0.4.0: shuttles queue up and take turns, a one-off order grid in the Storage Terminal, storage fill levels, a real garage door, and jobs that survive a reload
+- Servus: Alchemy 0.3.0: a new compact Athanor and new Citrinitas and Rubedo rituals. Existing Athanors must be rebuilt
+- Servus: Foundation 0.4.0: Utility Ducts no longer wash away in water or lava
+
+### Mods
+
+- Updated: Cucumber Library (`Cucumber-26.1.2-9.0.6.jar` to `Cucumber-26.1.2-9.0.7.jar`)
+- Added: Fantasy's Furniture - Bone (`fantasyfurniture_bone-26.1.7.jar`)
+- Added: Fantasy's Furniture - Dunmer (`fantasyfurniture_dunmer-26.1.7.jar`)
+- Added: Fantasy's Furniture - Necrolord (`fantasyfurniture_necrolord-26.1.7.jar`)
+- Added: Fantasy's Furniture - Nordic (`fantasyfurniture_nordic-26.1.7.jar`)
+- Added: Fantasy's Furniture - Royal (`fantasyfurniture_royal-26.1.7.jar`)
+- Added: Fantasy's Furniture - Venthyr (`fantasyfurniture_venthyr-26.1.7.jar`)
+- Updated: FTB Chunks (NeoForge) (`ftb-chunks-neoforge-26.1.2.8.jar` to `ftb-chunks-neoforge-26.1.2.9.jar`)
+- Updated: FTB Library (NeoForge) (`ftb-library-neoforge-26.1.2.9.jar` to `ftb-library-neoforge-26.1.2.10.jar`)
+- Updated: Just Enough Resources (JER) (`JustEnoughResources-NeoForge-26.1.2-1.10.1.40.jar` to `JustEnoughResources-NeoForge-26.1.2-1.10.1.47.jar`)
+- Updated: Servus: Alchemy (`servus_alchemy-0.2.0-alpha.jar` to `servus_alchemy-0.3.0-alpha.jar`)
+- Updated: Servus: Foundation (`servus_foundation-0.3.0.jar` to `servus_foundation-0.4.0.jar`)
+- Updated: Servus: Shuttles (`servus_shuttles-0.3.0.jar` to `servus_shuttles-0.4.0.jar`)
+- Updated: Sophisticated Backpacks (`sophisticatedbackpacks-26.1.2-3.26.13.2207.jar` to `sophisticatedbackpacks-26.1.2-3.26.15.2224.jar`)
+- Updated: Sophisticated Core (`sophisticatedcore-26.1.2-1.5.17.2423.jar` to `sophisticatedcore-26.1.2-1.5.18.2424.jar`)
+- Updated: Sophisticated Storage (`sophisticatedstorage-26.1.2-1.5.123.2190.jar` to `sophisticatedstorage-26.1.2-1.5.124.2200.jar`)
+- Updated: The Bumblezone (NeoForge/Forge) (`the_bumblezone-7.18.0+26.1.2-neoforge.jar` to `the_bumblezone-7.18.2+26.1.2-neoforge.jar`)
+- Updated: Titanium (`titanium-26.1.2-4.0.13.jar` to `titanium-26.1.2-4.0.14.jar`)
+
 ## 0.3.0
 
 ### New
