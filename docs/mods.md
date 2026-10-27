@@ -165,7 +165,7 @@ Installed for Iris but not selected: pick one under Video Settings > Shader Pack
 | `cristel-lib` | Cristel Lib | both | Towns and Towers |
 | `cucumber` | Cucumber Library | both | Iron Jetpacks |
 | `curios` | Curios API | both | Occultism, Artifacts |
-| `ftb-library-forge` | FTB Library | both | FTB Quests, Chunks, Teams, Ultimine |
+| `ftb-library-forge` | FTB Library | both | FTB Quests, Chunks, Teams, Ultimine. Pinned to 26.1.2.9: in 26.1.2.10 the FTB Chunks large map shows no terrain |
 | `fusion-connected-textures` | Fusion | both | Rechiseled |
 | `geckolib` | GeckoLib | both | Occultism |
 | `guideme` | GuideME | both | Powah |
