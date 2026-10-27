@@ -50,7 +50,7 @@ hash = "3fe3fc9ba1716eb3a0ed1d448757e4ff39e189a2d919db40e4f19034ef02ce44"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cellar.json5"
-hash = "99960cb32d6833fa9e414dc6f14b9df8c8d5cdbea2b84b54540935184243b9be"
+hash = "a1596e586fff9339c1ae56a28533a1246f5efb9e119a1fea7a5c1fe348bc9a2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/exploration.json5"
@@ -74,7 +74,7 @@ hash = "2a1ba6f1e52cb76d3c6d2ba0237a96a614399094a2813c6ee22c4bef025ba4e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.json5"
-hash = "d6aab82e8037baecda0b8c08d274ea79b395187322bd94a945778df98636e9a7"
+hash = "983d29830709885dbc8abb45fe7d6d0a48a21bc1c22ccc0423a320302af6e4e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.json5"
@@ -90,7 +90,7 @@ hash = "d74c8d83aed1004c7019d773f2d793c29ac18e4e5633a1e81b7715ec64b8377d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading_house.json5"
-hash = "34bc67f5570a7a7c57ffb0a2d41ef43fdabe6cec613816460e016c8442714e86"
+hash = "8d191288ea19065505da06ad2ab147bc20e928491bdff5a50af639bc796c7776"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.json5"
@@ -122,7 +122,7 @@ hash = "64392f3d9ae0c7b9938099833f2c91b603b5153399c6074bea969903a2cb17e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/cellar.json5"
-hash = "dd54c153746ef495753f55afd62571fe35d19af6fc3b60904abfe190cbe507b4"
+hash = "d813066c1b97caad8639181c3cd75903905bf9fe73f0b4fe6b3bf91ccde97b9a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
@@ -146,7 +146,7 @@ hash = "060c203acc4a6e5a739685e39ed7302f6b714f8ef27b55ceb073f5d28fbfd9df"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/nether.json5"
-hash = "174a1ae529027988b912a5060ab4c9710db90e5fa6598167be4971aed16f6a34"
+hash = "f6f49cbf64df26fae36409beec36852f41da55d1d27d74ea294e3a6f1578c382"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/occultism.json5"

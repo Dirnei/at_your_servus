@@ -44,6 +44,10 @@ def _stack(item: str, components: dict | None = None) -> dict:
     return stack
 
 
+# ObservationTask.ObserveType names in FTB Quests 26.1.2.
+OBSERVATION_TYPES = ("block", "block_tag", "block_state", "block_entity", "block_entity_type", "entity_type", "entity_type_tag")
+
+
 def _filename(slug: str) -> str:
     return slug.replace("-", "_")
 
@@ -59,6 +63,13 @@ def _task(quest: Quest, index: int, task: dict) -> dict:
     elif task["type"] == "advancement":
         out["advancement"] = task["advancement"]
         out["criterion"] = task.get("criterion", "")
+    elif task["type"] == "observation":
+        kind = task.get("observation_type", "block")
+        if kind not in OBSERVATION_TYPES:
+            raise QuestSourceError(f"{quest.chapter}:{quest.slug}: unknown observation_type {kind}")
+        out["timer"] = task.get("timer", 0)
+        out["observation_type"] = kind
+        out["to_observe"] = task["observe"]
     elif task["type"] != "checkmark":
         raise QuestSourceError(f"{quest.chapter}:{quest.slug}: unsupported task type {task['type']}")
     return out
@@ -83,6 +94,8 @@ def _quest(quest: Quest, ids: dict[tuple[str, str], str]) -> dict:
            "rewards": [_reward(quest, i, r) for i, r in enumerate(quest.rewards)]}
     if quest.deps:
         out["dependencies"] = [ids[d] for d in quest.dep_keys()]
+    if quest.dependency_requirement != "all_completed":
+        out["dependency_requirement"] = quest.dependency_requirement
     if quest.icon:
         out["icon"] = _stack(quest.icon)
     if quest.shape:

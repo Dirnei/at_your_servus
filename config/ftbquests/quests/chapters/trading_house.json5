@@ -210,11 +210,11 @@
 			"id": "5ACB69B7A0BCDD39",
 			"rewards": [
 				{
-					"count": 4,
+					"count": 8,
 					"id": "40A1D202F516FB02",
 					"item": {
 						"count": 1,
-						"id": "servus_alchemy:sealed_flask"
+						"id": "minecraft:emerald"
 					},
 					"type": "item"
 				}

@@ -12,6 +12,8 @@ MAX_COUNT = 16
 # Materials players gather in bulk; anything else asked for more than 16 times is reported.
 _BULK = re.compile(r":(.*_)?(ingot|nugget|dust|gem|planks|log|cobblestone|cobbled_deepslate|stone|sand|gravel|dirt|glass|coal|"
                    r"redstone|quartz|crystal|shard|salt|sulfur|ash|quicksilver|raw_[a-z_]+|[a-z_]+_ore)$")
+# Items no quest may give as a reward: the Sealed Flask is a Rubedo product and would skip the Great Work.
+DENIED_REWARDS = {"servus_alchemy:sealed_flask"}
 
 
 def bulk_items(quests_dir: Path) -> set[str]:
@@ -46,6 +48,9 @@ def check(chapters: list[Chapter], items: set[str], bulk: set[str]) -> list[str]
                 errors.append(f"{where}: quest has no English title")
             if not q.tasks:
                 errors.append(f"{where}: quest has no task")
+            for r in q.rewards:
+                if r.get("type") == "item" and r["item"] in DENIED_REWARDS:
+                    errors.append(f"{where}: {r['item']} must never be a reward")
             for t in q.tasks:
                 if t.get("type") == "item" and t.get("count", 1) > MAX_COUNT \
                         and t["item"] not in bulk and not _BULK.search(t["item"]):

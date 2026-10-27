@@ -29,6 +29,12 @@ def test_unknown_icon_and_reward_fail():
     assert len(quest_check.check([c], ITEMS, set())) == 2
 
 
+def test_sealed_flask_reward_fails():
+    c = chapter(quests=[quest(rewards=[{"type": "item", "item": "servus_alchemy:sealed_flask", "count": 4}])])
+    items = ITEMS | {"servus_alchemy:sealed_flask"}
+    assert quest_check.check([c], items, set()) == ["old-works:rack: servus_alchemy:sealed_flask must never be a reward"]
+
+
 def test_count_over_16_of_non_bulk_item_fails():
     c = chapter(quests=[quest(tasks=[{"type": "item", "item": "servus_shuttles:heavy_rack", "count": 32}])])
     assert quest_check.check([c], ITEMS, set()) == [

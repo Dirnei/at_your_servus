@@ -142,3 +142,38 @@ def test_unknown_dependency_fails(sources):
     path.write_text(SIDE.replace("arrival:first-letter", "arrival:nope"), encoding="utf-8")
     with pytest.raises(QuestSourceError):
         generate.build(load_sources(sources))
+
+
+def test_any_of_dependencies_written_only_when_set(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('deps = ["first-letter"]', 'deps = ["first-letter"]\ndependency_requirement = "one_completed"'),
+                    encoding="utf-8")
+    letter, jetpack = json.loads(generate.build(load_sources(sources))["chapters/arrival.json5"])["quests"]
+    assert jetpack["dependency_requirement"] == "one_completed"
+    assert "dependency_requirement" not in letter
+
+
+def test_observation_task(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('tasks = [{ type = "checkmark" }]',
+                                    'tasks = [{ type = "observation", observe = "minecraft:nether_portal" }]'), encoding="utf-8")
+    letter = json.loads(generate.build(load_sources(sources))["chapters/arrival.json5"])["quests"][0]
+    task = letter["tasks"][0]
+    assert (task["type"], task["observation_type"], task["to_observe"], task["timer"]) ==         ("observation", "block", "minecraft:nether_portal", 0)
+
+
+def test_unknown_observation_type_fails(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('tasks = [{ type = "checkmark" }]',
+                                    'tasks = [{ type = "observation", observe = "minecraft:pig", observation_type = "mob" }]'),
+                    encoding="utf-8")
+    with pytest.raises(QuestSourceError, match="observation_type"):
+        generate.build(load_sources(sources))
+
+
+def test_unknown_dependency_requirement_fails(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('deps = ["first-letter"]', 'deps = ["first-letter"]\ndependency_requirement = "any"'),
+                    encoding="utf-8")
+    with pytest.raises(QuestSourceError, match="dependency_requirement"):
+        load_sources(sources)

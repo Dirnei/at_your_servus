@@ -29,7 +29,7 @@ rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
 slug = "calciner"
 title = "A Furnace That Breaks Things Down"
 description = """
-The journal starts in Villach, with his father, metals and a fire. Build the Calciner the way it says: firebox at the bottom, then the ash pan, then the Calciner on top. It breaks almost anything down."""
+The journal starts in Villach, with his father, metals and a fire. Build the Calciner the way it says: firebox at the bottom, then the ash pan, then the Calciner on top. It breaks almost anything down. What stays behind is ash."""
 x = 2.0
 y = 0.0
 deps = ["journal"]
@@ -39,13 +39,49 @@ tasks = [{ type = "item", item = "servus_alchemy:calciner" },
 rewards = [{ type = "item", item = "minecraft:coal_block", count = 2 }]
 
 [[quest]]
-slug = "athanor"
-title = "The Athanor"
+slug = "purifier"
+title = "Washing the Ash"
 description = """
-The Athanor is the heart of alchemy. Alchemists call the whole road the Great Work: four fires, from black to red. Alone, the Athanor burns black. That is the first fire, Nigredo."""
+Ash is not yet Salt. The Purifier washes it out. It works with a Catch Basin and a Residue Crock for what the water leaves behind. The journal shows you how they stand."""
 x = 4.0
 y = 0.0
 deps = ["calciner"]
+tasks = [{ type = "item", item = "servus_alchemy:purifier" },
+         { type = "item", item = "servus_alchemy:catch_basin" },
+         { type = "item", item = "servus_alchemy:residue_crock" }]
+rewards = [{ type = "item", item = "minecraft:bucket", count = 4 }]
+
+[[quest]]
+slug = "coagulator"
+title = "Salt You Can Hold"
+description = """
+Liquid Salt runs through your fingers. The Coagulator sets it into crystals. It needs a Principle Vat; the journal shows how to build it."""
+x = 6.0
+y = 0.0
+deps = ["purifier"]
+tasks = [{ type = "item", item = "servus_alchemy:coagulator" },
+         { type = "item", item = "servus_alchemy:principle_vat" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "salt-in-the-racks"
+title = "Salt in the Racks"
+description = """
+A trading company trades. Take your first salt crystals to the warehouse and let a shuttle put them away. Salt again, like in 1521: the first goods of the new Huber & Co."""
+x = 6.0
+y = 2.0
+deps = ["coagulator"]
+tasks = [{ type = "item", item = "servus_alchemy:salt_crystal", count = 16 }, { type = "checkmark" }]
+rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 2 }]
+
+[[quest]]
+slug = "athanor"
+title = "The Athanor"
+description = """
+The Athanor is the heart of alchemy. It sits on a brick hearth and drinks the principles from three tanks around it. Alchemists call the whole road the Great Work: four fires, from black to red. Alone, the Athanor burns black. That is the first fire, Nigredo."""
+x = 8.0
+y = 0.0
+deps = ["coagulator"]
 tasks = [{ type = "item", item = "servus_alchemy:athanor" }]
 rewards = [{ type = "xp", amount = 50 }]
 
@@ -58,25 +94,49 @@ From my notebook, 1984:
 
 "Salt, Sulfur, Mercury. Everything comes apart into these three, if the fire is patient. I have the black fire now. Your great-grandmother would have called the priest."
 
+Lay a salt crystal on the Athanor and let the black fire grow it into a block. Sixteen of those blocks in a ring under the hearth turn the flame white.
+
 The journal's chapter Villach is your guide for this stage."""
-x = 6.0
+x = 10.0
 y = 0.0
 shape = "hexagon"
 size = 1.5
 deps = ["athanor"]
-tasks = [{ type = "item", item = "servus_alchemy:coagulator" }]
-rewards = [{ type = "item", item = "minecraft:bucket", count = 4 }]
+tasks = [{ type = "item", item = "servus_alchemy:salt_crystal_block" }]
+rewards = [{ type = "item", item = "servus_alchemy:salt_crystal", count = 8 }]
 
 [[quest]]
-slug = "salt-in-the-racks"
-title = "Salt in the Racks"
+slug = "seed"
+title = "A Seed of Iron"
 description = """
-A trading company trades. Take your first salt crystals to the warehouse and let a shuttle put them away. Salt again, like in 1521: the first goods of the new Huber & Co."""
-x = 6.0
+Raw ore will not take root. The seed of a metal does. Lay raw iron on the white Athanor."""
+x = 12.0
+y = -2.0
+deps = ["nigredo"]
+tasks = [{ type = "item", item = "servus_alchemy:seed", components = { "servus_alchemy:vein" = "servus_alchemy:iron" } }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "seed-copper"
+title = "A Seed of Copper"
+description = """
+Raw copper on the white Athanor gives a seed of copper."""
+x = 12.0
+y = 0.0
+deps = ["nigredo"]
+tasks = [{ type = "item", item = "servus_alchemy:seed", components = { "servus_alchemy:vein" = "servus_alchemy:copper" } }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "elixir"
+title = "Elixir of Sight"
+description = """
+Quicksilver on the white Athanor gives the Elixir of Sight. Drink it and you see what lives in the rock."""
+x = 12.0
 y = 2.0
 deps = ["nigredo"]
-tasks = [{ type = "item", item = "servus_alchemy:salt_crystal", count = 16 }, { type = "checkmark" }]
-rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 2 }]
+tasks = [{ type = "item", item = "servus_alchemy:elixir_of_sight" }]
+rewards = [{ type = "xp", amount = 25 }]
 
 [[quest]]
 slug = "albedo"
@@ -87,26 +147,53 @@ From my notebook, 1991:
 
 "Forty years in the salt mine, and I never saw them. The elixir opened my eyes, and there they were: the little people in the rock. The gnomes grow the veins; we only dig them out."
 
-The second fire is Albedo, the white one. The journal's chapter Schwaz is your guide for this stage."""
-x = 8.0
+The second fire is Albedo, the white one. Make any one of the three things before this page, then tick it off.
+
+For the next fire, set an empty Principle Vat beside each tank and offer the white Athanor an Amethyst Block. Citrine grows in the vats and the flame turns yellow.
+
+The journal's chapter Schwaz is your guide for this stage."""
+icon = "servus_alchemy:elixir_of_sight"
+x = 14.0
 y = 0.0
 shape = "hexagon"
 size = 1.5
-deps = ["nigredo"]
-tasks = [{ type = "item", item = "servus_alchemy:elixir_of_sight" },
-         { type = "item", item = "servus_alchemy:gnome_hollow" }]
+deps = ["seed", "seed-copper", "elixir"]
+dependency_requirement = "one_completed"
+tasks = [{ type = "checkmark" }]
 rewards = [{ type = "item", item = "minecraft:iron_block", count = 2 }]
 
 [[quest]]
-slug = "seed"
-title = "A Seed of Metal"
+slug = "seed-gold"
+title = "A Seed of Gold"
 description = """
-Raw ore will not take root. The seed of a metal does. Plant one and feed the hollow."""
-x = 8.0
+The yellow fire makes nobler seeds. Raw gold on the yellow Athanor gives a seed of gold."""
+x = 16.0
+y = -2.0
+deps = ["albedo"]
+tasks = [{ type = "item", item = "servus_alchemy:seed", components = { "servus_alchemy:vein" = "servus_alchemy:gold" } }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "dropper"
+title = "The Principle Dropper"
+description = """
+A Principle Vat on the yellow Athanor becomes a dropper. It lets the principles fall drop by drop, so no pipe needs to touch the Hollow."""
+x = 16.0
+y = 0.0
+deps = ["albedo"]
+tasks = [{ type = "item", item = "servus_alchemy:principle_dropper" }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "ignis-perpetuus"
+title = "Ignis Perpetuus"
+description = """
+The fire that never goes out. Sal Ammoniac on the yellow Athanor gives it. A salamander will want it."""
+x = 16.0
 y = 2.0
 deps = ["albedo"]
-tasks = [{ type = "item", item = "servus_alchemy:seed" }]
-rewards = [{ type = "xp", amount = 50 }]
+tasks = [{ type = "item", item = "servus_alchemy:ignis_perpetuus" }]
+rewards = [{ type = "xp", amount = 25 }]
 
 [[quest]]
 slug = "citrinitas"
@@ -117,15 +204,42 @@ From my notebook, 2003:
 
 "The dose makes the poison. He wrote it, and I learned it the hard way, with a dropper and a burned sleeve. The yellow fire grows better seeds. And there is a fire spirit behind the burning gate."
 
-The third fire is Citrinitas, the yellow one. The journal's chapter on the wandering years is your guide for this stage."""
-x = 10.0
+The third fire is Citrinitas, the yellow one. Make any one of the three things before this page, then tick it off.
+
+For the last fire, set Obsidian beside the tanks and offer the yellow Athanor a Ghast Tear. Red obelisks rise and the flame turns red.
+
+The journal's chapter on the wandering years is your guide for this stage."""
+icon = "minecraft:amethyst_block"
+x = 18.0
 y = 0.0
 shape = "hexagon"
 size = 1.5
-deps = ["albedo"]
-tasks = [{ type = "item", item = "servus_alchemy:principle_dropper" },
-         { type = "item", item = "servus_alchemy:receptaculum" }]
+deps = ["seed-gold", "dropper", "ignis-perpetuus"]
+dependency_requirement = "one_completed"
+tasks = [{ type = "checkmark" }]
 rewards = [{ type = "item", item = "minecraft:gold_block", count = 2 }]
+
+[[quest]]
+slug = "seed-diamond"
+title = "A Seed of Diamond"
+description = """
+Only the red fire makes the noblest seeds. A diamond on the red Athanor gives a seed of diamond."""
+x = 20.0
+y = -1.0
+deps = ["citrinitas"]
+tasks = [{ type = "item", item = "servus_alchemy:seed", components = { "servus_alchemy:vein" = "servus_alchemy:diamond" } }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "seed-emerald"
+title = "A Seed of Emerald"
+description = """
+An emerald on the red Athanor gives a seed of emerald."""
+x = 20.0
+y = 1.0
+deps = ["citrinitas"]
+tasks = [{ type = "item", item = "servus_alchemy:seed", components = { "servus_alchemy:vein" = "servus_alchemy:emerald" } }]
+rewards = [{ type = "xp", amount = 25 }]
 
 [[quest]]
 slug = "rubedo"
@@ -138,12 +252,52 @@ From my notebook, 2019:
 
 The red fire burns. And now I want more."
 
-The last fire is Rubedo, the red one. The journal's chapter Basel and Salzburg is your guide for this stage."""
-x = 12.0
+The last fire is Rubedo, the red one. Make either of the two seeds before this page, then tick it off.
+
+The journal's chapter Basel and Salzburg is your guide for this stage."""
+icon = "minecraft:ghast_tear"
+x = 22.0
 y = 0.0
 shape = "hexagon"
 size = 2.0
-deps = ["citrinitas"]
+deps = ["seed-diamond", "seed-emerald"]
+dependency_requirement = "one_completed"
+tasks = [{ type = "checkmark" }]
+rewards = [{ type = "xp", amount = 100 }]
+
+[[quest]]
+slug = "receptaculum"
+title = "A Warm Chest"
+description = """
+The Receptaculum is a chest with a fire in its belly. What a homunculus gathers falls into it, and its fire keeps him warm.
+
+He needs a home first. Crying Obsidian on the red Athanor gives the Sealed Flask."""
+x = 24.5
+y = 0.0
+deps = ["rubedo"]
+tasks = [{ type = "item", item = "servus_alchemy:receptaculum" },
+         { type = "item", item = "servus_alchemy:sealed_flask" }]
+rewards = [{ type = "xp", amount = 50 }]
+
+[[quest]]
+slug = "prelum-screw"
+title = "The Prelum Screw"
+description = """
+Dragon's Breath on the red Athanor gives the screw for the Prelum, the press at the end of the Work."""
+x = 26.5
+y = 0.0
+deps = ["receptaculum"]
+tasks = [{ type = "item", item = "servus_alchemy:prelum_screw" }]
+rewards = [{ type = "xp", amount = 25 }]
+
+[[quest]]
+slug = "netherite"
+title = "The Dead Head"
+description = """
+The Prelum presses the Caput Mortuum, the worthless earth that stays when the Salt is gone, into netherite."""
+x = 28.5
+y = 0.0
+deps = ["prelum-screw"]
 tasks = [{ type = "item", item = "servus_alchemy:prelum" },
          { type = "item", item = "servus_alchemy:caput_mortuum" }]
 rewards = [{ type = "item", item = "minecraft:netherite_scrap", count = 2 }]

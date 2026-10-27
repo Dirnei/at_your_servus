@@ -1,4 +1,20 @@
 {
+	"quest.1667E289046B1A85.quest_desc": [
+		"A Principle Vat on the yellow Athanor becomes a dropper. It lets the principles fall drop by drop, so no pipe needs to touch the Hollow."
+	],
+	"quest.1667E289046B1A85.title": "The Principle Dropper",
+	"quest.177A062AE6D2B7A0.quest_desc": [
+		"The fire that never goes out. Sal Ammoniac on the yellow Athanor gives it. A salamander will want it."
+	],
+	"quest.177A062AE6D2B7A0.title": "Ignis Perpetuus",
+	"quest.1D9CF42169CEB2D1.quest_desc": [
+		"Dragon's Breath on the red Athanor gives the screw for the Prelum, the press at the end of the Work."
+	],
+	"quest.1D9CF42169CEB2D1.title": "The Prelum Screw",
+	"quest.1FF243EF7F4F8468.quest_desc": [
+		"Raw copper on the white Athanor gives a seed of copper."
+	],
+	"quest.1FF243EF7F4F8468.title": "A Seed of Copper",
 	"quest.234321D361F799B8.quest_desc": [
 		"From my notebook, 2019:",
 		"",
@@ -6,14 +22,32 @@
 		"",
 		"The red fire burns. And now I want more.\"",
 		"",
-		"The last fire is Rubedo, the red one. The journal's chapter Basel and Salzburg is your guide for this stage."
+		"The last fire is Rubedo, the red one. Make either of the two seeds before this page, then tick it off.",
+		"",
+		"The journal's chapter Basel and Salzburg is your guide for this stage."
 	],
 	"quest.234321D361F799B8.quest_subtitle": "Journal: Basel and Salzburg",
 	"quest.234321D361F799B8.title": "Rubedo: The Red Fire",
+	"quest.29DD430DD256E06A.quest_desc": [
+		"Ash is not yet Salt. The Purifier washes it out. It works with a Catch Basin and a Residue Crock for what the water leaves behind. The journal shows you how they stand."
+	],
+	"quest.29DD430DD256E06A.title": "Washing the Ash",
+	"quest.2D27E165EDA376CC.quest_desc": [
+		"An emerald on the red Athanor gives a seed of emerald."
+	],
+	"quest.2D27E165EDA376CC.title": "A Seed of Emerald",
+	"quest.3BA0A2F507567BEF.quest_desc": [
+		"The Prelum presses the Caput Mortuum, the worthless earth that stays when the Salt is gone, into netherite."
+	],
+	"quest.3BA0A2F507567BEF.title": "The Dead Head",
 	"quest.3DD39C0BF6683C46.quest_desc": [
-		"The Athanor is the heart of alchemy. Alchemists call the whole road the Great Work: four fires, from black to red. Alone, the Athanor burns black. That is the first fire, Nigredo."
+		"The Athanor is the heart of alchemy. It sits on a brick hearth and drinks the principles from three tanks around it. Alchemists call the whole road the Great Work: four fires, from black to red. Alone, the Athanor burns black. That is the first fire, Nigredo."
 	],
 	"quest.3DD39C0BF6683C46.title": "The Athanor",
+	"quest.45C5249C3991B707.quest_desc": [
+		"The yellow fire makes nobler seeds. Raw gold on the yellow Athanor gives a seed of gold."
+	],
+	"quest.45C5249C3991B707.title": "A Seed of Gold",
 	"quest.4A8C8321E65C4EFD.quest_desc": [
 		"Servus, kid,",
 		"",
@@ -27,12 +61,20 @@
 	],
 	"quest.4A8C8321E65C4EFD.quest_subtitle": "To be opened in your new cellar",
 	"quest.4A8C8321E65C4EFD.title": "The Journal",
+	"quest.51381E5AFF8B8E53.quest_desc": [
+		"Liquid Salt runs through your fingers. The Coagulator sets it into crystals. It needs a Principle Vat; the journal shows how to build it."
+	],
+	"quest.51381E5AFF8B8E53.title": "Salt You Can Hold",
 	"quest.60799F0F0C1365B5.quest_desc": [
 		"From my notebook, 2003:",
 		"",
 		"\"The dose makes the poison. He wrote it, and I learned it the hard way, with a dropper and a burned sleeve. The yellow fire grows better seeds. And there is a fire spirit behind the burning gate.\"",
 		"",
-		"The third fire is Citrinitas, the yellow one. The journal's chapter on the wandering years is your guide for this stage."
+		"The third fire is Citrinitas, the yellow one. Make any one of the three things before this page, then tick it off.",
+		"",
+		"For the last fire, set Obsidian beside the tanks and offer the yellow Athanor a Ghast Tear. Red obelisks rise and the flame turns red.",
+		"",
+		"The journal's chapter on the wandering years is your guide for this stage."
 	],
 	"quest.60799F0F0C1365B5.quest_subtitle": "Journal: The Wandering Years",
 	"quest.60799F0F0C1365B5.title": "Citrinitas: The Yellow Fire",
@@ -40,30 +82,50 @@
 		"A trading company trades. Take your first salt crystals to the warehouse and let a shuttle put them away. Salt again, like in 1521: the first goods of the new Huber \\& Co."
 	],
 	"quest.69983347EA0BC160.title": "Salt in the Racks",
+	"quest.6A60D8F13A4F5802.quest_desc": [
+		"Only the red fire makes the noblest seeds. A diamond on the red Athanor gives a seed of diamond."
+	],
+	"quest.6A60D8F13A4F5802.title": "A Seed of Diamond",
 	"quest.70FBE2C8BA49454A.quest_desc": [
 		"From my notebook, 1991:",
 		"",
 		"\"Forty years in the salt mine, and I never saw them. The elixir opened my eyes, and there they were: the little people in the rock. The gnomes grow the veins; we only dig them out.\"",
 		"",
-		"The second fire is Albedo, the white one. The journal's chapter Schwaz is your guide for this stage."
+		"The second fire is Albedo, the white one. Make any one of the three things before this page, then tick it off.",
+		"",
+		"For the next fire, set an empty Principle Vat beside each tank and offer the white Athanor an Amethyst Block. Citrine grows in the vats and the flame turns yellow.",
+		"",
+		"The journal's chapter Schwaz is your guide for this stage."
 	],
 	"quest.70FBE2C8BA49454A.quest_subtitle": "Journal: Schwaz",
 	"quest.70FBE2C8BA49454A.title": "Albedo: The White Fire",
-	"quest.7C2A969C37F1A51A.quest_desc": [
-		"Raw ore will not take root. The seed of a metal does. Plant one and feed the hollow."
+	"quest.721EBED4B48FA286.quest_desc": [
+		"The Receptaculum is a chest with a fire in its belly. What a homunculus gathers falls into it, and its fire keeps him warm.",
+		"",
+		"He needs a home first. Crying Obsidian on the red Athanor gives the Sealed Flask."
 	],
-	"quest.7C2A969C37F1A51A.title": "A Seed of Metal",
+	"quest.721EBED4B48FA286.title": "A Warm Chest",
+	"quest.777FC09DFFCF8AA2.quest_desc": [
+		"Quicksilver on the white Athanor gives the Elixir of Sight. Drink it and you see what lives in the rock."
+	],
+	"quest.777FC09DFFCF8AA2.title": "Elixir of Sight",
+	"quest.7C2A969C37F1A51A.quest_desc": [
+		"Raw ore will not take root. The seed of a metal does. Lay raw iron on the white Athanor."
+	],
+	"quest.7C2A969C37F1A51A.title": "A Seed of Iron",
 	"quest.7C723D9D51CEADF2.quest_desc": [
 		"From my notebook, 1984:",
 		"",
 		"\"Salt, Sulfur, Mercury. Everything comes apart into these three, if the fire is patient. I have the black fire now. Your great-grandmother would have called the priest.\"",
+		"",
+		"Lay a salt crystal on the Athanor and let the black fire grow it into a block. Sixteen of those blocks in a ring under the hearth turn the flame white.",
 		"",
 		"The journal's chapter Villach is your guide for this stage."
 	],
 	"quest.7C723D9D51CEADF2.quest_subtitle": "Journal: Villach",
 	"quest.7C723D9D51CEADF2.title": "Nigredo: The Black Fire",
 	"quest.7F5D364CF23DDAA8.quest_desc": [
-		"The journal starts in Villach, with his father, metals and a fire. Build the Calciner the way it says: firebox at the bottom, then the ash pan, then the Calciner on top. It breaks almost anything down."
+		"The journal starts in Villach, with his father, metals and a fire. Build the Calciner the way it says: firebox at the bottom, then the ash pan, then the Calciner on top. It breaks almost anything down. What stays behind is ash."
 	],
 	"quest.7F5D364CF23DDAA8.title": "A Furnace That Breaks Things Down"
 }

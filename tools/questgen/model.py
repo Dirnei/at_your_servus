@@ -16,12 +16,14 @@ A chapter file looks like:
     x = 0.0
     y = 0.0
     deps = ["first-letter", "arrival:first-letter"]   # same chapter, or "chapter:quest"
+    dependency_requirement = "one_completed"          # optional: unlock when any one dep is done (default all_completed)
     optional = false              # optional
     shape = "gear"                # optional
     size = 1.5                    # optional
     tasks = [{ type = "item", item = "servus_foundation:utility_duct", count = 4 },
              { type = "checkmark" },
-             { type = "advancement", advancement = "minecraft:story/mine_stone" }]
+             { type = "advancement", advancement = "minecraft:story/mine_stone" },
+             { type = "observation", observe = "minecraft:nether_portal" }]   # look at it; + observation_type (block), timer (ticks, 0)
     rewards = [{ type = "item", item = "minecraft:bread", count = 8 }, { type = "xp", amount = 50 }]
 
 The file name is "<NN>-<slug>.toml"; NN orders the chapters, slug identifies the chapter.
@@ -33,6 +35,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 GROUPS = {"main": "chapters", "side": "side"}
+DEPENDENCY_REQUIREMENTS = ("all_completed", "one_completed")
 _FILE = re.compile(r"^(\d\d)-([a-z0-9-]+)\.toml$")
 
 
@@ -57,6 +60,7 @@ class Quest:
     description: str = ""
     icon: str = ""
     deps: list[str] = field(default_factory=list)
+    dependency_requirement: str = "all_completed"
     optional: bool = False
     shape: str = ""
     size: float = 0.0
@@ -98,6 +102,8 @@ def load_chapter(path: Path, group: str) -> Chapter:
         unknown = set(q) - set(Quest.__dataclass_fields__) - {"chapter"}
         if unknown:
             raise QuestSourceError(f"{path.name}: quest {q.get('slug')}: unknown keys {sorted(unknown)}")
+        if q.get("dependency_requirement", "all_completed") not in DEPENDENCY_REQUIREMENTS:
+            raise QuestSourceError(f"{path.name}: quest {q.get('slug')}: dependency_requirement must be one of {DEPENDENCY_REQUIREMENTS}")
         chapter.quests.append(Quest(chapter=chapter.slug, **q))
     return chapter
 

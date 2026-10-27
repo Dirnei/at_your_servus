@@ -108,7 +108,7 @@ deps = ["production-terminal", "cellar:albedo"]
 tasks = [{ type = "item", item = "servus_shuttles:crafting_cpu" },
          { type = "item", item = "servus_foundation:machine_adapter" },
          { type = "checkmark" }]
-rewards = [{ type = "item", item = "servus_alchemy:sealed_flask", count = 4 }]
+rewards = [{ type = "item", item = "minecraft:emerald", count = 8 }]
 
 [[quest]]
 slug = "workshop"

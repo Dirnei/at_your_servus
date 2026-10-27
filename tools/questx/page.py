@@ -243,6 +243,7 @@ function entry(e) {
   if (e.type === "xp") return row(slot(el("span", {class: "glyph xp", text: "XP"})), e.amount + " experience");
   if (e.type === "checkmark") return row(slot(el("span", {class: "glyph", text: "✓"})), "Tick it off", "No item needed; the player confirms it in the book.");
   if (e.type === "advancement") return row(slot(el("span", {class: "glyph", text: "★"})), "Advancement", e.advancement);
+  if (e.type === "observation") return row(slot(el("span", {class: "glyph", text: "👁"})), "Look at it", e.observe);
   return row(slot(el("span", {class: "glyph", text: "?"})), e.type || "Unknown", JSON.stringify(e));
 }
 

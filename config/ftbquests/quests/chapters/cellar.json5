@@ -88,20 +88,40 @@
 			"dependencies": [
 				"7F5D364CF23DDAA8"
 			],
-			"id": "3DD39C0BF6683C46",
+			"id": "29DD430DD256E06A",
 			"rewards": [
 				{
-					"id": "1DF91369580E6951",
-					"type": "xp",
-					"xp": 50
+					"count": 4,
+					"id": "62510A6940B5108E",
+					"item": {
+						"count": 1,
+						"id": "minecraft:bucket"
+					},
+					"type": "item"
 				}
 			],
 			"tasks": [
 				{
-					"id": "1EA60FCDD20F601D",
+					"id": "443E6F401E2B671D",
 					"item": {
 						"count": 1,
-						"id": "servus_alchemy:athanor"
+						"id": "servus_alchemy:purifier"
+					},
+					"type": "item"
+				},
+				{
+					"id": "48062BCAF5BF47EC",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:catch_basin"
+					},
+					"type": "item"
+				},
+				{
+					"id": "045B7753146F6ED4",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:residue_crock"
 					},
 					"type": "item"
 				}
@@ -111,28 +131,30 @@
 		},
 		{
 			"dependencies": [
-				"3DD39C0BF6683C46"
+				"29DD430DD256E06A"
 			],
-			"id": "7C723D9D51CEADF2",
+			"id": "51381E5AFF8B8E53",
 			"rewards": [
 				{
-					"count": 4,
-					"id": "3C75214DD6B7A4AB",
-					"item": {
-						"count": 1,
-						"id": "minecraft:bucket"
-					},
-					"type": "item"
+					"id": "409F2D2ADF37CD07",
+					"type": "xp",
+					"xp": 50
 				}
 			],
-			"shape": "hexagon",
-			"size": 1.5,
 			"tasks": [
 				{
-					"id": "71AA898E031A620A",
+					"id": "3A21A548FCC796A6",
 					"item": {
 						"count": 1,
 						"id": "servus_alchemy:coagulator"
+					},
+					"type": "item"
+				},
+				{
+					"id": "2E17AF02EF0CD6A0",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:principle_vat"
 					},
 					"type": "item"
 				}
@@ -142,7 +164,7 @@
 		},
 		{
 			"dependencies": [
-				"7C723D9D51CEADF2"
+				"51381E5AFF8B8E53"
 			],
 			"id": "69983347EA0BC160",
 			"rewards": [
@@ -176,8 +198,154 @@
 		},
 		{
 			"dependencies": [
+				"51381E5AFF8B8E53"
+			],
+			"id": "3DD39C0BF6683C46",
+			"rewards": [
+				{
+					"id": "1DF91369580E6951",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "1EA60FCDD20F601D",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:athanor"
+					},
+					"type": "item"
+				}
+			],
+			"x": 8.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"3DD39C0BF6683C46"
+			],
+			"id": "7C723D9D51CEADF2",
+			"rewards": [
+				{
+					"count": 8,
+					"id": "3C75214DD6B7A4AB",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:salt_crystal"
+					},
+					"type": "item"
+				}
+			],
+			"shape": "hexagon",
+			"size": 1.5,
+			"tasks": [
+				{
+					"id": "71AA898E031A620A",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:salt_crystal_block"
+					},
+					"type": "item"
+				}
+			],
+			"x": 10.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
 				"7C723D9D51CEADF2"
 			],
+			"id": "7C2A969C37F1A51A",
+			"rewards": [
+				{
+					"id": "04923F0B39C1E618",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "1BBD1329B4847CAB",
+					"item": {
+						"components": {
+							"servus_alchemy:vein": "servus_alchemy:iron"
+						},
+						"count": 1,
+						"id": "servus_alchemy:seed"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": -2.0
+		},
+		{
+			"dependencies": [
+				"7C723D9D51CEADF2"
+			],
+			"id": "1FF243EF7F4F8468",
+			"rewards": [
+				{
+					"id": "0FE1EB4B9098DA67",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "01E719C691F36C3E",
+					"item": {
+						"components": {
+							"servus_alchemy:vein": "servus_alchemy:copper"
+						},
+						"count": 1,
+						"id": "servus_alchemy:seed"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"7C723D9D51CEADF2"
+			],
+			"id": "777FC09DFFCF8AA2",
+			"rewards": [
+				{
+					"id": "1F75E24A57C81600",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "4C695FA1E070FC51",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:elixir_of_sight"
+					},
+					"type": "item"
+				}
+			],
+			"x": 12.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"7C2A969C37F1A51A",
+				"1FF243EF7F4F8468",
+				"777FC09DFFCF8AA2"
+			],
+			"dependency_requirement": "one_completed",
+			"icon": {
+				"count": 1,
+				"id": "servus_alchemy:elixir_of_sight"
+			},
 			"id": "70FBE2C8BA49454A",
 			"rewards": [
 				{
@@ -195,53 +363,102 @@
 			"tasks": [
 				{
 					"id": "71AD87FEE8D2C844",
-					"item": {
-						"count": 1,
-						"id": "servus_alchemy:elixir_of_sight"
-					},
-					"type": "item"
-				},
-				{
-					"id": "6D595087C9681B76",
-					"item": {
-						"count": 1,
-						"id": "servus_alchemy:gnome_hollow"
-					},
-					"type": "item"
+					"type": "checkmark"
 				}
 			],
-			"x": 8.0,
+			"x": 14.0,
 			"y": 0.0
 		},
 		{
 			"dependencies": [
 				"70FBE2C8BA49454A"
 			],
-			"id": "7C2A969C37F1A51A",
+			"id": "45C5249C3991B707",
 			"rewards": [
 				{
-					"id": "04923F0B39C1E618",
+					"id": "2F1339074860AE3E",
 					"type": "xp",
-					"xp": 50
+					"xp": 25
 				}
 			],
 			"tasks": [
 				{
-					"id": "1BBD1329B4847CAB",
+					"id": "26D198953B77C63D",
 					"item": {
+						"components": {
+							"servus_alchemy:vein": "servus_alchemy:gold"
+						},
 						"count": 1,
 						"id": "servus_alchemy:seed"
 					},
+					"match_components": "fuzzy",
 					"type": "item"
 				}
 			],
-			"x": 8.0,
-			"y": 2.0
+			"x": 16.0,
+			"y": -2.0
 		},
 		{
 			"dependencies": [
 				"70FBE2C8BA49454A"
 			],
+			"id": "1667E289046B1A85",
+			"rewards": [
+				{
+					"id": "3F21907B17BD7F63",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "4D9CAD10EEF44DC9",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:principle_dropper"
+					},
+					"type": "item"
+				}
+			],
+			"x": 16.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"70FBE2C8BA49454A"
+			],
+			"id": "177A062AE6D2B7A0",
+			"rewards": [
+				{
+					"id": "60C929A715931C2F",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "7F03D0237E2BAC09",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:ignis_perpetuus"
+					},
+					"type": "item"
+				}
+			],
+			"x": 16.0,
+			"y": 2.0
+		},
+		{
+			"dependencies": [
+				"45C5249C3991B707",
+				"1667E289046B1A85",
+				"177A062AE6D2B7A0"
+			],
+			"dependency_requirement": "one_completed",
+			"icon": {
+				"count": 1,
+				"id": "minecraft:amethyst_block"
+			},
 			"id": "60799F0F0C1365B5",
 			"rewards": [
 				{
@@ -259,38 +476,86 @@
 			"tasks": [
 				{
 					"id": "5CF68CE5217310BE",
-					"item": {
-						"count": 1,
-						"id": "servus_alchemy:principle_dropper"
-					},
-					"type": "item"
-				},
-				{
-					"id": "05DE7D11957D55FA",
-					"item": {
-						"count": 1,
-						"id": "servus_alchemy:receptaculum"
-					},
-					"type": "item"
+					"type": "checkmark"
 				}
 			],
-			"x": 10.0,
+			"x": 18.0,
 			"y": 0.0
 		},
 		{
 			"dependencies": [
 				"60799F0F0C1365B5"
 			],
+			"id": "6A60D8F13A4F5802",
+			"rewards": [
+				{
+					"id": "2B67600DF8332DA2",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "28EAC93375CC344A",
+					"item": {
+						"components": {
+							"servus_alchemy:vein": "servus_alchemy:diamond"
+						},
+						"count": 1,
+						"id": "servus_alchemy:seed"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 20.0,
+			"y": -1.0
+		},
+		{
+			"dependencies": [
+				"60799F0F0C1365B5"
+			],
+			"id": "2D27E165EDA376CC",
+			"rewards": [
+				{
+					"id": "7C4D9118FB1E10E8",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "27FDCC59E2371385",
+					"item": {
+						"components": {
+							"servus_alchemy:vein": "servus_alchemy:emerald"
+						},
+						"count": 1,
+						"id": "servus_alchemy:seed"
+					},
+					"match_components": "fuzzy",
+					"type": "item"
+				}
+			],
+			"x": 20.0,
+			"y": 1.0
+		},
+		{
+			"dependencies": [
+				"6A60D8F13A4F5802",
+				"2D27E165EDA376CC"
+			],
+			"dependency_requirement": "one_completed",
+			"icon": {
+				"count": 1,
+				"id": "minecraft:ghast_tear"
+			},
 			"id": "234321D361F799B8",
 			"rewards": [
 				{
-					"count": 2,
 					"id": "6EBB1D3BDD7C26CB",
-					"item": {
-						"count": 1,
-						"id": "minecraft:netherite_scrap"
-					},
-					"type": "item"
+					"type": "xp",
+					"xp": 100
 				}
 			],
 			"shape": "hexagon",
@@ -298,6 +563,89 @@
 			"tasks": [
 				{
 					"id": "3EC66409D918A6FD",
+					"type": "checkmark"
+				}
+			],
+			"x": 22.0,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"234321D361F799B8"
+			],
+			"id": "721EBED4B48FA286",
+			"rewards": [
+				{
+					"id": "640DC640BF565FA2",
+					"type": "xp",
+					"xp": 50
+				}
+			],
+			"tasks": [
+				{
+					"id": "2C2D91E3FEE62C2F",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:receptaculum"
+					},
+					"type": "item"
+				},
+				{
+					"id": "5F8B2C15F5833AD8",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:sealed_flask"
+					},
+					"type": "item"
+				}
+			],
+			"x": 24.5,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"721EBED4B48FA286"
+			],
+			"id": "1D9CF42169CEB2D1",
+			"rewards": [
+				{
+					"id": "6088E604342C8429",
+					"type": "xp",
+					"xp": 25
+				}
+			],
+			"tasks": [
+				{
+					"id": "3526E3C9CD0903B1",
+					"item": {
+						"count": 1,
+						"id": "servus_alchemy:prelum_screw"
+					},
+					"type": "item"
+				}
+			],
+			"x": 26.5,
+			"y": 0.0
+		},
+		{
+			"dependencies": [
+				"1D9CF42169CEB2D1"
+			],
+			"id": "3BA0A2F507567BEF",
+			"rewards": [
+				{
+					"count": 2,
+					"id": "300E54C758E58A4A",
+					"item": {
+						"count": 1,
+						"id": "minecraft:netherite_scrap"
+					},
+					"type": "item"
+				}
+			],
+			"tasks": [
+				{
+					"id": "6D04F17AD09E060E",
 					"item": {
 						"count": 1,
 						"id": "servus_alchemy:prelum"
@@ -305,7 +653,7 @@
 					"type": "item"
 				},
 				{
-					"id": "26B14FC3C05919D2",
+					"id": "257C97722CF36E6D",
 					"item": {
 						"count": 1,
 						"id": "servus_alchemy:caput_mortuum"
@@ -313,7 +661,7 @@
 					"type": "item"
 				}
 			],
-			"x": 12.0,
+			"x": 28.5,
 			"y": 0.0
 		}
 	]

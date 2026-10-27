@@ -14,14 +14,15 @@ the fire you need lives behind the burning gate, in the Nether. The journal says
 
 Do not go in iron. Down in an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Go armoured, go fed, and come back.
 
+Build the gate from obsidian and light it. Once the purple fire burns, take a good look at it.
+
 Uncle Vinzenz"""
 x = 0.0
 y = 0.0
 shape = "gear"
 size = 1.5
-deps = ["power-station:energized-steel"]
-tasks = [{ type = "checkmark" }]
-rewards = [{ type = "item", item = "minecraft:golden_carrot", count = 8 }]
+tasks = [{ type = "observation", observe = "minecraft:nether_portal" }]
+rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "goo"

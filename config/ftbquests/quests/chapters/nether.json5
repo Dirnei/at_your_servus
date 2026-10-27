@@ -9,19 +9,12 @@
 	"order_index": 5,
 	"quests": [
 		{
-			"dependencies": [
-				"6AD9185040B4C27E"
-			],
 			"id": "6FB8337E4C884831",
 			"rewards": [
 				{
-					"count": 8,
 					"id": "51A13DB45AB3A3FF",
-					"item": {
-						"count": 1,
-						"id": "minecraft:golden_carrot"
-					},
-					"type": "item"
+					"type": "xp",
+					"xp": 50
 				}
 			],
 			"shape": "gear",
@@ -29,7 +22,10 @@
 			"tasks": [
 				{
 					"id": "15BB0B0578681570",
-					"type": "checkmark"
+					"observation_type": "block",
+					"timer": 0,
+					"to_observe": "minecraft:nether_portal",
+					"type": "observation"
 				}
 			],
 			"x": 0.0,
