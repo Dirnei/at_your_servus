@@ -910,17 +910,17 @@ metafile = true
 
 [[files]]
 file = "mods/servus-alchemy.pw.toml"
-hash = "8c9d614b099c6fcbeded8749922d3221f82f1c13633e6d4185bf64c4150b045d"
+hash = "af8f8c792a1ae065a722bcbcc6e83555594750118bf2dec7b4ff166ac492b1f5"
 metafile = true
 
 [[files]]
 file = "mods/servus-foundation.pw.toml"
-hash = "ba919b972a4e3c4ae79986ab06f174545f188d142be6e3ebab7adc6806927d4e"
+hash = "1d2e09b11e8d634b2c4886371cce771df8aec0562e2a1bd01eb0a1ab0a86cdcf"
 metafile = true
 
 [[files]]
 file = "mods/servus-shuttles.pw.toml"
-hash = "3a6204c09a22352a2f4fea15d268247bf0550052e098643f89445274da575c1f"
+hash = "ce6688026f93707ab90aaaa7dab0fa5d9184a7ba4834061bb9a78cac3667f99d"
 metafile = true
 
 [[files]]
