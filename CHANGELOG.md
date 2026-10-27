@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.5.0
+
+### New
+
+- Servus: Shuttles 0.5.0: tree fields with a Lumber shuttle that fells and replants, shuttle lights and number plates, names and numbers for stations and machines, Exact / Any patterns, and Stock and Rules tabs in the Storage Terminal
+- Servus: Foundation 0.5.0: Utility Duct sides on tabs with their own In, Out, Pull and redstone settings, fluid filters, keep and fill up to amounts, and the Mill grinds vanilla items
+- Servus: Alchemy 0.4.0: Nether and End matter burns in the Calciner, the Purifier makes Kandis, Brimstone and Cinnabar, and the Coagulator grows what its seed is
+
+### Fixes
+
+- The Cellar quests follow the journal: Purifier and Coagulator come before the Athanor, each fire opens with any one of a few products, and the Warm Chest, Prelum Screw and Prelum come last
+- The Nether chapter is open from the start; Uncle Vinzenz' letter completes when you look at a lit Nether portal
+- The large map shows terrain again (FTB Library pinned to 26.1.2.9)
+
+### Mods
+
+- Updated: FTB Library (NeoForge) (`ftb-library-neoforge-26.1.2.10.jar` to `ftb-library-neoforge-26.1.2.9.jar`)
+- Updated: Servus: Alchemy (`servus_alchemy-0.3.0-alpha.jar` to `servus_alchemy-0.4.0-alpha.jar`)
+- Updated: Servus: Foundation (`servus_foundation-0.4.0.jar` to `servus_foundation-0.5.0.jar`)
+- Updated: Servus: Shuttles (`servus_shuttles-0.4.0.jar` to `servus_shuttles-0.5.0.jar`)
+
 ## 0.4.0
 
 ### New
