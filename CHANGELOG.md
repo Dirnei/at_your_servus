@@ -1,5 +1,36 @@
 # Changelog
 
+## 0.6.0
+
+### New
+
+- Skill trees: press K to open them. Miner, Hunter and Wanderer each level up from mining, fighting or travelling, and every level gives a point to spend in that tree. Some story quests give points too.
+- Ultimine now starts at 8 blocks. Four Miner skills raise it to 16, 32, 64 and 128. Existing worlds start at 8 again and earn the rest back with Miner skills.
+- Hunter skills give more damage, health, crit chance, crit damage and life steal. Wanderer skills make you walk, swim and climb faster, fall safer and reach further.
+- Servus: Shuttles 0.7.0: the Handheld HH-1 warehouse scanner with zones, stock search and relocating, Parcel Lockers with orders from the Handheld, Fluid Racks with Fluid Inbound and Outbound, shuttle sounds with a Muffler, location codes on every shelf, placing a whole rack layer at once, farm rails that corrode one by one, and the Buffer Stop
+- Servus: Foundation 0.7.0: the Mixer, the Carbon Filter, tag search in item pickers and fluid side modes. The Sink is now called the Incinerator.
+- Servus: Alchemy 0.6.0: the Venter Equinus putrefies rot into Humus, Grass Seed from the Athanor, and Gnome Hollows dig up to three times as fast when fed Salt, Sulfur and Mercury
+
+### Fixes
+
+- The quest texts are rewritten in plainer English
+- The Fields corrosion quest explains the new per-rail corrosion
+- The zones quest asks for the Handheld, because Zone Labels are gone
+
+### Before you update
+
+- Zone Labels are removed. Racks lose their zones, so set them again with the Handheld.
+- The Fluid Gantry is removed. Empty your gantries first, because placed gantries and their fluid are lost.
+- K opens the skill trees. On a fresh install the Iris shader toggle is unbound so K does nothing else. If you kept your old settings, check Options, Controls.
+
+### Mods
+
+- Added: Default Options (`defaultoptions-neoforge-26.1.2-26.1.2.2.jar`)
+- Added: Pufferfish's Skills (`puffish_skills-0.19.2-26.1-neoforge.jar`)
+- Updated: Servus: Alchemy (`servus_alchemy-0.4.0-alpha.jar` to `servus_alchemy-0.6.0-alpha.jar`)
+- Updated: Servus: Foundation (`servus_foundation-0.5.0.jar` to `servus_foundation-0.7.0.jar`)
+- Updated: Servus: Shuttles (`servus_shuttles-0.5.0.jar` to `servus_shuttles-0.7.0.jar`)
+
 ## 0.5.0
 
 ### New
