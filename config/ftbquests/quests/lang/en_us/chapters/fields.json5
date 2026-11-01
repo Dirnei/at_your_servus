@@ -39,7 +39,7 @@
 	"quest.2151BC5EA758717A.quest_subtitle": "To be opened when the terminal runs",
 	"quest.2151BC5EA758717A.title": "A Man Has to Eat",
 	"quest.38D7EBBD388BA1EE.quest_desc": [
-		"The copper on the farm rails ages with the water the field uses. First it gets exposed, then weathered, then oxidized and at last corroded. A corroded field gets no more water and nothing new grows. Right-click any rail of the field with an axe and the whole field goes back one stage.",
+		"The copper on the farm rails ages with the water that flows through them. First it gets exposed, then weathered, then oxidized and at last corroded. Every rail ages on its own. A corroded rail stops the water, so every rail behind it dries out. Right-click a rail with an axe and every rail of the field goes back one stage. That costs the axe 4 durability per rail, so bring a good one.",
 		"",
 		"Tick this off when you have scraped your field."
 	],

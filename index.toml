@@ -134,7 +134,7 @@ hash = "78419941d65750e5bd8373bc5f15b5e0733b5d51f10d756c03bddef4cfbf0449"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/fields.json5"
-hash = "175a81f00c5793724a71373382099505c33b6acd7707cbe8ba52ddef39a4b0df"
+hash = "171e35e77d2466796ed471cd029af4fdd843dc610cfa61e828494d548163b2f7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/finale.json5"
