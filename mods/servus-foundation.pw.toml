@@ -1,13 +1,13 @@
 name = "Servus: Foundation"
-filename = "servus_foundation-0.6.0.jar"
+filename = "servus_foundation-0.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c6e66d5bddb3e389ff1da6f63c2c1667691b6fbf"
+hash = "e206e78669932efde099b9baaf771e9f9ee1da4c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9383137
+file-id = 9394199
 project-id = 1747973
