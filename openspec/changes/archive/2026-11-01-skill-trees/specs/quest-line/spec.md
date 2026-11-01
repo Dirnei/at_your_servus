@@ -15,7 +15,7 @@ A quest source SHALL be able to reward skill points with a reward naming the tre
 The quest check SHALL fail on a skill point reward whose tree is not one of the pack's skill trees, or whose amount is not a positive whole number, and SHALL name the quest.
 
 #### Scenario: Unknown tree
-- **WHEN** a quest source rewards skill points for `bergman`
+- **WHEN** a quest source rewards skill points for `miners`
 - **THEN** the quest check fails and names the quest and the tree
 
 #### Scenario: Zero points

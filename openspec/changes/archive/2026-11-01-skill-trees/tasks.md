@@ -28,9 +28,9 @@
 
 ## 5. In-game check
 
-- [ ] 5.1 Rebuild the server pack, `docker compose restart mc`, join with a client: K opens the skill screen with three tabs, a new player ultimines 8 blocks of a larger vein, and the Ultimine preview on the client shows 8 too
+- [x] 5.1 Rebuild the server pack, `docker compose restart mc`, join with a client: K opens the skill screen with three tabs, a new player ultimines 8 blocks of a larger vein, and the Ultimine preview on the client shows 8 too
 - [x] 5.2 In the same session: claim a story point reward and see the message and the point, unlock the first two Ultimine skills and ultimine 32 blocks, die and respawn with the skills kept
-- [ ] 5.3 Add a changelog note for the release that existing worlds start at 8 Ultimine blocks and earn the rest back with Miner skills; verify it appears in the drafted `CHANGELOG.md` section
+- [x] 5.3 Add a changelog note for the release that existing worlds start at 8 Ultimine blocks and earn the rest back with Miner skills; verify it appears in the drafted `CHANGELOG.md` section
 
 ## Workflow follow-up
 
