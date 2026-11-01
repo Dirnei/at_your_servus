@@ -18,7 +18,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "chisel"
 title = "A Chisel"
 description = """
-Rechiseled turns plain stone into a hundred patterns."""
+Rechiseled turns plain stone into a hundred different patterns."""
 x = 2.0
 y = -1.0
 deps = ["wand"]
@@ -29,7 +29,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "chests-and-drawers"
 title = "Chests and Drawers for the House"
 description = """
-For the house itself, not the trading house: a sturdier chest and a drawer by the stove. The warehouse is still where goods belong."""
+These are for your house, not the trading house. A sturdier chest and a drawer by the stove. Goods still belong in the warehouse."""
 x = 4.0
 y = 0.0
 deps = ["chisel"]

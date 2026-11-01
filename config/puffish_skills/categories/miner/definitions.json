@@ -1,0 +1,211 @@
+{
+  "ultimine_16": {
+    "title": "Ultimine: 16 blocks",
+    "description": "Ultimine mines up to 16 blocks at once.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ultimine_32": {
+    "title": "Ultimine: 32 blocks",
+    "description": "Ultimine mines up to 32 blocks at once.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 16,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ultimine_64": {
+    "title": "Ultimine: 64 blocks",
+    "description": "Ultimine mines up to 64 blocks at once.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 32,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ultimine_128": {
+    "title": "Ultimine: 128 blocks",
+    "description": "Ultimine mines up to 128 blocks at once.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 64,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 2
+  },
+  "break_speed_1": {
+    "title": "Quick Hands",
+    "description": "+10% mining speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:block_break_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "break_speed_2": {
+    "title": "Quicker Hands",
+    "description": "Another +10% mining speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:block_break_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "efficiency": {
+    "title": "Sharp Edge",
+    "description": "Tools that fit the block mine faster, like a level of Efficiency.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:mining_efficiency",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "underwater": {
+    "title": "Wet Tunnels",
+    "description": "Mine faster under water.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:submerged_mining_speed",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

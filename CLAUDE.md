@@ -12,7 +12,7 @@ packwiz modpack for Minecraft 26.1.2 / NeoForge 26.1.2.122, built around the Ser
 
 - Edit `quests/chapters/*.toml` (main) and `quests/side/*.toml`, then run `python -m tools.questgen.generate` and commit the generated `config/ftbquests/quests/` too. Never edit the generated JSON5 by hand.
 - Quest IDs come from the chapter and quest slugs: renaming a slug resets player progress. Change titles and texts freely.
-- Story texts follow `docs/story.md`: letters from Uncle Vinzenz (Vinzenz Huber), "Servus, kid," ... "Uncle Vinzenz". Plain, everyday English, short sentences.
+- Story texts follow `docs/story.md`: letters from Uncle Vinzenz (Vinzenz Huber), "Servus, kid," ... "Uncle Vinzenz". Plain, everyday English, short sentences, written the way a person talks. No semicolons. Say plainly what to do next.
 - FTB Quests 26.1.2 reads JSON5 only and silently ignores `.snbt`. Text lives in the lang files, not inline.
 
 ## Checks

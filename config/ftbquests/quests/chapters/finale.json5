@@ -285,6 +285,30 @@
 						"id": "servus_alchemy:salt_offering"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} miner 1",
+					"feedback_message": "+1 Miner point",
+					"id": "304921D69C4E18F5",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
+				},
+				{
+					"command": "/puffish_skills points add {p} hunter 1",
+					"feedback_message": "+1 Hunter point",
+					"id": "622415F2D20B58DB",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
+				},
+				{
+					"command": "/puffish_skills points add {p} wanderer 1",
+					"feedback_message": "+1 Wanderer point",
+					"id": "65B5D35224AA2D64",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"shape": "gear",

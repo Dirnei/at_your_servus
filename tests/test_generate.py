@@ -177,3 +177,24 @@ def test_unknown_dependency_requirement_fails(sources):
                     encoding="utf-8")
     with pytest.raises(QuestSourceError, match="dependency_requirement"):
         load_sources(sources)
+
+
+def test_skill_points_reward(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('{ type = "xp", amount = 20 }]',
+                                    '{ type = "xp", amount = 20 }, { type = "skill_points", tree = "miner", amount = 2 }]'),
+                    encoding="utf-8")
+    files = generate.build(load_sources(sources))
+    reward = json.loads(files["chapters/arrival.json5"])["quests"][0]["rewards"][2]
+    assert reward["type"] == "command"
+    assert reward["command"] == "/puffish_skills points add {p} miner 2"
+    assert (reward["permission_level"], reward["silent"], reward["feedback_message"]) == (2, True, "+2 Miner points")
+    lang = json.loads(files["lang/en_us/chapters/arrival.json5"])
+    assert lang[f"reward.{reward['id']}.title"] == "2 Miner points"
+
+
+def test_skill_points_reward_needs_tree_and_amount(sources):
+    path = sources / "chapters" / "01-arrival.toml"
+    path.write_text(ARRIVAL.replace('{ type = "xp", amount = 20 }]', '{ type = "skill_points", amount = 1 }]'), encoding="utf-8")
+    with pytest.raises(QuestSourceError, match="skill_points"):
+        generate.build(load_sources(sources))

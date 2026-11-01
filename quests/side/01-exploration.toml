@@ -7,7 +7,7 @@ icon = "minecraft:compass"
 slug = "compasses"
 title = "Two Compasses"
 description = """
-One finds biomes, one finds structures. Vinzenz kept both in his coat and still got lost."""
+One finds biomes, the other finds structures. Vinzenz carried both in his coat and still got lost."""
 x = 0.0
 y = 0.0
 deps = ["arrival:iron-pick"]
@@ -18,7 +18,7 @@ rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 16 }]
 slug = "artifact"
 title = "Something Old and Odd"
 description = """
-Ruins and dungeons hide artifacts. Find a cloud in a bottle and jump twice."""
+Ruins and dungeons hide artifacts. Find a cloud in a bottle and try jumping twice."""
 x = 0.0
 y = -2.0
 deps = ["compasses"]
@@ -30,7 +30,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "twilight"
 title = "The Twilight Forest"
 description = """
-A pool ringed with flowers and a diamond thrown in. Step into the pool and you are somewhere else, where it is always dusk."""
+Make a small pool, put flowers around it and throw a diamond in. Step into the pool and you end up somewhere else, where it is always dusk."""
 x = 2.0
 y = 2.0
 deps = ["compasses"]
@@ -41,7 +41,7 @@ rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
 slug = "naga"
 title = "The Naga"
 description = """
-A great snake guards a courtyard of mossy stone. It is the first of the forest's guardians; the others wait until it is gone."""
+A huge snake guards a courtyard of mossy stone. It is the first of the forest's guardians. The others wait until it is gone."""
 x = 4.0
 y = 2.0
 deps = ["twilight"]
@@ -52,7 +52,7 @@ rewards = [{ type = "item", item = "twilightforest:naga_scale", count = 4 }]
 slug = "lich"
 title = "The Lich"
 description = """
-In his tower the Lich hides behind shields and copies of himself. Hit the real one: he is the one who throws fire."""
+The Lich hides in his tower behind shields and copies of himself. Hit the real one. He is the one throwing fire."""
 x = 6.0
 y = 2.0
 deps = ["naga"]
@@ -63,7 +63,7 @@ rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }]
 slug = "minoshroom"
 title = "The Minoshroom"
 description = """
-Under the swamp lies a labyrinth, and at its heart a bull with a mushroom on its back. Bring a maze map. Vinzenz did not, and it took him three days."""
+Under the swamp there is a labyrinth, and in the middle of it a bull with a mushroom on its back. Bring a maze map. Vinzenz didn't, and it took him three days."""
 x = 8.0
 y = 2.0
 deps = ["lich"]
@@ -74,7 +74,7 @@ rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 16 }]
 slug = "hydra"
 title = "The Hydra"
 description = """
-In the fire swamp a hydra lives in a pit. Three heads, and each one bites. Fight it from the side."""
+A hydra lives in a pit in the fire swamp. It has three heads and every one of them bites. Fight it from the side."""
 x = 10.0
 y = 2.0
 deps = ["minoshroom"]
@@ -85,7 +85,7 @@ rewards = [{ type = "item", item = "twilightforest:hydra_chop", count = 4 }]
 slug = "knights"
 title = "The Knight Phantoms"
 description = """
-In the dark forest stands a goblin stronghold, and deep inside it six knights who are no longer alive."""
+In the dark forest there is a goblin stronghold. Deep inside it are six knights who are not alive anymore."""
 x = 12.0
 y = 2.0
 deps = ["hydra"]
@@ -96,7 +96,7 @@ rewards = [{ type = "item", item = "twilightforest:knightmetal_ingot", count = 8
 slug = "ur-ghast"
 title = "The Ur-Ghast"
 description = """
-The dark tower holds the mother of all ghasts. Shut her crying traps and bring her down."""
+The dark tower holds the mother of all ghasts. Break her crying traps and bring her down."""
 x = 14.0
 y = 2.0
 deps = ["knights"]
@@ -119,7 +119,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "steeleaf"
 title = "Steeleaf"
 description = """
-Leaves as hard as steel, from the forest's own plants. Light armour for a long walk."""
+Leaves as hard as steel, from the forest's own plants. Good light armour for a long walk."""
 x = 4.0
 y = 3.5
 deps = ["twilight"]
@@ -131,7 +131,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "yeti"
 title = "The Alpha Yeti"
 description = """
-Past the Lich, the snowy forest has a cave with a very large yeti in it. It throws ice. Duck."""
+After the Lich, the snowy forest has a cave with a very big yeti in it. It throws ice. Duck."""
 x = 6.0
 y = 3.5
 deps = ["lich"]
@@ -155,7 +155,7 @@ rewards = [{ type = "xp", amount = 150 }]
 slug = "fiery"
 title = "Fiery Metal"
 description = """
-Hydra blood and iron make a metal that never cools. The best tools the forest gives."""
+Hydra blood and iron make a metal that never cools down. The best tools the forest has."""
 x = 10.0
 y = 3.5
 deps = ["hydra"]
@@ -167,7 +167,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "undergarden"
 title = "The Undergarden"
 description = """
-Below the deepslate there is a garden that never saw the sun. The catalyst opens the way: throw it into a stone brick frame and step through."""
+Below the deepslate there is a garden that has never seen the sun. The catalyst opens the way. Throw it into a stone brick frame and step through."""
 x = 2.0
 y = 5.5
 deps = ["compasses"]
@@ -179,7 +179,7 @@ rewards = [{ type = "xp", amount = 150 }]
 slug = "cloggrum"
 title = "Cloggrum"
 description = """
-The first metal down there is heavy and dull, and good enough for a helmet. Something will try to land on your head."""
+The first metal down there is heavy and dull, but good enough for a helmet. Something will try to land on your head."""
 x = 4.0
 y = 5.5
 deps = ["undergarden"]
@@ -202,7 +202,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "utherium"
 title = "Utherium"
 description = """
-Red crystals that the rotting things below hate. Make a weapon of it before you go deeper."""
+Red crystals that the rotting things down there hate. Make a weapon from it before you go deeper."""
 x = 8.0
 y = 5.5
 deps = ["froststeel"]
@@ -224,7 +224,7 @@ rewards = [{ type = "xp", amount = 200 }]
 slug = "forgotten"
 title = "Forgotten Metal"
 description = """
-The guardian leaves a metal behind that nobody can make any more. Make the most of it."""
+The guardian leaves behind a metal nobody can make anymore. Use it well."""
 x = 12.0
 y = 5.5
 deps = ["forgotten-guardian"]
@@ -258,7 +258,7 @@ rewards = [{ type = "item", item = "minecraft:honey_bottle", count = 8 }]
 slug = "honey-compass"
 title = "A Compass for Honey"
 description = """
-A compass that smells honey: it points to the nearest bee nest, and in the Bumblezone to things worth finding."""
+A compass that smells honey. It points to the nearest bee nest, and in the Bumblezone to things worth finding."""
 x = 4.0
 y = -2.0
 deps = ["bumblezone"]
@@ -280,7 +280,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "essence"
 title = "Essence of the Bees"
 description = """
-The Queen asks for things. Bring them, and the hive gives you its essence: the bees will trust you."""
+The Queen asks for things. Bring them and the hive gives you its essence. After that the bees trust you."""
 x = 8.0
 y = -2.0
 deps = ["stinger-spear"]
@@ -314,7 +314,7 @@ rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 8 }]
 slug = "dragon"
 title = "The Dragon"
 description = """
-Break the crystals on the towers first, then the dragon. Bottle some of its breath: the goo of Just Dire Things needs it."""
+Break the crystals on the towers first, then go for the dragon. Bottle some of its breath. The goo from Just Dire Things needs it."""
 x = 4.0
 y = -5.5
 deps = ["end"]
@@ -325,7 +325,7 @@ rewards = [{ type = "item", item = "minecraft:glass_bottle", count = 8 }]
 slug = "end-city"
 title = "The End Cities"
 description = """
-Through the gateway, far out on the islands, stand purple towers with ships beside them. Mind the shulkers."""
+Go through the gateway, and far out on the islands you find purple towers with ships next to them. Watch out for the shulkers."""
 x = 6.0
 y = -5.5
 deps = ["dragon"]

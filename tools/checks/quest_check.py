@@ -1,5 +1,6 @@
 """Checks the quest sources against the quest-line rules: known items, task counts, English titles, side chapters never gate the main line."""
 import argparse
+import json
 import re
 import sys
 import tomllib
@@ -14,11 +15,17 @@ _BULK = re.compile(r":(.*_)?(ingot|nugget|dust|gem|planks|log|cobblestone|cobble
                    r"redstone|quartz|crystal|shard|salt|sulfur|ash|quicksilver|raw_[a-z_]+|[a-z_]+_ore)$")
 # Items no quest may give as a reward: the Sealed Flask is a Rubedo product and would skip the Great Work.
 DENIED_REWARDS = {"servus_alchemy:sealed_flask"}
+SKILL_CONFIG = Path("config/puffish_skills/config.json")
 
 
 def bulk_items(quests_dir: Path) -> set[str]:
     path = quests_dir / "bulk.toml"
     return set(tomllib.loads(path.read_text(encoding="utf-8")).get("items", [])) if path.exists() else set()
+
+
+def skill_trees(config: Path = SKILL_CONFIG) -> set[str]:
+    """The Pufferfish's Skills categories a skill_points reward may name."""
+    return set(json.loads(config.read_text(encoding="utf-8")).get("categories", [])) if config.exists() else set()
 
 
 def _item_refs(chapter: Chapter):
@@ -32,7 +39,7 @@ def _item_refs(chapter: Chapter):
                 yield q, entry["item"]
 
 
-def check(chapters: list[Chapter], items: set[str], bulk: set[str]) -> list[str]:
+def check(chapters: list[Chapter], items: set[str], bulk: set[str], trees: set[str] = frozenset()) -> list[str]:
     errors = []
     group_of = {c.slug: c.group for c in chapters}
     for c in chapters:
@@ -51,6 +58,12 @@ def check(chapters: list[Chapter], items: set[str], bulk: set[str]) -> list[str]
             for r in q.rewards:
                 if r.get("type") == "item" and r["item"] in DENIED_REWARDS:
                     errors.append(f"{where}: {r['item']} must never be a reward")
+                if r.get("type") == "skill_points":
+                    if r.get("tree") not in trees:
+                        errors.append(f"{where}: skill points for unknown tree {r.get('tree')}")
+                    amount = r.get("amount")
+                    if not isinstance(amount, int) or isinstance(amount, bool) or amount < 1:
+                        errors.append(f"{where}: skill points amount must be a whole number of at least 1, not {amount}")
             for t in q.tasks:
                 if t.get("type") == "item" and t.get("count", 1) > MAX_COUNT \
                         and t["item"] not in bulk and not _BULK.search(t["item"]):
@@ -72,7 +85,7 @@ def main(argv=None) -> int:
     except QuestSourceError as e:
         print(f"quest check: {e}", file=sys.stderr)
         return 1
-    errors = check(chapters, known_items(args.mods), bulk_items(args.quests))
+    errors = check(chapters, known_items(args.mods), bulk_items(args.quests), skill_trees())
     for e in errors:
         print(f"quest check: {e}", file=sys.stderr)
     return 1 if errors else 0

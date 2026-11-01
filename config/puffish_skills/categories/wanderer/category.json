@@ -1,0 +1,14 @@
+{
+  "title": "Wanderer",
+  "description": "Travel. Walk, swim and climb the mountain with ease.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "erase_on_death": false
+}

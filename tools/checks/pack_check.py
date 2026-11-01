@@ -23,7 +23,7 @@ EXCLUDED_PROJECTS = {
 REQUIRED_SLUGS = [
     "servus-foundation", "servus-shuttles", "servus-alchemy", "modonomicon",
     "powah-rearchitected", "iron-jetpacks", "re-avaritia", "just-dire-things", "cobblegen-galore",
-    "ftb-quests-forge", "ftb-xmod-compat", "kubejs", "crafting-on-a-stick",
+    "ftb-quests-forge", "ftb-xmod-compat", "kubejs", "crafting-on-a-stick", "puffish-skills",
 ]
 
 CLIENT_ONLY_SLUGS = [

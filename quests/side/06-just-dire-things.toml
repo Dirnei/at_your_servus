@@ -7,7 +7,7 @@ icon = "justdirethings:gooblock_tier3"
 slug = "sensor"
 title = "A Simple Sensor"
 description = """
-The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to: a block, a mob, a player or an item. Cycle the target with its button."""
+The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to look for. That can be a block, a mob, a player or an item. Use its button to switch the target."""
 x = 0.0
 y = 0.0
 deps = ["nether:ferricore"]
@@ -18,7 +18,7 @@ rewards = [{ type = "item", item = "minecraft:redstone", count = 16 }]
 slug = "clicker"
 title = "A Hand That Clicks"
 description = """
-The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Feed it a redstone signal or let it run."""
+The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Give it a redstone signal or just let it run."""
 x = 0.0
 y = 2.0
 deps = ["nether:ferricore"]
@@ -29,7 +29,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "ore-scanner"
 title = "An Eye for Ore"
 description = """
-Upgrades go into Just Dire Things tools. The Ore Scanner shows ores through the stone around you."""
+Upgrades go into Just Dire Things tools. The Ore Scanner shows you ores through the stone around you."""
 x = 2.0
 y = 2.0
 deps = ["clicker"]
@@ -41,7 +41,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "creature-catcher"
 title = "A Pocket for Animals"
 description = """
-The Creature Catcher takes a mob with you and lets it go somewhere else. Moving cows was never this easy."""
+The Creature Catcher picks up a mob so you can let it go somewhere else. Moving cows was never this easy."""
 x = 2.0
 y = -2.0
 deps = ["nether:blazegold"]
@@ -74,7 +74,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "goo-3"
 title = "Goo from the End"
 description = """
-Tier 3 goo needs dragon's breath, so it waits until after the Ender Dragon. It turns other blocks than the first two tiers, and one of them becomes Celestigem."""
+Tier 3 goo needs dragon's breath, so it has to wait until the Ender Dragon is dead. It changes different blocks than the first two tiers, and one of them turns into Celestigem."""
 x = 4.0
 y = 0.0
 deps = ["nether:goo-2"]
@@ -96,7 +96,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "advanced-sensor"
 title = "An Invisible Pressure Plate"
 description = """
-The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area: up to 5 blocks to each side of its centre, and the centre up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count: "more than 2 players", or "nobody here"."""
+The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area. It reaches up to 5 blocks to each side of its centre, and the centre can be up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count, for example "more than 2 players" or "nobody here"."""
 x = 8.0
 y = 0.0
 deps = ["sensor", "celestigem"]
@@ -129,7 +129,7 @@ rewards = [{ type = "xp", amount = 150 }]
 slug = "eclipse-alloy"
 title = "Eclipse Alloy"
 description = """
-Eclipse Alloy, the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."""
+Eclipse Alloy is the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."""
 x = 6.0
 y = 4.0
 deps = ["goo-4"]

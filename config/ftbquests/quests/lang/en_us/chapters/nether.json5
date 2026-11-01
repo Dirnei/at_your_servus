@@ -8,19 +8,19 @@
 	],
 	"quest.0950ABF989872683.title": "Blazegold",
 	"quest.1F20A0D4E7AEDB3A.quest_desc": [
-		"Blazes guard the Nether fortresses. Their rods feed the power station's orb and the yellow fire in the cellar."
+		"Blazes guard the Nether fortresses. Their rods feed the orb in the power station and the yellow fire in the cellar. A blaze doesn't wait for you to aim, so don't wait either."
 	],
 	"quest.1F20A0D4E7AEDB3A.title": "Blaze Rods",
 	"quest.412F1A7E34921AF9.quest_desc": [
-		"A lava immunity upgrade in your boots, and you can swim where the salamanders live."
+		"Put a lava immunity upgrade in your boots and you can swim where the salamanders live."
 	],
 	"quest.412F1A7E34921AF9.title": "Lava Is Just Hot Water",
 	"quest.4D70AA36144CB43C.quest_desc": [
-		"Obsidian and a spark. Step through with a full belly."
+		"Obsidian and a spark. Go through with a full belly and keep your sword ready."
 	],
 	"quest.4D70AA36144CB43C.title": "The Gate",
 	"quest.57C7FD54FBD0265B.quest_desc": [
-		"Ferricore armour and tools. Put upgrades in them; that is what the tricks are for."
+		"Ferricore armour and tools. Put upgrades in them, that is what the tricks are for."
 	],
 	"quest.57C7FD54FBD0265B.title": "Armour with Tricks",
 	"quest.59A48D2CFD9C8738.quest_desc": [
@@ -33,11 +33,11 @@
 	"quest.59A48D2CFD9C8738.quest_subtitle": "Journal: The Wandering Years",
 	"quest.59A48D2CFD9C8738.title": "The Fire Spirit",
 	"quest.6737F16866B90111.quest_desc": [
-		"From my notes: \"Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."
+		"From my notes: \"Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns.\""
 	],
 	"quest.6737F16866B90111.title": "Hungrier Goo",
 	"quest.6EBD0ECB585A81CD.quest_desc": [
-		"From my notes: \"Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."
+		"From my notes: \"Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either. Once was enough.\""
 	],
 	"quest.6EBD0ECB585A81CD.title": "Primal Goo",
 	"quest.6FB8337E4C884831.quest_desc": [
@@ -45,16 +45,18 @@
 		"",
 		"the fire you need lives behind the burning gate, in the Nether. The journal says so, and so do my burns.",
 		"",
-		"Do not go in iron. Down in an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Go armoured, go fed, and come back.",
+		"Don't go in iron. In an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Wear good armour, go with a full belly, and come back.",
 		"",
-		"Build the gate from obsidian and light it. Once the purple fire burns, take a good look at it.",
+		"Build the gate from obsidian and light it. When the purple fire burns, take a good look at it.",
 		"",
 		"Uncle Vinzenz"
 	],
 	"quest.6FB8337E4C884831.quest_subtitle": "To be opened before the Nether",
 	"quest.6FB8337E4C884831.title": "Behind the Burning Gate",
 	"quest.76A6CCC8C9A258F0.quest_desc": [
-		"What the goo leaves behind smelts into ferricore: iron that has learned a few tricks."
+		"Smelt what the goo leaves behind and you get ferricore. Iron that has learned a few tricks."
 	],
-	"quest.76A6CCC8C9A258F0.title": "Ferricore"
+	"quest.76A6CCC8C9A258F0.title": "Ferricore",
+	"reward.2D654B3AAD9FEBC5.title": "1 Hunter point",
+	"reward.68CD9DA7B814E2A1.title": "1 Hunter point"
 }

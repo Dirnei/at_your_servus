@@ -9,6 +9,10 @@ file = "config/comforts-server.toml"
 hash = "c27c061e92768e23ce3b48007aca2106f9dece4ae9ed16a6bc2b3bfc4fa104c7"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "5fd6ff625ac4b44e74b8f50e8672b9c158cd843ffbdb677cee65d22e9ffc6a04"
+
+[[files]]
 file = "config/elevatorid-server.toml"
 hash = "078b801a1c827b779c4c67b1144c5c56e8059391e812874eae5ef7551639ee30"
 
@@ -42,7 +46,7 @@ hash = "4822febb17e23b0c012916893e217da523051160ba8e2839ee0056c1f3721dfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arrival.json5"
-hash = "4c0719620edd46309fed17a1808690f6412677e017c804289e8f55b74fcf4ae9"
+hash = "24c06e484e359d39b293436919ed5c0b53b8f7f533ffb2ad15711a2c4ab908e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.json5"
@@ -58,11 +62,11 @@ hash = "815e5417fdd87a07915f67c1f2fad0956817b88e23a961dffc7edcf0316d1b60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fields.json5"
-hash = "c4a6b82e992c1e8f3b017f8b4f10a3779b5bc98c288a1c8aa006907a9c3751b7"
+hash = "045a0dcd37eab411dc51be531daf7015ba6bb7a0040bb3e86d07451b9fd2444f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/finale.json5"
-hash = "0d63035056c377ae3d4c4fd5484596fb3a8719d03b2051bdb199a4545672c928"
+hash = "ce17c7425fd7bb79438b970c3961db2ccb16ac303bb603aa3b4533377fed802d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/just_dire_things.json5"
@@ -74,7 +78,7 @@ hash = "2a1ba6f1e52cb76d3c6d2ba0237a96a614399094a2813c6ee22c4bef025ba4e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.json5"
-hash = "983d29830709885dbc8abb45fe7d6d0a48a21bc1c22ccc0423a320302af6e4e5"
+hash = "02ba895ff4da5ae9c4c0e0a95079a42ba31a07ac8406760b6e5bd614a47f9e7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.json5"
@@ -82,7 +86,7 @@ hash = "28074aa057ccfdbbd3ee29784501c9f75b5da070f38096268adbaf1a8b927052"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/old_works.json5"
-hash = "aa2fecb4820fee74cbc7bcd0f140af07c91e51fbe0a20ea20381049f93b8366c"
+hash = "83251c64ed23453f1fe1a37720420ed579cee96a1265441ba74c8662b83d17a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_station.json5"
@@ -90,7 +94,7 @@ hash = "d74c8d83aed1004c7019d773f2d793c29ac18e4e5633a1e81b7715ec64b8377d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading_house.json5"
-hash = "8d191288ea19065505da06ad2ab147bc20e928491bdff5a50af639bc796c7776"
+hash = "c5233ebee3bdea6143bf4ccf786c1ed61fcabbb28fce6faaacb632aff1b33bb4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.json5"
@@ -110,63 +114,63 @@ hash = "a1c2c44cd208398c58171f162d3545b9944a323e6f7863baf85370f9aeb08081"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/apotheosis_and_mob_farms.json5"
-hash = "e5164b8e600124539ed46489d8e555256c9db4dca440461819bfbaf45e3044ec"
+hash = "7bd2081ffde107bb522af4c948ffd89132aef7ea346eef3d38311fb174ff2b8c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/arrival.json5"
-hash = "3155e0d0347665455f86367da550ebd0cf82cac90582bdff80be4782bce62eef"
+hash = "cef0775a4b13956eb722304362769a9833ff66d6a23c20bc1ec748f182b8b09a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/building.json5"
-hash = "64392f3d9ae0c7b9938099833f2c91b603b5153399c6074bea969903a2cb17e0"
+hash = "b1d966a218f9c5e6855c21842a80ae1fa08cba5eaad33634dd5f3f067f7a90b8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/cellar.json5"
-hash = "d813066c1b97caad8639181c3cd75903905bf9fe73f0b4fe6b3bf91ccde97b9a"
+hash = "f71d9c62c0e7591ae33b417de2fefa1dfd6f44691b4185992a8e7403de45e192"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/exploration.json5"
-hash = "73bab374fbc49dfcd7ebeb68b9660a7e7fd3a21d993cbc1ebbd178f08401b58e"
+hash = "78419941d65750e5bd8373bc5f15b5e0733b5d51f10d756c03bddef4cfbf0449"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/fields.json5"
-hash = "1016648a54b98a33162176b326e49f1fc1c399d5e29cff599204af3d16a2ff3c"
+hash = "175a81f00c5793724a71373382099505c33b6acd7707cbe8ba52ddef39a4b0df"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/finale.json5"
-hash = "835f6836885dff72b58feb8a92594ac0549ab05947fc8712ab50e971e4fd58a9"
+hash = "7b3a8f610e8b3f494176c37a4bd2da827d94021cd025cb5deb8e66f0015ea56a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/just_dire_things.json5"
-hash = "86cedd41969f7e26e3948d2a3242852cbd73e86f57586211a75484c952dbc20c"
+hash = "61a70872396c31eff9419ce4639571aa1749c8c19825417b7255e70b887eb4c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/kitchen.json5"
-hash = "060c203acc4a6e5a739685e39ed7302f6b714f8ef27b55ceb073f5d28fbfd9df"
+hash = "2b79f6dbdeaf4ec4c7bd8e1a14ea72c7bcadbbfab536f99dbed4e961dc35dc7a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/nether.json5"
-hash = "f6f49cbf64df26fae36409beec36852f41da55d1d27d74ea294e3a6f1578c382"
+hash = "da22e9614d6d46525bfbb7ac65c327b6c1a2d052b08d655d2303e4977fe6d49f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/occultism.json5"
-hash = "d6ed04e43f91b8f55bff50ffb7b9b80854ae650831182b301567a7102ac4a21e"
+hash = "bcc6b1e9d0de2633e44f50201db61f51833acbb840c382a0492f3264a0c35aa5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/old_works.json5"
-hash = "3334c88fc9711c5cc2ef5578b0044db9ce86c95b16ee9e4874406454d50137c3"
+hash = "0c2284152d721b19860dc596021cf6e29d980af01509b403b9b583de366d3d7d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/power_station.json5"
-hash = "6cd23339e778d8a6c7ada9ed2c0c958bb1f00edf6ab5d64e5da8fe0eb1b92dfe"
+hash = "12fd2212af652faf2605a07742d178515fbd68974f2637c7db1625e8d6c73b66"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/trading_house.json5"
-hash = "b912b7e5dfa50487b1b73c86ec183ffeceb94d0c2b6d62a9b3be38407932cb67"
+hash = "a1c2bec0001eeb291594e0d179dae60ef63490e2f89eb188c61e75f883911e8b"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/workshop.json5"
-hash = "b831a40fcd7015a700a3db1514683eff73e05b74d0058154a448e15328a625e9"
+hash = "cdbe78f51d9d31af90cbde8927e2270864987f60b1f509923b1c9660225cc372"
 
 [[files]]
 file = "config/ftbteams-server.json5"
@@ -178,7 +182,7 @@ hash = "28f4c6ff8078ec9fdac6ffc88d12b748ed23433a956114739d075810442a6030"
 
 [[files]]
 file = "config/ftbultimine-server.json5"
-hash = "9ce0c9ce2b31b2925fd55d43402aca61d4306bb3381a768f1757c12736a38ff8"
+hash = "01a9d5b4cd76fde252e0975541436205a11c016b3d6d6fc63297dc07def15941"
 
 [[files]]
 file = "config/functionalstorage/functionalstorage-client.toml"
@@ -347,6 +351,70 @@ hash = "eca6ab0bc61005282e9a06fceaf2e1f3c2586c8fcd8fb8ebe83d283bbe65fd22"
 [[files]]
 file = "config/neoforge-server.toml"
 hash = "48b15278e1ed28dd8e3177b04c13437c02cb9597894b91e6f7a6fbfad66ddc1e"
+
+[[files]]
+file = "config/puffish_skills/categories/hunter/category.json"
+hash = "1f2c855332baa09d1dafff87aac361fb8fb6cad82f4f3e7f4b12b434846d4c50"
+
+[[files]]
+file = "config/puffish_skills/categories/hunter/connections.json"
+hash = "47682f690f45a9e5c61e7b870d7602ef095204193901bd4b24b376c712645872"
+
+[[files]]
+file = "config/puffish_skills/categories/hunter/definitions.json"
+hash = "8143a499a7db4764688e62bcba16a8b421af7f0e93f03a1a12f66d95255b783c"
+
+[[files]]
+file = "config/puffish_skills/categories/hunter/experience.json"
+hash = "fda890e99d476350dd3b4744796d4fa2b8be5304987b86348b2301dfa73a4226"
+
+[[files]]
+file = "config/puffish_skills/categories/hunter/skills.json"
+hash = "b17f680c09521b68bddc37f344d108e54befd79648c879232fa6b1399fa64bae"
+
+[[files]]
+file = "config/puffish_skills/categories/miner/category.json"
+hash = "5b6ecc5f1ed81cc628540de7748c59c56d2d29235f5b09f1d4c39cf5a4f5466c"
+
+[[files]]
+file = "config/puffish_skills/categories/miner/connections.json"
+hash = "043b7365340e00f2cd9a8fd94197bc1ef4b8d1db7e552ac1750bc37134f3b951"
+
+[[files]]
+file = "config/puffish_skills/categories/miner/definitions.json"
+hash = "ee9b5d31f154e662040852208b0cfbf4f99c71e4c9dd876af803a6447fc97abb"
+
+[[files]]
+file = "config/puffish_skills/categories/miner/experience.json"
+hash = "65b6027112d36710287546c15d950746fcc071e43f77d36082d56313d80a5254"
+
+[[files]]
+file = "config/puffish_skills/categories/miner/skills.json"
+hash = "ea5657cf28c7e73edbfabb539f8989f539c709b1b55ac4c23522eea61b95980a"
+
+[[files]]
+file = "config/puffish_skills/categories/wanderer/category.json"
+hash = "a98ec1df49782a978ded8cd0d6e08124f58ead26f805260d3971d189a1630e84"
+
+[[files]]
+file = "config/puffish_skills/categories/wanderer/connections.json"
+hash = "de76608662b08e1a2c6a7daf1a2e7741ce45c1ab64bb2e1a004fab246943c1b4"
+
+[[files]]
+file = "config/puffish_skills/categories/wanderer/definitions.json"
+hash = "526fe176e7a077c65a1d9b83a58b17affa1263173718dc93ef8e5cd3bb93995a"
+
+[[files]]
+file = "config/puffish_skills/categories/wanderer/experience.json"
+hash = "0d88910ce4c8c253dd71267551b263f61a0f2ee49d61d94c3484b5082294be99"
+
+[[files]]
+file = "config/puffish_skills/categories/wanderer/skills.json"
+hash = "70df731cb5bd1212c1a99aa7cb4e6f84f2b40889a49bcb95f2b4e092429c9b83"
+
+[[files]]
+file = "config/puffish_skills/config.json"
+hash = "f561955cc5e728d983d1509a4f78fdaec7d398bb4f94b8052d4f9036373e070e"
 
 [[files]]
 file = "config/servus_foundation-common.toml"
@@ -546,6 +614,11 @@ metafile = true
 [[files]]
 file = "mods/dark-utilities.pw.toml"
 hash = "2e9d20ee34f3280d612efbf94c0166e850194bc833f31e0414971220627bd17d"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "e0556dac7ce9c253ee49d8a98fef37535bfba3f0f68e3f103c1a62408b0893b6"
 metafile = true
 
 [[files]]
@@ -871,6 +944,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "d183c8bb1fbad27908d4a11c4d6f9e7d41524e9c0d3ea2e14824d07a3f93a40d"
+metafile = true
+
+[[files]]
+file = "mods/puffish-skills.pw.toml"
+hash = "fc462f9710f64ce6af4db48b591ba9137fdb770402a2e68be2acedeb8082d021"
 metafile = true
 
 [[files]]

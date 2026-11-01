@@ -185,6 +185,14 @@
 						"id": "minecraft:iron_ingot"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} miner 1",
+					"feedback_message": "+1 Miner point",
+					"id": "247BC2181DCBCD1A",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"tasks": [
@@ -244,6 +252,14 @@
 						"id": "minecraft:ender_pearl"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} wanderer 1",
+					"feedback_message": "+1 Wanderer point",
+					"id": "556483C572E64A8E",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"tasks": [

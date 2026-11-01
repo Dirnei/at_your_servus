@@ -18,7 +18,7 @@ rewards = [{ type = "item", item = "minecraft:bread", count = 8 }]
 slug = "cooking-table"
 title = "A Proper Kitchen"
 description = """
-A Cooking Table knows every recipe your larder can make. On its own it reads your pockets; with a kitchen around it, it reads the whole kitchen."""
+A Cooking Table knows every recipe you can make with what you have. On its own it looks in your pockets. With a kitchen around it, it looks in the whole kitchen."""
 x = 2.0
 y = 0.0
 deps = ["recipe-book"]
@@ -29,7 +29,7 @@ rewards = [{ type = "item", item = "minecraft:cooked_porkchop", count = 16 }]
 slug = "counters"
 title = "Counters and Cabinets"
 description = """
-Counters and cabinets store your ingredients. Place them next to the Cooking Table, touching each other, and the table uses everything in them."""
+Counters and cabinets store your ingredients. Put them next to the Cooking Table so they touch each other, and the table uses everything in them."""
 x = 4.0
 y = 0.0
 deps = ["cooking-table"]
@@ -41,7 +41,7 @@ rewards = [{ type = "item", item = "minecraft:carrot", count = 16 }]
 slug = "oven"
 title = "The Oven"
 description = """
-An oven bakes and roasts several things at once. Part of the kitchen, it lets the Cooking Table cook what needs a fire. You can dye it later."""
+An oven bakes and roasts several things at once. As part of the kitchen it lets the Cooking Table cook things that need a fire. You can dye it later."""
 x = 6.0
 y = -1.0
 deps = ["counters"]
@@ -74,7 +74,7 @@ rewards = [{ type = "item", item = "minecraft:sugar", count = 16 }]
 slug = "extras"
 title = "Little Helpers"
 description = """
-A spice rack, a toaster and a milk jar: none of them needed, all of them nice."""
+A spice rack, a toaster and a milk jar. You don't need any of them, but they are nice to have."""
 x = 10.0
 y = -1.0
 deps = ["sink"]
@@ -88,7 +88,7 @@ rewards = [{ type = "item", item = "minecraft:cake" }]
 slug = "food-book"
 title = "What Have You Eaten?"
 description = """
-With a whole kitchen you can cook dishes you have never tasted. Every new food counts: eat enough different ones and you get more hearts. The Food Book keeps the list."""
+With a whole kitchen you can cook dishes you have never tasted. Every new food counts. Eat enough different ones and you get more hearts. The Food Book keeps the list."""
 x = 10.0
 y = 1.0
 deps = ["sink"]

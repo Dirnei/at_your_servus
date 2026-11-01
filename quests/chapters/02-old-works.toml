@@ -12,7 +12,8 @@ Servus, kid,
 
 my old works had a water wheel, a steam engine and pipes that went everywhere and nowhere. All gone now. Good riddance to the pipes.
 
-Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.
+Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders.
+You have to find a carrot, some redstone and an iron ingot. Trust me. Here is the plan for it.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -38,7 +39,7 @@ rewards = [{ type = "xp", amount = 20 }]
 slug = "goggles"
 title = "Engineer's Goggles"
 description = """
-With these on you can see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, if there had been one."""
+Put these on and you can see what flows through a duct. I wore mine to dinner once. Nobody said anything, but they all looked."""
 x = 2.0
 y = -2.0
 deps = ["carrot"]
@@ -50,9 +51,9 @@ rewards = [{ type = "xp", amount = 20 }]
 slug = "duct"
 title = "One Duct for Everything"
 description = """
-Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.
+Place an Item Pipe and put a fluid pipe or a power cable into the same block and the duct carries both. One duct, many lines, no mess.
 
-The item line moves things from one inventory to the next, for example from a chest into a furnace."""
+The item line moves things from one inventory to the next, like from a chest into a furnace."""
 x = 4.0
 y = 0.0
 deps = ["carrot"]
@@ -63,7 +64,7 @@ rewards = [{ type = "item", item = "minecraft:chest", count = 2 }]
 slug = "fluid-line"
 title = "Water Where You Want It"
 description = """
-A fluid line, a tank and a pump. The burner pump runs on coal; it will do until you have power."""
+You need a fluid line, a tank and a pump. The burner pump runs on coal. That is good enough until you have power."""
 x = 6.0
 y = -1.0
 deps = ["duct"]
@@ -76,7 +77,7 @@ rewards = [{ type = "item", item = "minecraft:bucket", count = 2 }]
 slug = "coal-generator"
 title = "Steam Again"
 description = """
-The Coal Generator is not clever, but it is honest: coal in, power out. It brought its own chimney, so the smoke goes up and not into your lungs."""
+The Coal Generator is not clever, but it is honest. Coal goes in, power comes out."""
 x = 6.0
 y = 1.0
 deps = ["duct"]
@@ -87,7 +88,7 @@ rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
 slug = "power-line"
 title = "Power Down the Line"
 description = """
-A power line in the duct takes the generator's power wherever the duct goes."""
+Put a power line in the duct and the generator's power goes wherever the duct goes."""
 x = 8.0
 y = 1.0
 deps = ["coal-generator"]
@@ -101,9 +102,9 @@ subtitle = "To be opened when the generator runs"
 description = """
 Servus, kid,
 
-our family were traders long before they were miners. Huber & Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.
+our family were traders long before we were miners. Huber & Co., since 1521. We carried salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.
 
-I wanted to bring the company back. I got as far as a few racks and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.
+I wanted to bring the company back. I only got as far as a few racks but i invented a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.
 
 Uncle Vinzenz"""
 x = 4.0
@@ -118,7 +119,7 @@ rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
 slug = "racks"
 title = "Heavy Duty Racks"
 description = """
-Racks hold the goods. They are made for shuttles, not for you, so set them up along a rail."""
+Racks hold the goods. They are made for shuttles, not for you, so put them along a rail."""
 x = 6.0
 y = 4.0
 deps = ["warehouse-letter"]
@@ -129,7 +130,7 @@ rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 8 }]
 slug = "rails"
 title = "Warehouse Rails"
 description = """
-Lay the rails in front of the racks. Sneak-click places a whole run at once; I added that after the second time I put my back out."""
+Lay the rails in front of the racks. Sneak-click a rail with rails in your hand and the new one goes on the far end of the line."""
 x = 8.0
 y = 4.0
 deps = ["racks"]
@@ -140,7 +141,7 @@ rewards = [{ type = "item", item = "servus_shuttles:rail", count = 8 }]
 slug = "shuttle"
 title = "The First Shuttle"
 description = """
-A garage at the end of the rails, and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."""
+Put a garage at the end of the rails and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."""
 x = 10.0
 y = 4.0
 deps = ["rails"]
@@ -152,7 +153,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "elevator"
 title = "Up and Down"
 description = """
-A rail elevator takes the shuttle to the next floor. Build your warehouse tall; it saves walking."""
+A rail elevator takes the shuttle up to the next floor. Build your warehouse tall, it saves you a lot of walking."""
 x = 10.0
 y = 6.0
 deps = ["shuttle"]
@@ -164,7 +165,7 @@ rewards = [{ type = "xp", amount = 30 }]
 slug = "controller"
 title = "The Warehouse Controller"
 description = """
-The controller sits on the rails and runs the warehouse. It wants power: run a power line from the Coal Generator to it."""
+The controller sits on the rails and runs the whole warehouse. It needs  and redistributes the power, so run a power line from the Coal Generator to it."""
 x = 12.0
 y = 4.0
 deps = ["shuttle", "power-line"]
@@ -175,7 +176,7 @@ rewards = [{ type = "item", item = "minecraft:coal_block", count = 4 }]
 slug = "data-cable"
 title = "The Data Cable"
 description = """
-Only storage touches the rails. Everything else talks over the data cable. Run one from the controller to where you want your terminal; the controller sits on both."""
+Only storage goes on the rails. Everything else talks over the data cable. The controller sits on both, so run a cable from the controller to wherever you want your terminal."""
 x = 14.0
 y = 4.0
 deps = ["controller"]
@@ -186,7 +187,7 @@ rewards = [{ type = "item", item = "servus_foundation:data_cable", count = 16 }]
 slug = "packing-station"
 title = "The Warehouse Door"
 description = """
-A Packing Station is the warehouse's door to the data line. Put it at the rails and on the data cable. What you ask for at a terminal leaves the racks through it, and what you put in at a terminal comes back in through it."""
+The Packing Station is the door between the racks and the data cable. Put it next to the rails and on the data cable. Everything you take out at a terminal leaves the racks through it, and everything you put in comes back the same way."""
 x = 16.0
 y = 4.0
 deps = ["data-cable"]
@@ -200,9 +201,9 @@ subtitle = "A warehouse, at last"
 description = """
 Servus, kid,
 
-a Storage Terminal on the data cable shows everything in the racks. Ask for something, and the shuttles bring it to the Packing Station and the line brings it to you. Put something in, and it goes the same way back. That is a warehouse.
+a Storage Terminal on the data cable shows you everything in stock. Ask for something and the shuttles bring it to you. Put something in and the shuttles put it away. That is a warehouse.
 
-Now feed yourself: the fields are waiting. And dig yourself a cellar. Not too deep. Learn from me.
+Next you need food and a cellar. Put the fields to work, then dig yourself a cellar. Not too deep. Learn from me.
 
 Uncle Vinzenz"""
 x = 18.0
@@ -211,4 +212,4 @@ shape = "gear"
 size = 1.25
 deps = ["packing-station"]
 tasks = [{ type = "item", item = "servus_shuttles:storage_terminal" }]
-rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }]
+rewards = [{ type = "item", item = "servus_shuttles:heavy_rack", count = 4 }, { type = "skill_points", tree = "wanderer", amount = 1 }]

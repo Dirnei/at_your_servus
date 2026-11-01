@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "damage_1",
+        "damage_2"
+      ],
+      [
+        "damage_1",
+        "health_1"
+      ],
+      [
+        "health_1",
+        "health_2"
+      ],
+      [
+        "damage_2",
+        "crit_chance"
+      ],
+      [
+        "crit_chance",
+        "crit_damage"
+      ],
+      [
+        "damage_2",
+        "life_steal"
+      ],
+      [
+        "health_1",
+        "life_steal"
+      ]
+    ]
+  }
+}

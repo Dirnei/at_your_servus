@@ -24,7 +24,8 @@ A chapter file looks like:
              { type = "checkmark" },
              { type = "advancement", advancement = "minecraft:story/mine_stone" },
              { type = "observation", observe = "minecraft:nether_portal" }]   # look at it; + observation_type (block), timer (ticks, 0)
-    rewards = [{ type = "item", item = "minecraft:bread", count = 8 }, { type = "xp", amount = 50 }]
+    rewards = [{ type = "item", item = "minecraft:bread", count = 8 }, { type = "xp", amount = 50 },
+               { type = "skill_points", tree = "miner", amount = 1 }]   # tree = a category in config/puffish_skills/config.json
 
 The file name is "<NN>-<slug>.toml"; NN orders the chapters, slug identifies the chapter.
 """
@@ -41,6 +42,12 @@ _FILE = re.compile(r"^(\d\d)-([a-z0-9-]+)\.toml$")
 
 class QuestSourceError(Exception):
     pass
+
+
+def skill_points_label(reward: dict) -> str:
+    """'1 Miner point' / '2 Hunter points': the name players see for a skill_points reward."""
+    amount = reward["amount"]
+    return f"{amount} {reward['tree'].capitalize()} point{'' if amount == 1 else 's'}"
 
 
 def stable_id(*parts: str) -> str:

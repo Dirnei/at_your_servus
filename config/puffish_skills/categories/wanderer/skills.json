@@ -1,0 +1,43 @@
+{
+  "speed_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "speed_1",
+    "root": true
+  },
+  "speed_2": {
+    "x": 40,
+    "y": 0,
+    "definition": "speed_2"
+  },
+  "speed_3": {
+    "x": 80,
+    "y": 0,
+    "definition": "speed_3"
+  },
+  "swim": {
+    "x": 40,
+    "y": -40,
+    "definition": "swim"
+  },
+  "water_walk": {
+    "x": 80,
+    "y": -40,
+    "definition": "water_walk"
+  },
+  "step": {
+    "x": 40,
+    "y": 40,
+    "definition": "step"
+  },
+  "safe_fall": {
+    "x": 80,
+    "y": 40,
+    "definition": "safe_fall"
+  },
+  "reach": {
+    "x": 120,
+    "y": 40,
+    "definition": "reach"
+  }
+}

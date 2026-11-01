@@ -462,6 +462,14 @@
 						"id": "servus_shuttles:heavy_rack"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} wanderer 1",
+					"feedback_message": "+1 Wanderer point",
+					"id": "4A4C752CA4BF15CA",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"shape": "gear",

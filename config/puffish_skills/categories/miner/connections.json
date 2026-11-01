@@ -1,0 +1,30 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "ultimine_16",
+        "ultimine_32"
+      ],
+      [
+        "ultimine_32",
+        "ultimine_64"
+      ],
+      [
+        "ultimine_64",
+        "ultimine_128"
+      ],
+      [
+        "break_speed_1",
+        "break_speed_2"
+      ],
+      [
+        "ultimine_16",
+        "efficiency"
+      ],
+      [
+        "efficiency",
+        "underwater"
+      ]
+    ]
+  }
+}

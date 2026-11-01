@@ -7,7 +7,7 @@ icon = "apotheosis:gem_cutting_table"
 slug = "enchanting"
 title = "A Better Enchanting Table"
 description = """
-Enchanting works differently here: bookshelves have stats. Build a table and see what your library is worth."""
+Enchanting works differently here. Bookshelves have stats. Build a table and see what your library is worth."""
 x = 0.0
 y = 0.0
 deps = ["arrival:iron-pick"]
@@ -18,7 +18,7 @@ rewards = [{ type = "item", item = "minecraft:lapis_lazuli", count = 16 }]
 slug = "salvaging"
 title = "Salvage and Reforge"
 description = """
-Affixed loot can be taken apart for its materials, and reforged into better rolls."""
+You can take loot with affixes apart for its materials, or reforge it for better rolls."""
 x = 2.0
 y = -1.0
 deps = ["enchanting"]
@@ -51,7 +51,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "damage-plate"
 title = "A Floor That Bites"
 description = """
-Damage plates finish the job, and the player-kill plate makes monsters drop what they would drop for you."""
+Damage plates finish the job. The player-kill plate makes monsters drop what they would drop if you killed them yourself."""
 x = 4.0
 y = 1.0
 deps = ["vector-plates"]
@@ -62,7 +62,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "spawner"
 title = "A Spawner That Listens"
 description = """
-Spawner runes change a spawner: ignore the light, ignore the players, no thinking at all. Put the drops on a duct into the warehouse."""
+Spawner runes change a spawner. It can ignore the light, ignore players or stop thinking at all. Run the drops through a duct into the warehouse."""
 x = 6.0
 y = 1.0
 deps = ["damage-plate"]
@@ -73,7 +73,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "neural-networks"
 title = "Monsters on Paper"
 description = """
-Hostile Neural Networks learns a monster from fighting it, then prints its drops with power instead of blood. Feed it from the power station and send the output to the warehouse."""
+Hostile Neural Networks learns a monster by fighting it, then prints its drops with power instead of blood. Feed it from the power station and send what it makes to the warehouse."""
 x = 8.0
 y = 1.0
 deps = ["spawner", "power-station:energy-cell"]

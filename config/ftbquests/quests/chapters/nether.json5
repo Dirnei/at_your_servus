@@ -145,6 +145,14 @@
 						"id": "minecraft:golden_apple"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} hunter 1",
+					"feedback_message": "+1 Hunter point",
+					"id": "2D654B3AAD9FEBC5",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"tasks": [
@@ -183,6 +191,14 @@
 						"id": "minecraft:blaze_powder"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} hunter 1",
+					"feedback_message": "+1 Hunter point",
+					"id": "68CD9DA7B814E2A1",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"tasks": [

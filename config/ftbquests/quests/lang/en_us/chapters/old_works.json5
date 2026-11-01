@@ -2,24 +2,24 @@
 	"quest.084BE4B17F0BFFA2.quest_desc": [
 		"Servus, kid,",
 		"",
-		"our family were traders long before they were miners. Huber \\& Co., since 1521: salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.",
+		"our family were traders long before we were miners. Huber \\& Co., since 1521. We carried salt from Berchtesgaden to Salzburg and Augsburg. A merchant without a warehouse is just a peddler.",
 		"",
-		"I wanted to bring the company back. I got as far as a few racks and a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
+		"I wanted to bring the company back. I only got as far as a few racks but i invented a little shuttle that runs on rails. Start there. Racks first, then the rails, then the shuttle.",
 		"",
 		"Uncle Vinzenz"
 	],
 	"quest.084BE4B17F0BFFA2.quest_subtitle": "To be opened when the generator runs",
 	"quest.084BE4B17F0BFFA2.title": "A Merchant Needs a Warehouse",
 	"quest.09924BE548CF539B.quest_desc": [
-		"A Packing Station is the warehouse's door to the data line. Put it at the rails and on the data cable. What you ask for at a terminal leaves the racks through it, and what you put in at a terminal comes back in through it."
+		"The Packing Station is the door between the racks and the data cable. Put it next to the rails and on the data cable. Everything you take out at a terminal leaves the racks through it, and everything you put in comes back the same way."
 	],
 	"quest.09924BE548CF539B.title": "The Warehouse Door",
 	"quest.154635F0928623AD.quest_desc": [
-		"The Coal Generator is not clever, but it is honest: coal in, power out. It brought its own chimney, so the smoke goes up and not into your lungs."
+		"The Coal Generator is not clever, but it is honest. Coal goes in, power comes out."
 	],
 	"quest.154635F0928623AD.title": "Steam Again",
 	"quest.18708C304981DDFE.quest_desc": [
-		"Racks hold the goods. They are made for shuttles, not for you, so set them up along a rail."
+		"Racks hold the goods. They are made for shuttles, not for you, so put them along a rail."
 	],
 	"quest.18708C304981DDFE.title": "Heavy Duty Racks",
 	"quest.2324986AABA9970B.quest_desc": [
@@ -27,55 +27,56 @@
 		"",
 		"my old works had a water wheel, a steam engine and pipes that went everywhere and nowhere. All gone now. Good riddance to the pipes.",
 		"",
-		"Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders. Start with the carrot. Yes, the carrot. Trust me.",
+		"Pipes were always a mess, so I came up with one duct that carries everything: items, power, fluids and, later, orders.",
+		"You have to find a carrot, some redstone and an iron ingot. Trust me. Here is the plan for it.",
 		"",
 		"Uncle Vinzenz"
 	],
 	"quest.2324986AABA9970B.quest_subtitle": "To be opened in the works",
 	"quest.2324986AABA9970B.title": "New Works",
 	"quest.3E5B006F03318290.quest_desc": [
-		"Place an Item Pipe and you have a Utility Duct. Put a second line into the same block, a fluid pipe or a power cable, and the duct carries both. One duct, many lines, no mess.",
+		"Place an Item Pipe and put a fluid pipe or a power cable into the same block and the duct carries both. One duct, many lines, no mess.",
 		"",
-		"The item line moves things from one inventory to the next, for example from a chest into a furnace."
+		"The item line moves things from one inventory to the next, like from a chest into a furnace."
 	],
 	"quest.3E5B006F03318290.title": "One Duct for Everything",
 	"quest.3FF7D0BE4543F4E1.quest_desc": [
-		"A fluid line, a tank and a pump. The burner pump runs on coal; it will do until you have power."
+		"You need a fluid line, a tank and a pump. The burner pump runs on coal. That is good enough until you have power."
 	],
 	"quest.3FF7D0BE4543F4E1.title": "Water Where You Want It",
 	"quest.44E9B2252A51AED5.quest_desc": [
-		"Only storage touches the rails. Everything else talks over the data cable. Run one from the controller to where you want your terminal; the controller sits on both."
+		"Only storage goes on the rails. Everything else talks over the data cable. The controller sits on both, so run a cable from the controller to wherever you want your terminal."
 	],
 	"quest.44E9B2252A51AED5.title": "The Data Cable",
 	"quest.4941E54A4860A80E.quest_desc": [
-		"A power line in the duct takes the generator's power wherever the duct goes."
+		"Put a power line in the duct and the generator's power goes wherever the duct goes."
 	],
 	"quest.4941E54A4860A80E.title": "Power Down the Line",
 	"quest.4D2D65E84AB641D8.quest_desc": [
 		"Servus, kid,",
 		"",
-		"a Storage Terminal on the data cable shows everything in the racks. Ask for something, and the shuttles bring it to the Packing Station and the line brings it to you. Put something in, and it goes the same way back. That is a warehouse.",
+		"a Storage Terminal on the data cable shows you everything in stock. Ask for something and the shuttles bring it to you. Put something in and the shuttles put it away. That is a warehouse.",
 		"",
-		"Now feed yourself: the fields are waiting. And dig yourself a cellar. Not too deep. Learn from me.",
+		"Next you need food and a cellar. Put the fields to work, then dig yourself a cellar. Not too deep. Learn from me.",
 		"",
 		"Uncle Vinzenz"
 	],
 	"quest.4D2D65E84AB641D8.quest_subtitle": "A warehouse, at last",
 	"quest.4D2D65E84AB641D8.title": "One Window on Everything",
 	"quest.51D79D2B4943A1CA.quest_desc": [
-		"The controller sits on the rails and runs the warehouse. It wants power: run a power line from the Coal Generator to it."
+		"The controller sits on the rails and runs the whole warehouse. It needs  and redistributes the power, so run a power line from the Coal Generator to it."
 	],
 	"quest.51D79D2B4943A1CA.title": "The Warehouse Controller",
 	"quest.5A51345A9C7C6577.quest_desc": [
-		"With these on you can see what flows through a duct. I wore mine to dinner once. Your great-aunt would have left me, if there had been one."
+		"Put these on and you can see what flows through a duct. I wore mine to dinner once. Nobody said anything, but they all looked."
 	],
 	"quest.5A51345A9C7C6577.title": "Engineer's Goggles",
 	"quest.5E37EF613BC3E342.quest_desc": [
-		"A garage at the end of the rails, and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."
+		"Put a garage at the end of the rails and a Mk1 shuttle in it. It needs no power. It just runs, like a good dog."
 	],
 	"quest.5E37EF613BC3E342.title": "The First Shuttle",
 	"quest.5E6E81C69A6317D5.quest_desc": [
-		"A rail elevator takes the shuttle to the next floor. Build your warehouse tall; it saves walking."
+		"A rail elevator takes the shuttle up to the next floor. Build your warehouse tall, it saves you a lot of walking."
 	],
 	"quest.5E6E81C69A6317D5.title": "Up and Down",
 	"quest.7507D34BE1F7361B.quest_desc": [
@@ -83,7 +84,8 @@
 	],
 	"quest.7507D34BE1F7361B.title": "The Configuration Carrot",
 	"quest.7877B6D667A90B62.quest_desc": [
-		"Lay the rails in front of the racks. Sneak-click places a whole run at once; I added that after the second time I put my back out."
+		"Lay the rails in front of the racks. Sneak-click a rail with rails in your hand and the new one goes on the far end of the line."
 	],
-	"quest.7877B6D667A90B62.title": "Warehouse Rails"
+	"quest.7877B6D667A90B62.title": "Warehouse Rails",
+	"reward.4A4C752CA4BF15CA.title": "1 Wanderer point"
 }

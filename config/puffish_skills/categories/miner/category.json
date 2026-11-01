@@ -1,0 +1,14 @@
+{
+  "title": "Miner",
+  "description": "Mining. Ultimine reaches further, and stone gives way faster.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "erase_on_death": false
+}

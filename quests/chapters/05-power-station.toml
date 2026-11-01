@@ -10,9 +10,9 @@ subtitle = "To be opened when the coal runs low"
 description = """
 Servus, kid,
 
-a warehouse eats power, and so will the cellar. The Coal Generator was always a stopgap. Here are my plans for a proper power station.
+a warehouse eats a lot of power, and the cellar will too. The Coal Generator was never meant to last. Here are my plans for a real power station.
 
-It works with crystals, because the old way is too slow. Do not ask me how the crystals work. I only know that they do.
+It runs on crystals, because the old way is too slow. Don't ask me how the crystals work. I only know that they do.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -27,7 +27,7 @@ rewards = [{ type = "item", item = "minecraft:redstone_block", count = 2 }]
 slug = "dielectric"
 title = "Dielectric Paste"
 description = """
-Everything in the station starts with dielectric paste: clay, charcoal, a bit of lava. Messy, but it holds."""
+Everything in the station starts with dielectric paste. Clay, charcoal and a bit of lava. It's messy, but it holds."""
 x = 2.0
 y = 0.0
 deps = ["power-letter"]
@@ -38,7 +38,7 @@ rewards = [{ type = "item", item = "minecraft:clay_ball", count = 16 }]
 slug = "orb"
 title = "The Energizing Orb"
 description = """
-The orb charges what you put in, as long as rods feed it power. Set the starter rods around it and give them power from the duct."""
+The orb charges whatever you put in it, as long as the rods give it power. Put the starter rods around it and feed them power from the duct."""
 x = 4.0
 y = 0.0
 deps = ["dielectric"]
@@ -50,7 +50,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "energized-steel"
 title = "Energized Steel"
 description = """
-Iron and gold, charged together. The station is built of it."""
+Iron and gold, charged together. The whole station is built from it."""
 x = 6.0
 y = 0.0
 deps = ["orb"]
@@ -61,7 +61,7 @@ rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 16 }]
 slug = "furnator"
 title = "A Better Fire"
 description = """
-The Furnator burns fuel like the Coal Generator, only much better. Connect it to the duct's power line and the warehouse takes the power as it comes."""
+The Furnator burns fuel like the Coal Generator, only much better. Connect it to the power line in the duct and the warehouse uses the power as it comes."""
 x = 8.0
 y = -1.0
 deps = ["energized-steel"]
@@ -72,7 +72,7 @@ rewards = [{ type = "item", item = "minecraft:coal_block", count = 8 }]
 slug = "solar"
 title = "Power from the Sky"
 description = """
-Up here the sun shines more than people think. A solar panel on the roof pays for itself."""
+The sun shines up here more than people think. Put a solar panel on the roof, it pays for itself."""
 x = 8.0
 y = 1.0
 deps = ["energized-steel"]
@@ -94,7 +94,7 @@ rewards = [{ type = "item", item = "powah:energy_cable_basic", count = 8 }]
 slug = "hardened"
 title = "Hardened Parts"
 description = """
-Hardened capacitors and the hardened rods double what the orb can do."""
+Hardened capacitors and hardened rods make the orb twice as good."""
 x = 12.0
 y = 0.0
 deps = ["energy-cell"]
@@ -106,7 +106,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "blazing"
 title = "Blazing Crystals"
 description = """
-For the next step the orb wants blaze powder. That means the Nether. Read the next letter first."""
+Next the orb wants blaze powder. That means going to the Nether. Read the next letter first."""
 x = 14.0
 y = 0.0
 deps = ["hardened", "nether:blaze"]
@@ -117,7 +117,7 @@ rewards = [{ type = "item", item = "minecraft:blaze_rod", count = 4 }]
 slug = "magmator"
 title = "Lava Into Power"
 description = """
-The Magmator turns lava into power. The Nether has more lava than sense."""
+The Magmator turns lava into power. And the Nether has more lava than sense."""
 x = 14.0
 y = 2.0
 deps = ["blazing"]
@@ -128,7 +128,7 @@ rewards = [{ type = "item", item = "minecraft:lava_bucket" }]
 slug = "niotic"
 title = "Niotic Crystals"
 description = """
-Diamonds, charged until they glow. Expensive, and worth it."""
+Diamonds, charged until they glow. Expensive, but worth it."""
 x = 16.0
 y = 0.0
 deps = ["blazing"]
@@ -139,7 +139,7 @@ rewards = [{ type = "item", item = "minecraft:diamond", count = 4 }]
 slug = "spirited"
 title = "Spirited Crystals"
 description = """
-Emeralds this time. The station starts to hum at night."""
+Emeralds this time. At night you can hear the station hum."""
 x = 18.0
 y = 0.0
 deps = ["niotic"]
@@ -150,7 +150,7 @@ rewards = [{ type = "item", item = "minecraft:emerald", count = 8 }]
 slug = "reactor"
 title = "The Reactor"
 description = """
-My plans end with a reactor: uraninite, a lot of reactor casing, and cooling. Build it as large as you dare."""
+My plans end with a reactor. You need uraninite, a lot of reactor casing and cooling. Build it as big as you dare."""
 x = 20.0
 y = 0.0
 deps = ["spirited"]
@@ -164,7 +164,7 @@ subtitle = "The station is finished"
 description = """
 Servus, kid,
 
-nitro crystals. I only ever made one, and it took me a whole winter. If you have made a stack, the station is finished and the farm has power for a hundred years.
+nitro crystals. I only ever made one and it took me the whole winter. If you have made a stack, the station is done and the farm has power for a hundred years.
 
 Uncle Vinzenz"""
 x = 22.0

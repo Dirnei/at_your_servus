@@ -1,0 +1,211 @@
+{
+  "speed_1": {
+    "title": "Good Boots",
+    "description": "+5% walking speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:movement_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "speed_2": {
+    "title": "Long Strides",
+    "description": "Another +5% walking speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chainmail_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:movement_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "speed_3": {
+    "title": "Mountain Legs",
+    "description": "Another +10% walking speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:movement_speed",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 2
+  },
+  "swim": {
+    "title": "Lake Swimmer",
+    "description": "+25% swimming speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.25,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "water_walk": {
+    "title": "Strong Current",
+    "description": "Move through water more easily, like Depth Strider.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:water_movement_efficiency",
+          "value": 0.33,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "step": {
+    "title": "Sure Footed",
+    "description": "Step up full blocks without jumping.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:step_height",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall": {
+    "title": "Soft Landing",
+    "description": "Fall 3 blocks further without damage.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:safe_fall_distance",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "reach": {
+    "title": "Long Arms",
+    "description": "Reach blocks 1 block further away.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:block_interaction_range",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

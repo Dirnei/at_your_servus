@@ -26,6 +26,7 @@ Side: `both` runs on client and server, `client` is left out of the server pack.
 | `ftb-xmod-compat` | FTB XMod Compat | both | FTB Quests integration with JEI and KubeJS |
 | `kubejs` | KubeJS | both | Recipe gates and first-join book |
 | `lootjs` | LootJS | both | Loot table changes from KubeJS |
+| `puffish-skills` | Pufferfish's Skills | both | Skill trees Miner, Hunter and Wanderer (K); the Ultimine range grows with Miner |
 
 ## Magic, RPG and mob farms
 
@@ -122,6 +123,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 
 | Metafile | Mod | Side | Role |
 |---|---|---|---|
+| `default-options` | Default Options | client | Default keys for new installs (`config/defaultoptions/keybindings.txt`): K opens only the skill tree, the Iris shader toggle is unbound |
 | `jei` | Just Enough Items | both | Recipe viewer |
 | `just-enough-resources-jer` | Just Enough Resources | both | Drops and world generation in JEI (alpha) |
 | `jade` | Jade | both | Block info overlay |
@@ -157,7 +159,7 @@ Installed for Iris but not selected: pick one under Video Settings > Shader Pack
 | Metafile | Mod | Side | Needed by |
 |---|---|---|---|
 | `apexcore` | ApexCore | both | Fantasy's Furniture |
-| `balm` | Balm | both | Waystones, Shogi, Cooking for Blockheads |
+| `balm` | Balm | both | Waystones, Shogi, Cooking for Blockheads, Default Options |
 | `better-advanced-tooltips` | Better Advanced Tooltips | both | KubeJS |
 | `bookshelf` | Bookshelf | both | Dark Utilities, Enchantment Descriptions |
 | `citadel-neoforge` | Citadel | both | Alex's Mobs |

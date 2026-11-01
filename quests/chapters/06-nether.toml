@@ -12,9 +12,9 @@ Servus, kid,
 
 the fire you need lives behind the burning gate, in the Nether. The journal says so, and so do my burns.
 
-Do not go in iron. Down in an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Go armoured, go fed, and come back.
+Don't go in iron. In an old shaft I found a strange green goo that eats metal and gives back something better. My notes on it are below. Wear good armour, go with a full belly, and come back.
 
-Build the gate from obsidian and light it. Once the purple fire burns, take a good look at it.
+Build the gate from obsidian and light it. When the purple fire burns, take a good look at it.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -28,7 +28,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "goo"
 title = "Primal Goo"
 description = """
-From my notes: "Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either; once was enough."""
+From my notes: "Feed it an iron block. Wait. Do not touch it while it works. Do not lick it either. Once was enough.""""
 x = 2.0
 y = 0.0
 deps = ["nether-letter"]
@@ -39,7 +39,7 @@ rewards = [{ type = "item", item = "minecraft:iron_block", count = 2 }]
 slug = "ferricore"
 title = "Ferricore"
 description = """
-What the goo leaves behind smelts into ferricore: iron that has learned a few tricks."""
+Smelt what the goo leaves behind and you get ferricore. Iron that has learned a few tricks."""
 x = 4.0
 y = 0.0
 deps = ["goo"]
@@ -50,7 +50,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "ferricore-gear"
 title = "Armour with Tricks"
 description = """
-Ferricore armour and tools. Put upgrades in them; that is what the tricks are for."""
+Ferricore armour and tools. Put upgrades in them, that is what the tricks are for."""
 x = 6.0
 y = -1.0
 deps = ["ferricore"]
@@ -63,29 +63,29 @@ rewards = [{ type = "item", item = "justdirethings:upgrade_blank", count = 2 }]
 slug = "portal"
 title = "The Gate"
 description = """
-Obsidian and a spark. Step through with a full belly."""
+Obsidian and a spark. Go through with a full belly and keep your sword ready."""
 x = 6.0
 y = 1.0
 deps = ["ferricore"]
 tasks = [{ type = "item", item = "minecraft:obsidian", count = 10 }, { type = "item", item = "minecraft:flint_and_steel" }]
-rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }]
+rewards = [{ type = "item", item = "minecraft:golden_apple", count = 2 }, { type = "skill_points", tree = "hunter", amount = 1 }]
 
 [[quest]]
 slug = "blaze"
 title = "Blaze Rods"
 description = """
-Blazes guard the Nether fortresses. Their rods feed the power station's orb and the yellow fire in the cellar."""
+Blazes guard the Nether fortresses. Their rods feed the orb in the power station and the yellow fire in the cellar. A blaze doesn't wait for you to aim, so don't wait either."""
 x = 8.0
 y = 1.0
 deps = ["portal"]
 tasks = [{ type = "item", item = "minecraft:blaze_rod", count = 16 }]
-rewards = [{ type = "item", item = "minecraft:blaze_powder", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:blaze_powder", count = 8 }, { type = "skill_points", tree = "hunter", amount = 1 }]
 
 [[quest]]
 slug = "goo-2"
 title = "Hungrier Goo"
 description = """
-From my notes: "Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns."""
+From my notes: "Feed it ferricore and it wants more. Give it gold in the Nether and it gives back gold that burns.""""
 x = 8.0
 y = -1.0
 deps = ["ferricore-gear", "blaze"]
@@ -119,7 +119,7 @@ rewards = [{ type = "item", item = "justdirethings:upgrade_blank", count = 4 }]
 slug = "lava-immunity"
 title = "Lava Is Just Hot Water"
 description = """
-A lava immunity upgrade in your boots, and you can swim where the salamanders live."""
+Put a lava immunity upgrade in your boots and you can swim where the salamanders live."""
 x = 12.0
 y = -3.0
 deps = ["blazegold-gear"]

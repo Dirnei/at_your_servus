@@ -68,22 +68,17 @@
 			"id": "0D81246D3E24A6F2",
 			"rewards": [
 				{
-					"count": 4,
 					"id": "3EB6905BAB6A69EE",
-					"item": {
-						"count": 1,
-						"id": "servus_shuttles:zone_label"
-					},
-					"type": "item"
+					"type": "xp",
+					"xp": 50
 				}
 			],
 			"tasks": [
 				{
-					"count": 4,
 					"id": "6E3E2FCD705CEDE4",
 					"item": {
 						"count": 1,
-						"id": "servus_shuttles:zone_label"
+						"id": "servus_shuttles:handheld"
 					},
 					"type": "item"
 				}
@@ -352,6 +347,14 @@
 						"id": "servus_shuttles:warehouse_controller"
 					},
 					"type": "item"
+				},
+				{
+					"command": "/puffish_skills points add {p} wanderer 1",
+					"feedback_message": "+1 Wanderer point",
+					"id": "595646533C035C2B",
+					"permission_level": 2,
+					"silent": true,
+					"type": "command"
 				}
 			],
 			"tasks": [

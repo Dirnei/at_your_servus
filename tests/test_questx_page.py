@@ -33,3 +33,13 @@ def test_missing_mods_folder_says_to_build_first(tmp_path, capsys):
     assert questx.main(["--mods", str(tmp_path / "nope")]) == 1
     err = capsys.readouterr().err
     assert "nope" in err and "build the server pack first" in err
+
+
+def test_skill_point_rewards_get_a_label():
+    from tools.questgen.model import Chapter, Quest
+    q = Quest(chapter="arrival", slug="pick", title="Pick", x=0.0, y=0.0, tasks=[{"type": "checkmark"}],
+              rewards=[{"type": "skill_points", "tree": "miner", "amount": 1}, {"type": "xp", "amount": 5}])
+    data = page.page_data([Chapter(group="main", order=1, slug="arrival", title="Arrival", quests=[q])], {}, [], "now")
+    rewards = data["chapters"][0]["quests"][0]["rewards"]
+    assert rewards[0]["label"] == "1 Miner point" and "label" not in rewards[1]
+    assert 'e.type === "skill_points"' in page.render(data)

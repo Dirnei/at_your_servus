@@ -1,0 +1,2 @@
+key_key.puffish_skills.open:key.keyboard.k
+key_iris.keybind.toggleShaders:key.keyboard.unknown

@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 from tools.questgen.generate import GROUPS
-from tools.questgen.model import Chapter, Quest
+from tools.questgen.model import Chapter, Quest, skill_points_label
 from tools.questx.findings import Finding
 
 
@@ -21,6 +21,10 @@ def used_items(chapters: list[Chapter]) -> set[str]:
     return items
 
 
+def _reward(r: dict) -> dict:
+    return {**r, "label": skill_points_label(r)} if r.get("type") == "skill_points" else r
+
+
 def page_data(chapters: list[Chapter], items: dict, findings: list[Finding], built: str) -> dict:
     return {
         "built": built,
@@ -30,7 +34,7 @@ def page_data(chapters: list[Chapter], items: dict, findings: list[Finding], bui
             "quests": [{
                 "slug": q.slug, "title": q.title, "subtitle": q.subtitle, "description": q.description.strip(),
                 "x": q.x, "y": q.y, "size": q.size or 1.0, "shape": q.shape or "circle", "optional": q.optional,
-                "icon": quest_icon(q), "deps": [list(d) for d in q.dep_keys()], "tasks": q.tasks, "rewards": q.rewards,
+                "icon": quest_icon(q), "deps": [list(d) for d in q.dep_keys()], "tasks": q.tasks, "rewards": [_reward(r) for r in q.rewards],
             } for q in c.quests],
         } for c in chapters],
         "items": items,
@@ -135,6 +139,7 @@ nav .foot button:hover { border-color: var(--edge); }
 .slot .count { position: absolute; right: 1px; bottom: -2px; font-size: 13px; }
 .slot .glyph { font-size: 15px; }
 .slot .glyph.xp { color: #b4f05a; font-size: 12px; }
+.slot .glyph.skill { color: #ffd84a; }
 
 /* popup */
 #overlay { position: fixed; inset: 0; z-index: 10; background: rgb(14 20 26 / .5); display: none; align-items: center; justify-content: center; padding: 24px 16px; }
@@ -241,6 +246,7 @@ function entry(e) {
   const row = (s, name, id) => el("li", {}, s, el("span", {class: "name"}, el("span", {text: name}), id ? el("span", {class: "id", text: id}) : null));
   if (e.type === "item") return row(slot(icon(e.item, 28), e.count || 1), itemName(e.item), e.item);
   if (e.type === "xp") return row(slot(el("span", {class: "glyph xp", text: "XP"})), e.amount + " experience");
+  if (e.type === "skill_points") return row(slot(el("span", {class: "glyph skill", text: "K"})), e.label, "Pufferfish's Skills tree " + e.tree);
   if (e.type === "checkmark") return row(slot(el("span", {class: "glyph", text: "✓"})), "Tick it off", "No item needed; the player confirms it in the book.");
   if (e.type === "advancement") return row(slot(el("span", {class: "glyph", text: "★"})), "Advancement", e.advancement);
   if (e.type === "observation") return row(slot(el("span", {class: "glyph", text: "👁"})), "Look at it", e.observe);

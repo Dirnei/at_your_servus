@@ -1,0 +1,38 @@
+{
+  "damage_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "damage_1",
+    "root": true
+  },
+  "damage_2": {
+    "x": 40,
+    "y": 20,
+    "definition": "damage_2"
+  },
+  "health_1": {
+    "x": 40,
+    "y": -20,
+    "definition": "health_1"
+  },
+  "health_2": {
+    "x": 80,
+    "y": -40,
+    "definition": "health_2"
+  },
+  "crit_chance": {
+    "x": 80,
+    "y": 40,
+    "definition": "crit_chance"
+  },
+  "crit_damage": {
+    "x": 120,
+    "y": 40,
+    "definition": "crit_damage"
+  },
+  "life_steal": {
+    "x": 80,
+    "y": 0,
+    "definition": "life_steal"
+  }
+}

@@ -1,14 +1,14 @@
 {
 	"quest.002D274F79E0F1A7.quest_desc": [
-		"The Crafting CPU owns the orders. You ask for 64 of something; it works out the steps and sends the work out. Patterns go into Pattern Storage."
+		"The Crafting CPU takes care of the orders. You ask for 64 of something, and it works out the steps and sends the work out. Your patterns go into Pattern Storage."
 	],
 	"quest.002D274F79E0F1A7.title": "The Crafting CPU",
 	"quest.027B3F69BB9C4EE0.quest_desc": [
 		"Servus, kid,",
 		"",
-		"racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a lot.",
+		"racks, shuttles, fields, outposts and orders that go down into the cellar and back. Our ancestors would not believe it, and they believed a lot.",
 		"",
-		"Now nothing waits on a man. Everything waits on an order.",
+		"Now nothing waits for a man. Everything waits for an order.",
 		"",
 		"Uncle Vinzenz"
 	],
@@ -19,11 +19,11 @@
 	],
 	"quest.0346EE683D2E3D5B.title": "The Order Book",
 	"quest.0D81246D3E24A6F2.quest_desc": [
-		"Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old traders called it."
+		"Zones tell the shuttles where things belong. Ores here, food there, salt by the cellar door. Build a Handheld, make your zones in it and scan a shelf to put it in a zone."
 	],
 	"quest.0D81246D3E24A6F2.title": "A Place for Everything",
 	"quest.0DE6C555E6857962.quest_desc": [
-		"Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost up when the shuttles need it. The company has branches again, like it did in 1530."
+		"Every controller is its own site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes up an outpost when the shuttles need it. The company has branches again, like it did in 1530. A good trader knows the roads between them."
 	],
 	"quest.0DE6C555E6857962.title": "Outposts",
 	"quest.118E97534B2C15B0.quest_desc": [
@@ -31,17 +31,17 @@
 	],
 	"quest.118E97534B2C15B0.title": "Goods In",
 	"quest.29DFE735FD7B04E9.quest_desc": [
-		"In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and have no workshop yet: iron, planks and a crafting table."
+		"In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and don't have a workshop yet, you need iron, planks and a crafting table."
 	],
 	"quest.29DFE735FD7B04E9.title": "The Mk2",
 	"quest.2CFAA1B93AE63A3B.quest_desc": [
-		"The Crafting Station does the crafting table's job, only without you."
+		"The Crafting Station does what a crafting table does, only without you."
 	],
 	"quest.2CFAA1B93AE63A3B.title": "A Station That Crafts",
 	"quest.3A961E71BE94081E.quest_desc": [
 		"Servus, kid,",
 		"",
-		"with real power on the farm, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.",
+		"now that the farm has real power, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They don't sleep either, and they never cheat on the books.",
 		"",
 		"Uncle Vinzenz"
 	],
@@ -52,13 +52,13 @@
 	],
 	"quest.417B1F295DEFA19E.title": "The Mk3",
 	"quest.45EE84C114D74E1A.quest_desc": [
-		"Fast and duplex data cables carry more orders at once, for when business gets busy."
+		"Fast and duplex data cables carry more orders at once. You will want them when business picks up."
 	],
 	"quest.45EE84C114D74E1A.title": "Faster Lines",
 	"quest.5ACB69B7A0BCDD39.quest_desc": [
 		"Servus, kid,",
 		"",
-		"this is what I dreamed of: the warehouse orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.",
+		"this is what I always dreamed of. The warehouse orders and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order what it makes through the Crafting CPU. Nothing runs without an order, and nothing waits for a man.",
 		"",
 		"Tick this off when your first order has come back from the cellar.",
 		"",
@@ -69,5 +69,6 @@
 	"quest.6800E2669EDBDA30.quest_desc": [
 		"An Outbound Station hands goods out to a machine or a chest, ready for the next step."
 	],
-	"quest.6800E2669EDBDA30.title": "Goods Out"
+	"quest.6800E2669EDBDA30.title": "Goods Out",
+	"reward.595646533C035C2B.title": "1 Wanderer point"
 }

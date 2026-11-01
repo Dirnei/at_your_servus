@@ -1,0 +1,34 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "speed_1",
+        "speed_2"
+      ],
+      [
+        "speed_2",
+        "speed_3"
+      ],
+      [
+        "speed_1",
+        "swim"
+      ],
+      [
+        "swim",
+        "water_walk"
+      ],
+      [
+        "speed_1",
+        "step"
+      ],
+      [
+        "step",
+        "safe_fall"
+      ],
+      [
+        "safe_fall",
+        "reach"
+      ]
+    ]
+  }
+}

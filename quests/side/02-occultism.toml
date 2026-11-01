@@ -7,7 +7,7 @@ icon = "occultism:dictionary_of_spirits"
 slug = "dictionary"
 title = "A Dictionary of Spirits"
 description = """
-Vinzenz kept this book on the same shelf as the journal, upside down. "Paracelsus' spirits are elements," he wrote inside. "These are something else. Be polite.\""""
+Vinzenz kept this book on the same shelf as the journal, upside down. Inside he wrote: "Paracelsus' spirits are elements. These are something else. Be polite.""""
 x = 0.0
 y = 0.0
 deps = ["cellar:journal"]
@@ -18,7 +18,7 @@ rewards = [{ type = "item", item = "minecraft:book", count = 4 }]
 slug = "datura"
 title = "Demon's Dream"
 description = """
-Grow datura and dream. The dreams show another world beneath this one."""
+Grow datura and dream. The dreams show you another world below this one."""
 x = 2.0
 y = 0.0
 deps = ["dictionary"]
@@ -29,7 +29,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "chalk-and-bowl"
 title = "Chalk and a Golden Bowl"
 description = """
-White chalk for the pentacle, golden sacrificial bowls for the offerings. Rituals want both."""
+White chalk for the pentacle and golden sacrificial bowls for the offerings. Rituals need both."""
 x = 4.0
 y = 0.0
 deps = ["datura"]

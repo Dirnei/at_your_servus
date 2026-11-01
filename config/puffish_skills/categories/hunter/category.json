@@ -1,0 +1,14 @@
+{
+  "title": "Hunter",
+  "description": "Combat. Hit harder and last longer.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "erase_on_death": false
+}

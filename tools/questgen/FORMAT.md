@@ -170,6 +170,10 @@ Base keys (`Reward#writeData`): `team_reward` (tristate), `auto` (`default|disab
 { "id": "...", "type": "xp_levels", "xp_levels": 5 }
 { "id": "...", "type": "command", "command": "/say {p} did it"   /* {p} = player name; default "/say Hi, @p!" */, "permission_level": 2, "silent": true } // + feedback_message
 ```
+`feedback_message` is passed to `Component.translatable`, so plain text works and shows as written. Without a lang title
+(`reward.<id>.title`), the quest book shows a command reward as "Command: <the command>"; the generator writes one.
+The source reward `{ type = "skill_points", tree = "miner", amount = 1 }` becomes such a command reward:
+`/puffish_skills points add {p} miner 1`, `permission_level` 2, `silent`, feedback and title "1 Miner point".
 Other types: `choice random all_table loot`. These reference `table_id`, which is read with `getLong`, so it is a **JSON number** (the decimal long), not hex, `advancement toast gamestage currency custom`.
 In a reward-table file the `type` is left out when it is `item` (`RewardTable#writeData`). The table also has `loot_size` and `rewards`, and optionally `weight`.
 

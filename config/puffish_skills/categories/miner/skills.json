@@ -1,0 +1,44 @@
+{
+  "ultimine_16": {
+    "x": 0,
+    "y": 0,
+    "definition": "ultimine_16",
+    "root": true
+  },
+  "ultimine_32": {
+    "x": 40,
+    "y": 0,
+    "definition": "ultimine_32"
+  },
+  "ultimine_64": {
+    "x": 80,
+    "y": 0,
+    "definition": "ultimine_64"
+  },
+  "ultimine_128": {
+    "x": 120,
+    "y": 0,
+    "definition": "ultimine_128"
+  },
+  "break_speed_1": {
+    "x": 0,
+    "y": 40,
+    "definition": "break_speed_1",
+    "root": true
+  },
+  "break_speed_2": {
+    "x": 40,
+    "y": 40,
+    "definition": "break_speed_2"
+  },
+  "efficiency": {
+    "x": 0,
+    "y": -40,
+    "definition": "efficiency"
+  },
+  "underwater": {
+    "x": 40,
+    "y": -40,
+    "definition": "underwater"
+  }
+}

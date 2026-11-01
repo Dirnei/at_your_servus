@@ -6,11 +6,9 @@
 	"quest.2B304666A309D2B0.quest_desc": [
 		"Servus, kid,",
 		"",
-		"if the notary has done his job, you are standing on my land with this letter in your hand, looking for a house. Stop looking. There is none any more. The house went down into the mountain, with the workshop and the cellar. I dug too deep. Sorry about that.",
+		"I want you to take my land. I would have given you my house, but there is none anymore. The house went down into the mountain, with the workshop and the cellar. I dug too deep. Sorry about that.",
 		"",
-		"The land is yours now. I am away. Do not ask the notary where; he does not know, and he is not the kind of man who guesses.",
-		"",
-		"So: a roof, a fire and something to eat. The rest will come, one letter at a time.",
+		"The land is yours now. I am away. Do not ask me where. I will write to you later.",
 		"",
 		"Uncle Vinzenz"
 	],
@@ -21,38 +19,40 @@
 	],
 	"quest.2D12538F171DB693.title": "A Bench to Go",
 	"quest.441804CDCF855388.quest_desc": [
-		"Every house starts with a workbench. Mine is somewhere under the mountain now, so make yourself a new one."
+		"Best to punch some trees and start with a workbench. You will need it to make the tools for digging a new mine."
 	],
 	"quest.441804CDCF855388.title": "Something to Work On",
 	"quest.54C09E6063E7F5EE.quest_desc": [
 		"Servus, kid,",
 		"",
-		"a fire, a bed, bread and iron. Now you live here.",
+		"I heard you have settled in on the land I gave you.",
 		"",
-		"Next you need a place for machines. I had one, with a water wheel that bit. Build a better one.",
+		"Now you should build a place for all the machines. Don't make it too small, you will need the room!",
 		"",
 		"Uncle Vinzenz"
 	],
 	"quest.54C09E6063E7F5EE.quest_subtitle": "On to the works",
 	"quest.54C09E6063E7F5EE.title": "Settled In",
 	"quest.613658657F90026D.quest_desc": [
-		"A backpack saves you a lot of walking. Take one if you like; the real storage comes later, and it is better."
+		"A backpack saves you a lot of walking. Trust me, take one."
 	],
 	"quest.613658657F90026D.title": "A Bag for the Road",
 	"quest.63AE6A649A0B6EF9.quest_desc": [
-		"Build a furnace, then a better one. A copper furnace is cheap up here and works faster than stone."
+		"Did you know that you can upgrade your furnace? A copper furnace is cheap up here and works faster than stone."
 	],
 	"quest.63AE6A649A0B6EF9.title": "A Fire in the Stove",
 	"quest.739727889BD5AA79.quest_desc": [
-		"The mountains are big and my legs were never young enough for them. A warp stone takes you back to any waystone you have found."
+		"The mountains are big and my legs were never young enough for them. A warp stone takes you back to any waystone you have found. Walking teaches you too."
 	],
 	"quest.739727889BD5AA79.title": "The Way Home",
 	"quest.7A75F764B8757D32.quest_desc": [
-		"Plant the seeds, then bake bread. A Bavarian who works on an empty stomach works badly and complains well."
+		"Plant some seeds early. A Bavarian who works on an empty stomach works badly and complains well."
 	],
 	"quest.7A75F764B8757D32.title": "Something to Eat",
 	"quest.7C259418C084CB6C.quest_desc": [
-		"The mountain is full of old holes. Some of them are mine, most of them are much older. Bring back iron and make yourself a pickaxe that does not break on the first good stone."
+		"The mountain is full of old holes. Some of them are mine, most of them are much older. Bring back iron and make yourself a pickaxe that does not break on the first good stone. Every vein you dig teaches your hands something. Press K and see what they learned."
 	],
-	"quest.7C259418C084CB6C.title": "Iron from the Hill"
+	"quest.7C259418C084CB6C.title": "Iron from the Hill",
+	"reward.247BC2181DCBCD1A.title": "1 Miner point",
+	"reward.556483C572E64A8E.title": "1 Wanderer point"
 }

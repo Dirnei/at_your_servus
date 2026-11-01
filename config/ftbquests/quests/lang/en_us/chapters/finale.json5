@@ -1,10 +1,10 @@
 {
 	"quest.09CA56FB7BED0F7C.quest_desc": [
-		"Piles to nuggets, nuggets to an ingot. Heavier than anything I ever held. The letters get shorter from here; I was busy."
+		"Piles to nuggets, nuggets to an ingot. Heavier than anything I ever held. My letters get shorter from here on. I was busy."
 	],
 	"quest.09CA56FB7BED0F7C.title": "Neutronium",
 	"quest.32141C65FFD7D602.quest_desc": [
-		"The Neutron Compressor squeezes a mountain of one thing into a point. Order the metals from the warehouse; the shuttles do not complain."
+		"The Neutron Compressor squeezes a mountain of one thing into a single point. Order the metals from the warehouse. The shuttles don't complain."
 	],
 	"quest.32141C65FFD7D602.title": "Singularities",
 	"quest.3DD3AEC10463CF6B.quest_desc": [
@@ -12,11 +12,11 @@
 	],
 	"quest.3DD3AEC10463CF6B.title": "Armour Beyond Alchemy",
 	"quest.466734D4A1C805D1.quest_desc": [
-		"The Neutron Collector gathers neutron dust out of thin air, very slowly. Leave it running. The warehouse can wait for it; you do not have to."
+		"The Neutron Collector gathers neutron dust out of thin air, very slowly. Just leave it running. The warehouse can wait for it, you don't have to."
 	],
 	"quest.466734D4A1C805D1.title": "Out of Nothing",
 	"quest.4E9A3566662564B7.quest_desc": [
-		"Everything I had, in one thing: Caput Mortuum from the red fire, quicksilver, the undying flame, the Crafting CPU of the warehouse and the brightest crystal of the power station.",
+		"Everything I had, in one thing. Caput Mortuum from the red fire, quicksilver, the undying flame, the Crafting CPU from the warehouse and the brightest crystal from the power station.",
 		"",
 		"This is where my notes stop making sense."
 	],
@@ -30,7 +30,7 @@
 		"",
 		"alchemy can make everything that exists. I wanted to make something that does not exist yet.",
 		"",
-		"There is a matter heavier than lead and older than the mountain. I found a way to gather it, grain by grain, out of nothing. Build the big table first: nine by nine, because the work no longer fits in three.",
+		"There is a matter heavier than lead and older than the mountain. I found a way to gather it out of nothing, grain by grain. Build the big table first. It is nine by nine, because the work doesn't fit in three anymore.",
 		"",
 		"Uncle Vinzenz"
 	],
@@ -43,13 +43,15 @@
 	"quest.7A6D3546A0BF0C9C.quest_desc": [
 		"Servus, kid,",
 		"",
-		"if you are reading this, you have made what I could only draw. Good. I knew the farm would be in better hands.",
+		"if you are reading this, you made what I could only draw. Good. I knew the farm would be in better hands.",
 		"",
-		"I did not die. I went down after the knocking, and the mountain closed behind me. Sorry about the house. The old one was waiting, the same one who once waited for Paracelsus. There is work down here that no alchemy does: the veins need looking after, and someone has to listen to the mountain. I am slow now, and very happy.",
+		"I did not die. I went down after the knocking and the mountain closed behind me. Sorry about the house. The old one was waiting for me, the same one who once waited for Paracelsus. There is work down here that no alchemy can do. The veins need looking after, and someone has to listen to the mountain. I am slow now, and very happy.",
 		"",
-		"Do not come looking. Leave a pinch of salt in the deepslate now and then, and listen. If it knocks twice, that is me.",
+		"I left you one last trick each for the pick, the sword and the road. Press K.",
 		"",
-		"The trading company is yours. Keep the books straight.",
+		"Don't come looking for me. Leave a pinch of salt in the deepslate now and then and listen. If it knocks twice, that is me.",
+		"",
+		"The trading company is yours now. Keep the books straight.",
 		"",
 		"Servus,",
 		"Uncle Vinzenz"
@@ -57,7 +59,10 @@
 	"quest.7A6D3546A0BF0C9C.quest_subtitle": "Found where the dust trickles from one block",
 	"quest.7A6D3546A0BF0C9C.title": "Servus",
 	"quest.7B00A3D3FA209A58.quest_desc": [
-		"Diamonds and nether stars, woven. Hard work. Worth it."
+		"Diamonds and nether stars, woven together. Hard work, but worth it."
 	],
-	"quest.7B00A3D3FA209A58.title": "Crystal Matrix"
+	"quest.7B00A3D3FA209A58.title": "Crystal Matrix",
+	"reward.304921D69C4E18F5.title": "1 Miner point",
+	"reward.622415F2D20B58DB.title": "1 Hunter point",
+	"reward.65B5D35224AA2D64.title": "1 Wanderer point"
 }

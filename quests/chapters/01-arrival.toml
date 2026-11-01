@@ -10,11 +10,9 @@ subtitle = "Servus, kid"
 description = """
 Servus, kid,
 
-if the notary has done his job, you are standing on my land with this letter in your hand, looking for a house. Stop looking. There is none any more. The house went down into the mountain, with the workshop and the cellar. I dug too deep. Sorry about that.
+I want you to take my land. I would have given you my house, but there is none anymore. The house went down into the mountain, with the workshop and the cellar. I dug too deep. Sorry about that.
 
-The land is yours now. I am away. Do not ask the notary where; he does not know, and he is not the kind of man who guesses.
-
-So: a roof, a fire and something to eat. The rest will come, one letter at a time.
+The land is yours now. I am away. Do not ask me where. I will write to you later.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -28,7 +26,7 @@ rewards = [{ type = "item", item = "minecraft:wheat_seeds", count = 8 }, { type 
 slug = "workbench"
 title = "Something to Work On"
 description = """
-Every house starts with a workbench. Mine is somewhere under the mountain now, so make yourself a new one."""
+Best to punch some trees and start with a workbench. You will need it to make the tools for digging a new mine."""
 x = 2.0
 y = 0.0
 deps = ["first-letter"]
@@ -50,7 +48,7 @@ rewards = [{ type = "xp", amount = 20 }]
 slug = "fire"
 title = "A Fire in the Stove"
 description = """
-Build a furnace, then a better one. A copper furnace is cheap up here and works faster than stone."""
+Did you know that you can upgrade your furnace? A copper furnace is cheap up here and works faster than stone."""
 x = 4.0
 y = 0.0
 deps = ["workbench"]
@@ -61,7 +59,7 @@ rewards = [{ type = "item", item = "minecraft:coal", count = 16 }]
 slug = "food"
 title = "Something to Eat"
 description = """
-Plant the seeds, then bake bread. A Bavarian who works on an empty stomach works badly and complains well."""
+Plant some seeds early. A Bavarian who works on an empty stomach works badly and complains well."""
 x = 6.0
 y = 2.0
 deps = ["bed"]
@@ -72,18 +70,18 @@ rewards = [{ type = "item", item = "minecraft:cooked_beef", count = 8 }]
 slug = "iron-pick"
 title = "Iron from the Hill"
 description = """
-The mountain is full of old holes. Some of them are mine, most of them are much older. Bring back iron and make yourself a pickaxe that does not break on the first good stone."""
+The mountain is full of old holes. Some of them are mine, most of them are much older. Bring back iron and make yourself a pickaxe that does not break on the first good stone. Every vein you dig teaches your hands something. Press K and see what they learned."""
 x = 6.0
 y = 0.0
 deps = ["fire"]
 tasks = [{ type = "item", item = "minecraft:iron_pickaxe" }]
-rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 8 }]
+rewards = [{ type = "item", item = "minecraft:iron_ingot", count = 8 }, { type = "skill_points", tree = "miner", amount = 1 }]
 
 [[quest]]
 slug = "backpack"
 title = "A Bag for the Road"
 description = """
-A backpack saves you a lot of walking. Take one if you like; the real storage comes later, and it is better."""
+A backpack saves you a lot of walking. Trust me, take one."""
 x = 4.0
 y = -2.0
 deps = ["workbench"]
@@ -95,12 +93,12 @@ rewards = [{ type = "item", item = "minecraft:leather", count = 4 }]
 slug = "waystone"
 title = "The Way Home"
 description = """
-The mountains are big and my legs were never young enough for them. A warp stone takes you back to any waystone you have found."""
+The mountains are big and my legs were never young enough for them. A warp stone takes you back to any waystone you have found. Walking teaches you too."""
 x = 6.0
 y = -2.0
 deps = ["iron-pick"]
 tasks = [{ type = "item", item = "waystones:warp_stone" }]
-rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 2 }]
+rewards = [{ type = "item", item = "minecraft:ender_pearl", count = 2 }, { type = "skill_points", tree = "wanderer", amount = 1 }]
 
 [[quest]]
 slug = "bed"
@@ -120,9 +118,9 @@ subtitle = "On to the works"
 description = """
 Servus, kid,
 
-a fire, a bed, bread and iron. Now you live here.
+I heard you have settled in on the land I gave you.
 
-Next you need a place for machines. I had one, with a water wheel that bit. Build a better one.
+Now you should build a place for all the machines. Don't make it too small, you will need the room!
 
 Uncle Vinzenz"""
 x = 8.0

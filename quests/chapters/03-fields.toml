@@ -10,9 +10,9 @@ subtitle = "To be opened when the terminal runs"
 description = """
 Servus, kid,
 
-the Huber land fed half the miners in the valley once. Bread, potatoes, honey from the old orchard. Then I started digging and forgot to eat.
+the Huber land once fed half the miners in the valley. Bread, potatoes and honey from the old orchard. Then I started digging and forgot to eat.
 
-Do not be like me. Before you go down into the cellar, or while you do, put the fields back to work. You have rails and shuttles now. A shuttle does not mind the rain.
+Don't be like me. Before you go down into the cellar, or while you do, get the fields working again. You have rails and shuttles now, and a shuttle does not mind the rain.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -27,7 +27,7 @@ rewards = [{ type = "item", item = "minecraft:wheat_seeds", count = 16 }]
 slug = "farm-rail"
 title = "Rails Through the Wheat"
 description = """
-Farm Rails are warehouse rails with copper heads. One connected run of them is one field. Lay them through the middle of your farmland and link them to the warehouse rails, so the shuttles can drive out."""
+Farm Rails are warehouse rails with copper on top. All farm rails that touch each other make one field. Lay them through the middle of your farmland and connect them to the warehouse rails, so the shuttles can drive out."""
 x = 2.0
 y = 0.0
 deps = ["fields-letter"]
@@ -38,7 +38,7 @@ rewards = [{ type = "item", item = "servus_shuttles:farm_rail", count = 16 }]
 slug = "field-head"
 title = "The Field Head"
 description = """
-Every field needs one Field Head, placed beside a farm rail. It keeps the farmland under the rails wet, so give it water: a fluid pipe from the pump you built in the works will do. In its window you pick the crop."""
+Every field needs one Field Head next to a farm rail. It keeps the farmland under the rails wet, so it needs water. A fluid pipe from the pump you built in the works is enough. You pick the crop in its window."""
 x = 4.0
 y = 0.0
 deps = ["farm-rail"]
@@ -49,7 +49,7 @@ rewards = [{ type = "item", item = "servus_foundation:fluid_pipe", count = 8 }]
 slug = "shuttle-workshop"
 title = "The Shuttle Workshop"
 description = """
-In the Shuttle Workshop you fit tools and upgrades to a shuttle. Later you build better shuttles in it, too."""
+In the Shuttle Workshop you put tools and upgrades on a shuttle. Later you build better shuttles there too."""
 x = 4.0
 y = -2.0
 deps = ["fields-letter"]
@@ -60,7 +60,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "harvester"
 title = "A Shuttle That Farms"
 description = """
-Fit a Harvester to a shuttle in the workshop and send it home to the garage. When the field has water, a crop and seeds, the warehouse sends it out: it tills, plants and harvests, and brings the crop home. A shuttle carries one tool, so a harvester never fetches goods for you."""
+Put a Harvester on a shuttle in the workshop and send it back to the garage. Once the field has water, a crop and seeds, the warehouse sends it out. It tills, plants, harvests and brings the crop home. A shuttle can only carry one tool, so a harvester will never fetch goods for you."""
 x = 6.0
 y = 0.0
 deps = ["field-head", "shuttle-workshop"]
@@ -71,7 +71,7 @@ rewards = [{ type = "item", item = "minecraft:potato", count = 8 }]
 slug = "first-harvest"
 title = "The First Harvest"
 description = """
-Put seeds in the warehouse and wait. The Field Head keeps a few seeds in its buffer; shuttles bring more when it runs low.
+Put seeds in the warehouse and wait. The Field Head keeps a few seeds itself, and the shuttles bring more when it runs low.
 
 Tick this off when your harvester has brought its first crop into the racks."""
 x = 8.0
@@ -86,7 +86,7 @@ rewards = [{ type = "item", item = "minecraft:bread", count = 16 }]
 slug = "stock-levels"
 title = "Enough Is Enough"
 description = """
-A field can farm on demand. The Field Head learns what the field produces from its harvests. On its Stock tab, set "Harvest up to": once the warehouse holds that much, the shuttles rest.
+A field can farm only as much as you need. The Field Head learns from its harvests what the field grows. Set "Harvest up to" on its Stock tab. Once the warehouse holds that much, the shuttles take a break.
 
 Tick this off when you have set a harvest limit."""
 x = 10.0
@@ -99,7 +99,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "spreader"
 title = "The Spreader"
 description = """
-A shuttle with a Spreader brings fertilizer to the field. Pick the fertilizer and the mode in the Field Head, and keep bone meal in the warehouse. Crops grow faster, and the harvesters have more to do."""
+A shuttle with a Spreader brings fertilizer to the field. Choose the fertilizer and the mode in the Field Head and keep bone meal in the warehouse. The crops grow faster and the harvesters get more work."""
 x = 8.0
 y = -2.0
 deps = ["first-harvest"]
@@ -111,7 +111,7 @@ rewards = [{ type = "item", item = "minecraft:bone_block", count = 8 }]
 slug = "range"
 title = "Wider Fields"
 description = """
-A Range Upgrade in the Field Head lets the field reach further from its rails. Up to two of them."""
+Put a Range Upgrade in the Field Head and the field reaches further from its rails. You can use two of them."""
 x = 10.0
 y = -2.0
 deps = ["spreader"]
@@ -123,7 +123,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "corrosion"
 title = "Green Copper"
 description = """
-The copper of the farm rails ages with the water the field uses: exposed, weathered, oxidized, and at last corroded. A corroded field gets no more water, and nothing new grows. Right-click any rail of the field with an axe to scrape the whole field back one stage.
+The copper on the farm rails ages with the water the field uses. First it gets exposed, then weathered, then oxidized and at last corroded. A corroded field gets no more water and nothing new grows. Right-click any rail of the field with an axe and the whole field goes back one stage.
 
 Tick this off when you have scraped your field."""
 x = 8.0
@@ -136,7 +136,7 @@ rewards = [{ type = "item", item = "minecraft:iron_axe" }]
 slug = "bees"
 title = "The Bees by the Orchard"
 description = """
-Scraping by hand gets old. Honeycomb keeps the copper as it is, and bees make honeycomb. Find a bee nest, put a campfire under it so the smoke calms the bees, and take honey with a glass bottle."""
+Scraping by hand gets old fast. Honeycomb keeps the copper the way it is, and bees make honeycomb. Find a bee nest and put a campfire under it, so the smoke calms the bees. Then take honey with a glass bottle."""
 x = 10.0
 y = 2.0
 deps = ["corrosion"]
@@ -148,7 +148,7 @@ rewards = [{ type = "item", item = "minecraft:campfire" }]
 slug = "honeycomb"
 title = "Honeycomb"
 description = """
-Shears take the honeycomb from a full nest. Make a beehive from it and bring the bees home to your fields; they help the crops, too."""
+Use shears on a full nest to get honeycomb. Make a beehive from it and bring the bees home to your fields. They help the crops too."""
 x = 12.0
 y = 2.0
 deps = ["bees"]
@@ -161,7 +161,7 @@ rewards = [{ type = "item", item = "minecraft:shears" }]
 slug = "anti-corrosion"
 title = "Wax on the Rails"
 description = """
-On the Field Head's Water tab, pick honeycomb as the anti-corrosion item and keep some in the warehouse. Each time the copper would age, the field uses one honeycomb instead and stays as it is. Shuttles keep the head stocked.
+On the Field Head's Water tab, pick honeycomb as the anti-corrosion item and keep some in the warehouse. Every time the copper would age, the field uses up one honeycomb instead. The shuttles keep the Field Head stocked.
 
 Tick this off when your field holds its copper."""
 x = 14.0
@@ -175,7 +175,7 @@ rewards = [{ type = "item", item = "minecraft:honeycomb", count = 16 }]
 slug = "food-variety"
 title = "Not Just Bread"
 description = """
-Bread every day makes a man strong for a week and grumpy for a year. Eat many different foods and your heart grows: every few new foods give you more health. The Food Book shows what you have eaten so far.
+Eating bread every day makes you strong for a week and grumpy for a year. Eat lots of different foods and your heart grows. Every few new foods give you more health. The Food Book shows what you have eaten so far.
 
 Tick this off when eating something new has given you your first extra heart."""
 x = 10.0
@@ -192,7 +192,7 @@ subtitle = "The fields feed the farm again"
 description = """
 Servus, kid,
 
-fields that water themselves, shuttles that bring in the harvest, bees that keep the copper bright. I never found out why the bees do that. Some things you just accept.
+fields that water themselves, shuttles that bring in the harvest and bees that keep the copper bright. I never found out why the bees do that. Some things you just accept. And all that walking between the rows was good for your legs.
 
 Now nobody on this farm goes hungry. Go and see what the cellar is hiding.
 
@@ -203,4 +203,4 @@ shape = "gear"
 size = 1.5
 deps = ["stock-levels", "corrosion", "food-variety"]
 tasks = [{ type = "checkmark" }]
-rewards = [{ type = "item", item = "minecraft:cake" }]
+rewards = [{ type = "item", item = "minecraft:cake" }, { type = "skill_points", tree = "wanderer", amount = 1 }]

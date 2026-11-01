@@ -23,6 +23,8 @@ Lower jetpack tiers (wood to gold) keep their default recipes. The creative jetp
 | `config/waystones-common.toml` | `rules.enableXpCosts` set to `false` | Travel is QoL, not a cost: teleporting between waystones, also across dimensions, costs no XP. |
 | `config/waystones-common.toml` | `rules.enableDurability` set to `false` | Same reason: warp stones no longer wear down. |
 | `config/waystones-common.toml` | `rules.defaultVisibility` set to `GLOBAL` | Friends share one network: every newly placed or found waystone is usable by everyone without visiting it first. With `GLOBAL`, every player can also rename and manage global waystones. Waystones that already exist in a world keep their mode. |
+| `config/ftbultimine-server.json5` | `costs_limits.max_blocks` set from 64 to `8` | Ultimine grows with the player: four Miner skills in `config/puffish_skills/categories/miner/` add `ftbultimine:max_blocks_modifier` (+8, +16, +32, +64) for 16, 32, 64 and 128 blocks. Existing worlds start at 8 again until the skills are earned. |
+| `config/defaultoptions/keybindings.txt` | Iris "Toggle Shaders" is unbound, the skill tree keeps K | Both default to K, so opening the skill tree also switched shaders. Default Options only moves keys a player has never saved; existing installs keep their keys. Shaders stay reachable in Iris' shader menu (O). Apotheosis' boot bonus toggle is Ctrl+K and does not clash. |
 
 ## Checked and left unchanged
 

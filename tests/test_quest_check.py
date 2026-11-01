@@ -86,4 +86,29 @@ def test_main_line_sources_pass_the_check():
     if not mods.exists():
         pytest.skip("no server pack built yet")
     chapters = load_sources(root / "quests")
-    assert quest_check.check(chapters, quest_check.known_items(mods), quest_check.bulk_items(root / "quests")) == []
+    assert quest_check.check(chapters, quest_check.known_items(mods), quest_check.bulk_items(root / "quests"),
+                             quest_check.skill_trees(root / "config" / "puffish_skills" / "config.json")) == []
+
+
+def skill_reward(**kw):
+    return chapter(quests=[quest(rewards=[{"type": "skill_points", **kw}])])
+
+
+def test_skill_points_for_known_tree_pass():
+    assert quest_check.check([skill_reward(tree="miner", amount=1)], ITEMS, set(), {"miner"}) == []
+
+
+def test_skill_points_for_unknown_tree_fail():
+    assert quest_check.check([skill_reward(tree="bergman", amount=1)], ITEMS, set(), {"miner"}) == [
+        "old-works:rack: skill points for unknown tree bergman"]
+
+
+def test_zero_skill_points_fail():
+    assert quest_check.check([skill_reward(tree="miner", amount=0)], ITEMS, set(), {"miner"}) == [
+        "old-works:rack: skill points amount must be a whole number of at least 1, not 0"]
+
+
+def test_skill_trees_come_from_the_pack_config():
+    from pathlib import Path
+    config = Path(__file__).resolve().parent.parent / "config" / "puffish_skills" / "config.json"
+    assert quest_check.skill_trees(config) == {"miner", "hunter", "wanderer"}

@@ -6,7 +6,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from tools.questgen.model import Chapter, Quest, QuestSourceError, load_sources, stable_id
+from tools.questgen.model import Chapter, Quest, QuestSourceError, load_sources, skill_points_label, stable_id
 
 GROUPS = {"main": ("The Huber Farm", "minecraft:oak_door"), "side": ("Side Chapters", "minecraft:compass")}
 
@@ -83,6 +83,15 @@ def _reward(quest: Quest, index: int, reward: dict) -> dict:
             out["count"] = reward["count"]
     elif reward["type"] == "xp":
         out["xp"] = reward["amount"]
+    elif reward["type"] == "skill_points":
+        # Pufferfish's Skills has no quest integration: a silent op-level command adds the points to the claiming player.
+        if not isinstance(reward.get("tree"), str) or not isinstance(reward.get("amount"), int):
+            raise QuestSourceError(f"{quest.chapter}:{quest.slug}: skill_points needs a tree and a whole-number amount")
+        out["type"] = "command"
+        out["command"] = f"/puffish_skills points add {{p}} {reward['tree']} {reward['amount']}"
+        out["permission_level"] = 2
+        out["silent"] = True
+        out["feedback_message"] = "+" + skill_points_label(reward)
     else:
         raise QuestSourceError(f"{quest.chapter}:{quest.slug}: unsupported reward type {reward['type']}")
     return out
@@ -147,6 +156,9 @@ def build(chapters: list[Chapter]) -> dict[str, str]:
                 lang[f"quest.{q.id}.quest_subtitle"] = _text(q.subtitle)
             if q.description:
                 lang[f"quest.{q.id}.quest_desc"] = _lines(q.description)
+            for i, r in enumerate(q.rewards):
+                if r["type"] == "skill_points":
+                    lang[f"reward.{stable_id(q.chapter, q.slug, 'reward', str(i))}.title"] = skill_points_label(r)
         files[f"lang/en_us/chapters/{name}.json5"] = _json(lang)
     files["lang/en_us/chapter.json5"] = _json(chapter_lang)
     files["lang/en_us/chapter_group.json5"] = _json(group_lang)

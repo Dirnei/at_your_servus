@@ -1,10 +1,10 @@
 {
 	"quest.03AD2B72F495F88F.quest_desc": [
-		"The Creature Catcher takes a mob with you and lets it go somewhere else. Moving cows was never this easy."
+		"The Creature Catcher picks up a mob so you can let it go somewhere else. Moving cows was never this easy."
 	],
 	"quest.03AD2B72F495F88F.title": "A Pocket for Animals",
 	"quest.0F0A68146FE46A4A.quest_desc": [
-		"The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Feed it a redstone signal or let it run."
+		"The Simple Clicker right-clicks or left-clicks the block in front of it, like a patient farmhand. Give it a redstone signal or just let it run."
 	],
 	"quest.0F0A68146FE46A4A.title": "A Hand That Clicks",
 	"quest.18A55FA1BFA09FD6.quest_desc": [
@@ -12,7 +12,7 @@
 	],
 	"quest.18A55FA1BFA09FD6.title": "Celestigem",
 	"quest.1D13FD59C7BC8708.quest_desc": [
-		"Eclipse Alloy, the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."
+		"Eclipse Alloy is the top tier of tools and armour. Vinzenz never got this far. He was busy with other things."
 	],
 	"quest.1D13FD59C7BC8708.title": "Eclipse Alloy",
 	"quest.1EA31ADECF90C2D0.quest_desc": [
@@ -20,11 +20,11 @@
 	],
 	"quest.1EA31ADECF90C2D0.title": "One Tool for Everything",
 	"quest.3451CD98BFF7356B.quest_desc": [
-		"The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area: up to 5 blocks to each side of its centre, and the centre up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count: \"more than 2 players\", or \"nobody here\"."
+		"The Advanced Sensor watches an area instead of one block. Set its target to Player, then set the area. It reaches up to 5 blocks to each side of its centre, and the centre can be up to 9 blocks away. While a player stands in the area, it gives a redstone signal. It can also count, for example \"more than 2 players\" or \"nobody here\"."
 	],
 	"quest.3451CD98BFF7356B.title": "An Invisible Pressure Plate",
 	"quest.56133892C076FB87.quest_desc": [
-		"Tier 3 goo needs dragon's breath, so it waits until after the Ender Dragon. It turns other blocks than the first two tiers, and one of them becomes Celestigem."
+		"Tier 3 goo needs dragon's breath, so it has to wait until the Ender Dragon is dead. It changes different blocks than the first two tiers, and one of them turns into Celestigem."
 	],
 	"quest.56133892C076FB87.title": "Goo from the End",
 	"quest.68AB9CBC92E62BF1.quest_desc": [
@@ -36,7 +36,7 @@
 	],
 	"quest.69C7F95828799B28.title": "Goo from the Deep Dark",
 	"quest.7014892B0EF02CFD.quest_desc": [
-		"Upgrades go into Just Dire Things tools. The Ore Scanner shows ores through the stone around you."
+		"Upgrades go into Just Dire Things tools. The Ore Scanner shows you ores through the stone around you."
 	],
 	"quest.7014892B0EF02CFD.title": "An Eye for Ore",
 	"quest.741678D868BD471E.quest_desc": [
@@ -44,7 +44,7 @@
 	],
 	"quest.741678D868BD471E.title": "The Portal Gun",
 	"quest.744D60AD098A5956.quest_desc": [
-		"The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to: a block, a mob, a player or an item. Cycle the target with its button."
+		"The Simple Sensor looks at the block in front of it and gives a redstone signal when it sees what you told it to look for. That can be a block, a mob, a player or an item. Use its button to switch the target."
 	],
 	"quest.744D60AD098A5956.title": "A Simple Sensor"
 }

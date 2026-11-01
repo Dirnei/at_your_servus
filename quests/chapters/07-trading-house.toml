@@ -10,7 +10,7 @@ subtitle = "To be opened when the station runs"
 description = """
 Servus, kid,
 
-with real power on the farm, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They do not sleep either, and they never fiddle the books.
+now that the farm has real power, the warehouse can grow up. Our ancestors had agents in Salzburg and Augsburg and an office that never slept. You will have shuttles. They don't sleep either, and they never cheat on the books.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -36,12 +36,12 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "zones"
 title = "A Place for Everything"
 description = """
-Zone Labels tell the shuttles where things belong: ores here, food there, salt by the cellar door. Put-away rules, the old traders called it."""
+Zones tell the shuttles where things belong. Ores here, food there, salt by the cellar door. Build a Handheld, make your zones in it and scan a shelf to put it in a zone."""
 x = 4.0
 y = -1.0
 deps = ["inbound"]
-tasks = [{ type = "item", item = "servus_shuttles:zone_label", count = 4 }]
-rewards = [{ type = "item", item = "servus_shuttles:zone_label", count = 4 }]
+tasks = [{ type = "item", item = "servus_shuttles:handheld" }]
+rewards = [{ type = "xp", amount = 50 }]
 
 [[quest]]
 slug = "outbound"
@@ -58,7 +58,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "crafting-station"
 title = "A Station That Crafts"
 description = """
-The Crafting Station does the crafting table's job, only without you."""
+The Crafting Station does what a crafting table does, only without you."""
 x = 6.0
 y = 1.0
 deps = ["outbound"]
@@ -69,7 +69,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "cpu"
 title = "The Crafting CPU"
 description = """
-The Crafting CPU owns the orders. You ask for 64 of something; it works out the steps and sends the work out. Patterns go into Pattern Storage."""
+The Crafting CPU takes care of the orders. You ask for 64 of something, and it works out the steps and sends the work out. Your patterns go into Pattern Storage."""
 x = 8.0
 y = 1.0
 deps = ["crafting-station"]
@@ -95,7 +95,7 @@ subtitle = "The warehouse orders from the alchemist"
 description = """
 Servus, kid,
 
-this is what I dreamed of: the warehouse orders, and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order its product through the Crafting CPU. Nothing runs without an order, and nothing waits on a man.
+this is what I always dreamed of. The warehouse orders and the cellar delivers. Connect an alchemy machine to the data cable, with a Machine Adapter where it needs one, and order what it makes through the Crafting CPU. Nothing runs without an order, and nothing waits for a man.
 
 Tick this off when your first order has come back from the cellar.
 
@@ -114,7 +114,7 @@ rewards = [{ type = "item", item = "minecraft:emerald", count = 8 }]
 slug = "workshop"
 title = "The Mk2"
 description = """
-In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and have no workshop yet: iron, planks and a crafting table."""
+In the Shuttle Workshop you build better shuttles by hand. The Mk2 is faster and carries more. If you skipped the fields and don't have a workshop yet, you need iron, planks and a crafting table."""
 x = 6.0
 y = -3.0
 deps = ["zones"]
@@ -138,7 +138,7 @@ rewards = [{ type = "xp", amount = 100 }]
 slug = "fast-cable"
 title = "Faster Lines"
 description = """
-Fast and duplex data cables carry more orders at once, for when business gets busy."""
+Fast and duplex data cables carry more orders at once. You will want them when business picks up."""
 x = 12.0
 y = 3.0
 deps = ["alchemy-order"]
@@ -150,13 +150,13 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "wireless"
 title = "Outposts"
 description = """
-Every controller is a site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes an outpost up when the shuttles need it. The company has branches again, like it did in 1530."""
+Every controller is its own site. A Wireless Upgrade links the sites, and an Anchor Upgrade wakes up an outpost when the shuttles need it. The company has branches again, like it did in 1530. A good trader knows the roads between them."""
 x = 10.0
 y = -3.0
 deps = ["mk3"]
 tasks = [{ type = "item", item = "servus_shuttles:wireless_upgrade", count = 2 },
          { type = "item", item = "servus_foundation:anchor_upgrade" }]
-rewards = [{ type = "item", item = "servus_shuttles:warehouse_controller" }]
+rewards = [{ type = "item", item = "servus_shuttles:warehouse_controller" }, { type = "skill_points", tree = "wanderer", amount = 1 }]
 
 [[quest]]
 slug = "open-for-business"
@@ -165,9 +165,9 @@ subtitle = "Huber & Co., since 1521"
 description = """
 Servus, kid,
 
-racks, shuttles, fields, outposts, and orders that run down into the cellar and back. Our ancestors would not believe it, and they believed a lot.
+racks, shuttles, fields, outposts and orders that go down into the cellar and back. Our ancestors would not believe it, and they believed a lot.
 
-Now nothing waits on a man. Everything waits on an order.
+Now nothing waits for a man. Everything waits for an order.
 
 Uncle Vinzenz"""
 x = 14.0

@@ -1,0 +1,178 @@
+{
+  "level_limit": 10,
+  "reset_on_death": false,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "min(50 + 25 * level, 300)"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:increase_stat",
+      "data": {
+        "variables": {
+          "is_walk": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_one_cm"
+                }
+              }
+            ]
+          },
+          "is_sprint": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.sprint_one_cm"
+                }
+              }
+            ]
+          },
+          "is_swim": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.swim_one_cm"
+                }
+              }
+            ]
+          },
+          "is_walk_on_water": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_on_water_one_cm"
+                }
+              }
+            ]
+          },
+          "is_walk_under_water": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_under_water_one_cm"
+                }
+              }
+            ]
+          },
+          "walk_total": {
+            "operations": [
+              {
+                "type": "puffish_skills:get_player"
+              },
+              {
+                "type": "puffish_skills:get_stat_value",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_one_cm"
+                }
+              }
+            ]
+          },
+          "sprint_total": {
+            "operations": [
+              {
+                "type": "puffish_skills:get_player"
+              },
+              {
+                "type": "puffish_skills:get_stat_value",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.sprint_one_cm"
+                }
+              }
+            ]
+          },
+          "swim_total": {
+            "operations": [
+              {
+                "type": "puffish_skills:get_player"
+              },
+              {
+                "type": "puffish_skills:get_stat_value",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.swim_one_cm"
+                }
+              }
+            ]
+          },
+          "walk_on_water_total": {
+            "operations": [
+              {
+                "type": "puffish_skills:get_player"
+              },
+              {
+                "type": "puffish_skills:get_stat_value",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_on_water_one_cm"
+                }
+              }
+            ]
+          },
+          "walk_under_water_total": {
+            "operations": [
+              {
+                "type": "puffish_skills:get_player"
+              },
+              {
+                "type": "puffish_skills:get_stat_value",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_under_water_one_cm"
+                }
+              }
+            ]
+          },
+          "amount": {
+            "operations": [
+              {
+                "type": "get_increase_amount"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "is_walk",
+            "expression": "floor((walk_total + amount) / 1000) - floor(walk_total / 1000)"
+          },
+          {
+            "condition": "is_sprint",
+            "expression": "floor((sprint_total + amount) / 1000) - floor(sprint_total / 1000)"
+          },
+          {
+            "condition": "is_swim",
+            "expression": "floor((swim_total + amount) / 1000) - floor(swim_total / 1000)"
+          },
+          {
+            "condition": "is_walk_on_water",
+            "expression": "floor((walk_on_water_total + amount) / 1000) - floor(walk_on_water_total / 1000)"
+          },
+          {
+            "condition": "is_walk_under_water",
+            "expression": "floor((walk_under_water_total + amount) / 1000) - floor(walk_under_water_total / 1000)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -10,9 +10,9 @@ subtitle = "To be opened when the station runs"
 description = """
 Servus, kid,
 
-my workshop is under the mountain now, with everything in it. But I remember the only thing I ever built that I am proud of: a jetpack.
+my workshop is under the mountain now, with everything in it. But I still remember the one thing I built that I am really proud of. A jetpack.
 
-The mountain is full of shafts, and I was too old for ladders. The first jetpacks run on power from the station. The good ones need quicksilver, the spirit that rises. You will see why.
+The mountain is full of shafts and I was too old for ladders. The first jetpacks run on power from the station. The good ones need quicksilver, the spirit that rises. You will see why.
 
 Uncle Vinzenz"""
 x = 0.0
@@ -61,7 +61,7 @@ rewards = [{ type = "xp", amount = 50 }]
 slug = "gold-jetpack"
 title = "A Gold Jetpack"
 description = """
-Gold carries the charge further. Faster, and it holds more."""
+Gold carries the charge further. It is faster and holds more."""
 x = 6.0
 y = 0.0
 deps = ["iron-jetpack"]
@@ -72,7 +72,7 @@ rewards = [{ type = "xp", amount = 80 }]
 slug = "diamond-jetpack"
 title = "A Diamond Jetpack"
 description = """
-From here on, every jetpack needs quicksilver from the cellar. Quicksilver is mercury, and mercury rises as vapour. Paracelsus knew it; my thrusters learned it."""
+From here on every jetpack needs quicksilver from the cellar. Quicksilver is mercury, and mercury rises as vapour. Paracelsus knew that. My thrusters had to learn it."""
 x = 8.0
 y = 0.0
 deps = ["gold-jetpack", "cellar:albedo"]
@@ -97,7 +97,7 @@ subtitle = "My best work"
 description = """
 Servus, kid,
 
-netherite from the Prelum, quicksilver and the undying flame. This is the one I used to search the deep shafts for the knocking. It is the best thing I ever built, apart from the trading company, and that was not my idea.
+netherite from the Prelum, quicksilver and the undying flame. I used this one to search the deep shafts for the knocking. It is the best thing I ever built, except the trading company, and that was not even my idea.
 
 Uncle Vinzenz"""
 x = 12.0
