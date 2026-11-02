@@ -84,6 +84,7 @@ Quests send storage questions to Shuttles; these stay for players who like them.
 | `iron-furnaces` | Iron Furnaces | both | Faster furnaces early on |
 | `crafting-on-a-stick` | Crafting on a Stick | both | Portable crafting table and workstations |
 | `building-wands` | Building Wands | both | Building |
+| `building-gadgets` | Building Gadgets | both | Building and copy-paste gadgets |
 | `rechiseled` | Rechiseled | both | Decorative block variants |
 | `cooking-for-blockheads` | Cooking for Blockheads | both | Kitchen |
 | `spice-of-life-carrot-edition` | Spice of Life: Carrot Edition | both | Extra hearts for eating different foods |
