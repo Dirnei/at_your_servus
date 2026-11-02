@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.7.0
+
+### New
+
+- Building Gadgets: gadgets that place, swap, copy and paste whole areas of blocks at once
+
+### Fixes
+
+- The server no longer crashes when a bee touches water or another fluid (The Bumblezone 7.18.5)
+
+### Mods
+
+- Added: Building Gadgets (`buildinggadgets2-26.1.2.3.jar`)
+- Updated: Resourceful Lib (`ResourcefulLib-4.0.1.jar` to `ResourcefulLib-4.0.2.jar`)
+- Updated: The Bumblezone (NeoForge/Forge) (`the_bumblezone-7.18.2+26.1.2-neoforge.jar` to `the_bumblezone-7.18.5-26.1.2-neoforge.jar`)
+
 ## 0.6.0
 
 ### New
