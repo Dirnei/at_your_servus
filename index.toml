@@ -547,6 +547,11 @@ hash = "06beeacffeab41f5b77f1f61d305af006cb2e1e57094b1c7a71d54d281c4cfcb"
 metafile = true
 
 [[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "93866447a2c6974dbf68e814743da59c76dde8717782cecd71da7785c58d49e5"
+metafile = true
+
+[[files]]
 file = "mods/building-wands.pw.toml"
 hash = "3530bbb1a6425cb4fde0a1a1f8e09e93b07e200f2051e76cb6ae51265ee154be"
 metafile = true
@@ -968,7 +973,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "eb7440710570fa42e907362ddc4482b02a3f3b2f7b2e9aa790c5e4917b161028"
+hash = "942110f46c42cd83499f01b86c59240b84f1a6c0c45d4b895be4a693a791fe09"
 metafile = true
 
 [[files]]
@@ -1048,7 +1053,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
-hash = "4c9d774f3723af532a7221943a584236ae714cc04a25863521eeb5e5699e1fa5"
+hash = "f150a40224f201ecca5591f4f07caa23508b90ce3ba7fd8a7369168ca291a7fe"
 metafile = true
 
 [[files]]
